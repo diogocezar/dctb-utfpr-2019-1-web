@@ -146,6 +146,23 @@ https://github.com/diogocezar/sandybox
 
 Vocês podem entrar em contato pelo email: diogoc@utfpr.edu.br
 
+## Horários
+
+| HORÁRIO |      SEGUNDA      |      TERÇA       |      QUARTA       |      QUINTA       |       SEXTA       |
+| :-----: | :---------------: | :--------------: | :---------------: | :---------------: | :---------------: |
+|  13:00  |                   | IF62B-A21 / I201 |                   |                   |                   |
+|  13:50  |                   | IF62B-A21 / I201 |                   |                   |                   |
+|  14:40  |                   | IF62B-A21 / I201 |                   |                   |                   |
+|  15:50  |                   |      PALUNO      |                   |                   |                   |
+|  16:40  |                   |                  |                   |                   |                   |
+|  17:50  |                   |                  |                   |                   |                   |
+|         |                   |                  |                   |                   |                   |
+|  18:40  | ES31A-ES11 / A136 |                  |                   |                   | IF66H-ES61 / P105 |
+|  19:30  | ES31A-ES11 / A136 |      PALUNO      | ES31A-ES11 / P205 |                   | IF66H-ES61 / P105 |
+|  20:20  | ES31A-ES11 / A136 |      PALUNO      | ES31A-ES11 / P205 |                   | IF66H-ES61 / P105 |
+|  21:20  | AN34A-N14 / I204  | AN34A-N14 / P105 |      PALUNO       | IF66H-ES61 / A040 |                   |
+|  22:10  | AN34A-N14 / I204  | AN34A-N14 / P105 |      PALUNO       | IF66H-ES61 / A040 |                   |
+
 ## PALUNO
 
 Os atendimento a dúvidas serão feitos no horário de PALUNO.
