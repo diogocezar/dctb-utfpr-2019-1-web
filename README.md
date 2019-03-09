@@ -176,3 +176,9 @@ Sala K006;
 O atendimento será feito por ordem de chegada.
 
 Caso não seja possível o atendimento no dia, deve-se enviar um email e agendar um horário.
+
+## Pesquisa de Satisfação da Disciplina
+
+Aqui está uma pesquisa que poderá ser respondida a qualquer momento durante nossa disciplina.
+
+https://goo.gl/forms/MFLF8XdR0OvwuhZt2
