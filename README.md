@@ -1,5 +1,9 @@
 # Professor Diogo Cezar 2019/01
 
+<p align="center">
+  <img width="548" height="764" src="https://raw.githubusercontent.com/diogocezar/dctb-utfpr-2019-1-web/master/cover.png">
+</p>
+
 Olá pessoas, tudo certo por ai?
 
 Este repositório será utilizado para organizar todo o material das disciplinas ministradas de web pelo professor Diogo Cezar no semestre 2019/01.
