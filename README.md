@@ -169,7 +169,7 @@ Vocês podem entrar em contato pelo email: diogoc@utfpr.edu.br
 
 ## PALUNO
 
-Os atendimento a dúvidas serão feitos no horário de PALUNO.
+Os atendimentos a dúvidas serão feitos no horário de PALUNO.
 
 Sala K006;
 
