@@ -1,0 +1,46 @@
+
+/* CSS FOR PAGE OF CURRICULUM*/
+
+body, html{
+	magin: 0; 
+	padding: 0; 
+	font-size: 100%;
+}
+
+body{
+	background: #ccc url('images/background.jpg') center top no-repeat; 
+	background-size: cover; /* mantem a proporção da imagem sem distorce-la*/
+	background-attachment: fixed; 
+}
+
+img{
+	max-width: 100%; 
+	height: auto; 
+}
+
+h1 {
+ text-align: center;
+}
+
+.main{	
+	top: 0; 
+	position: absolute; 
+	padding-left: 200px;
+}
+
+.image{
+	top: 80px; 
+	position: absolute; 	
+}
+
+
+@media screen and (max width: 1024px){
+	html, body, img, h1{
+		float: none; 
+		width: 100%; 
+		margin-right: 0; 
+	}
+}
+	
+
+
