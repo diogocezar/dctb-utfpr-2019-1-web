@@ -1,0 +1,51 @@
+{
+  "basics":{
+     "name":"Guilherme Camargo",
+     "label":"Desenvolvedor",
+     "email":"guilhermecamargo57@hotmail.com",
+     "website":"https://github.com/camargoguilherme",
+     "summary":"",
+     "location":{
+        "adress":"Rua Deolindro Pesciotti, 430",
+        "city":"Londrina",
+        "country":"Brasil",
+        "countryCode":"BR",
+        "region":"Paraná"
+     }
+  },
+  "work":[
+     {
+        "company":"AEBEL - Associação Evangélica Beneficente de Londrina",
+        "position":"Atendente de Suporte Jr",
+        "startDate":"08/02/2018",
+        "endDate":"22/07/2018",
+        "summary":"Responsável por suporte técnico do sistema SOUL MV e TOTVS."
+     },
+     {
+      "company":"Kilax Japan",
+      "position":"Almoxafire",
+      "startDate":"07/10/2015",
+      "endDate":"31/12/2017",
+      "summary":"Responsável pelo controle do estoque. Emissão de NFe. Atendimento ao cliente."
+   }
+  ],
+  "education":[
+     {
+        "institution":"Universidade Tecnológica Federal do Paraná",
+        "area":"Tecnologia em Análise e Desenvolvimento de Sistemas",
+        "studyType":"Tecnólogo",
+        "startDate":"07/03/2016",
+        "endDate":"Previsão de término em Dezembro/2020"
+     }
+  ],
+  "skills":[
+     "Javascript",
+     "Node.js",
+     "PHP",
+     "Java",
+     "Java Android",
+     "React Native",
+     "PL/SQL",
+     "MySQL"
+  ]
+}
