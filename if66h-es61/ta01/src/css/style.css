@@ -1,0 +1,344 @@
+@import url("fontes.css"); 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+/*Icons*/
+
+#aux{
+    font-family: 'Courier New', Courier, monospace;
+    color: aqua;
+}
+
+.teste ul {
+    padding:0px;
+    margin:0px;
+    background-color:#EDEDED;
+    list-style:none;
+}
+
+#menu ul li { display: inline; }
+
+#menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+}
+
+#menu ul li a:hover {
+    border-bottom:3px solid black;
+}
+
+#menu{
+    margin-left: 350px;
+}
+
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #FFF;
+    background: white;
+    -webkit-font-smoothing: antialiased;
+}
+
+/*End Icons*/
+
+#data{
+    margin-left: 60px;
+    margin-bottom: 15px;
+}
+
+#skills{
+    margin-left: 60px;
+}
+
+#works{
+    margin-left: 60px;
+}
+
+#studies{
+    margin-left: 60px;
+}
+
+#tablename{
+    margin-left: 60px;
+}
+
+#space a{
+    text-decoration: none;
+}
+#space {
+    margin-left: 55px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #303030;
+}
+
+#space2{
+    margin-left: 55px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #303030;
+}
+
+#space3{
+    margin-left: 55px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #303030;
+}
+
+#space4{
+    margin-left: 55px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #303030; 
+}
+
+body {
+    text-decoration: none;
+    font-weight: bold;
+    color: #303030;
+}
+table {
+    margin-left: 60px;
+    border-collapse: collapse;
+    width: 55em;
+    border: none;
+}
+thead {
+    background: #ccc url(https://www.devfuria.com.br/html-css/tabelas/bar.gif) repeat-x left center;
+    border-top: 0px solid #a5a5a5;
+    border-bottom: 0px solid #a5a5a5;
+}
+tr:hover {
+    margin-left: 60px;
+    background-color:rgb(15, 14, 14);
+    color:rgb(117, 117, 117);
+ 
+}
+thead tr:hover {
+    background-color: transparent;
+    color: inherit;
+}
+tr:nth-child(even) {
+      background-color: whitesmoke;
+}
+th {
+    font-weight: normal;
+    text-align: left;
+}
+th, td {
+    padding: 1.4em -7em;
+}
+#link{
+    color: #303030; 
+}
+h2{
+    display: inline;
+    float: left;
+}
+
+/*Global Classes*/
+.text-bold{
+    font-weight: bold;
+}
+.font-medium{
+    font-size: 14px;
+}
+.list-padding{
+    padding: 0.1em 2em;
+}
+.noselect{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/*End Global Classes*/
+
+body{
+    background: rgb(252, 251, 250);
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 400px;
+    box-sizing: border-box;
+}
+.modal-theme{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+    border: 1px solid red;
+    z-index: 9000;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 5px 0 5px 0;
+    height: 80px;
+    -webkit-box-shadow: 4px 2px 18px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 2px 18px -4px rgba(0,0,0,0.75);
+    box-shadow: 4px 2px 18px -4px rgba(0,0,0,0.75);
+    background: #FFF;
+    color: black;
+    margin-bottom: 1em;
+}
+.header-container .site-name {
+    padding-left: 4em;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+#theme-toggle {
+    position: fixed;
+    left: auto;
+    right: 10px;
+    top: auto;
+    bottom: 1em;
+    z-index: 500;
+    font-size: 3em;
+}
+#theme-toggle:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+#header-image img {
+    width: 100%;
+    height: auto;
+}
+
+.profile p{
+    margin-top : 8px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #303030;
+}
+
+.main {
+    padding: 2em 1em;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.profile-container {
+    width: 150px;
+    padding-top: 1em;
+    margin: 0 4em 0 4em;
+}
+
+.profile-container .profile-image .image-wrapper {
+    display: flex;
+    align-items: center;
+}
+.profile-container .profile-image .image-wrapper img {
+    width: 150px!important;
+    min-width: 80px!important;
+    height: 180px!important;
+    
+    border-radius: 50%;
+}
+.profile-container, .profile-bio, .profile-contact {
+    margin: 1em 0 1em 1em;
+}
+.profile-contact, .profile-contact a, .profile-contact a:visited, .profile-contact ul {
+    text-decoration: none;
+    font-weight: bold;
+    color: #303030;
+    list-style: none;
+}
+/* Hide the Bio for small devices */
+@media (max-width : 374px){
+   .profile-container{
+       display : none;
+   }
+}
+/* Decrease left margin for Bio in medium devices */
+@media (max-width : 640px){
+   .profile-container {
+       margin-left: 0.5em;
+       margin-right: 0.5em;
+   }
+   .header-container .site-name {
+       padding-left: 1em;
+   }
+}
+.content {
+    width: 100%;
+    padding: 1em 1em;
+}
+.personal-details {
+    width: 100%;
+    padding: 2em 1em;
+}
+.personal-item {
+    padding: 0.2em;
+}
+/*Profesional Experiences */
+.list-container {
+    width: 100%;
+    padding: 1em 0em;
+}
+.list-item li {
+    list-style-type: none;
+    padding: 1em 2em;
+}
+
+
+.skills {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    align-items: center;
+    font-weight: bold;
+    font-size: 10px;
+    text-transform: uppercase;
+    padding: 1em 0em;
+    
+}
+.skill {
+    background-color: #1f1f1f;
+    margin: 0.2em;
+    padding: 4px;
+    color: white;
+}
+.skill:hover {
+    transform: scale(1.2);
+    background-color: #383838;
+    cursor: pointer;
+}
+
+.content p {
+    margin-bottom: 40px;
+}
+/* Footer layout */
+#footer {
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+    height: 60px;
+    text-align: center;
+    -webkit-box-shadow: 1px -6px 14px -7px rgba(78, 78, 78, 0.75);
+    -moz-box-shadow: 2px -6px 14px -7px rgba(0,0,0,0.75);
+    box-shadow: 2px -6px 14px -7px rgba(0,0,0,0.75);
+    background: #FFF;
+    color: #131313;
+    line-height: 60px;
+}
