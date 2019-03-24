@@ -1,0 +1,25 @@
+
+.wk { 
+	width: 250px;
+	height: auto;
+ }
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	background-color: #006400;
+	font-size: 14px;
+  	color: #f2f2f2;
+  	padding: 30px;
+}
+
+table {
+	width:80vw;
+    border-collapse: collapse;
+}
+table, th, td {
+	border: 1px solid #f2f2f2;
+	padding: 15px;
+}
+td{
+	text-align: center;
+}
