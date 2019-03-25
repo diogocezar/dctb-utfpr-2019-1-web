@@ -1,0 +1,63 @@
+body, html
+{
+    font-family:Verdana;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+body
+{
+	background: #ccc url("./src/background.png") center top no-repeat; 
+	background-size: cover;
+	background-attachment: fixed; 
+}
+img
+{
+    transform: rotate(270deg);
+    margin-left: 30%;
+    margin-right: 30%;
+   
+}
+h2,h3, .phone, .email
+{
+    text-align: center;
+}
+.work
+{
+    text-align: justify;
+}
+
+.tab
+{
+    table-layout: auto;
+    width:50%;
+    border:solid 1px;
+    text-align: left;
+    border-collapse:collapse; 
+    border-color:#C1CDCD;
+}
+#tab title
+{
+    height:30px;
+}
+#tab tr
+{
+    height:30px;
+}
+#tab thead tr
+{
+    background: #A2B5CD;
+}
+#tab tr td:first-child, #tab tr td:last-child
+{
+    width:150px;
+}
+#tab tbody tr:nth-child(odd)
+{
+    background: #C1CDCD
+}
+.filtroColuna
+{
+    width:50%;
+    border:solid 5px;
+}
+         
