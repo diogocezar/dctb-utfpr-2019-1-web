@@ -1,0 +1,34 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 16px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #ADD8E6;
+}
+
+#titulo{
+	margin-left: 5px;
+	position: fixed;
+	width: 100%;
+	height: 35px;
+	background: white;
+	color: #ADD8E6;
+}
+
+.divs{
+	background: white;
+	padding: 10px;
+	margin: 10px 400px 10px 400px;
+	border: 1px solid;
+	border-radius: 10px;
+	left: 50%;
+	right: 50%;
+}
+
+.foto{
+	margin-top: 45px;
+}
+
