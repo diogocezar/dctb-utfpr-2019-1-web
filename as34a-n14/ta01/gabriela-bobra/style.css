@@ -1,0 +1,126 @@
+/*Estilos gerais*/
+
+body{
+    font-family: verdana;
+    
+   }
+
+ul{
+    list-style-type: none;
+}
+
+/*Header*/
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background:#000;
+    z-index: 10;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header_menu{
+    text-align: center;
+}
+
+.header_menu ul li{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.header_menu ul li a{
+    color: #fff;
+    letter-spacing: .1em;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 10px 0;
+}
+
+.header_menu ul li a:hover{
+    color: #fff;
+}
+
+/*Apresentação*/
+
+.intro{
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    text-align: center;
+    background-color: #fff;
+    background-size: cover;
+    
+}
+
+.intro h1{
+    color: #000000;
+    font-family: verdana;  
+}
+
+.intro h2{
+    color: #000000;
+    font-size: 16px;
+}
+
+.hab{
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 30px;
+    background-color: #fff;
+}
+
+.hab li{
+    font-size: 16px;
+    padding-right: 40px;
+    
+}
+
+.estudo{
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 30px;
+    background-color: #fff;
+}
+
+.estudo li{
+    font-size: 16px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.aulas{
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 30px;
+    background-color: #fff; 
+    
+}
+
+.tabela{
+    margin-left: auto;
+    margin-right: auto;
+    border-style:solid;
+    
+}
+
+/*Rodapé*/
+
+.footer{
+    width: 100%;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.footer a{
+    padding-left: 80px;
+    padding-top: 15px;
+    color: #fff;
+}
