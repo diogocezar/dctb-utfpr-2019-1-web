@@ -1,0 +1,13 @@
+body {
+    width: 980px;
+    margin:0 auto;
+}
+ 
+#header-pic { 
+    float: left;
+    margin-right: 10px;
+}
+
+#header-content {
+    padding: 10px;
+}
