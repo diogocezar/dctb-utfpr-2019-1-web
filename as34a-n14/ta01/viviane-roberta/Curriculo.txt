@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta name="description" content="Curriculo">
+	<meta name="author" content="Viviane Roberta">
+<head>
+<body>
+
+<h1> DADOS PESSOAIS</h1>
+<p> NOME: Viviane Roberta Oliveira dos Santos </p><br/>
+<img src="Viviane.jpg" width=”100” height=”150” />/></br>
+
+<p> ENDEREÇO: Rua Coronel Azarias Ribeiro, 1447 </p><br/>
+<p> CIDADE: Maracaí/SP </p><br/>
+<p> TELEFONE: (18) 99692-2859 </p><br/>
+<p> E-MAIL: bibiandeperon@hotmail.com </p><br/>
+<br/>
+
+<p> REDES SOCIAIS</p>
+<a href="https://www.facebook.com/viviane.roberta.14">Facebook </a><br/>
+<a href="https://www.linkedin.com/in/roberta-viviane-44781925">Linkedin</a>
+<br/>
+
+<h2> HABILIDADES</h2>
+<ul>
+<li> Conhecimento básico em informática;</li>
+<li> Trabalho voluntário.</li><br/>
+<br/>
+
+<h3> FORMAÇÃO ACADÊMICA </h3>
+<p> Curso: Administração de Empresas</p>
+<p> Universidade: UNIP</p><br/>
+
+<p> Curso: Formação Pedagogica com licenciatura em Matemática</p>
+<p> Universidade: UTFPR</p><br/>
+
+<p> Curso: Técnicas em Finanças</p>
+<p> Escola: Centro Paula Souza ETEC</p><br/>
+
+<p> Curso: Técnicas em Açucar e Alcool</p>
+<p> Escola: Vitae </p><br/>
+
+<br/>
+
+<h4> EXPERIÊNCIA PROFISSIONAL </h4>
+<p> EMPRESA: Associação Hospital Beneficente de Maracai</p>
+<p> CARGO: Menor Aprendiz</p>
+<p> CARGO: Recepcionista</p>
+<p> CARGO: Encarregada de Recepção</p>
+<P> CARGO: Auxiliar Administrativo</p><br/>
+<br/>
+
+<h5> PALESTRAS, EVENTOS E PREMIAÇÕES </h5>
+<p> Semana UTFWARE</p><br/>
+<br/>
+
+<h6> HORÁRIO DE AULA </h6>
+<table border="1">
+	<tr>
+		<th>Horário</th><th>Disciplinas</th><th>Professor</th>
+	</tr>
+	<tr>
+		<td>19h30</td><td>Técnicas de Programação</td><td>Alexandre Paschoal</td>
+	</tr>
+	<tr>
+		<td>20h20</td><td>Programação Web</td><td>Diogo Cezar</td>
+	</tr>
+	<tr>
+		<td>21h20</td><td>Banco de Dados3</td><td>Silvio</td>
+	</tr>
+	<tr>
+		<td>22h10</td><td>Arquitetura de Software</td><td>Gabriel Costa</td>
+	</tr>
+	<tr>
+
+		<capiton>ANÁLISE E DESENVOLVIMENTO DE SISTEMAS</caption>
+</table>
+</body>
+<html>
+
