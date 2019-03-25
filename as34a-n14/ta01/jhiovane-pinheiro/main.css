@@ -1,0 +1,22 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+    background-image: url(https://images.pexels.com/photos/304664/pexels-photo-304664.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+	font-size: 16px;
+  	padding: 30px;
+}
+.image img{
+    border-radius: 30%;
+    padding-right: 30px;
+}
+section{
+    padding-top: 30px;
+}
+.table {
+    text-align: center;
+}
+footer{
+    padding-top: 30px;
+    text-align: center;
+}
