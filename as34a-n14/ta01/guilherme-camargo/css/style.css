@@ -1,0 +1,56 @@
+html{
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+.profile{
+  position: relative;
+}
+
+main{
+  display: inline-block;
+  
+}
+
+.profile-container{
+  
+}
+
+.image-wrapper img{
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+
+.contact-item a{
+  text-decoration: none;
+  color: white;
+}
+
+.contact-item a:hover{
+  background-color: white;
+  color: black;
+}
+
+.skill{
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid;
+}
+
+.skill:hover{
+  background-color: white;
+  color: black;
+}
+
+.error{
+  top: 50%;
+  float: left;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  position: absolute;
+  text-align: center;
+  display: inline-block;
+}
