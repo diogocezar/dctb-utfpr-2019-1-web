@@ -1,0 +1,55 @@
+body{
+	font-family: 'Comic Sans Ms', sans-serif;
+	font-size: 14px;
+	padding: 0;
+	margin: 0;
+}
+
+.whoami {
+	height: 300px;
+	width: 100%;
+	background-color: black;
+	margin-bottom: 3em;
+}
+
+.infos {
+	font-size: 12px;
+	height: 300px;
+	box-sizing: content-box;
+	display: flex;
+	flex-direction: row;
+}
+
+.inf-item {
+	float: left;
+}
+
+.infos {
+	background-color: grey;
+	width: 70%;
+}
+
+.box {
+	width: 350px;
+	box-sizing: border-box;
+	background-color: gray;
+}
+
+.logo {
+	width: 100%;
+	margin: auto;
+}
+
+table {
+	color: #f2f2f2;
+	background-color: black;
+	width:70vw;
+    border-collapse: collapse;
+}
+table, th, td {
+	border: 1px solid #f2f2f2;
+	padding: 15px;
+}
+td{
+	text-align: center;
+}
