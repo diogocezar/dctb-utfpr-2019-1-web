@@ -1,0 +1,471 @@
+<!--
+    UTFPR - Universidade Tecnólica Federal do Paraná
+    IF66H - Programação Web 1 - ES61
+
+    Aluno: Felipe Seolin Bento
+    RA: 1915959
+
+    [TA01] - 28/03/2019 - 18:00
+    Criar uma página HTML e CSS simples com o seu currículo.
+
+    Nessa página você deve colocar:
+
+    Dados pessoais: nome, telefone, email, redes sociais;
+    Uma foto de identificação;
+    Uma lista com as suas habilidades;
+    A lista de lugares onde você estudou;
+    A lista de lugares onde você trabalhou;
+    Palestras, Eventos, Premiações e Publicações;
+    Uma tabela com seus horários de aula;
+    Links para as suas redes sociais;
+    Link para o seu GitHub;
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Felipe Seolin Bento</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <aside id="menu">
+        <div id="menu-body">
+            <section>
+                <img id="me" src="imgs/me.JPG" alt="Foto Felipe Seolin Bento">
+                <h2>Felipe Seolin Bento</h2>
+            </section>
+            <section>
+                <nav>
+                    <a href="#intro">
+                        <p>Introdução</p>
+                    </a>
+                    <a href="#skills">
+                        <p>Habilidades</p>
+                    </a>
+                    <a href="#education">
+                        <p>Escolaridade</p>
+                    </a>
+                    <a href="#experience">
+                        <p>Experiência</p>
+                    </a>
+                    <a href="#info-add">
+                        <p>Informações Adicionais</p>
+                    </a>
+                    <a href="#subjects">
+                        <p>Disciplinas</p>
+                    </a>
+                    <a href="#schedules">
+                        <p>Horários</p>
+                    </a>
+                    <a href="#contact">
+                        <p>Contatos</p>
+                    </a>
+                    <a href="index-en.html">
+                        <p>Site in English</p>
+                    </a>
+                </nav>
+            </section>
+            <section id="bottom-menu">
+                <a href="https://www.linkedin.com/in/felipe-seolin-bento-55a915152/" target="blank">
+                    <img class="icon" src="imgs/linkedIn.png" alt="LinkedIn">
+                </a>
+                <a href="https://github.com/felipeseolin" target="blank">
+                    <img id="white-github" class="icon" src="imgs/github.png" alt="GitHub">
+                </a>
+                <a href="mailto:felipe.seolin@hotmail.com">
+                    <img class="icon" src="imgs/email.png" alt="Email">
+                </a>
+            </section>
+        </div>
+    </aside>
+
+    <section id="intro">
+        <hgroup>
+            <h1 id="name">Felipe Seolin Bento</h1>
+            <h2 id="description">Aluno de Engenharia de Software na Universidade Tecnológica Federal do Paraná, câmpus
+                Cornélio Procópio.
+                Original da cidade de Terra Rica - Paraná, resido atualmente na cidade de Cornélio Procópio. Futuro
+                Engenheiro de
+                Software.
+            </h2>
+        </hgroup>
+
+        <p>Data de Nascimento: 09/04/1999 - 19 anos</p>
+        <p>Telefone: (44) 99848-3634</p>
+        <p>E-mail Pessoal: felipe.seolin@hotmail.com</p>
+        <p>E-mail Institucional: bentof@alunos.utfpr.edu.br</p>
+    </section>
+
+    <section id="skills">
+        <h2>Habilidades</h2>
+        <hr>
+        <ul>
+            <li>Inglês fluente</li>
+            <li>Desenvolvimento Web
+                <ul>
+                    <li>HTML, PHP, CSS, JavaScript, Jquery, Angular 7</li>
+                </ul>
+            </li>
+            <li>Desenvolvimento e Linguagens de programação diversas
+                <ul>
+                    <li>Bancos de Dados (Postgre, MySQL)</li>
+                    <li>Java, C</li>
+                </ul>
+            </li>
+            <li>Design Gráfico</li>
+            <li>Liderança</li>
+            <li>Comunicação</li>
+        </ul>
+    </section>
+
+    <section id="education">
+        <h2>Escolaridade</h2>
+        <hr>
+
+        <ul>
+            <li>
+                <h3>Universidade Tecnológica Federal do Paraná - UTFPR</h3>
+                <p>2017 - atualmente</p>
+                <p>Cursando Bacharelado em Engenharia de Software, previsão de término em 2020</p>
+            </li>
+            <li>
+                <h3>Colégio Passo a Passo</h3>
+                <p>2014 - 2016</p>
+                <p>Ensino Médio. Além disto, neste mesmo colégio completei o ensino infantil e fundamental.</p>
+            </li>
+        </ul>
+    </section>
+
+
+    <section id="experience">
+        <h2>Experiência</h2>
+        <hr>
+
+        <ul>
+            <li>
+                <h3>Estagiário de TI</h3>
+                <p>2018 - atualmente</p>
+                <p>Estagiário na UTFPR, câmpus Cornélio Procópio, setor COGETI, divisão DIPROSI (Divisão de Projetos de
+                    Sistemas
+                    de Informação).</p>
+                <p>Algumas Tecnologias Utilizadas:</p>
+                <p>HTML, PHP, JavaScript, Jquery, CSS, Bootstrap, PostgreSQL, Git, GitLab, Angular 7</p>
+            </li>
+
+            <li>
+                <h3>N&A Confecções, Auxiliar de Caixa</h3>
+                <p>2015 - 2017</p>
+                <p>Emissão de Notas Fiscais, atualização de mídias sociais, recebimentos, pagamentos em bancos e
+                    atendimento.</p>
+            </li>
+
+            <li>
+                <h3>Liderança em Trabalhos Comunitários</h3>
+                <p>2016 - 2018</p>
+                <p>Organização de Eventos, comunicação, divisão de equipes e entre outros.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="info-add">
+        <h2>Informações adicionais</h2>
+        <hr>
+
+        <ul>
+            <li>
+                <a href="https://facebook.com/abrindoportascp">
+                    <h3>Projeto Abrindo Portas</h3>
+                </a>
+                <p>2017 - atualmente</p>
+                <p>Trabalho voluntariamente no setor de marketing desse projeto que visa ensinar a língua ingles para
+                    alunos de
+                    ensino médio para a cidade
+                    de Cornélio Procópio - PR.
+                </p>
+            </li>
+            <li>
+                <a href="https://facebook.com/ecodeltautfpr">
+                    <h3>Equipe EcoDelta</h3>
+                </a>
+                <p>2018 - atualmente</p>
+                <p>Trabalho voluntariamente no setor de marketing desta equipe que tem como objetivo desenvolver um
+                    carro com
+                    uma
+                    maior eficiência energética, para participar de competições.
+                </p>
+            </li>
+            <li>
+                <h3>TOEFL ITP</h3>
+                <p>2016 - Score: 480 - Level B1</p>
+                <p>2018 - Score: 530 - Level B1</p>
+            </li>
+            <li>
+                <h3>Curso profissionalizante de Web Design</h3>
+                <p>2013 - 2014</p>
+                <p>CorelDraw, Photoshop, Dreamweaver e Flash. Esse curso foi essencial pois trouxe para mim a maior
+                    vontade de
+                    aprender
+                    programação, além de ensinamentos em Design Gráfico que levo até hoje comigo.
+                </p>
+            </li>
+        </ul>
+    </section>
+
+
+
+    <section id="subjects">
+        <h2>Disciplinas Matriculadas em 2019/1</h2>
+        <hr>
+
+        <li>EC38D - Segurança E Auditoria De Sistemas
+            <ul>
+                <li>Turma - C81</li>
+            </ul>
+        </li>
+        <li>IF66H - Programação Web 1
+            <ul>
+                <li>Turma - ES61</li>
+            </ul>
+        </li>
+        <li>IF66K - Oficina de Integração 2
+            <ul>
+                <li>Turma - ES61</li>
+            </ul>
+        </li>
+        <li>SO36A - Estimativas Métricas de Software
+            <ul>
+                <li>Turma - ES61</li>
+            </ul>
+        </li>
+        <li>SO36B - Gerência de Configuração
+            <ul>
+                <li>Turma - ES61</li>
+            </ul>
+        </li>
+        <li>SO36C - Teoria da Computação
+            <ul>
+                <li>Turma - ES61</li>
+            </ul>
+        </li>
+        <li>SO36D - Metodologia de Pesquisa
+            <ul>
+                <li>Turma - ES61</li>
+            </ul>
+        </li>
+        </ul>
+    </section>
+
+    <section id="schedules">
+        <h2>Horários de aula</h2>
+
+        <div class="table">
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Domingo</th>
+                    <th>Segunda-feira</th>
+                    <th>Terça-feira</th>
+                    <th>Quarta-feira</th>
+                    <th>Quinta-feira</th>
+                    <th>Sexta-feira</th>
+                    <th>Sábado</th>
+                </tr>
+                <tr>
+                    <td>M1 (07h30 - 08h20)</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>M2 (08h20 - 09h10)</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>M3 (09h10 - 10h00)</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>M4 (10h20 - 11h10)</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>M5 (11h10 - 12h00)</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>M6 (12h00 - 12h50)</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>T1 (13h00 - 13h50)</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>T2 (13h50 - 14h40)</td>
+                    <td></td>
+                    <td title="Segurança e Auditoria de Sistemas">EC38D</td>
+                    <td title="Segurança e Auditoria de Sistemas">EC38D</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>T3 (14h40 - 15h30)</td>
+                    <td></td>
+                    <td title="Segurança e Auditoria de Sistemas">EC38D</td>
+                    <td title="Segurança e Auditoria de Sistemas">EC38D</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>T4 (15h50 - 16h40)</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>T5 (16h40 - 17h30)</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>T6 (17h50 - 18h40)</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>N1 (18h40 - 19h30)</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td title="Programação Web 1">IF66H</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>N2 (19h30 - 20h20)</td>
+                    <td></td>
+                    <td title="Estimativas Métricas de Software">SO36A</td>
+                    <td title="Metodologia da Pesquisa">SO36D</td>
+                    <td title="Teoria da Computação">SO36C</td>
+                    <td title="Gerência de Configuração">SO36B</td>
+                    <td title="Programação Web 1">IF66H</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>N3 (20h20 - 21h10)</td>
+                    <td></td>
+                    <td title="Estimativas Métricas de Software">SO36A</td>
+                    <td title="Metodologia da Pesquisa">SO36D</td>
+                    <td title="Teoria da Computação">SO36C</td>
+                    <td title="Gerência de Configuração">SO36B</td>
+                    <td title="Programação Web 1">IF66H</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>N4 (21h20 - 22h10)</td>
+                    <td></td>
+                    <td title="Estimativas Métricas de Software">SO36A</td>
+                    <td title="Oficina de Integração 2">IF66K</td>
+                    <td title="Gerência de Configuração">SO36B</td>
+                    <td title="Programação Web 1">IF66H</td>
+                    <td title="Teoria da Computação">SO36C</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>N5 (22h10 - 23h00)</td>
+                    <td></td>
+                    <td title="Estimativas Métricas de Software">SO36A</td>
+                    <td title="Oficina de Integração 2">IF66K</td>
+                    <td title="Gerência de Configuração">SO36B</td>
+                    <td title="Programação Web 1">IF66H</td>
+                    <td title="Teoria da Computação">SO36C</td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contato</h2>
+        <hr>
+        <p>Sinta-se livre para me seguir ou me mandar mensagens em minhas redes sociais.</p>
+
+        <a href="https://www.facebook.com/felipe.seolinbento" target="blank">
+            <img class="icon" src="imgs/facebook.png" alt="Facebook">
+        </a>
+        <a href="https://www.instagram.com/felipesebe/" target="blank">
+            <img class="icon" src="imgs/instagram.png" alt="Instagram">
+        </a>
+        <a href="https://www.linkedin.com/in/felipe-seolin-bento-55a915152/" target="blank">
+            <img class="icon" src="imgs/linkedIn.png" alt="LinkedIn">
+        </a>
+        <a href="https://github.com/felipeseolin" target="blank">
+            <img class="icon" src="imgs/github.png" alt="GitHub">
+        </a>
+    </section>
+</body>
+
+</html>
