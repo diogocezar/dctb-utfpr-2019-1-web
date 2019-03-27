@@ -1,0 +1,101 @@
+body {
+    margin: auto;
+    max-width: 85%;
+    padding: 20px;
+    padding-left: 20vw;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+tr:hover {
+    background-color: #a0a0a0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+h2 {
+    padding-top: 15px
+}
+
+nav {
+    font-size: 14pt;
+}
+
+a:hover {
+    color: gray;
+}
+
+#description {
+    padding-top: 0;
+}
+
+#name {
+    font-size: 3vw;
+}
+
+.table {
+    overflow-x: auto;
+}
+
+.icon {
+    filter: brightness(0) saturate(100%) invert(25%) sepia(21%) saturate(0%) hue-rotate(146deg) brightness(99%) contrast(86%);
+    max-height: 45px;
+    margin-right: 8px;
+}
+
+.icon:hover {
+    filter: unset;
+}
+
+#menu {
+    color: white;
+    background-color: black;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    color: gray;
+    text-decoration: none;
+}
+
+#menu-body {
+    padding: 8px;
+}
+
+#bottom-menu {
+    position: fixed;
+    bottom: 0;
+}
+
+#white-github:hover {
+    filter: invert(100%);
+}
+
+#me {
+    height: 20vw;
+}
