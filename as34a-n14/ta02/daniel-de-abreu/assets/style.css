@@ -1,0 +1,117 @@
+
+:root{
+    font: 14px;
+}
+
+body{
+    background-image: url("http://clipart-library.com/data_images/211310.jpg");
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.itis{
+    font-size: 20px;
+    align-content: space-between;
+    flex-grow: inherit;
+}
+
+.subtitle{
+    font-size: 0.5em;
+    text-decoration: none;
+}
+
+a:link{
+    color: rgb(98, 58, 4);
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgb(44, 4, 44);
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    
+    color: rgb(98, 58, 4);
+    text-decoration: none;
+    border: none;
+    padding: 5px 5px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+a:hover {
+    color: yellow; 
+    background-color: lightgreen;
+}
+
+nav{
+    justify-content: start;
+    align-items: stretch;
+}
+
+.memes{
+    align-content: space-around;
+}
+
+.memes .meme4{
+    flex-grow: 4;
+    align-self: flex-end;
+}
+
+.pictures{
+    flex-direction: row-reverse;
+    margin: 5px;
+    justify-content: space-around;
+    flex-grow: 2;
+    flex-basis: 1000px;
+    align-content: center;
+    background-color: yellow;
+    flex-flow: column nowrap;
+}
+
+.receita01{
+    height: 200px;
+    width: 200px;
+    
+}
+
+.receita01{
+    height: 200px;
+    width: 200px;
+    
+}
+
+.receita01{
+    height: 200px;
+    width: 200px;
+    
+}
+
+.receita01{
+    height: 200px;
+    width: 200px;
+    
+}
+
+.receita01{
+    height: 200px;
+    width: 200px;
+    
+}
+
+.happy{
+    order: 2;
+}
