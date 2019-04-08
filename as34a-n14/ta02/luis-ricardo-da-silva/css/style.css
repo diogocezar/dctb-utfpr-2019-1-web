@@ -1,0 +1,575 @@
+/* Geral */
+
+body {
+	font-family: Arial;
+	margin: 0px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/* Sidebar */
+
+.sidebar {
+	width: 220px;
+	height: 100vh;
+	padding: 20px;
+	background: #f5f5f5;
+	position: fixed;
+	overflow: auto;
+}
+
+.sidebar h2 {
+	margin: 0px;
+	overflow: hidden;
+	line-height: 1;
+	color: #8844ee;
+}
+
+.sidebar ul {
+	list-style: none;
+	margin: 10px 0px 30px 0px;
+	padding: 0px;
+}
+
+.sidebar a {
+	display: block;
+	padding: 5px 20px;
+	text-decoration: beige;
+	color: #555;
+}
+
+.sidebar li:nth-of-type(even) a {
+	background: #ffffff;
+}
+
+.sidebar li a.active, .sidebar li a:hover {
+	background: #8844ee;
+	color: white;
+}
+
+.container {
+	background: black;
+	height: auto;
+	margin: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex-warp {
+	flex-wrap: wrap;
+}
+
+.flex-item-1 {
+	flex: 1;
+}
+
+#titulo {
+	background: rgb(0, 0, 0);
+	color: #ffffff;
+	font-size: 1.5em;
+	margin-right: 5%
+}
+
+.row {
+	flex-direction: row;
+}
+.row-reverse{
+	flex-direction: row-reverse;
+}
+.column{
+	flex-direction: column;
+}
+.column-reverse{
+	flex-direction: column-reverse;
+}
+.header h1 {
+	margin: 0px;
+	color: #903EEB;
+	min-width: 150px;
+}
+.nowrap {
+	flex-wrap: nowrap;
+}
+.wrap {
+	flex-wrap: wrap;
+}
+.wrap-reverse {
+	flex-wrap: wrap-reverse;
+}
+.flex-start {
+	justify-content: flex-start;
+}
+
+.flex-end {
+	justify-content: flex-end;
+}
+
+.center {
+	justify-content: center;
+}
+
+.space-between {
+	justify-content: space-between;
+}
+
+.space-around {
+	justify-content: space-around;
+}
+
+
+.flex-start {
+	align-items: flex-start;
+}
+
+.flex-end {
+	align-items: flex-end;
+}
+
+.center {
+	align-items: center;
+}
+
+.baseline {
+	align-items: baseline;
+}
+
+
+
+.column {
+	flex-direction: column;
+}
+
+/* Flex Item */
+.item {
+	flex: 1;
+	margin: 5px;
+	padding: 0 10px;
+	background: tomato;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.item:first-child {
+	padding-top: 20px;
+}
+
+.alinhamento-central {
+	height: 400px;
+	justify-content: center;
+	align-items: center;
+}
+
+.alinhamento-central .item {
+	flex: 0;
+	padding: 10px;
+}
+
+
+.flex-start {
+	align-content: flex-start;
+}
+
+.flex-end {
+	align-content: flex-end;
+}
+
+.center {
+	align-content: center;
+}
+
+.space-between {
+	align-content: space-between;
+}
+
+.space-around {
+	align-content: space-around;
+}
+/* Os itens não se expandem para ocupar o container. */
+.grow0 {
+	flex-grow: 0;
+}
+
+/* Os itens se expandem igualmente para ocupar o container. Utilizando apenas o flex-grow, o crescimento é distribuído igualmente antes e depois do conteúdo de cada elemento. (pois por padrão o flex-basis é auto) */
+.grow1 {
+	flex-grow: 1;
+}
+
+/* Os itens se expandem duas vezes mais que aqueles com flex-grow: 1; */
+.grow2 {
+	flex-grow: 2;
+}
+/* FLEX BASIS AUTO */
+
+.basis-auto {
+	flex-grow: 1;
+	flex-basis: auto;
+}
+
+/* O espaço distribuído é 2 vezes maior que o flex-grow: 1; */
+.basis-auto-grow-2 {
+	flex-grow: 2;
+	flex-basis: auto;
+}
+
+/* É o mesmo espaço distribuido que os demais itens com flex-grow: 1; Porém esse espaço inicia após os 60px iniciais */
+.basis-auto-width {
+	flex-grow: 1;
+	flex-basis: auto;
+	width: 60px;
+}
+
+/* Com o flex-grow: 0; nada é distribuído */
+.basis-auto-grow-0 {
+	flex-basis: auto;
+}
+
+.container.overlay {
+	margin-top: 10px;
+}
+
+.overlay .basis-auto::before, .overlay .basis-auto-grow-2::before, .overlay .basis-auto-width::before {
+	content: '';
+	display: block;
+	width: 16px;
+	height: 36px;
+	background: blue;
+	position: absolute;
+	opacity: .5;
+}
+
+.overlay .basis-auto-grow-2::before {
+	border-right: 16px solid blueviolet;
+}
+
+.overlay .basis-auto-width::before {
+	border-right: 30px solid;
+}
+
+/* FLEX BASIS AUTO FIM */
+
+/* FLEX BASIS 0 */
+
+/* Com o flex-basis 0, itens com flex-grow 1 tentam ficar com o mesmo tamanho total de width. É por isso que o mais comum é utilizar flex-basis 0 */
+.basis-0 {
+	flex-grow: 1;
+	flex-basis: 0;
+}
+
+/* O tamanho total é de duas vezes dos itens com flex: 1; */
+.basis-0-grow-2 {
+	flex-grow: 2;
+	flex-basis: 0;
+}
+
+/* A definição do width é ignorada. Porém ele ainda respeita a definição de min-width. */
+.basis-0-width {
+	flex-grow: 1;
+	flex-basis: 0;
+	width: 120px;
+	min-width: 80px;
+}
+
+/* Flex basis 0 com flex-grow 0, não influenciar em nada no item. Assim o mesmo fica do tamanho do seu conteúdo. */
+.basis-0-grow-0 {
+	flex-basis: 0;
+}
+
+.overlay .basis-0::before, .overlay .basis-0-grow-2::before, .overlay .basis-0-width::before {
+	content: '';
+	display: block;
+	width: 65px;
+	height: 36px;
+	background: blue;
+	position: absolute;
+	opacity: .5;
+}
+
+.overlay .basis-0-grow-2::before {
+	border-right: 65px solid blueviolet;
+}
+
+/* FLEX BASIS 0 FIM */
+
+.basis-numero-container {
+	flex-wrap: wrap;
+}
+
+.basis-110 {
+	flex-basis: 110px;
+}
+
+.basis-300 {
+	flex-basis: 300px;
+}
+
+.basis-110-porcento {
+	flex-basis: calc(25% - 10px);
+}
+
+.basis-110-grow-1 {
+	flex-grow: 1;
+	flex-basis: 110px;
+}
+
+/* O Flex-basis não ultrapassa o tamanho do container. Pois por padrão o flex-shrink é 1, ou seja, ele permite que o item se ajuste para caber no container. */
+.basis-600-grow-1 {
+	flex-grow: 1;
+	flex-basis: 600px;
+}
+.shrink-1 {
+	flex-grow: 1;
+	flex-shrink: 1;
+}
+
+.shrink-3 {
+	flex-grow: 1;
+	flex-shrink: 3;
+}
+
+.shrink-1-basis {
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 150px;
+}
+
+.shrink-0-basis {
+	flex-grow: 1;
+	flex-shrink: 0;
+	flex-basis: 150px;
+}
+
+.shrink-3-basis {
+	flex-grow: 1;
+	flex-shrink: 3;
+	flex-basis: 150px;
+}
+/* FLEX BASIS AUTO */
+
+.basis-auto {
+	flex: 1 1 auto;
+}
+
+.basis-auto-grow-2 {
+	flex: 2 1 auto;
+}
+
+.basis-auto-width {
+	flex: 1 1 auto;
+	width: 60px;
+}
+
+.basis-auto-grow-0 {
+	flex: 0 1 auto;
+}
+
+/* FLEX BASIS AUTO FIM */
+
+/* FLEX BASIS 0 */
+
+.basis-0 {
+	flex: 1;
+}
+
+/* O tamanho total é de duas vezes dos itens com flex: 1; */
+.basis-0-grow-2 {
+	flex: 2;
+}
+
+.basis-0-width {
+	flex: 1;
+	width: 120px;
+	min-width: 80px;
+}
+
+.basis-0-grow-0 {
+	flex: 0 1 0;
+}
+
+/* Flex basis*/
+
+.basis-numero-container {
+	flex-wrap: wrap;
+}
+
+.basis-110 {
+	flex: 0 1 110px;
+}
+
+.basis-300 {
+	flex: 0 1 300px;
+}
+
+.basis-110-porcento {
+	flex: 0 1 calc(25% - 10px);
+}
+
+.basis-110-grow-1 {
+	flex: 1 1 110px;
+}
+
+.basis-600-grow-1 {
+	flex: 1 1 600px;
+}
+.order1 {
+	order: 1;
+}
+
+.order2 {
+	order: 2;
+}
+
+.order3 {
+	order: 3;
+}
+
+.order4 {
+	order: 4;
+}
+
+.order-1 {
+	order: -1;
+}
+.flex-start {
+	align-self: flex-start;
+}
+
+.flex-end {
+	align-self: flex-end;
+}
+
+.center {
+	align-self: center;
+}
+
+.baseline {
+	align-self: baseline;
+}
+/*stretch*/
+.stretch {
+	align-self: stretch;
+}
+.stretch-content {
+	align-content: stretch;
+}
+.stretch-items {
+	align-items: stretch;
+}
+/* Main */
+
+.main {
+	padding-left: 220px;
+}
+
+.main-item-title {
+	padding: 20px;
+	background: #8844ee;
+	color: white;
+}
+
+.main-item-title h1 {
+	font-size: 4em;
+	line-height: 1;
+	margin: 0px;
+}
+
+.main-item-title p {
+	max-width: 500px;
+	text-align: justify;
+	flex-wrap: nowrap;
+	/* flex warp*/
+	margin-left: 20px,
+}
+
+/* Propriedade */
+
+.propriedade {
+	padding: 60px 20px;
+	color: #7a7d87;
+}
+
+.propriedade:nth-child(even) {
+	background: #26353e;
+	color: #C2C6D3;
+}
+
+.propriedade:nth-child(odd) h2 {
+	color: #8844EE;
+}
+
+.propriedade h2 {
+	font-size: 3em;
+	margin: 0px;
+	line-height: 1;
+}
+
+.propriedade-content {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.propriedade-content>div, .propriedade-content>ul {
+	flex: 1;
+	padding: 0 10px;
+	margin-bottom: 1em;
+	min-width: 260px;
+}
+
+.propriedade-content ul {
+	list-style: none;
+	border-left: 2px solid rgba(159, 156, 156, 0.14);
+}
+
+.propriedade-content li {
+	border-bottom: 2px solid rgba(159, 156, 156, 0.14);
+	padding-bottom: 10px;
+	color: #62a557;
+	line-height: 1.6;
+	margin-bottom: .5em;
+	font-family: courier, monospace;
+}
+
+.propriedade-content li:last-child {
+	border: none;
+	margin-bottom: none;
+	padding-bottom: none;
+}
+
+.propriedade-content:nth-child(even) li {
+	color: #99C791;
+}
+
+.propriedade-content ul em {
+	color: #BA94C5;
+	font-style: normal;
+}
+
+.propriedade-content ul span {
+	color: #6e7f84;
+	display: block;
+	font-size: .875rem;
+	line-height: 1.4;
+}
+
+/* footer */
+
+.footer {
+	padding: 20px;
+	background: #8844ee;
+	color: white;
+}
+
+.footer p {
+	margin: 0px 0px 5px 0px;
+}
+
+.footer a {
+	color: white;
+	text-decoration: none;
+}
