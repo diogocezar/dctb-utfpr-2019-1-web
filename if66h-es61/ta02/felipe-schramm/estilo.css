@@ -1,0 +1,86 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+body{
+	font-size: 16px;
+}
+
+#bar{
+	top:0;
+	width: 100%;
+	height: 70px;
+	border: 3px solid #4682B4;
+	background: #87CEEB;
+	position: fixed;
+}
+
+#fcsviagens{
+	float: left;
+	margin:15px; 
+	font-size: 30px;
+}
+
+#menu{
+	float: right;
+	height: 100%;
+}
+
+#areaprincipal{
+	margin-top: 70px;
+	background: white;
+}
+
+#titulos{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+#lytfotos{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+#footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 10px 0px;
+	background: rgba(224,200,180,0.9);
+}
+
+.fotos{
+	width: 300px;
+	height: 200px;
+	margin: 10px;
+}
+
+
+.item-menu{
+	float: left;
+	padding: 10px;
+	margin: 10px;
+	list-style: none;
+}
+
+.item-menu:hover{
+	background: #4682B4;
+	text-transform: uppercase;
+}
+
+.postagens{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	border-bottom: 3px solid #A0522D;
+	background: rgba(224,200,180,0.9);
+	padding: 20px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
