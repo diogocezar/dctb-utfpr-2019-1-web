@@ -1,0 +1,99 @@
+/*Start Justify-content */
+.spaceBetween {
+    display: flex;
+    justify-content: space-between;
+    margin: 5%; 
+}
+
+/*End Justify-content */
+
+/*Start Align-items*/
+.align-items {
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+/*End Align-items*/
+
+
+/*Start Flex Container */
+.sectionInterna {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.sectionGeral {
+    max-width: 2000px;
+    margin: 0 auto;
+    display: flex;
+}
+/*End Flex Container */
+
+/*Start Flex Direction */
+.flex-direction {
+    flex-direction: column;
+}
+/*End Flex Direction */
+
+/*Start Flex Wrap */
+.wrap {
+    flex-wrap: wrap-reverse;
+}
+/*End Flex Wrap */
+
+/*Start Flex-Flow */
+.row-wrap {
+    flex-flow: row wrap;
+}
+/*End Flex-Flow */
+
+/*Start Imagens*/
+.imagemQuadrada {
+    width: 150px;
+    height: 150px;
+    margin: 1%;
+}
+
+.imagemRetangulo {
+    width: 307px;
+    height: 150px;
+    margin: 1%;
+}
+/*End Imagens*/
+
+/*Titulos fora o cabecalho da pagina */
+h1 {
+    text-align: center;
+    margin: 20px 0 0 0;
+    font-size: 1.25em;
+    font-weight: normal;
+}
+
+/*Meu cabecalho*/
+#cabecalho {
+    text-align: center;
+    margin: 10px 10px 40px 10px;
+    font-size: 3em;
+    background: black;
+    color: white;
+    font-weight: normal;
+}
+
+/* Meu corpo */
+body {
+    font-family: monospace;
+    color: #333;
+}
+
+/*Roda pé*/
+footer {
+    margin: 10px 10px 10px 10px;
+    font-size: 1em;
+    background: black;
+    color: white;
+    font-weight: normal;
+    max-width: 100px;
+    margin: 0 auto;
+    display: flex;
+}
