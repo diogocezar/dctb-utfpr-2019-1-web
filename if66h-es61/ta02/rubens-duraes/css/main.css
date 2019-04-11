@@ -1,0 +1,113 @@
+body {
+	background-color: rgba(160, 160, 160, 0.582);
+	background-image: url("../imagens/bgBody2.jpg");
+	display: flex;
+	justify-content: center;
+}
+
+#imagemPerfil{
+	width: 20%;
+	height: 30%;
+	margin: 5%;
+	padding-left: 5%;
+}
+
+#conteudo{
+	width:  70%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(255, 255, 255, 0.781);
+	align-items: center;
+}
+
+.container{
+	display: flex;
+	flex-direction: row;
+}
+
+#informacoes{
+	margin: 5% 5% 5% 0%;
+}
+
+#icones{
+	display: flex;
+}
+#icones a{
+	display: flex;
+	justify-content: center;
+	width: 8%;
+}
+#icones a img{
+	height: 100%;
+	width: 100%;
+}
+#github{
+	height: 100%;
+	width: 100%;
+}
+
+.expFora{
+	border: 2px solid;
+}
+
+#experi{
+	display: flex;
+	justify-content: center;
+}
+
+.expDentro{
+	display: flex;
+	flex-grow: 1;
+}
+ul {
+	list-style-type: none;
+	}
+
+
+.direita{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+
+}
+.ordena{
+	display: flex;
+	order: -1;
+}
+
+table{
+	margin-bottom: 50px;
+}
+
+#galeria{
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.imagensGaleria{
+	width: 15%;
+	height: 25%;
+	margin: 5%;
+}
+
+#tableDescription{
+	padding-bottom: 0;
+	margin-bottom: 0;
+	margin-top: 5%;
+}
+
+#rodape{
+	background-color: rgba(0, 0, 0, 0.507);
+	height: 15%;
+	width: 100%;
+	display: flex;
+	}
+
+.agradecimentos{
+	flex: 1;
+	align-self: center;
+}
+#assinatura{
+	flex: 0;
+}
