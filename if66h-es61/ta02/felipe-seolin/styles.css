@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* margin-left: 10vw; */
+    /* margin-right: 10vw; */
+}
+
+.flex {
+    display: flex;
+}
+
+.nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    list-style-type: none;
+    background-color: red;
+    min-height: 2.5vw;
+}
+
+.nav li {
+    flex: 1;
+    padding-left: 8px;
+}
+
+#img-utfpr {
+    width: 100px;
+}
+
+#home {
+    background-color: black;
+    color: white;
+}
+
+#home-background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/img/campus.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: black;
+    color: white;
+    min-height: 50vw;
+}
+
+#info {
+    flex-flow: row-reverse wrap-reverse;
+    justify-content: center;
+    align-items: baseline;
+    margin: 22px;
+    font-weight: bold;
+}
+
+#info p {
+    flex-grow: 1;
+    flex-basis: 0;
+    flex-shrink: 2;
+    text-align: center;
+    font-size: 26px;
+    order: 2;
+    align-self: flex-start;
+}
