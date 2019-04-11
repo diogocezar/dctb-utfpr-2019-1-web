@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index - TA02</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+    <link href="./assets/css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!--Uso do flex, flex-direction: row e flex-grow:1-->
+        <section class="menu row">
+            <div class="item flex-grow"> <a href="inicio.html">Inicio</a></div>
+            <div class="item flex-grow"> <a href="inicio.html">HTML</a> </div>
+            <div class="item flex-grow"> <a href="inicio.html">CSS</a> </div>
+            <div class="item flex-grow"> <a href="inicio.html">Dicas</a> </div>
+            <div class="item flex-grow"> <a href="inicio.html">Web</a> </div>
+        </section>
+    </header>
+    
+    <h1>Programação Web</h1>
+    <!-- Uso do flex-wrap-->
+    <h2>HTML - Hypertext Markup Language</h2>
+    <section class="container wrap">
+        <div class="item">O HTML é uma das linguagens que utilizamos para desenvolver websites.</div>
+        <div class="item">Seu acrônimo HTML vem do inglês e significa Hypertext Markup Language.</div>
+        <div class="item">É a linguagem que irá exibir a informação.</div>
+    </section>
+
+    <!--Uso do Align-items-->
+    <h2>CSS</h2>
+    <section class="container  align-items">
+            <div class="item"><img src="./assets/images/html.png"></div>
+            <div class="item">O Cascading Style Sheets (CSS) é uma linguagem utilizada para definir a apresentação (aparência) de documentos que adotam para o seu desenvolvimento linguagens de marcação (como XML, HTML e XHTML e etc..). O CSS define como serão exibidos os elementos contidos no código de um documento e sua maior vantagem é efetuar a separação entre o formato e o conteúdo de um documento. Ou seja,  adicionar estilo (cores, fontes, espaçamento, etc.) a um documento web. </div>
+    </section>
+
+    <!--Uso do flex-flow: row wrap-->
+    <h2>Imagens Ilustrativas</h2>
+    <section class="container flex-flow">
+        <div class="item"><img src="./assets/images/css.png"></div>
+        <div class="item"><img src="./assets/images/html.png"></div>
+        <div class="item"><img src="./assets/images/img1.png"></div>
+        <div class="item"><img src="./assets/images/img2.jpg"></div>
+        <div class="item"><img src="./assets/images/img3.png"></div>
+        <div class="item"><img src="./assets/images/img4.jpg"></div>
+    </section>
+
+    <!--Uso do order:1-->
+    <h2>10 dicas que desenvolvedores web iniciantes devem saber</h2>
+    <section class="container column">
+        <div class="item2 order2 flex-grow">- Google é o seu melhor amigo</div>
+        <div class="item2 order3 flex-grow">- Mantenha-se informado e atualizado</div>
+        <div class="item2 order3 flex-grow">- Entenda os designers</div>
+        <div class="item2 order3 flex-grow">- Use ferramentas profissionais</div>
+        <div class="item2 order2 flex-grow">- Entre numa rede de conhecimentos</div>
+        <div class="item2 order4 flex-grow">- Continue com o processo de aprendizagem</div>
+        <div class="item2 order1 flex-grow">- Decida quais habilidades você quer</div>
+        <div class="item2 order2 flex-grow">- Analise o código alheio</div>
+        <div class="item2 order3 flex-grow">- Deixe as coisas legais por último</div>
+        <div class="item2 order1 flex-grow">- Aprenda direito</div>
+        
+    </section>
+
+    <!--Uso do align-content:flex-end -->
+    <h2>Internet vs WEB</h2>
+        <section class="container tam wrap align-content">
+	        <div class="item flex"><img src="./assets/images/img5.jpg"></div>
+	        <div class="item flex ">A internet é uma rede que conecta milhões de computadores pelo mundo.</div>
+	        <div class="item flex ">A web é uma coleção de informações acessadas via Internet.</div>
+        </section>
+
+
+    <!--Uso do flex-basis: 0-->
+    <h2>Tipos de Flex-items no CSS</h2>
+        <section class="container">
+            <div class="item flex-grow flex-basis">Flex grow</div>
+            <div class="item flex-grow flex-basis">Flex basis</div>
+            <div class="item flex-grow flex-basis">Flex shrink</div>
+            <div class="item flex-grow flex-basis">Flex</div>
+            <div class="item flex-grow flex-basis">Order</div>
+            <div class="item flex-grow flex-basis">Align self</div>
+        </section>
+    
+    <!--Uso do flex-shrink: 0 e a menor "caixa" deve ter 150px-->
+    <h2>Tipos de Flex-Container no CSS</h2>
+        <section class="container wrap">
+            <div class="item flex-shrink">Display</div>
+            <div class="item flex-shrink">Flex direction</div>
+            <div class="item flex-shrink">Flex wrap</div>
+            <div class="item flex-shrink">Flex flow</div>
+            <div class="item flex-shrink">Justify content</div>
+        </section>
+    
+    <!--Uso do align-self: flex-start, center e flex-end-->
+    <h2>3 dicas progressivas para alcançar o sucesso</h2>
+        <section class="container tam">
+            <div class="item align-self-start">Diálogo</div>
+            <div class="item align-self-center">Paciência</div>
+            <div class="item align-self-end">Simplifique</div>
+        </section>
+
+    <br>
+    <!-- Rodapé usando justify-content: space-around-->
+    <footer>
+        <section class="menu justify-content">
+            <div class="item">Trabalho realizado por Juliana.</div>
+            <div class="item">Disciplina Web.</div>
+        
+        </section>
+    </footer>
+
+    
+    
+</body>
+
+
+</html>
