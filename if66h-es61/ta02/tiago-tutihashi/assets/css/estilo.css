@@ -1,0 +1,139 @@
+body {
+
+    background-color: #cccccc;
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+
+}
+
+h1 {
+
+    background: rgb(181, 177, 252);
+    background: linear-gradient(90deg, rgba(181, 177, 252, 0.4) 0%, rgba(0, 212, 255, 0.4) 100%);
+}
+
+.container_menu {
+
+    max-width: 100%;
+    display: flex;
+    border: 1px solid #ccc;
+}
+
+.menu {
+    flex: 1;
+    font-size: 2em;
+}
+
+.game {
+
+    background: rgb(181, 177, 252);
+    background: linear-gradient(90deg, rgba(181, 177, 252, 0.4) 0%, rgba(0, 212, 255, 0.4) 100%);
+}
+
+.stages {
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+
+}
+
+.stages img {
+
+    width: 95%;
+    flex: 1;
+
+}
+
+.stage {
+
+    flex: 1;
+    margin: 5px;
+    background: rgb(181, 177, 252);
+    background: linear-gradient(90deg, rgba(181, 177, 252, 0.4) 0%, rgba(0, 212, 255, 0.4) 100%);
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.stages p {
+
+    background: rgb(181, 177, 252);
+    background: linear-gradient(90deg, rgba(181, 177, 252, 0.4) 0%, rgba(0, 212, 255, 0.4) 100%);
+
+}
+
+.char {
+
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    background: rgb(181, 177, 252);
+    background: linear-gradient(90deg, rgba(181, 177, 252, 0.4) 0%, rgba(0, 212, 255, 0.4) 100%);
+
+}
+
+.characteres {
+
+    text-align: center;
+
+}
+
+.game_mode {
+
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;
+    align-content: stretch;
+    background: rgb(181, 177, 252);
+    background: linear-gradient(90deg, rgba(181, 177, 252, 0.4) 0%, rgba(0, 212, 255, 0.4) 100%);
+
+}
+
+.binfo {
+
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;
+    align-items: stretch;
+    background: rgb(181, 177, 252);
+    background: linear-gradient(90deg, rgba(181, 177, 252, 0.4) 0%, rgba(0, 212, 255, 0.4) 100%);
+
+}
+
+.info {
+
+    flex: 1;
+
+}
+
+.order1 {
+	order: 1;
+}
+
+.order2 {
+	order: 2;
+}
+
+.order3 {
+	order: 3;
+}
+
+.order4 {
+	order: 4;
+}
+
+.shrink-1 {
+    align-self: auto;
+    flex-basis: auto;
+	flex-grow: 1;
+	flex-shrink: 1;
+}
+
+.shrink-3 {
+    align-self: auto;
+    flex-basis: auto;
+	flex-grow: 1;
+	flex-shrink: 3;
+}
