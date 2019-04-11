@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: gray;
+}
+
+section {
+    margin: 5vw;
+}
+
+section h2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 8pt;
+}
+
+input, textarea {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.flex {
+    display: flex;
+}
+
+.nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    list-style-type: none;
+    background-color: white;
+    min-height: 50px;
+}
+
+.nav li {
+    flex: 1;
+    padding-left: 8px;
+}
+
+#img-utfpr {
+    width: 100px;
+}
+
+#home {
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+#home h1 {
+    font-size: 5vw;
+    text-align: center;
+    padding-top: 15vw;
+}
+
+#home h1 p {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 10vw;
+}
+
+#home-background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/img/campus.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: black;
+    color: white;
+    min-height: 50vw;
+}
+
+#info {
+    flex-flow: row-reverse wrap-reverse;
+    justify-content: center;
+    align-items: baseline;
+    margin: 22px;
+    font-weight: bold;
+}
+
+#info p {
+    flex-grow: 1;
+    flex-basis: 0;
+    flex-shrink: 2;
+    text-align: center;
+    font-size: 26px;
+    order: 2;
+    align-self: flex-start;
+}
+
+#graduations {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-stretch;
+}
+
+#graduations div {
+    margin-top: 16px;
+}
+
+#graduations div h3 {
+    margin-bottom: 16px;
+}
+
+#city div {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: flex-start;
+}
+
+.card {
+    flex-grow: 1;
+    flex-basis: 0;
+    flex: 1;
+    align-self: flex-start;
+    border: 1px solid gray;
+    border-radius: 8px;
+    margin: 15px;
+    padding: 5px;
+}
+
+.card h3 {
+    text-align: center;
+    margin: 8px;
+}
+
+.card img {
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+#talk-to-us {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
