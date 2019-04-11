@@ -1,0 +1,100 @@
+#menu{
+    font-family: 'Karla', sans-serif;
+}
+
+#title {
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    font-size: 20px;
+    background-color: #af6ea9;
+    border-radius: 50px;
+}
+
+#box, h3{
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+#box:hover {
+    background-color: #918c96;
+}
+
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li{
+    font-size: 20px;
+    padding: 2px 10px;
+    display: inline-block;
+}
+    
+a:hover{
+    color: darkmagenta;
+}
+
+body{
+    background-color: #c8c2ce;
+    background-image: url(../julia-nicola/assets/backg.jpg);
+    background-attachment: scroll;
+}
+
+p{
+    font-family: 'Karla', sans-serif;
+    text-align: justify;
+}
+
+#container{
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #aea9b2;
+    opacity: 0.85;
+}
+
+#pics{
+    background-color: rgba(174, 169, 178, 0.85);
+}
+
+#picsAll{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: flex-start;
+}
+
+#picsRaven{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+#picsRaven > .images{
+    flex-grow: 2;
+    flex-basis: 1;
+    flex-shrink: 1;
+    align-self: stretch;
+
+}
+
+#picsAll > .images {
+    flex: 0 0 0;
+    order: 0;
+    align-self: flex-start;
+}
+
+#footer{
+    font-family: 'Karla', sans-serif;
+    background-color: rgba(174, 169, 178, 0.85);
+    text-align: center;
+}

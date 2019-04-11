@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css?family=Anton");
+
+:root {
+  font-size: 15px;
+}
+
+/* Reset do navegador */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Anton", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+h3 {
+  text-decoration: overline !important;
+}
+
+.underline {
+  text-decoration: underline !important;
+}
+
+.underline span {
+  text-transform: uppercase;
+}
+
+#bg-image {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/hamburguer-mexicano.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.bg-tranparent {
+  height: 100%;
+  width: 100%;
+  /* background-color: rgba(241, 15, 117, 0.8); */
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 0.5) 0%,
+    rgba(9, 9, 121, 0.5) 35%,
+    rgba(0, 212, 255, 0.8) 100%
+  );
+}
+
+#bg-image .bg-tranparent h2 {
+  color: white;
+  text-align: center;
+  padding: 5rem;
+  font-size: 5rem;
+}
+
+section {
+  font-size: 25px;
+}
+
+section h3 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 2em;
+}
+
+section p {
+  line-height: 4rem;
+  padding: 0 20%;
+}
+
+.bg-blue {
+  background-color: rgb(20, 158, 185);
+}
+
+.border {
+  padding: 30px;
+  border-top: 15px ridge rgba(2, 0, 36, 0.5);
+  border-bottom: 15px dotted rgba(2, 0, 36, 0.5);
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.upper a {
+  text-decoration: none;
+}

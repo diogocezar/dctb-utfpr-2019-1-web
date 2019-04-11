@@ -1,0 +1,42 @@
+
+*{padding:0;margin:0;vertical-align:baseline;list-style:none;border:0;text-decoration:none;font-family:Montserrat}
+
+header{background-color:#274c77;padding-bottom:15px}
+
+nav{background-color:#f67e7d;padding:3.7% 0;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap-reverse}
+nav h1{color:#ffff;font-size:3em;margin-left:10%}
+nav ul{display:flex;margin-right:3%}
+nav ul li{margin:0 20px}
+nav ul li a{font-size:1.15rem;color:#fff;font-weight:800}
+nav ul li a:hover{text-decoration:underline}
+
+.inicio{display:flex;justify-content:center;flex-direction:column;align-items:center;flex-flow:column nowrap}
+.inicio img{margin-top:-120px;width:200px}
+.inicio span{font-size:3.15rem;color:#fff;font-weight:800;margin:25px 0}
+
+.ponto{display:flex;justify-content:center}
+.ponto span{font-size:8em;color:#a0949480;text-align:center}
+
+#first{display:flex}
+
+.left{display:flex;justify-content:center;border-right:1px solid;align-items:center;flex:5}
+.left h1{font-size:4em;text-transform:uppercase;font-weight:100}
+
+.right{display:flex;flex-flow:row wrap;order:1;flex:5}
+.right img{width:220px;height:380px;margin:0 8px 12px 8px;border:10px solid #f27d7d;border-radius:17px}
+.right img:hover{transform:scale(1.05);transition:.2s}
+
+#texto{display:flex;justify-content:center}
+#texto p{width:20%;text-align:center;margin:0 110px}
+
+footer{background-color:#bfe2f0;padding:45px 0}
+
+#eu{display:flex;justify-content:space-between;margin:0 auto;width:90%}
+#eu ul{display:flex;width:10%}
+#eu ul li{flex-grow:1}
+#eu ul li a{font-size:2em;margin:0 5px}
+
+i.fab.fa-github-alt{color:#fff}
+i.fab.fa-instagram{color:#000}
+i.fab.fa-facebook-square{color:#4266b2}
+i.fab.fa-twitter{color:#24a1f2}

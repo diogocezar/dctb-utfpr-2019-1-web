@@ -1,0 +1,162 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    text-transform: lowercase;
+}
+h1, h2 {
+    width: 100%;
+    text-align: center;
+}
+.container {
+    display: flex;
+    padding: 0px 100px;
+}
+nav {
+    background-color: darkgray;
+    padding: 20px 0;
+    width: 100%;
+    font-weight: 700;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    list-style: none;
+    
+}
+nav ul li a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    
+}
+nav ul li a:hover {
+    background-color: grey;
+    border-radius: 15px;
+}
+#home {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#sobre .container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+#sobre .item-1 {
+    text-align: justify;
+    flex-wrap: wrap;
+    padding-left: 20px;
+}
+#sobre .item-2 {
+    flex-wrap: wrap;
+}
+#produtos div {
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+#produtos .item-1 {
+    order: 4;
+}
+#produtos .item-2 {
+    order: 3;
+}
+#produtos .item-3 {
+    order: 2;
+}
+#produtos .item-4 {
+    order: 1;
+}
+#blog div {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#blog button {
+    width: 100%;
+    padding: 10px 0;
+    border: 0;
+    background-color: darkgray;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+}
+#blog button:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+#contato form {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+#contato .inputs {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+}
+#contato input {
+    width: 100%;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+#contato input:focus, #contato textarea:focus {
+    outline: none;
+}
+#contato span {
+    color: gray;
+    padding: 0 10px;
+    align-self: center;
+}
+#contato textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+#contato button {
+    padding: 10px 20px;
+    border: 0;
+    background-color: darkgray;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+}
+#contato button:hover {
+    background-color: gray;
+    cursor: pointer;    
+}
+footer {
+    background-color: darkgray;
+    margin-top: 30px;
+    padding: 30px 0;
+    text-align: center;
+    color: white;
+}
+#sobre, #produtos, #blog, #contato {
+    margin-top: 50px;
+}
+#back-top {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background-color: darkgray;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+#back-top a {
+    text-decoration: none;
+    color: white;
+}
+@media(max-width:1200px) {
+    #sobre .container {
+        flex-direction: column;
+    }
+}

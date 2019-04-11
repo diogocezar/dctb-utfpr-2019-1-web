@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+
+body {
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    padding: 20px;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: yellow;
+    font-size: 115%; 
+}
+
+.container {
+    background-color: beige;
+    max-width: 800px;
+    margin: 0 auto;
+    border: 2px solid black;
+    display: flex;
+}
+
+.text {
+    margin: 4px;
+    text-align: center;
+    font-size: 1.2em;
+    flex: 1;
+    padding: 2px;
+    background: greenyellow;
+}
+
+#menu-column .container{
+    background-color: azure;
+    max-width: 400px;
+}
+
+.columns {
+    flex-direction: column;
+}
+
+#f-wrap .container{
+    max-width: 300px;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+#f-flow .container {
+    max-width: 400px;
+}
+
+.column-nowrap {
+    flex-flow: column nowrap;
+}
+
+#j-content .container{
+    max-width: 900px;
+}
+
+.text1 {
+    flex: 1;
+	margin: 5px;
+	padding: 0 5px;
+	background: greenyellow;
+	text-align: center;
+}
+
+.justify-content {
+    justify-content: space-around;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
+
+#a-items .container{
+    max-width: 600px;
+}
+
+#a-items .align-items{
+    flex-wrap: wrap;
+}
+
+.gallery {
+    align-items: center;
+    align-content: center;
+}
+
+.grow-1 {
+    flex-grow: 1;
+}
+
+.grow-2 {
+    flex-grow: 2;
+}
+
+.grow-3{
+    flex-grow: 3;
+}
+
+.basis-1 {
+    flex-grow: 1;
+	flex-basis: auto;
+}
+
+.basis-2 {
+    flex-grow: 2;
+	flex-basis: auto;
+}
+
+.shrink-1 {
+    flex-grow: 3;
+	flex-shrink: 1;
+}
+
+.shrink-2 {
+    flex-grow: 2;
+	flex-shrink: 2;
+}
+
+.shrink-3 {
+    flex-grow: 1;
+	flex-shrink: 3;
+}
+
+.order-1 {
+	order: 1;
+}
+
+.order-2 {
+	order: 2;
+}
+
+.order-3 {
+	order: 3;
+}
+
+.order-4 {
+	order: 4;
+}
+
+.order-5 {
+    order: 5;
+}
+
+#a-self .text:first-child {
+	padding-top: 20px;
+}
+
+.flex-start {
+    align-self: flex-start;
+}
+
+.flex-end {
+    align-self: flex-end;
+}
+
+.center {
+    align-self: center;
+}
+
+.stretch {
+    align-self: stretch;
+}
+
+.baseline {
+    align-self: baseline;
+}
+
+#footer{ 
+    position: absolute;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    height: 50px;
+    padding: 0;
+    margin-top: 25px;
+}
+
+.footer-container {
+    padding-top: 5px;
+    background: greenyellow;
+    color: black;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-container:hover{
+    transform: scale(1.3);
+    transition-duration: 0.3s;
+}

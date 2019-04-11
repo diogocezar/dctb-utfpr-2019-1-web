@@ -1,0 +1,234 @@
+
+#logo{
+    
+	position: absolute;
+	height:650px;
+    width: 1330px;
+    border: none;
+}
+
+#text{
+    position: absolute;
+    font-size: 80px;
+    left: 150px;
+    top: 260px;
+    color: white;
+}
+
+#text1{
+    position: absolute;
+    font-size: 40px;
+    font-style: italic;
+    left: 500px;
+    top: 240px;
+    color: white;
+}
+
+#bt {
+    position: absolute;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    text-shadow: 1px 1px 3px #666666;
+    font-family: Courier New;
+    color: black;
+    font-size: 13px;
+    background: white;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    left: 540px;
+    top: 450px;
+  }
+  
+  .butn:hover {
+    position: absolute;
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+#photo{
+	position: relative;
+	height:150px;
+  width: 170px;
+  border-radius: 40px;
+  -moz-border-radius: 28;
+  -webkit-border-radius: 28;
+  border:4px solid#FFFAFA;
+  left: 55px;
+  top: 30px;
+}
+
+#page{
+  width:900px;
+  height:500px;
+  background-color: white;
+}
+
+#title{
+  position: absolute;
+  font-size: 40px;
+  left: 750px;
+  top:-15px;
+  color: darkslategray;
+}
+
+  #col-left{
+    width:300px;
+    height:650px;
+    float:left;
+    background-color: grey;
+    left: 0px;
+    }
+  
+   #col1{
+     position: absolute;
+     width: 300px;
+    left:400px;
+    font-size: 25px;
+    top: 50px;
+    color: grey;
+   }
+
+   #line1{
+    position: absolute;
+    width: 1200px;
+    left:400px;
+    font-size: 15px;
+    top: 100px;
+    color:grey;
+  }
+
+   #col2{
+    position: absolute;
+    width: 300px;
+    left:400px;
+    font-size: 25px;
+    top: 180px;
+    color:grey;
+  }
+
+  #line2{
+    position: absolute;
+    width: 1200px;
+    left:400px;
+    font-size: 15px;
+    top: 230px;
+    color:grey;
+  }
+
+  #col3{
+    position: absolute;
+    width: 300px;
+    left:400px;
+    font-size: 25px;
+    top: 390px;
+    color:grey;
+  }
+
+
+  #line3{
+    position: absolute;
+    width: 1200px;
+    left:410px;
+    font-size: 15px;
+    top: 440px;
+    color:grey;
+  }
+
+  #col4{
+    position: absolute;
+    width: 300px;
+    left:60px;
+    font-size: 25px;
+    top: 520px;
+    color: white;
+  }
+ 
+  #line4{
+    position: absolute;
+    width: 1200px;
+    left:60px;
+    font-size: 15px;
+    top: 560px;
+    color:grey;
+  }
+
+   #name{
+    position: absolute;
+    font-size: 20px;
+    left: 25px;
+    top: 210px;
+    color: white;
+    font-weight: 900
+   }
+  
+   #phone{
+    position: absolute;
+    font-size: 20px;
+    left: 65px;
+    top: 255px;
+    color: white;
+    font-weight: 900
+   }
+
+   #address{
+    position: absolute;
+    font-size: 20px;
+    left: 20px;
+    top: 295px;
+    color: white;
+    font-weight: 900
+   }
+
+   #email{
+    position: absolute;
+    font-size: 20px;
+    left: 20px;
+    top: 370px;
+    color: white;
+    font-weight: 900
+   }
+
+   #schedules{
+    position: absolute;
+    font-size: 20px;
+    left: 110px;
+    top: 470px;
+    color: white;
+    font-weight: 900
+   }
+
+   #face{
+    position: relative;
+    height:50px;
+    width: 50x;
+    left: 25 px;
+    top: -30px;
+   }
+   #insta{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    left: 15px;
+    top: -30px;
+   }
+   #linkedin{
+    position: relative;
+    height:50px;
+    width: 50px;
+    left: 25px;
+    top: -30px;
+   }
+
+  
+   table{  
+    text-align: center;
+   
+    }
+    
+   

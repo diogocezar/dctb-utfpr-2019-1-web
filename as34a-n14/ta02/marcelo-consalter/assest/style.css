@@ -1,0 +1,40 @@
+
+h1{
+    text-align: center
+    
+}
+
+body{
+    background-image: url(./background);
+    background-attachment: fixed;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.conteiner_row{
+    display: block;
+        max-width: 250;
+        margin: 5px 5px;
+        border: 3px solid red;
+        flex-flow: nowrap;  
+        align-items: flex-end ;
+        background-color: aquamarine;
+        
+}
+
+.grid{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    /*align-content: space-between; ?*/
+    
+}
+.seg{
+    display: flexbox;
+    align-self: flex-end;
+    flex-wrap: wrap;
+
+}
+
+
