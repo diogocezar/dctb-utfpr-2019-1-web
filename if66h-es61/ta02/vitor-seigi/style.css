@@ -1,0 +1,155 @@
+﻿.flex {
+	display: flex;
+}
+
+.flexWrap {
+	flex-wrap: wrap;
+}
+
+.flexWrapReverse {
+	flex-wrap: wrap-reverse;
+}
+
+.spaceAround {
+	justify-content: space-around;
+}
+
+.justifyCenter {
+	justify-content: center;
+}
+
+.justifyEnd {
+	justify-content: flex-end;
+}
+
+.column {
+	flex-direction: column;
+}
+
+.row {
+	flex-direction: row;
+}
+
+.flexStart {
+	align-items: flex-start;
+}
+
+.alignItemsCenter {
+	align-items: center;
+}
+
+.rowWrap {
+	flex-flow: row wrap;
+}
+
+.alignContentCenter {
+	align-content: center;
+}
+
+.flexGrow1 {
+	flex-grow: 1;
+}
+
+.flexGrow2 {
+	flex-grow: 2;
+}
+
+.flexGrow3 {
+	flex-grow: 3;
+}
+
+.flexShrink1; {
+	flex-shrink: 1;
+}
+
+.flexShrink2 {
+	flex-shrink: 2;
+}
+
+.flexShrink3 {
+	flex-shrink: 3;
+}
+
+.order1 {
+	order: 1;
+}
+
+.order2 {
+	order: 2;
+}
+
+.order3 {
+	order: 3;
+}
+
+.order4 {
+	order: 4;
+}
+
+.order5 {
+	order: 5;
+}
+
+.alignSelfStart {
+	align-self: flex-start;
+}
+
+.alignSelfEnd {
+	align-self: flex-end;
+}
+
+.container2{
+    margin: 5px;
+	height: 900px;
+	background: MistyRose;
+	border: 1px solid black;
+}
+
+.flexBasis {
+	flex-basis: 350px;
+}
+
+.flexBasis2 {
+	text-align: center;
+	flex-basis: 250px;
+}
+
+.pic1 {
+	margin: 0 auto;	
+	border: 1px solid #330026
+}
+
+.container {
+	margin: 5px;
+	background: MistyRose;
+	border: 1px solid black;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	margin: 5px;
+	width: 100px;
+	height: 50px;
+	background: Pink;
+	border: 1px solid black;
+}
+
+.flex1 {
+	flex: 1;
+}
+
+h1 {	
+	background: LightPink;
+}
+
+h2 {
+	background: LightPink;
+}
+
+body
+{
+	background-color: Pink;
+}
