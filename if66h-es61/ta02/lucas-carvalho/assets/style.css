@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+:root {
+    font size 10px;
+    font-family: 'Raleway', sans-serif;
+    background: gray;
+}
+
+ 
+h1 {
+    text-align: start;
+    margin: 20px 0 0 0;
+    font-size: 300%;
+    font-weight: normal;
+    color: deeppink;
+}
+
+.h2 {
+    text-align: start:
+    margin: 20px 0 0 0;
+    font-size : 200%;
+    font-weight: normal;
+    color: purple;
+}
+
+.introduction{
+    display: flex;
+    margin: 20px 100px 0 50px;
+    font size: 110%;
+    font-weight: normal;
+    color: black;
+}
+
+.visao{
+    display: flex;
+    margin: 20px 100px 0 50px;
+    font size: 110%;
+    font-weight: normal;
+    color: black;
+}
+
+.industria{
+    display: flex;
+    margin: 20px 100px 0 50px;
+    font size: 110%;
+    font-weight: normal;
+    color: black;
+}
+
+.container {
+
+    margin 0 auto;
+    border: 0.1px solid #ccc;
+    background: black;
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-between;
+    order -5;
+}
+
+.item {
+    margin: 15px;
+    background: pink;
+    text-align: center;
+    font-size: 100%;
+    flex-grow: 1;
+}
+
+.menu {
+    margin: 15px;   
+    background: pink;
+    text-align: center;
+    font-size: 100%;
+    flex-grow: 2;
+}
+
+.imagens {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+}
+
+.imagem{
+    margin: 30px;
+    text-align: start;
+    order: 2;
+}
+
+.img{
+    margin: 30px;
+    text-align: start;
+    order: 1;
+}
+
