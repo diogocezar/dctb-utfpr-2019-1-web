@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TA02</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+
+    <!-- Menu bar usando flex-direction, flex-wrap,  justify-content, flex-grow e align-items-->
+    <header id="menubar">
+        <ul>
+            <li><a href="#" >Teste item menu</a></li>
+            <li><a href="#" >Teste2 item menu</a></li>
+            <li><a href="#" >Teste3 item menu</a></li>
+        </ul>
+    </header>
+
+    <!-- Paragrafos usando flex-flow para não ter salto de linhas, e sim reajuste do conteudo nas caixas-->
+    <section id="flex-flow" class="tittles">
+        <h1>Paragrafos que não pulam linha</h1>
+        <div>
+            <p class="text order3">Testando o flex flow</p>
+            <p class="text order 1">Testando o flex flow 2</p>
+            <p class="text order 2">Testando o flex flow 3</p>
+        </div>
+    </section>
+
+    <!-- Paragrafos usando align-content para melhor estruturar o conteudo-->
+    <section id="align-content" class="tittles container"> 
+        <h1>Align-Content para ajuste de paragrafos</h1>
+        <div>
+            <p class="text">Testando o align-content</p>
+            <p class="text">Testando o align-content</p>
+            <p class="text">Testando o align-content</p>
+            <p class="text">Testando o align-content</p>
+            <p class="text">Testando o align-content</p>
+            <p class="text">Testando o align-content</p>
+            <p class="text">Testando o align-content</p>
+        </div>
+    </section>
+
+    <h1>Flex-basis</h1>
+    <section id="flex-basis" class="container">
+        <p class="item">Testando</p>
+        <p class="item">Testando com maior texto</p>
+        <p class="item basis_grow">Item 3 para testar como ele fica</p>
+        <p class="item">Testando</p>
+        <p class="item">Testando melhor com seu conteudo maior que os demais </p>
+    </section>
+
+    <!-- Galeria de fotos usando flex-shrink-->
+    <h1>Flex-Shrink</h1>
+    <section id="photos-galery" class="container">
+        <img class="img" src="./assets/img/significado-pequenas-coisas.jpg" alt="Imagem Exemplo">
+        <img class="img" src="./assets/img/casal-ou-caveira.jpg" alt="Imagem Exemplo">
+        <img class="img" src="./assets/img/icone-segmento-pequenas-epresas2.jpg" alt="Imagem Exemplo">
+    </section>
+    
+    <section class="tittles container">
+        <h1>Align-self Em paragrafos</h1>
+        <div>
+            <p class="text self-start">Introdução em negrito:</p>
+            <p class="text self-center">Explicação 1</p>
+            <p class="text self-center">Explicação 2</p>
+        </div>
+    </section>
+</body>
+
+</html>
