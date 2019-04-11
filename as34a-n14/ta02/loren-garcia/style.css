@@ -1,0 +1,195 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2vw;
+}
+
+#banner {
+    height: 50vh;
+    width: 100vw;
+    background-image: url("assets/banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#menu {    
+    height: 10vh;
+    width: 100vw;
+    background-color: rgb(55, 181, 204);   
+    /*Display*/
+    display: flex; 
+    /*Align-Items*/
+    align-items: center;
+    /*Justify-Content*/
+    justify-content: space-evenly;
+    /*Flex-Direction*/ 
+    flex-direction: row;
+}
+
+a {
+    color: white;
+}
+
+
+#menu a:hover {
+    color: rgb(255, 93, 0);
+}
+
+.dropdown-menu {
+    display: none;
+    width: 20vw;
+    background-color: rgb(55, 181, 204);   
+    align-items: center;
+    position: absolute;
+    padding-top: 2%;
+    margin-left: -6%;
+}
+
+.dropdown-menu li {
+    height: 10vh;
+    text-align: center;
+}
+
+#menu li:hover ul, #menu li.over ul {
+    display: block;
+} 
+
+.dropdown-submenu li{
+    display: none;
+}
+
+h1 {
+    color: rgb(55, 181, 204);
+    text-align: center;
+    font-size: 2em;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+#gallery-container {
+    display: flex;
+    width: 80vw;
+    margin-left: 14vw;
+    /*Flex-Wrap*/
+    flex-wrap: wrap;
+    margin-bottom: 40vh;   
+    transition: 1s all ease;
+}
+
+#gallery-container a img {    
+    height: 30vh; 
+}
+
+#gallery-container a {
+    padding: 0.5vw;
+}
+
+#gallery-container img:hover {
+    transform: scale(1.5, 1.5);
+     
+}
+
+#wallpaper {
+    
+}
+
+#wallpaper h1 {
+    margin-bottom: 15%;
+    margin-top: -20%;
+}
+
+#wallpaper-images {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: flex;
+    height:30vh;
+    width: 100vw;
+    /*Flex-Flow*/
+    flex-flow: row wrap;
+    align-items: center;
+    /*Align-Content*/
+    align-content: center;
+}
+
+#wallpaper-images img {
+    height: 40vh;
+    width: 25vw;
+    padding: 0.2%;
+}
+
+.grow01 {
+    /*Flex-Grow*/
+    flex-grow: 1;
+}
+
+.grow02 {
+    flex-grow: 3;
+}
+
+/*Order*/
+.order01 { order: 1 }
+
+.order02 { order: 2 }
+
+.order03 { order: 3 }
+
+.order03 { order: 4 }
+
+.order03 { order: 5 }
+
+.order03 { order: 6 }
+
+#community {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#community h1 {
+    margin-top: 35%;
+}
+
+#community-users {   
+    border: 2px solid rgb(255, 93, 0);
+    width: 25vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    justify-content: center;
+}
+
+#community-users div {
+    text-align: center;
+    padding: 1%;
+    flex-basis: 15vh;
+}
+
+.shrink img {
+    width: 80px;
+}
+
+.shrink {
+    /*Flex-Shrink*/
+    flex-shrink: 1;
+    
+}
+
+.shrink:nth-child(2), .shrink:nth-child(4) {
+    flex-shrink: 4;
+}
+
+footer {
+    height: 200px;
+    width: 100vw;
+    margin-top: 20%;
+    background-image: url("assets/footer.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

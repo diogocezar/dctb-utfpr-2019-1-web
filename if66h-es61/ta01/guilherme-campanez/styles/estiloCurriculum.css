@@ -1,0 +1,18 @@
+th{
+    font-weight: bold;
+}
+
+table {
+    text-align: center;
+    width: 80%;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+div{
+    text-align: center;
+}
+
+.class_time{
+    font-weight: bold;
+}

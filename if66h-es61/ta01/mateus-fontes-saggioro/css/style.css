@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    width: 960px;
+    margin: auto;
+}
+
+header {
+    background-color: rgb(214, 214, 214);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.photo{
+    margin-right: 25px;
+}
+
+.photo img{
+    border-radius: 50%;
+    width: 120px;
+}
+
+table{
+    text-align: center;
+    position: center;
+    margin: auto;
+}

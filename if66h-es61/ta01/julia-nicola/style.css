@@ -1,0 +1,70 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	padding: 10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: black;
+}
+
+a:hover{
+	color: gray;
+}
+
+h1 {
+	text-align: center;
+}
+
+table {
+	border: 2px solid ;
+	border-collapse: collapse;
+}
+
+td, th {
+	border: 1px solid;	
+	text-align: center;
+	padding: 5px;
+}
+
+th {
+	background-color: #efefef;
+}
+
+.container {
+	border-radius: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	background-color: #d6d6d6;
+}
+
+#menu {
+	border-radius: 10px;
+	padding: 5px;
+	background-color: #ededed;
+
+}
+
+#menu #pic{
+	text-align: center;
+}
+
+
+footer {
+	position: relative;
+	float:left;
+	width: 100%;
+	padding-bottom: 50px;
+}
+
+#pic {
+	max-width:500px;
+    max-height: 350px;
+    width: auto;
+    height: auto;
+	border-radius: 170px;
+	float: center;
+}
