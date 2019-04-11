@@ -1,0 +1,166 @@
+body{
+    background: #922F2F;
+}
+.wrapper{
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+nav{
+    background: #333;
+
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav a{
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    display: block;
+    padding: 10px;
+}
+
+nav a:hover{
+    background-color: #C84242;
+
+}
+
+@media screen and (min-width: 768px){
+    nav ul{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    nav li{
+        flex: 1 1 1;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.frase{
+    flex: 1;
+    margin: 5px;
+    background: tomato;
+    text-align: center;
+    
+ 
+}
+h1{
+    text-align: center;
+	margin: 20px 0 0 0;
+	font-size: 1.25em;
+    font-weight: normal;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+}
+
+.box{
+
+    min-width: 100px;
+    height: 100px;  
+    text-align: center; 
+
+}
+
+.one{
+    background: #5959B8;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.two{
+    background: red;
+    flex-direction: column;
+    flex-grow: 2;
+	flex-basis: 0;
+}
+.three{
+    background: yellow;
+    flex-direction: column;
+    flex-shrink: 3;
+}
+.photo{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-around;
+    height: 1000px;
+    
+}
+
+.photo1{
+    order: 2;
+    align-self: flex-end;
+}
+
+.photo1 img{
+    width: 300px;
+    margin: 10px;
+
+}
+
+.photo2{
+    order: 1;
+    align-self: center;
+}
+
+.photo2 img{
+    width: 300px;
+    margin: 10px;
+}
+
+.photo3{
+    order: 3;
+}
+
+.photo3 img{
+    width: 300px;
+    margin: 10px;
+}
+.photo4{
+    order: 4;
+}
+.photo4 img{
+    width: 300px;
+    margin: 10px;
+}
+
+.photo5{
+    order: 5;
+}
+.photo5 img{
+    width: 300px;
+    margin: 10px;
+}
+
+.photo6{
+    order: 6;
+}
+.photo6 img{
+    width: 300px;
+    margin: 10px;
+}
+
+.security {
+    align-items: flex-end;
+    background: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+    
