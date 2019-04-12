@@ -39,15 +39,15 @@
 
 
     <nav>
-        <a href="home"><img src="assets/img/geovanna-logo-nav.svg" alt="Geovanna Garcia"></a>
-        <a href="presentation">Apresentação</a>
-        <a href="about">Sobre</a>
-        <a href="services">Serviços</a>
-        <a href="testimony">Depoimento</a>
-        <a href="contact">Contato</a>
+        <a href="#home"><img src="assets/img/geovanna-logo-nav.svg" alt="Geovanna Garcia"></a>
+        <a href="#presentation">Apresentação</a>
+        <a href="#about">Sobre</a>
+        <a href="#services">Serviços</a>
+        <a href="#testimony">Depoimento</a>
+        <a href="#contact">Contato</a>
     </nav>
     <!-- Home -->
-    <section id="home" class="flex column align-item-center justify-content-center">
+    <section id="home" class="flex column align-item-center justify-content-center text-light">
         <h1>O grande momento está chegando?</h1>
         <h2>Vocês vão se casar? Não se preocupe!</h2>
 
@@ -61,8 +61,9 @@
         <h2>Preparamos uma apresentação</h2>
         <h2>especial para vocês!</h2>
         <img src="assets/img/geovanna-icon-presentation.svg" alt="Imagem de um cardápio decorado com corações">
-        <p>conheça detalhadamente os nossos serviços</p>
-        <button type="button">Baixar a Apresentação</button>
+        <p class="montserrat">conheça detalhadamente os nossos serviços</p>
+
+        <button type="button"><a href="">Baixar a Apresentação</a></button>
     </section>
     <!-- Sobre -->
     <section id="about" class="flex column">
@@ -88,13 +89,57 @@
         </p>
     </section>
     <!-- Serviços -->
-    <section id="services">
-        <h3>Tipos de Serviços</h3>
+    <section id="services" class="flex column align-item-center justify-content-center">
+        <h2>Tipos de Serviços</h2>
+        <img src="" alt="">
+        <div>
+            <div class="flex row">
+                <h3>Assesoria Completa</h3>
+                <p>Nessa modalidade, iniciamos com a consultoria e seguimos acompanhando o casal durante todo o
+                    processo: elaboração do layout, estilo do casamento, busca por fornecedores, visitas técnicas,
+                    contratações e organização de planilhas para o controle de orçamento.</p>
+            </div>
+            <div>
+                <h3>Assessoria Intermediária</h3>
+                <p>Essa modalidade é para o casal que já contratou alguns serviços, porém, encontraram dificuldades em
+                    organizar o casamento no meio do processo. Teremos reuniões em que os noivos nos contam como será o
+                    grande dia, e então preparamos todo o suporte daqui pra frente.</p>
+            </div>
+        </div>
+        <button type="button"><a href="">Baixar a Apresentação</a></button>
     </section>
     <!-- Depoimento -->
-    <section id="testimony"></section>
+    <section id="testimony" class="flex column align-item-center justify-content-center">
+        <h2>Depoimentos</h2>
+        <img src="" alt="">
+        <p>Aqui estão os depoimentos de</p>
+        <p>alguns casais que contrataram os</p>
+        <p>nossos serviços</p>
+        <!-- Depoimento 1 -->
+        <p>
+            Queremos te agradecer por todo seu empenho, vocês foram simplesmente incríveis, obrigada por todo carinho e
+            atenção em cada detalhe escolhido. Foi muito mais fácil lidar com tudo de longe, tendo vocês ao nosso lado,
+            confiamos de olhos fechados e o resultado foi maravilhoso! Somos eternamente gratos por tudo.
+        </p>
+        <hr>
+        <img src="assets/img/geovanna-casal-01.png" alt="Casal Lais e Marcos">
+        <p>Lais e Marcos</p>
+        <p>04/11/2018</p>
+        <!-- Depoimento 2 -->
+        <p>
+            Você e sua equipe foram muito importante nesse momento. Agradecemos muito por tudo que fez, quero te levar
+            para sempre em nossas vidas. Você foi perfeita em tudo exatamente tudo. Cuidou de cada detalhe com muito
+            cuidado, carinho, amor e atenção. Uma profissional admirável e de exemplo.
+        </p>
+        <hr>
+        <img src="assets/img/geovanna-casal-02.png" alt="Casal Lirian e Eduardo">
+        <p>Lirian e Eduardo</p>
+        <p>13/05/2017</p>
+
+        <p></p>
+    </section>
     <!-- Contato -->
-    <section id="contact">
+    <section id="contact" class="flex column align-item-center justify-content-center">
         <h2>Entrem em contato</h2>
         <p>Será um prazer</p>
         <p>Conversar com vocês!</p>

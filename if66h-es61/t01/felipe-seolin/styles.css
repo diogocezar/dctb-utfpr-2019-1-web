@@ -1,13 +1,19 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:200,300");
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 @font-face {
-    font-family: "TrajanPro-Regular";
-    src: url("/assets/fonts/TrajanPro-Regular.eot?") format("eot"), url("/assets/fonts/TrajanPro-Regular.woff") format("woff"), url("/assets/fonts/TrajanPro-Regular.ttf") format("truetype");
+    font-family: "TrajanPro";
+    font-weight: normal;
+    src: url("/assets/fonts/TrajanPro-Regular.eot") format("eot"), 
+    url("/assets/fonts/TrajanPro-Regular.woff") format("woff"), 
+    url("/assets/fonts/TrajanPro-Regular.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: "AfterMidnite";
-    src: url("/assets/fonts/AfterMidnite.eot?") format("eot"), url("/assets/fonts/AfterMidnite.woff") format("woff"), url("/assets/fonts/AfterMidnite.ttf") format("truetype");
+    font-family: AfterMidnite;
+    font-weight: normal;
+    src: url("/assets/fonts/AfterMidnite.eot") format("eot"), 
+    url("/assets/fonts/AfterMidnite.woff") format("woff"), 
+    url("/assets/fonts/AfterMidnite.ttf") format("truetype");
 }
 
 
@@ -22,7 +28,11 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: TrajanPro, serif;
+} 
+
+a {
+    text-decoration: none;
 }
 
 nav {
@@ -49,34 +59,44 @@ nav a {
     margin-left: 1em;
     margin-right: 1em;
     padding-top: 19px;
-    font-family: 'TrajanPro-Regular, serif';
+    font-family: 'TrajanPro-Regular', serif !important;
 }
 
-#home {
-    background-image: linear-gradient(rgba(34, 34, 59, 0.84), rgba(34, 34, 59, 0.98)), url('assets/img/geovanna-bg-home.jpg');
-    font-family: 'AfterMidnite, sans-serif';
-    font-weight: normal;
-    font-style: normal;
-    margin-top: 70px;
-    height: 100vh;
+button {
+    border: 1px solid #f2e9e4;
+    border-radius: 40px;
+    background-color: #f2e9e4;
+    color: transparent;
+    padding: 15px;
+    transition: all .3s ease-in-out 0s;
+    width: 260px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 1rem;
 }
 
-.flex {
-    display: flex;
+button:hover {
+    background-color: transparent;
+}
+/* General */
+.text-white {
+    color: white;
 }
 
-.column {
-    flex-direction: column;
+.text-light {
+    color: #F2E9E4;
 }
 
-.align-item-center {
-    align-items: center;
+.text-dark {
+    color: #22223B;
 }
 
-.justify-content-center {
-    justify-content: center;
+/* Fonts */
+.montserrat {
+    font-family: Montserrat, sans-serif;
 }
 
+/* Section Presentation */
 #presentation {
     background-image: linear-gradient(rgba(74, 74, 105, 0.8), rgba(74, 74, 105, 0.8)),
         url("/assets/img/geovanna-bg-presentation.jpg");
@@ -89,10 +109,40 @@ nav a {
     height: 80px;
 }
 
+/* Section Home */
+#home {
+    background-image: linear-gradient(rgba(34, 34, 59, 0.84), rgba(34, 34, 59, 0.98)), url('assets/img/geovanna-bg-home.jpg');
+    font-family: 'AfterMidnite', sans-serif  !important;
+    font-weight: normal;
+    font-style: normal;
+    margin-top: 70px;
+    height: 100vh;
+}
+
+#home h1 {
+    font-size: 6.5rem;
+}
+
+#home h2 {
+    font-size: 4rem;
+    margin-bottom: 4rem;
+}
+
+#home p {
+    font-family: TrajanPro, serif;
+}
+
+#home p div {
+    font-family: TrajanPro, serif !important;
+    color: #9A8C98;
+}
+
+/* Section About */
 #about {
     background-color: #F2E9E4;
 }
 
+/* Section Services */
 #services {
     background-image: linear-gradient(rgba(34, 34, 59, 0.8), rgba(34, 34, 59, 0.9)),
         url("/assets/img/geovanna-bg-services.jpg");
@@ -100,11 +150,34 @@ nav a {
 
 }
 
+/* Section Testimony */
 #testimony {
     background-color: #F2E9E4;
 }
 
+/* Section Contact */
 #contact {
     background-image: linear-gradient(rgba(34, 34, 59, 0.8), rgba(34, 34, 59, 0.9)), url("/assets/img/geovanna-bg-contact.jpg");
 
+}
+
+/* Styles for flexbox */
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.align-item-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
 }
