@@ -58,16 +58,18 @@ section {
 header .container {
     background-color: #22223b;
 }
+#control-nav {
+    display: none;
+}
 nav {
     background-color: #22223b;
-    padding: 20px 0;
     width: 100%;
     font-weight: 700;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     padding: 0;
 }
-nav .logo {
+.logo {
     display: flex;
     margin: 0;
     padding: 0;
@@ -81,9 +83,6 @@ nav .menu {
     font-family: 'TrajanPro';
     font-weight: 100;
     font-size: 1.2rem;
-}
-nav .menu li a:hover {
-    border-bottom: 2px solid #f2e9e4;
 }
 nav ul li {
     list-style: none;
@@ -370,10 +369,103 @@ nav ul li a {
     width: 35px;
 }
 @media(max-width:992px) {
+    :root {
+        font-size: 13px;
+    }
+    #services .btn {
+        width: 30%;
+    }
+    header .container {
+        padding: 0;
+    }
+    nav .menu {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    nav ul li {
+        padding: 15px 0px;
+    }
+    header .control-nav {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        display: block;
+        width: 30px;
+        padding: 5px 0;
+        border: solid #f2e9e4;
+        border-width: 3px 0;
+        z-index: 2;
+        cursor: pointer;
+    }
+    header .control-nav:before {
+        content: "";
+        display: block;
+        height: 3px;
+        background: #333;
+    }
     
+    header .control-nav-close {
+        position: fixed;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        display: block;
+        z-index: 1;
+        background: rgba(0,0,0,0.4);
+        -webkit-transition: all 500ms ease;
+        transition: all 500ms ease;
+        -webkit-transform: translate(100%, 0);
+        -ms-transform: translate(100%, 0);
+        transform: translate(100%, 0);
+    }    
+    header nav {
+        position: fixed;
+        top: 70px;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        border-left: 1px solid #ccc;
+        background: #22223b;
+        overflow-x: auto;
+        z-index: 2;
+        -webkit-transition: all 500ms ease;
+        transition: all 500ms ease;
+        -webkit-transform: translate(100%, 0);
+        -ms-transform: translate(100%, 0);
+        transform: translate(100%, 0);
+    }
+    #control-nav:checked ~ .control-nav-close {
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }      
+    #control-nav:checked ~ nav {
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
 }
 @media(max-width:768px) {
-    
+    :root {
+        font-size: 10px;
+    }
+    #about .container {
+        text-align: center;
+    }
+    #about img {
+        margin: 0 auto;
+    }
+    #services .content {
+        width: 100%;
+    }
+    #services .content p {
+        margin-bottom: 20px;
+    }
+    #services .btn {
+        width: 60%;
+    }
 }
 @media(max-width:576px) {
     
