@@ -1,0 +1,78 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    text-transform: lowercase;
+    background-color: #f2e9e4;
+}
+.container {
+    display: flex;
+    padding: 0px 100px;
+}
+section {
+    height: 100vh;
+}
+header .container {
+    background-color: #22223b;
+}
+nav {
+    background-color: #22223b;
+    padding: 20px 0;
+    width: 100%;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+nav .logo {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.logo img {
+    width: 300px;
+}
+nav .menu {
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+#home {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: linear-gradient(rgba(34,34,59,.84),rgba(34,34,59,.98)),url(../img/bg-home.jpg);
+}
+#call-action {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: linear-gradient(rgba(74,74,105,.8),rgba(74,74,105,.8)),url(../img/bg-presentation.jpg);
+    background-position: 50%;
+}
+#about .container {
+    display: flex;
+    flex-direction: column;
+}
+#about img {
+    width: 100px;
+}
+#contact {
+    background: linear-gradient(rgba(34,34,59,.8),rgba(34,34,59,.9)),url(../img/bg-contact.jpg);
+}
+@media(max-width:1200px) {
+    #about .container {
+        flex-direction: column;
+    }
+}
