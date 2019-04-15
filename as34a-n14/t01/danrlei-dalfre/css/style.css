@@ -1,0 +1,472 @@
+@font-face {
+    font-family: 'TrajanPro';
+    src: url('../font/TrajanPro-Regular.ttf')
+}
+@font-face {
+    font-family: 'AfterMidnite';
+    src: url('../font/AfterMidnite.ttf')
+}
+:root {
+    font-size: 15px;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f2e9e4;
+}
+.container {
+    display: flex;
+    padding: 0px 100px;
+}
+section {
+    height: 100vh;
+}
+.btn {
+    text-decoration: none;
+    color: #22223b;
+    background-color: #f2e9e4;
+    margin: 0 auto;
+    padding: 20px 50px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    transition: all .3s;
+}
+.btn:hover {
+    background-color: transparent;
+    color: #f2e9e4;
+    border: 1px solid #f2e9e4;
+}
+.btn-outline {
+    text-decoration: none;
+    color: #f2e9e4;
+    border: 1px solid #f2e9e4;
+    margin: 0 auto;
+    padding: 20px 50px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    transition: all .3s;
+}
+.btn-outline:hover {
+    background-color: #f2e9e4;
+    color: #22223b;
+}
+header .container {
+    background-color: #22223b;
+}
+#control-nav {
+    display: none;
+}
+nav {
+    background-color: #22223b;
+    width: 100%;
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+}
+.logo {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.logo img {
+    width: 300px;
+}
+nav .menu {
+    display: flex;
+    align-items: center;
+    font-family: 'TrajanPro';
+    font-weight: 100;
+    font-size: 1.2rem;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+#home {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    text-align: center;
+    background: linear-gradient(rgba(34,34,59,.84),rgba(34,34,59,.98)),url(../img/bg-home.jpg);
+}
+#home h1 {
+    font-family: 'AfterMidnite';
+    color: #f2e9e4;
+    font-size: 6rem;
+    font-weight: 100;
+    line-height: 84px;
+    margin: 80px 0px 0px 0px;
+}
+#home h1 span {
+    font-size: 4rem;
+}
+#home h2 {
+    font-family: 'TrajanPro';
+    font-weight: 100;
+    color: #f2e9e4;
+    line-height: 35px;
+}
+#home h2 span {
+    color: #9a8c98;
+}
+#home .btn-outline {
+    margin-top: 30px;
+}
+#call-action {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    background: linear-gradient(rgba(74,74,105,.8),rgba(74,74,105,.8)),url(../img/bg-presentation.jpg);
+    background-position: 50%;
+}
+#call-action h2 {
+    text-align: center;
+    font-family: 'TrajanPro';
+    color: #f2e9e4;
+    font-weight: 100;
+    font-size: 2rem;
+    margin-top: 120px;
+}
+#call-action img {
+    width: 60px;
+    margin: 0 auto;
+}
+#call-action h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 1rem;
+    color: #f2e9e4;
+    margin: 50px 0;
+    text-align: center;
+}
+#about {
+    height: 100%;
+    margin-bottom: 100px;
+}
+#about .container {
+    display: flex;
+    flex-direction: column;
+}
+#about h2:first-child {
+    font-family: 'AfterMidnite';
+    font-weight: 100;
+    font-size: 5rem;
+    margin: 30px 0 0 0;
+    color: #22223b;
+}
+#about h3 {
+    font-family: 'TrajanPro';
+    font-weight: 100;
+    color: #9a8c98;
+}
+#about p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: #22223b;
+    line-height: 30px;
+}
+#about img {
+    margin: 40px 0
+}
+#about h2 {
+    font-family: 'TrajanPro';
+    font-weight: 100;
+    color: #9a8c98;
+}
+#about img {
+    width: 100px;
+}
+#services {
+    background: linear-gradient(rgba(34,34,59,.84),rgba(34,34,59,.98)),url(../img/bg-services.jpg);
+    height: 100%;
+    padding-bottom: 80px;
+}
+#services .container {
+    display: block;
+}
+#services h2 {
+    font-family: 'TrajanPro';
+    font-weight: 100;
+    color: #f2e9e4;
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 80px;
+}
+#services img {
+    width: 80px;
+    margin: 0 auto;
+    display: flex;
+}
+#services .item-1 {
+    float: left;
+}
+#services .item-2 {
+    float: right;
+}
+#services .content {
+    width: 50%;
+    text-align: center;
+}
+#services .content h3 {
+    font-family: 'TrajanPro';
+    font-weight: 100;
+    color: #9a8c98;
+    font-size: 2rem;
+    line-height: 35px;
+}
+#services .content h3 span {
+    font-size: 3rem;
+}
+#services .content p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: #f2e9e4;
+    line-height: 25px;
+    font-size: 1.1rem;
+    margin-bottom: 80px;
+}
+#services .btn {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+}
+#depositions {
+    height: 100%;
+}
+#depositions .container {
+    display: block;    
+}
+#depositions h2 {
+    font-family: 'AfterMidnite';
+    font-weight: 100;
+    font-size: 5.5rem;
+    text-align: center;
+    color: #22223b;
+    margin-bottom: 0;
+}
+#depositions img {
+    width: 100px;
+    margin: 0 auto;
+    display: flex;
+}
+#depositions h3 {
+    font-family: 'TrajanPro';
+    font-weight: 100;
+    color: #9a8c98;
+    text-align: center;
+    font-size: 1.5rem;
+}
+#depositions .content p {
+    margin-top: 50px;
+    font-family: 'TrajanPro';
+    font-weight: 100;
+    color: #22223b;
+    text-align: center;
+}
+#depositions .content img {
+    border-top: 4px solid #9a8c98;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+#depositions .content h3 {
+    font-family: 'TrajanPro';
+    font-weight: 100;
+    color: #22223b;
+    margin-bottom: 10px;
+}
+#depositions .content small {
+    font-family: 'TrajanPro';
+    font-weight: 100;
+    color: #9a8c98;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    margin-bottom: 80px;
+}
+#contact {
+    background: linear-gradient(rgba(34,34,59,.8),rgba(34,34,59,.9)),url(../img/bg-contact.jpg);
+    height: 100%;
+    padding-bottom: 80px;
+}
+#contact .container {
+    display: block;
+}
+#contact h2 {
+    font-family: 'AfterMidnite';
+    font-weight: 100;
+    font-size: 6rem;
+    text-align: center;
+    color: #22223b;
+    margin-bottom: 0;
+    color: #f2e9e4;
+    padding-top: 50px;
+}
+#contact img {
+    width: 120px;
+    margin: 0 auto;
+    display: flex;
+}
+#contact h3 {
+    font-family: 'TrajanPro';
+    font-weight: 100;
+    color: #9a8c98;
+    text-align: center;
+    font-size: 1.5rem;
+}
+#contact .tel h3 {
+    margin: 80px 0 15px 0;
+}
+#contact .tel a {
+    text-decoration: none;
+    font-family: 'TrajanPro';
+    font-weight: 100;
+    color: #f2e9e4;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+#contact .tel h4 {
+    font-family: 'TrajanPro';
+    font-weight: 100;
+    color: #f2e9e4;
+    text-align: center;
+    margin-top: 10px;
+}
+#contact .net h3 {
+    margin-top: 50px;
+}
+#contact .net .email {
+    text-decoration: none;
+    font-family: 'TrajanPro';
+    font-weight: 100;
+    color: #f2e9e4;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+}
+#contact .net .social {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#contact .net .social a {
+    border: 2px solid #f2e9e4;
+    border-radius: 50%;
+    padding: 15px;
+    margin-left: 15px;
+}
+#contact .net .social img {
+    width: 35px;
+}
+@media(max-width:992px) {
+    :root {
+        font-size: 13px;
+    }
+    #services .btn {
+        width: 30%;
+    }
+    header .container {
+        padding: 0;
+    }
+    nav .menu {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    nav ul li {
+        padding: 15px 0px;
+    }
+    header .control-nav {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        display: block;
+        width: 30px;
+        padding: 5px 0;
+        border: solid #f2e9e4;
+        border-width: 3px 0;
+        z-index: 2;
+        cursor: pointer;
+    }
+    header .control-nav:before {
+        content: "";
+        display: block;
+        height: 3px;
+        background: #333;
+    }
+    
+    header .control-nav-close {
+        position: fixed;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        display: block;
+        z-index: 1;
+        background: rgba(0,0,0,0.4);
+        -webkit-transition: all 500ms ease;
+        transition: all 500ms ease;
+        -webkit-transform: translate(100%, 0);
+        -ms-transform: translate(100%, 0);
+        transform: translate(100%, 0);
+    }    
+    header nav {
+        position: fixed;
+        top: 70px;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        border-left: 1px solid #ccc;
+        background: #22223b;
+        overflow-x: auto;
+        z-index: 2;
+        -webkit-transition: all 500ms ease;
+        transition: all 500ms ease;
+        -webkit-transform: translate(100%, 0);
+        -ms-transform: translate(100%, 0);
+        transform: translate(100%, 0);
+    }
+    #control-nav:checked ~ .control-nav-close {
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }      
+    #control-nav:checked ~ nav {
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+}
+@media(max-width:768px) {
+    :root {
+        font-size: 10px;
+    }
+    #about .container {
+        text-align: center;
+    }
+    #about img {
+        margin: 0 auto;
+    }
+    #services .content {
+        width: 100%;
+    }
+    #services .content p {
+        margin-bottom: 20px;
+    }
+    #services .btn {
+        width: 60%;
+    }
+}
+@media(max-width:576px) {
+    
+}
