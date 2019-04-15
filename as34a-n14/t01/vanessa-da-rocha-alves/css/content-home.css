@@ -1,0 +1,67 @@
+.center-translate {
+  left: 50%;
+  position: relative;
+  -webkit-transform: translate(-50%, 0) !important;
+  -moz-transform: translate(-50%, 0) !important;
+  -ms-transform: translate(-50%, 0) !important;
+  transform: translate(-50%, 0) !important; }
+
+#content-home h2,
+#content-home h3 {
+  font-family: "AfterMidnite", sans-serif;
+  color: #F2E9E4;
+  text-align: center; 
+  
+
+
+  }
+
+
+#content-home h2 {
+  font-size: 6.5rem; }
+  @media only screen and (max-width: 1200px) {
+    #content-home h2 {
+      font-size: 5.5rem; } }
+  @media only screen and (max-width: 992px) {
+    #content-home h2 {
+      font-size: 5rem; } }
+  @media only screen and (max-width: 768px) {
+    #content-home h2 {
+      font-size: 4rem; } }
+  @media only screen and (max-width: 480px) {
+    #content-home h2 {
+      font-size: 3rem; } }
+  @media only screen and (max-width: 320px) {
+    #content-home h2 {
+      font-size: 2.5rem; } }
+
+#content-home h3 {
+  font-size: 4rem;
+  margin-bottom: 4rem; }
+  @media only screen and (max-width: 1200px) {
+    #content-home h3 {
+      font-size: 3.5rem; } }
+  @media only screen and (max-width: 992px) {
+    #content-home h3 {
+      font-size: 3rem; } }
+  @media only screen and (max-width: 768px) {
+    #content-home h3 {
+      font-size: 2rem;
+      margin-top: 2rem; } }
+  @media only screen and (max-width: 320px) {
+    #content-home h3 {
+      font-size: 1.5rem;
+      margin-top: 1.5rem; } }
+
+#content-home h4 {
+  font-family: "TrajanPro-Regular", serif;
+  color: #F2E9E4;
+  text-align: center; }
+  #content-home h4 .hl {
+    color: #9A8C98; }
+  @media only screen and (max-width: 768px) {
+    #content-home h4 {
+      font-size: 1.2rem; } }
+
+#content-home button {
+  margin-top: 4rem; }
