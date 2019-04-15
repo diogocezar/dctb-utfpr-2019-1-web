@@ -1,14 +1,17 @@
-import myDefault, { sum, sub as mySub } from "./functions";
-import * as func from "./functions";
+import { plotMyRepos } from "./functions";
+import axios from "axios";
 
-class Testing {
+class GitHubRepos {
   constructor() {
-    console.log(`Testing ${sum(10, 20)}`);
-    console.log(`Sub ${mySub(10, 5)}`);
-    console.log(`Testing ${func.sum(10, 20)}`);
-    console.log(`Sub ${func.sub(10, 5)}`);
-    myDefault();
+    axios
+      .get("https://api.github.com/users/diogocezar/repos")
+      .then(result => {
+        plotMyRepos(result.data);
+      })
+      .catch(error => {
+        console.log(error);
+      });
   }
 }
 
-new Testing();
+new GitHubRepos();
