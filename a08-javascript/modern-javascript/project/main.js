@@ -1,4 +1,6 @@
-// Classes
+/**
+ * CLASSES
+ */
 
 class TodoList {
   constructor() {
@@ -17,18 +19,21 @@ $button.addEventListener("click", () => {
   myList.addTodo();
 });
 
-// Const
+/**
+ * CONST
+ */
 
 const a = 10;
 // a = 20; Gera um erro!
 
 // Isso é multar um objeto em JS
-
 const user = { name: "Diogo" };
 user.name = "João";
 console.log(user);
 
-// Variáveis de Escopo
+/**
+ * VARIÁVEIS DE ESCOPO
+ */
 
 function teste(x) {
   // esta variável let só existe dentro deste escopo!
@@ -47,7 +52,9 @@ teste(10);
 // E por que não usar o var?
 // O var não possui os mesmos comportamentos, VAZA O ESCOPO! http://bit.ly/2IzP8ab
 
-// Operaçòes em Arrays
+/**
+ * OPERAÇÕES EM ARRAYS
+ */
 
 const arr = [1, 3, 4, 5, 8, 9];
 
@@ -79,7 +86,9 @@ const find = arr.find(function(item) {
 
 console.log(find);
 
-// Arrow Functions
+/**
+ * ARROW FUNCTIONS
+ */
 
 var soma = function soma(n1, n2) {
   return n1 + n2;
@@ -107,7 +116,9 @@ console.log(say("How"));
 var say = word => word;
 console.log(say("Let's Go"));
 
-// Valores Padrões
+/**
+ * VALORES PADRÕES
+ */
 
 function mySum(a, b) {
   return a + b;
@@ -126,7 +137,9 @@ console.log(mySum());
 
 // const mySum = (a = 3, b = 6) => a + b;
 
-// Desestruturação
+/**
+ * DESESTRUTURAÇÃO
+ */
 
 const newUser = {
   name: "Diogo",
@@ -169,7 +182,9 @@ function showName(newUser) {
 
 // Operadores Rest e Spread
 
-// REST
+/**
+ * REST OPERATOR
+ */
 
 const restUser = {
   restName: "Diogo",
@@ -200,8 +215,11 @@ sumRest(10, 20, 30, 50, 80);
 
 // const sumRest = (a, b, ...params) => return params;
 
-// SPREAD
-// Repassa as informaçòes de uma estrutura de dados para outra
+/**
+ * SPREAD OPERATOR
+ */
+
+// Repassa as informações de uma estrutura de dados para outra
 
 const arr1Spread = [1, 2, 3];
 const arr2Spread = [4, 5, 6];
@@ -221,3 +239,132 @@ const spreadUser = {
 const spreadNewUser = { ...spreadUser, spreadName: "José" };
 
 console.log(spreadNewUser);
+
+/**
+ * TEMPLATE LITERALS
+ */
+
+// Forma de incluir variávies em strings
+
+const sample = "Hello World";
+const type = "string";
+
+// Forma tradicional
+
+console.log(sample + " is " + type);
+
+// Template literals
+
+console.log(`${sample} is ${type}`);
+
+/**
+ * OBJECT SHORT SYNTAX
+ */
+
+// Quando o nome da variavel for o mesmo do seu valor não é necessário repetir
+
+const nameShort = "Diogo";
+const ageShort = 33;
+
+const objShort = {
+  nameShort,
+  ageShort,
+  companyShort: "UTFPR"
+};
+
+// É equivalente a:
+
+// const objShort = {
+//   nameShort: nameShort,
+//   ageShort: ageShort,
+//   companyShort: "UTFPR"
+// };
+
+/**
+ * PROMISSES
+ */
+
+// São promessas que não vão influenciar na linha do tempo do JS
+// Devolvem o valor depois de um tempo
+// O fluxo continua, e quando algo for executado... algo acontece.
+
+const myPromise = () => {
+  return new Promise((resolve, reject) => {
+    // resolve -> quando resultado foi sucesso
+    // reject -> quando não for sucesso
+    const allow = true;
+    setTimeout(() => {
+      if (allow) resolve("allowed");
+      else reject("not allowed");
+    }, 3000);
+  });
+};
+
+console.log(myPromise());
+myPromise()
+  .then(result => {
+    console.log(result);
+  })
+  .catch(error => {
+    console.log(error);
+  });
+
+/**
+ * AJAX - XHR - COM PROMISE
+ */
+
+const myRequest = () => {
+  return new Promise((resolve, reject) => {
+    const xhr = new XMLHttpRequest();
+    xhr.open("GET", "https://api.github.com/users/diogocezar");
+    xhr.send(null);
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState === 4) {
+        if (xhr.status === 200) {
+          resolve(JSON.parse(xhr.responseText));
+        } else {
+          reject("Erro na requisição");
+        }
+      }
+    };
+  });
+};
+
+myRequest()
+  .then(result => {
+    console.log(result);
+  })
+  .catch(error => {
+    console.log(error);
+  });
+
+/**
+ * AJAX - FETCH
+ */
+
+const myRequestFetch = () => {
+  fetch("https://api.github.com/users/diogocezar", {
+    method: "get"
+  })
+    .then(function(response) {
+      response.text().then(function(result) {
+        console.log(result);
+      });
+    })
+    .catch(function(err) {
+      console.error(err);
+    });
+};
+
+/**
+ * AJAX - AXIOS
+ */
+
+axios
+  .get("https://api.github.com/users/diogocezar")
+  .then(result => {
+    console.log(result);
+  })
+  .catch(error => {
+    console.log(error);
+  });

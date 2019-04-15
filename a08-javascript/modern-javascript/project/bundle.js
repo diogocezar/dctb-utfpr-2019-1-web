@@ -14,7 +14,9 @@ function _defineProperties(target, props) { for (var i = 0; i < props.length; i+
 
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
 
-// Classes
+/**
+ * CLASSES
+ */
 var TodoList =
 /*#__PURE__*/
 function () {
@@ -39,7 +41,10 @@ var myList = new TodoList();
 var $button = document.querySelector("#newTodo");
 $button.addEventListener("click", function () {
   myList.addTodo();
-}); // Const
+});
+/**
+ * CONST
+ */
 
 var a = 10; // a = 20; Gera um erro!
 // Isso é multar um objeto em JS
@@ -48,7 +53,10 @@ var user = {
   name: "Diogo"
 };
 user.name = "João";
-console.log(user); // Variáveis de Escopo
+console.log(user);
+/**
+ * VARIÁVEIS DE ESCOPO
+ */
 
 function teste(x) {
   // esta variável let só existe dentro deste escopo!
@@ -65,7 +73,10 @@ function teste(x) {
 
 teste(10); // E por que não usar o var?
 // O var não possui os mesmos comportamentos, VAZA O ESCOPO! http://bit.ly/2IzP8ab
-// Operaçòes em Arrays
+
+/**
+ * OPERAÇÕES EM ARRAYS
+ */
 
 var arr = [1, 3, 4, 5, 8, 9]; // MAP -> percorrer o vetor e retornar uma nova informação
 
@@ -87,7 +98,10 @@ console.log(filter); // FIND -> verifica se existe alguma informação no array
 var find = arr.find(function (item) {
   return item === 4;
 });
-console.log(find); // Arrow Functions
+console.log(find);
+/**
+ * ARROW FUNCTIONS
+ */
 
 var soma = function soma(n1, n2) {
   return n1 + n2;
@@ -123,7 +137,10 @@ var say = function say(word) {
   return word;
 };
 
-console.log(say("Let's Go")); // Valores Padrões
+console.log(say("Let's Go"));
+/**
+ * VALORES PADRÕES
+ */
 
 function mySum(a, b) {
   return a + b;
@@ -136,7 +153,10 @@ console.log(mySum()); // Retorna NaN
 // }
 // OU
 // const mySum = (a = 3, b = 6) => a + b;
-// Desestruturação
+
+/**
+ * DESESTRUTURAÇÃO
+ */
 
 var newUser = {
   name: "Diogo",
@@ -166,7 +186,10 @@ function showName(newUser) {
 //   console.log(name, age);
 // }
 // Operadores Rest e Spread
-// REST
+
+/**
+ * REST OPERATOR
+ */
 
 
 var restUser = {
@@ -199,8 +222,11 @@ var sumRest = function sumRest() {
 };
 
 sumRest(10, 20, 30, 50, 80); // const sumRest = (a, b, ...params) => return params;
-// SPREAD
-// Repassa as informaçòes de uma estrutura de dados para outra
+
+/**
+ * SPREAD OPERATOR
+ */
+// Repassa as informações de uma estrutura de dados para outra
 
 var arr1Spread = [1, 2, 3];
 var arr2Spread = [4, 5, 6]; // como juntar os 2 arrays?
@@ -218,3 +244,108 @@ var spreadNewUser = _objectSpread({}, spreadUser, {
 });
 
 console.log(spreadNewUser);
+/**
+ * TEMPLATE LITERALS
+ */
+// Forma de incluir variávies em strings
+
+var sample = "Hello World";
+var type = "string"; // Forma tradicional
+
+console.log(sample + " is " + type); // Template literals
+
+console.log("".concat(sample, " is ").concat(type));
+/**
+ * OBJECT SHORT SYNTAX
+ */
+// Quando o nome da variavel for o mesmo do seu valor não é necessário repetir
+
+var nameShort = "Diogo";
+var ageShort = 33;
+var objShort = {
+  nameShort: nameShort,
+  ageShort: ageShort,
+  companyShort: "UTFPR"
+}; // É equivalente a:
+// const objShort = {
+//   nameShort: nameShort,
+//   ageShort: ageShort,
+//   companyShort: "UTFPR"
+// };
+
+/**
+ * PROMISSES
+ */
+// São promessas que não vão influenciar na linha do tempo do JS
+// Devolvem o valor depois de um tempo
+// O fluxo continua, e quando algo for executado... algo acontece.
+
+var myPromise = function myPromise() {
+  return new Promise(function (resolve, reject) {
+    // resolve -> quando resultado foi sucesso
+    // reject -> quando não for sucesso
+    var allow = true;
+    setTimeout(function () {
+      if (allow) resolve("allowed");else reject("not allowed");
+    }, 3000);
+  });
+};
+
+console.log(myPromise());
+myPromise().then(function (result) {
+  console.log(result);
+})["catch"](function (error) {
+  console.log(error);
+});
+/**
+ * AJAX - XHR - COM PROMISE
+ */
+
+var myRequest = function myRequest() {
+  return new Promise(function (resolve, reject) {
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", "https://api.github.com/users/diogocezar");
+    xhr.send(null);
+
+    xhr.onreadystatechange = function () {
+      if (xhr.readyState === 4) {
+        if (xhr.status === 200) {
+          resolve(JSON.parse(xhr.responseText));
+        } else {
+          reject("Erro na requisição");
+        }
+      }
+    };
+  });
+};
+
+myRequest().then(function (result) {
+  console.log(result);
+})["catch"](function (error) {
+  console.log(error);
+});
+/**
+ * AJAX - FETCH
+ */
+
+var myRequestFetch = function myRequestFetch() {
+  fetch("https://api.github.com/users/diogocezar", {
+    method: "get"
+  }).then(function (response) {
+    response.text().then(function (result) {
+      console.log(result);
+    });
+  })["catch"](function (err) {
+    console.error(err);
+  });
+};
+/**
+ * AJAX - AXIOS
+ */
+
+
+axios.get("https://api.github.com/users/diogocezar").then(function (result) {
+  console.log(result);
+})["catch"](function (error) {
+  console.log(error);
+});
