@@ -38,7 +38,7 @@
 <body>
 
 
-    <nav>
+    <nav class="font-trajan text-light">
         <a href="#home"><img src="assets/img/geovanna-logo-nav.svg" alt="Geovanna Garcia"></a>
         <a href="#presentation">Apresentação</a>
         <a href="#about">Sobre</a>
@@ -48,41 +48,47 @@
     </nav>
     <!-- Home -->
     <section id="home" class="flex column align-item-center justify-content-center text-light">
-        <h1>O grande momento está chegando?</h1>
+        <h1 class="font-aftermidnite">O grande momento está chegando?</h1>
         <h2>Vocês vão se casar? Não se preocupe!</h2>
 
-        <p>Sou a <div>Geovanna Garcia</div>,</p>
+        <div>
+            <p>Sou a <span class="font-trajan text-rose">Geovanna Garcia</span>,</p>
+        </div>
+
         <p>Estou aqui para lhe ajudar</p>
 
-        <button type="button"><a href="">Entre em contato</a></button>
+        <button type="button">
+            <a href="" class="text-light font-montserrat">Entre em contato</a>
+        </button>
     </section>
     <!-- Apresentação -->
     <section id="presentation" class="flex column align-item-center justify-content-center">
-        <h2>Preparamos uma apresentação</h2>
+        <h2 class="text-rose">Preparamos uma apresentação</h2>
         <h2>especial para vocês!</h2>
         <img src="assets/img/geovanna-icon-presentation.svg" alt="Imagem de um cardápio decorado com corações">
-        <p class="montserrat">conheça detalhadamente os nossos serviços</p>
+        <p class="font-montserrat">conheça detalhadamente os nossos serviços</p>
 
         <button type="button"><a href="">Baixar a Apresentação</a></button>
     </section>
     <!-- Sobre -->
-    <section id="about" class="flex column">
-        <h2>Sobre nós</h2>
-        <h3>Oi, sou a Geovanna Garcia</h3>
-        <p>
+    <section id="about" class="flex column text-dark">
+        <h2 class="font-aftermidnite">Sobre nós</h2>
+        <h3 class="text-bouquet">Oi, sou a Geovanna Garcia</h3>
+        <p class="font-montserrat">
             Nosso objetivo é proporcionar segurança e despreocupação no planejamento e no dia do casamento, por isso,
             contamos com uma consultoria especializada que visa orientar as necessidades dos noivos, através de uma
             análise completa do seu perfil para oferecer o melhor custo-benefício e a certeza de um planejamento
             tranquilo.
         </p>
-        <p>
+        <p class="font-montserrat">
             Nosso objetivo é proporcionar segurança e despreocupação no planejamento e no dia do casamento, por isso,
             contamos com uma consultoria especializada que visa orientar as necessidades dos noivos, através de uma
             análise completa do seu perfil para oferecer o melhor custo-benefício e a certeza de um planejamento
             tranquilo.
         </p>
-        <h3>A nossa missão</h3>
-        <p>
+        <img src="assets/img/geovanna-icon-heart.svg" alt="Corações">
+        <h3 class="text-bouquet">A nossa missão</h3>
+        <p class="font-montserrat">
             é planejar com total dedicação o momento mais importante na vida de um casal, acompanhando todo processo com
             muito profissionalismo transmitindo tranquilidade e confiança para que os noivos possam desfrutar ao máximo
             esse momento único e especial.
@@ -109,47 +115,57 @@
         <button type="button"><a href="">Baixar a Apresentação</a></button>
     </section>
     <!-- Depoimento -->
-    <section id="testimony" class="flex column align-item-center justify-content-center">
-        <h2>Depoimentos</h2>
-        <img src="" alt="">
-        <p>Aqui estão os depoimentos de</p>
-        <p>alguns casais que contrataram os</p>
-        <p>nossos serviços</p>
-        <!-- Depoimento 1 -->
-        <p>
-            Queremos te agradecer por todo seu empenho, vocês foram simplesmente incríveis, obrigada por todo carinho e
-            atenção em cada detalhe escolhido. Foi muito mais fácil lidar com tudo de longe, tendo vocês ao nosso lado,
-            confiamos de olhos fechados e o resultado foi maravilhoso! Somos eternamente gratos por tudo.
-        </p>
-        <hr>
-        <img src="assets/img/geovanna-casal-01.png" alt="Casal Lais e Marcos">
-        <p>Lais e Marcos</p>
-        <p>04/11/2018</p>
-        <!-- Depoimento 2 -->
-        <p>
-            Você e sua equipe foram muito importante nesse momento. Agradecemos muito por tudo que fez, quero te levar
-            para sempre em nossas vidas. Você foi perfeita em tudo exatamente tudo. Cuidou de cada detalhe com muito
-            cuidado, carinho, amor e atenção. Uma profissional admirável e de exemplo.
-        </p>
-        <hr>
-        <img src="assets/img/geovanna-casal-02.png" alt="Casal Lirian e Eduardo">
-        <p>Lirian e Eduardo</p>
-        <p>13/05/2017</p>
-
-        <p></p>
+    <section id="testimony" class="flex column align-item-center justify-content-center text-dark">
+        <h2 class="font-aftermidnite text-lowercase">Depoimentos</h2>
+        <img src="assets/img/geovanna-icon-ballons.svg" alt="Balões de festa" />
+        <p class="text-bouquet">Aqui estão os depoimentos de</p>
+        <p class="text-bouquet">alguns casais que contrataram os</p>
+        <p class="text-bouquet">nossos serviços</p>
+        <div class="flex row align-item-center justify-content-center">
+            <div class="flex column align-item-center justify-content-center">
+                <!-- Depoimento 1 -->
+                <p>
+                    Queremos te agradecer por todo seu empenho, vocês foram simplesmente incríveis, obrigada por todo
+                    carinho e
+                    atenção em cada detalhe escolhido. Foi muito mais fácil lidar com tudo de longe, tendo vocês ao nosso
+                    lado,
+                    confiamos de olhos fechados e o resultado foi maravilhoso! Somos eternamente gratos por tudo.
+                </p>
+                <hr>
+                <img src="assets/img/geovanna-casal-01.png" alt="Casal Lais e Marcos">
+                <p>Lais e Marcos</p>
+                <p>04/11/2018</p>
+            </div>
+            <!-- Depoimento 2 -->
+            <div class="flex column align-item-center justify-content-center">
+                <p>
+                    Você e sua equipe foram muito importante nesse momento. Agradecemos muito por tudo que fez, quero te
+                    levar
+                    para sempre em nossas vidas. Você foi perfeita em tudo exatamente tudo. Cuidou de cada detalhe com muito
+                    cuidado, carinho, amor e atenção. Uma profissional admirável e de exemplo.
+                </p>
+                <hr>
+                <img src="assets/img/geovanna-casal-02.png" alt="Casal Lirian e Eduardo">
+                <p>Lirian e Eduardo</p>
+                <p>13/05/2017</p>
+            </div>
+        </div>
     </section>
     <!-- Contato -->
     <section id="contact" class="flex column align-item-center justify-content-center">
-        <h2>Entrem em contato</h2>
-        <p>Será um prazer</p>
-        <p>Conversar com vocês!</p>
+        <h2 class="font-aftermidnite">Entrem em contato</h2>
 
-        <h3>WhatsApp e Telefone</h3>
-        <p>(43) 996 923 296</p>
-        <p>Clique no número!</p>
+        <img src="assets/img/geovanna-icon-rings.svg" alt="Anéis" />
 
-        <h3>E-mail</h3>
-        <p>geovannagarcia.assesoria@gmail.com</p>
+        <p id="plesure" class="text-rose">Será um prazer</p>
+        <p id="talk" class="text-rose">Conversar com vocês!</p>
+
+        <h3 class="text-rose">WhatsApp e Telefone</h3>
+        <p id="number">(43) 996 923 296</p>
+        <p id="click">Clique no número!</p>
+
+        <h3 id="email" class="text-rose">E-mail</h3>
+        <p id="email-adsress">geovannagarcia.assesoria@gmail.com</p>
     </section>
 
 </body>
