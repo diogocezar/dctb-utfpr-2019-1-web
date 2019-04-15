@@ -1,0 +1,519 @@
+@font-face {
+	font-family: AfterMidnit;
+	src: url('../fonts/AfterMidnite.otf');
+}
+
+@font-face {
+	font-family: TrojanRegular;
+	src: url('../fonts/TrajanPro-Regular.otf');
+}
+
+/*Conteiner*/
+
+.conteiner {
+	width: 85vw;
+	margin: 0 auto;
+}
+
+/*End Conteiner*/
+
+/*Menu*/
+
+#menu {
+	height: 70px;
+	width: 100%;
+	background-color: #22223B;
+	position: fixed;
+	z-index: 999;
+	display: flex;
+}
+
+#menu a {
+	color: #f2e9e4;
+	font-family: TrojanRegular;
+	font-size: 1.0em;
+	font-weight: 400;
+	line-height: 40px;
+	text-decoration: none;
+	position: relative;
+	display: block;
+}
+
+#menu img{
+	padding-top: 8px;
+}
+
+#hover a:after {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 3px;
+	display: block;
+	margin-top: -9px;
+	right: 0;
+	background:#9a8c98;
+	transition: width .2s ease;
+	-webkit-transition: width .2s ease;
+}
+
+#hover a:hover:after {
+	width: 100%;
+	left: 0;
+	background: #9a8c98;
+}
+
+#menu ul {
+	float: left;
+	width: 100%;
+	color: #f2e9e4;
+	margin: 6px;
+	margin-bottom: 20px;
+	padding-left: 29em;
+	margin-top: -64px;
+}
+
+#menu ul li {
+	list-style: none;
+	display: inline-block;
+	padding-top: 19px;
+	margin: 0 1em;
+	line-height: 40px;
+}
+
+#menu img {
+	float: left;
+	height: 57px;
+}
+
+/*End Menu*/
+
+/*Section*/
+
+section {
+	padding: 0px;
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+/*End Section*/
+
+/*Home*/
+
+#home {
+	margin-top: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background: linear-gradient(rgba(34, 34, 59, 0.9), rgba(34, 34, 59, 0.9)), url('../images/geovanna-bg-home.jpg');
+	background-repeat: no-repeat;
+	height: 88vh;
+	width: 100%;
+}
+
+#home h1 {
+	font-family: AfterMidnit;
+	color: #f2e9e4;
+	font-size: 5.5rem;
+	font-style: normal;
+	line-height: 109px;
+	font-weight: 500;
+}
+
+#home h2 {
+	font-family: AfterMidnit;
+	color: #f2e9e4;
+	font-size: 56px;
+	font-weight: 500;
+	font-style: normal;
+	line-height: 67px;
+	padding-bottom: 40px;
+}
+
+#home h3 {
+	font-family: TrojanRegular;
+	color: #f2e9e4;
+	font-size: 1.2rem;
+	font-weight: 500;
+	font-style: normal;
+	margin: 10px;
+}
+
+#color-name {
+	color: #9a8c98;
+}
+
+#button-home {
+	width: 250px;
+	height: 60px;
+	border: 1px solid #fff;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50px 50px 50px 50px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	position: relative;
+	margin: auto;
+	margin-top: 50px;
+	text-decoration: none;
+}
+
+#home a:hover {
+	background-color: #fff;
+	color: #22223B;
+	transition: 0.5s;
+}
+
+/*End Home*/
+
+/*Presentation*/
+
+#presentation {
+	text-align: center;
+	background: linear-gradient(rgba(30, 30, 50, 0.7), rgba(30, 30, 50, 0.7)), url('../images/geovanna-bg-presentation.jpg');
+	background-repeat: no-repeat;
+	height: 88vh;
+	width: 100%;
+}
+
+#presentation h1 {
+	margin-top: 80px;
+	font-family: TrojanRegular;
+	color: #f2e9e4;
+	font-size: 1.7rem;
+	font-weight: 500;
+	line-height: 34px;
+}
+
+#presentation img {
+	margin-top: 30px;
+}
+
+#presentation h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
+	font-weight: 500;
+	line-height: 17px;
+	color: #f2e9e4;
+	margin-top: 50px;
+}
+
+#button-presentation {
+	width: 250px;
+	height: 60px;
+	border: 1px solid #fff;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50px 50px 50px 50px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	position: relative;
+	margin: auto;
+	margin-top: 50px;
+	text-decoration: none;
+}
+
+#presentation #button-presentation {
+	background-color: #f2e9e4;
+	color: #22223B;
+}
+
+#presentation #button-presentation:hover {
+	background-color: rgba(0, 0, 0, 0);
+	color: #fff;
+	transition: 0.5s;
+}
+
+/*End Presentation*/
+
+/*About*/
+
+#about {
+	display: flex;
+	background: #f2e9e4;
+	height: 150vh;
+	width: 100%;
+}
+
+#about h1 {
+	padding-top: 80px;
+	font-family: AfterMidnit;
+	color: #22223b;
+	font-size: 84px;
+	line-height: 101px;
+	font-weight: 500;
+}
+
+#about h2 {
+	font-family: inherit;
+	color: #9a8c98;
+	font-weight: 500;
+	font-size: 21px;
+	line-height: 25px;
+	padding-top: 50px;
+}
+
+#about p {
+	font-family: 'Montserrat', sans-serif;
+	color: #22223b;
+	font-size: 1em;
+	line-height: 2rem;
+	width: 80%;
+	padding: 20px 0 20px 0px;
+}
+
+#about img {
+	width: 140px;
+}
+
+/*End About*/
+
+/*Services*/
+
+#services {
+	display: flex;
+	text-align: center;
+	background: linear-gradient(rgba(34, 34, 59, 0.7), rgba(34, 34, 59, 0.7)), url('../images/geovanna-bg-services.jpg');
+	background-repeat: no-repeat;
+	background-position: 50%;
+	background-size: cover;
+	height: 176vh;
+	width: 100%;
+}
+
+#services #button-services {
+	width: 250px;
+	height: 60px;
+	border: 1px solid #fff;
+	color: #4a4e69;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50px 50px 50px 50px;
+	font-family: 'Montserrat', sans-serif;
+	;
+	font-size: 14px;
+	position: relative;
+	margin: auto;
+	margin-top: 50px;
+	text-decoration: none;
+}
+
+#services h1 {
+	font-family: TrajanPro-Regular;
+	font-size: 42px;
+	line-height: 50px;
+	font-weight: 500;
+	color: #f2e9e4;
+	padding-top: 80px;
+}
+
+#services img {
+	padding-top: 40px;
+	width: 90px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#services .column-services {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	padding: 80px;
+	padding-right: 15px;
+	padding-left: 280px;
+}
+
+#services .column-services h2 {
+	font-family: TrojanRegular;
+	color: #9a8c98;
+	font-size: 28px;
+	font-weight: 500;
+	line-height: 34px;
+}
+
+#services .column-services p {
+	font-family: 'Montserrat', sans-serif;
+	color: #f2e9e4;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 28px;
+}
+
+#services #button-services {
+	background-color: #f2e9e4;
+	color: #22223B;
+}
+
+#services #button-services:hover {
+	background-color: rgba(0, 0, 0, 0);
+	color: #fff;
+	transition: 0.5s;
+}
+
+/*End Services*/
+
+/*Depositions*/
+
+#depositions {
+	display: flex;
+	background: #f2e9e4;
+	height: 250vh;
+	width: 100%;
+	text-align: center;
+}
+
+#depositions h1 {
+	padding-top: 80px;
+	font-family: AfterMidnit;
+	color: #22223b;
+	font-size: 84px;
+	line-height: 101px;
+	font-weight: 500;
+}
+
+#depositions h2 {
+	font-family: TrojanRegular;
+	color: #9a8c98;
+	font-weight: 500;
+	font-size: 1.3rem;
+	line-height: 25px;
+	padding-top: 35px;
+}
+
+#color-casal {
+	color: #4a4e69;
+}
+
+#depositions img {
+	padding-top: 40px;
+	padding-left: 0px;
+	width: 90px;
+}
+
+#depositions .column-depositions {
+	display: inline-block;
+	width: 500px;
+	margin-left: 60px;
+	margin-top: 40px;
+}
+
+#depositions .column-depositions p {
+	font-family: TrojanRegular;
+	color: #22223b;
+	font-size: .9rem;
+	font-weight: 500;
+	line-height: 25px;
+	width: 60%;
+	padding: 20px 0 20px 0px;
+	padding-left: 72px;
+}
+
+#depositions p:after {
+	content: "";
+	width: 8em;
+	height: 3px;
+	background: #c9ada7;
+	display: block;
+	margin: 15px auto;
+}
+
+#depositions .column-depositions img {
+	padding-right: 65px;
+	padding-top: 7px;
+}
+
+/*End Depositions*/
+
+/*Contact*/
+
+#contact {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background: linear-gradient(rgba(34, 34, 59, 0.9), rgba(34, 34, 59, 0.9)), url('../images/geovanna-bg-contact.jpg');
+	background-repeat: no-repeat;
+	height: 144vh;
+	width: 100%;
+}
+
+#contact h1 {
+	font-family: AfterMidnit;
+	color: #f2e9e4;
+	font-size: 91px;
+	font-style: normal;
+	padding-top: 80px;
+	line-height: 109px;
+	font-weight: 500;
+}
+
+#contact h2 {
+	font-family: TrojanRegular;
+	color: #c9ada7;
+	font-size: 1.8rem;
+	font-weight: 400;
+	line-height: 29px;
+	padding-top: 30px;
+}
+
+#contact h3 {
+	font-family: TrajanPro-Regular;
+	color: #c9ada7;
+	font-size: 1.7rem;
+	font-weight: 400;
+	line-height: 25px;
+	padding-top: 70px;
+}
+
+#contact h4 {
+	font-family: TrajanPro-Regular;
+	color: #f2e9e4;
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 42px;
+	padding-top: 10px;
+}
+
+#contact h5 {
+	font-family: TrojanRegular;
+	color: #f2e9e4;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+	padding-top: 10px;
+}
+
+#contact h6 {
+	font-family: TrojanRegular;
+	color: #f2e9e4;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 25px;
+	padding-top: 10px;
+}
+
+#contact img {
+	width: 140px;
+}
+
+#contact #rede-social {
+	margin-right: 15px;
+	border: 2px solid #f2e9e4;
+	margin-top: 17px;
+	padding: 13px;
+	border-radius: 50%;
+	list-style-type: none;
+	width: 30px;
+	height: 30px;
+}
+
+/*End Contact*/
