@@ -1,0 +1,41 @@
+section {
+  padding-top: 7rem;
+  padding-bottom: 5rem; }
+  @media only screen and (max-width: 768px) {
+    section {
+      padding-top: 6rem;
+      padding-bottom: 4rem; } }
+  @media only screen and (max-width: 480px) {
+    section {
+      padding-top: 5rem;
+      padding-bottom: 3rem; } }
+
+section#home {
+  height: calc(100vh - 70px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+  background: linear-gradient(rgba(34, 34, 59, 0.84), rgba(34, 34, 59, 0.98)), url("/assets/images/geovanna-bg-home.jpg");
+  background-position: left top; }
+  @media only screen and (max-width: 480px) {
+section#home {
+  height: calc(100vh - 60px);
+  margin-top: 60px; } }
+
+section#presentation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(74, 74, 105, 0.8), rgba(74, 74, 105, 0.8)), url("/assets/images/geovanna-bg-presentation.jpg");
+  background-position: center center; }
+
+section#services {
+  background: linear-gradient(rgba(34, 34, 59, 0.84), rgba(34, 34, 59, 0.98)), url("/assets/images/geovanna-bg-services.jpg");
+  background-position: center center;
+  background-size: cover; }
+
+section#contact {
+  background: linear-gradient(rgba(34, 34, 59, 0.8), rgba(34, 34, 59, 0.9)), url("/assets/images/geovanna-bg-contact.jpg");
+  background-position: center center; }
+
