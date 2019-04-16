@@ -1,0 +1,48 @@
+.center-translate, #content-testmonials img {
+  left: 50%;
+  position: relative;
+  -webkit-transform: translate(-50%, 0) !important;
+  -moz-transform: translate(-50%, 0) !important;
+  -ms-transform: translate(-50%, 0) !important;
+  transform: translate(-50%, 0) !important; }
+
+#content-testmonials h2 {
+  font-family: "AfterMidnite", sans-serif;
+  color: #22223B;
+  font-size: 6rem;
+  margin-bottom: 3rem;
+  text-align: center; }
+  @media only screen and (max-width: 768px) {
+    #content-testmonials h2 {
+      font-size: 5rem; } }
+  @media only screen and (max-width: 480px) {
+    #content-testmonials h2 {
+      font-size: 4rem; } }
+
+#content-testmonials img {
+  height: 120px;
+  width: 120px;
+  margin-bottom: 3rem; }
+  @media only screen and (max-width: 768px) {
+    #content-testmonials img {
+      height: 100px;
+      width: 100px; } }
+  @media only screen and (max-width: 480px) {
+    #content-testmonials img {
+      height: 80px;
+      width: 80px; } }
+
+#content-testmonials h3 {
+  color: #9A8C98;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  padding: 0 30%;
+  margin-bottom: 7rem; }
+  @media only screen and (max-width: 992px) {
+    #content-testmonials h3 {
+      padding: 0;
+      margin-bottom: 4rem; } }
+  @media only screen and (max-width: 768px) {
+    #content-testmonials h3 {
+      font-size: 1.1rem; } }

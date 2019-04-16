@@ -1,0 +1,30 @@
+
+
+
+.menu a {
+	text-decoration:none;	
+	height: 2px;
+	max-width: 190px;
+	width: 40px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 40px;
+    font-size: 1.18em;
+    font-family: "TrajanPro-Regular", serif;
+    color: #F2E9E4;
+    font-weight: 400;
+    margin-top: 4px; 
+
+}
+
+.button a{
+	text-decoration:none;
+	font-family: "TrajanPro-Regular", sans-serif;
+	color: #22223B;
+}
+
+#contact a{
+	text-decoration:none;
+	font-family: "TrajanPro-Regular", serif;
+	color: #F2E9E4;	
+}

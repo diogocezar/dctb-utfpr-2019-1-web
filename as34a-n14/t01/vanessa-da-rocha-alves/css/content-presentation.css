@@ -1,0 +1,31 @@
+.center-translate, #content-presentation img {
+  left: 50%;
+  position: relative;
+  -webkit-transform: translate(-50%, 0) !important;
+  -moz-transform: translate(-50%, 0) !important;
+  -ms-transform: translate(-50%, 0) !important;
+  transform: translate(-50%, 0) !important; }
+
+#content-presentation h2,
+#content-presentation h3 {
+  font-family: "TrajanPro-Regular", serif;
+  color: #F2E9E4;
+  text-align: center; }
+
+#content-presentation h2 {
+  font-size: 2rem; }
+  @media only screen and (max-width: 768px) {
+    #content-presentation h2 {
+      font-size: 1.4rem; } }
+
+#content-presentation h3 {
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif; }
+
+#content-presentation img {
+  margin: 2.5rem 0;
+  height: 80px; }
+
+#content-presentation button {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem; }
