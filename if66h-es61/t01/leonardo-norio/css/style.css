@@ -1,0 +1,821 @@
+@font-face {
+    font-family: "TrajanPro-Regular";
+    src: url("../assets/fonts/TrajanPro-Regular.eot") format("eot"), 
+    url("../assets/fonts/TrajanPro-Regular.woff") format("woff"), 
+    url("../assets/fonts/TrajanPro-Regular.ttf") format("truetype"); 
+}
+  
+@font-face {
+    font-family: "AfterMidnite";
+    src: url("../assets/fonts/AfterMidnite.eot") format("eot"), 
+    url("../assets/fonts/AfterMidnite.woff") format("woff"), 
+    url("../assets/fonts/AfterMidnite.ttf") format("truetype"); 
+}
+  
+
+@font-face{
+    font-family: 'Montserrat';
+    src: url('../assets/fonts/Montserrat-Regular.ttf') format('truetype');
+} 
+
+:root{
+    font-size: 14px;
+}
+
+body{
+    margin: 0px;
+    color: #4a4e69;
+    font-family: TrajanPro-Regular, serif;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+body nav{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 70px;
+    background-color: #22223b;
+    color: #f2e9e4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+@media only screen and (max-width: 992px) {
+    body nav{
+        justify-content: space-between;
+    }
+}
+
+body nav img{
+    height: 60px;
+}
+@media only screen and (max-width: 992px) {
+    body nav img{
+        height: 50px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    body nav img{
+        display: none;
+    }
+}
+
+#lower{
+    display: none;
+}
+@media only screen and (max-width: 480px) {
+    #lower{
+        display: block;
+    }
+}
+
+#hamburguer{
+    display: none;
+}
+@media only screen and (max-width: 992px) {
+    #hamburguer{
+        display: block;
+        width: 40px;
+        height: 40px;
+        border: 1px solid #f2e9e4;
+        margin-top: 15px;
+        border-radius: 50%;
+        order: 3;
+        text-align: center;
+        font-size: 2rem;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+}
+
+#navbar{
+    align-self: center;
+    list-style: none;
+    font-size: 1.18em;
+    font-weight: 400;
+}
+@media only screen and (max-width: 1200px) {
+    #navbar{
+        font-size: 1.05em;
+        margin: 0 1em;
+        line-height: 40px;
+        padding-top: 19px; 
+    }
+}
+@media only screen and (max-width: 992px) {
+    #navbar{
+        display: none;
+    }
+}
+
+.menu_item{
+    display: inline;
+    color: #f2e9e4;
+}
+
+.menu_item a{
+    color: #f2e9e4;
+    text-decoration: none;
+    margin-right: 2em;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.menu_item a:visited{
+    color: #f2e9e4;
+}
+
+.menu_item a:hover{
+    padding-bottom: 7.35px;
+    border-bottom: 3px solid #c9ada7;
+}
+
+.section{
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+}
+
+#home{
+    box-sizing: border-box;
+    height: calc(100vh - 70px);
+    color: #f2e9e4;
+    background-image: linear-gradient( rgba(34,34,59,.84), rgba(34,34,59,.98)), url("../assets/images/geovanna-bg-home.jpg");
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#home div{
+    text-align: center;
+    
+}
+.transparent_bt{
+    border: 1px solid #f2e9e4;
+    background-color: transparent;
+    color: #f2e9e4;
+    border-radius: 40px;
+    width: 260px;
+    height: 60px;
+    font-size: 1rem;
+    margin-top: 4rem;
+    font-family: Montserrat,sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+@media only screen and (max-width: 768px) {
+    .transparent_bt{
+        height: 50px;
+        width: 220px;
+        font-size: 0.9rem; 
+    } 
+}
+
+.transparent_bt:hover{
+    background-color: #f2e9e4;
+    color: #22223b;
+}
+
+#home div h2{
+    font-size: 6.5rem;
+    align-self: center;
+    margin-top: 0px;
+    margin-bottom: 7px;
+    font-family: AfterMidNite, sans-serif;
+}
+@media only screen and (max-width: 1200px) {
+    #home div h2{
+        font-size: 5.5rem; 
+    }     
+}
+@media only screen and (max-width: 992px) {
+    #home div h2{
+        font-size: 5rem; 
+    } 
+}
+@media only screen and (max-width: 768px) {
+    #home div h2{
+        font-size: 4rem; 
+    } 
+}
+@media only screen and (max-width: 480px) {
+    #home div h2{
+        font-size: 3rem; 
+    } 
+}
+@media only screen and (max-width: 320px) {
+    #home div h2{
+        font-size: 2.5rem; 
+    } 
+}
+
+#home div h3{
+    font-size: 4rem;
+    align-self: flex-end;
+    margin-top: 0px;
+    font-family: AfterMidNite, sans-serif;
+}
+@media only screen and (max-width: 1200px) {
+    #home div h3{
+        font-size: 3.5rem; 
+    } 
+}
+@media only screen and (max-width: 992px) {
+    #home div h3{
+        font-size: 3rem; 
+    } 
+}
+@media only screen and (max-width: 768px) {
+    #home div h3{
+        font-size: 2rem;
+        margin-top: 2rem; 
+    } 
+}
+@media only screen and (max-width: 320px) {
+    #home div h3{
+        font-size: 1.5rem;
+        margin-top: 1.5rem; 
+    } 
+}
+
+#home div h4{
+    margin-top: 0;
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+    font-family: TrajanPro-Regular, sans-serif;
+}
+@media only screen and (max-width: 768px) {
+    #home div h4{
+        font-size: 1.2rem; 
+    } 
+}
+
+#home div h4 span{
+    color: #9a8c98;
+}
+
+#presentation{
+    box-sizing: border-box;
+    background-image: linear-gradient(rgba(74,74,105,.8),rgba(74,74,105,.8)), url("../assets/images/geovanna-bg-presentation.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-content: center;
+    flex-wrap: wrap;
+    background-position: 50%;
+}
+
+#presentation div{
+    text-align: center;
+    color: #f2e9e4;
+}
+
+#presentation div h2{
+    font-size: 2rem;
+}
+@media only screen and (max-width: 768px) {
+    #presentation div h2{
+        font-size: 1.4rem; 
+    } 
+}
+
+#presentation div img{
+    height: 80px;
+}
+
+#presentation div h3{
+    font-size: 1rem;
+    font-family: Montserrat,sans-serif;
+}
+
+.white_bt{
+    border: 1px solid #f2e9e4;
+    background-color: #f2e9e4;
+    color: #4a4e69;
+    border-radius: 40px;
+    width: 260px;
+    height: 60px;
+    font-size: 1rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    font-family: Montserrat,sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+@media only screen and (max-width: 768px) {
+    .white_bt{
+        height: 50px;
+        width: 220px;
+        font-size: 0.9rem; 
+    } 
+}
+
+.white_bt:hover{
+    background-color: transparent;
+    color: #f2e9e4;
+}
+
+
+#about{
+    width: 100%;
+    background-color: #f2e9e4;
+    box-sizing: border-box;
+}
+
+#about div{
+    display: flex;  
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 50%;
+    margin-left: 10%;
+}
+@media only screen and (max-width: 1160px) {
+    #about div{
+        margin-right: 25%; 
+    } 
+}
+@media only screen and (max-width: 768px) {
+    #about div{
+        text-align: center;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+}
+
+#about div h2{
+    font-size: 6rem;
+    margin-top: 0;
+    margin-bottom: 42px;
+    font-family: AfterMidNite, sans-serif;
+}
+@media only screen and (max-width: 768px) {
+    #about div h2{
+        text-align: center;
+        font-size: 4rem;
+        margin-bottom: 1rem; 
+    } 
+}
+
+#about div h3{
+    font-size: 1.5rem;
+    color: #9a8c98;
+    font-family: TrajanPro-Regular, sans-serif;
+    margin-top: 0;
+}
+@media only screen and (max-width: 768px) {
+    #about div h3{
+        font-size: 1rem;
+        margin-bottom: 1rem; 
+    } 
+}
+
+#about p{
+    line-height: 2rem;
+    margin-bottom: 2rem;
+    color: #22223b;
+    font-size: 1rem;
+    margin-top: 0;
+    font-family: Montserrat,sans-serif;
+}
+
+#about div img{
+    height: 120px;
+    width: 120px;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+}
+@media only screen and (max-width: 768px) {
+    #about div img{
+        align-self: center;
+        height: 100px;
+        width: 100px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    #about div img{
+        height: 80px;
+        width: 80px;
+    }
+}
+
+#services{
+    background: linear-gradient(rgba(34,34,59,.84),rgba(34,34,59,.98)),url("../assets/images/geovanna-bg-services.jpg");
+    background-position: 50%;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+#services div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #f2e9e4;
+}
+
+#services div h2{
+    font-size: 3rem;
+}
+@media only screen and (max-width: 768px) {
+    #services div h2{
+        font-size: 2rem;
+        margin-bottom: 2rem; 
+    } 
+}
+@media only screen and (max-width: 480px) {
+    #services div h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem; 
+    } 
+}
+
+
+.types{
+    display: flex;
+    flex-direction: row!important;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.types div{
+    width: 40%;
+    padding: 0 15px;
+}
+@media only screen and (max-width: 768px) {
+    .types div{
+        width: 100%;
+    }
+}
+
+#services .types div h3{
+    color: #9a8c98;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    margin-bottom: 2rem;
+}
+@media only screen and (max-width: 768px) {
+    #services .types div h3{
+        font-size: 2rem;
+        margin-bottom: 2rem; 
+    } 
+}
+@media only screen and (max-width: 480px) {
+    #services .types div h3{
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem; 
+    } 
+}
+
+#services .types div h3 span{
+    font-size: 3rem;
+}
+@media only screen and (max-width: 768px) {
+    #services .types div h3 span{
+      font-size: 2.5rem;
+      margin-bottom: 2.5rem; 
+    } 
+}
+@media only screen and (max-width: 480px) {
+    #services .types div h3 span{
+      font-size: 2rem;
+      margin-bottom: 2rem; 
+    } 
+}
+
+#services .types div p{
+    font-size: 1.2rem;
+    line-height: 2rem;
+    padding: 0 15%;
+    font-family: Montserrat,sans-serif; 
+}
+@media only screen and (max-width: 768px) {
+    #services .types div p{
+        padding: 0;
+        margin-bottom: 4rem;
+        font-size: 1rem; 
+    } 
+}
+
+#services div img{
+    height: 120px;
+}
+@media only screen and (max-width: 768px) {
+    #services div img{
+        height: 100px;
+        margin-bottom: 2rem; 
+    } 
+}
+@media only screen and (max-width: 480px) {
+    #services div img{
+        height: 80px;
+        margin-bottom: 1.5rem; 
+    } 
+}
+
+#testmonials{
+    background-color: #f2e9e4;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#testmonials div{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#testmonials_start h2{
+    margin-top: 0px;    
+    font-size: 6rem;
+    color: #22223b;
+    margin-bottom: 3rem;
+    font-family: AfterMidNite, sans-serif;
+}
+@media only screen and (max-width: 768px) {
+    #testmonials_start h2{
+        font-size: 5rem; 
+    } 
+}
+@media only screen and (max-width: 480px) {
+    #testmonials_start h2{
+        font-size: 4rem; 
+    } 
+}
+
+#ballons{
+    height: 120px;
+    width: 120px;
+}
+@media only screen and (max-width: 768px) {
+    #ballons{
+        height: 100px;
+        width: 100px; 
+    } 
+}
+@media only screen and (max-width: 480px) {
+    #ballons{
+        height: 80px;
+        width: 80px; 
+    } 
+}
+
+#testmonials_start h3{
+    color: #9a8c98;
+    font-size: 1.5rem;
+    margin-bottom: 7rem;
+    padding: 0 30%;
+    text-transform: uppercase;
+}
+@media only screen and (max-width: 992px) {
+    #testmonials_start h3{
+      padding: 0 20px;
+      margin-bottom: 4rem; 
+    } 
+}
+@media only screen and (max-width: 768px) {
+    #testmonials_start h3{
+        padding: 0 15px;
+        font-size: 1.1rem; 
+    } 
+}
+
+
+#testmonials .types div p{
+    margin-top: 0;
+    padding: 0 15%;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    line-height: 1.5;
+    font-weight: 400;
+}
+@media only screen and (max-width: 992px) {
+    #testmonials .types div p{
+        padding: 0 10%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    #testmonials .types div p{
+        font-size: .9rem;
+    }
+}
+
+#testmonials .types div img{
+    height: 120px;
+    width: 120px;
+    margin-bottom: 3rem;
+    margin-top: 3.2rem;
+    padding-top: 40px;
+    border-top: 3px solid #c9ada7;
+}
+@media only screen and (max-width: 768px) {
+    #testmonials .types div img{
+        height: 100px;
+        width: 100px; 
+    } 
+}
+@media only screen and (max-width: 480px) {
+    #testmonials .types div img{
+        height: 80px;
+        width: 80px; 
+    } 
+}
+
+#testmonials .types div h4{
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+    margin-top: 0;
+    color: inherit;
+    font-family: inherit;
+}
+@media only screen and (max-width: 768px) {
+    #testmonials .types div h4{
+        font-size: 1rem; 
+    } 
+}
+
+#testmonials .types div h5{
+    font-size: 1.25rem;
+    color: #c9ada7;
+    margin-top: 0;
+    font-family: inherit;
+}
+@media only screen and (max-width: 768px) {
+    #testmonials .types div h5{
+        font-size: 1rem; 
+        margin-bottom: 4rem;
+    } 
+}
+
+#contact{
+    background: linear-gradient(rgba(34,34,59,.8),rgba(34,34,59,.9)),url("../assets/images/geovanna-bg-contact.jpg");
+    background-position: 50%;
+    box-sizing: border-box;
+}
+
+#contact div{
+    text-align: center;
+    padding-top: 0px;
+    color: #f2e9e4;
+}
+
+#contact div h2{
+    padding-top: 0px;
+    font-size: 6rem;
+    margin-bottom: 3rem;
+    font-family: AfterMidNite, sans-serif;
+}
+@media only screen and (max-width: 768px) {
+    #contact div h2{
+        font-size: 4rem; 
+    } 
+}
+@media only screen and (max-width: 480px) {
+    #contact div h2{
+        font-size: 3rem; 
+    } 
+}
+
+#rings{
+    height: 120px;
+}
+@media only screen and (max-width: 768px) {
+    #rings{
+      height: 100px; 
+    } 
+}
+@media only screen and (max-width: 480px) {
+    #rings{
+        height: 80px; 
+    } 
+}
+
+#contact div h3{
+    color: #c9ada7;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+    font-size: 1.75rem;
+}
+@media only screen and (max-width: 768px) {
+    #contact div h3{
+        font-size: 1.5rem;
+        margin-bottom: 3rem; 
+    } 
+}
+@media only screen and (max-width: 480px) {
+    #contact div h3{
+      font-size: 1.2rem; 
+    } 
+}
+
+#contact div h4{
+    margin-top: 0px;
+    color: #c9ada7;
+    font-size: 1.5rem;
+}
+@media only screen and (max-width: 768px) {
+    #contact div h4{
+        font-size: 1.3rem; 
+    } 
+}
+@media only screen and (max-width: 480px) {
+    #contact div h4{
+        font-size: 1.2rem; 
+    } 
+}
+
+#number{
+    margin-top: 0px;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #f2e9e4;
+}
+
+#contact div p{
+    font-size: 1rem;
+    margin-top: 0px;
+    margin-bottom: 2rem;
+}
+@media only screen and (max-width: 768px) {
+    #contact div p{
+        font-size: 0.9rem; 
+    } 
+}
+
+#contact div div h4{
+    margin-bottom: 0.5rem;
+}
+@media only screen and (max-width: 768px) {
+    #contact div div h4{
+      font-size: 1.3rem; 
+    } 
+}
+@media only screen and (max-width: 480px) {
+    #contact div div h4{
+      font-size: 1.2rem; 
+    } 
+}
+
+#email{
+    font-size: 1.2rem;
+    margin-top: 0px;
+    text-decoration: none;
+    color: #f2e9e4;
+}
+@media only screen and (max-width: 768px) {
+    #email{
+        font-size: 0.9rem; 
+    } 
+}
+
+#contact div ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-top: 2.5rem;
+    justify-content: center;
+    align-content: center;
+}
+#contact div ul li{
+    border: 2px solid #f2e9e4;
+    padding: 13px;
+    border-radius: 50%;
+    list-style-type: none;
+}
+
+
+#contact div ul li:first-child{
+    margin-right: 15px;
+}
+#instagram{
+    height: 35px;
+    width: 35px;
+}
+@media only screen and (max-width: 768px) {
+    #instagram {
+      height: 20px;
+      width: 20px; 
+    } 
+}
+
+#facebook{
+    height: 35px;
+    width: 35px;
+}
+@media only screen and (max-width: 768px) {
+    #facebook {
+      height: 20px;
+      width: 20px; 
+    } 
+}
