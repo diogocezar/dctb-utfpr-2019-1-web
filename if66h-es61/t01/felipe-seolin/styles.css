@@ -33,6 +33,7 @@
 body {
     font-family: TrajanPro, serif;
     color: #F2E9E4;
+    font-size: 14px;
 }
 
 a {
@@ -53,6 +54,7 @@ button {
     transition: all .3s ease-in-out 0s;
     width: 260px;
     height: 60px;
+    line-height: 38px;
     cursor: pointer;
     font-size: 1rem;
     font-family: Montserrat, sans-serif;
@@ -62,7 +64,11 @@ button:hover {
     background-color: transparent;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-weight: 500;
     line-height: 1.2;
     margin-bottom: .5rem;
@@ -70,6 +76,7 @@ h1, h2, h3, h4, h5 {
 
 button a {
     text-transform: uppercase;
+    color: #4A4E69;
 }
 
 /* General */
@@ -132,15 +139,19 @@ nav img {
 }
 
 nav a {
+    text-decoration: none;
+    color: #F2E9E4;
     font-size: 1.05em;
     margin-left: 1em;
     margin-right: 1em;
     padding-top: 19px;
+    line-height: 40px;
 }
 
 
 /* Section Homebutton */
-#home div, p {
+#home div,
+p {
     font-size: 1.5rem;
 }
 
@@ -209,6 +220,10 @@ nav a {
 /* Section About */
 #about {
     background-color: #F2E9E4;
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+    padding-right: 45vw;
+    padding-left: 20vw;
 }
 
 #about h2 {
@@ -239,13 +254,61 @@ nav a {
 #services {
     background-image: linear-gradient(rgba(34, 34, 59, 0.8), rgba(34, 34, 59, 0.9)),
         url("/assets/img/geovanna-bg-services.jpg");
-
-
 }
+
+#services h2 {
+    font-size: 3rem;
+    color: #f2e9e4;
+    margin-bottom: 3rem;
+}
+
+#services h3 {
+    font-size: 2rem;
+    line-height: 2.4rem;
+    margin: 0 !important;
+}
+
+#services h4 {
+    font-size: 3rem;
+    line-height: 2.4rem;
+    margin-bottom: 2rem;
+}
+
+#services img {
+    height: 120px;
+    margin-bottom: 3rem;
+}
+
+#services div div h3 {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    color: #9a8c98;
+    margin-bottom: 2rem;
+}
+
+#services div div p {
+    color: #f2e9e4;
+    text-align: center;
+    padding: 0 15%;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+}
+
+#services button {
+    margin-top: 3rem;
+}
+
 
 /* Section Testimony */
 #testimony {
     background-color: #F2E9E4;
+}
+
+#testimony h2 {
+    font-size: 6rem;
+    margin-bottom: 3rem;
 }
 
 #testimony img {
@@ -253,6 +316,17 @@ nav a {
     width: 120px;
     margin-top: 1rem;
     margin-bottom: 4rem;
+}
+
+#testimony-service {
+    margin-bottom: 7rem;
+}
+
+#testimony div div p {
+    text-align: center;
+    padding: 0 15%;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
 }
 
 /* Section Contact */
