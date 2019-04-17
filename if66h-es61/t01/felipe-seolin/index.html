@@ -38,8 +38,8 @@
 <body>
 
 
-    <nav class="font-trajan text-light flex row align-item-center justify-content-center">
-        <a href="#home"><img src="assets/img/geovanna-logo-nav.svg" alt="Geovanna Garcia"></a>
+    <nav class="font-trajan text-light flex row align-item-center justify-content-center nowrap">
+        <a id="logo" href="#home"><img src="assets/img/geovanna-logo-nav.svg" alt="Geovanna Garcia"></a>
         <a href="#presentation">Apresentação</a>
         <a href="#about">Sobre</a>
         <a href="#services">Serviços</a>
@@ -47,7 +47,7 @@
         <a href="#contact">Contato</a>
     </nav>
     <!-- Home -->
-    <section id="home" class="flex column align-item-center justify-content-center text-light">
+    <section id="home" class="flex column align-item-center justify-content-center text-light nowrap">
         <h1 class="font-aftermidnite">O grande momento está chegando?</h1>
         <h2>Vocês vão se casar? Não se preocupe!</h2>
 
@@ -57,21 +57,27 @@
 
         <p>Estou aqui para lhe ajudar</p>
 
-        <button type="button">
-            <a href="" class="text-light font-montserrat">Entre em contato</a>
-        </button>
+        <a href="#contact">
+            <button type="button" href="#contact" class="text-light font-montserrat">
+                Entre em contato
+            </button>
+        </a>
     </section>
     <!-- Apresentação -->
     <section id="presentation" class="flex column align-item-center justify-content-center">
-        <h2 class="text-rose">Preparamos uma apresentação</h2>
+        <h2>Preparamos uma apresentação</h2>
         <h2>especial para vocês!</h2>
         <img src="assets/img/geovanna-icon-presentation.svg" alt="Imagem de um cardápio decorado com corações">
         <p class="font-montserrat">conheça detalhadamente os nossos serviços</p>
 
-        <button type="button"><a href="">Baixar a Apresentação</a></button>
+        <a href="assets/files/geovanna-apresentacao.pdf" download="apresentação">
+            <button type="button">
+                Baixar a Apresentação
+            </button>
+        </a>
     </section>
     <!-- Sobre -->
-    <section id="about" class="flex column text-dark">
+    <section id="about" class="flex column justify-content-center text-dark">
         <h2 class="font-aftermidnite">Sobre nós</h2>
         <h3 class="text-bouquet">Oi, sou a Geovanna Garcia</h3>
         <p class="font-montserrat">
@@ -81,10 +87,8 @@
             tranquilo.
         </p>
         <p class="font-montserrat">
-            Nosso objetivo é proporcionar segurança e despreocupação no planejamento e no dia do casamento, por isso,
-            contamos com uma consultoria especializada que visa orientar as necessidades dos noivos, através de uma
-            análise completa do seu perfil para oferecer o melhor custo-benefício e a certeza de um planejamento
-            tranquilo.
+            No site é possível solicitar cotações, tirar dúvidas e compreender em detalhes tudo sobre nossa assessoria.
+            Conheça nossos serviços!
         </p>
         <img src="assets/img/geovanna-icon-heart.svg" alt="Corações">
         <h3 class="text-bouquet">A nossa missão</h3>
@@ -104,7 +108,8 @@
                 <h4>Completa</h4>
                 <p class="font-montserrat text-light">Nessa modalidade, iniciamos com a consultoria e seguimos
                     acompanhando o casal durante todo o
-                    processo: elaboração do layout, estilo do casamento, busca por fornecedores, visitas técnicas,
+                    processo: elaboração do <i>layout</i>, estilo do casamento, busca por fornecedores, visitas
+                    técnicas,
                     contratações e organização de planilhas para o controle de orçamento.</p>
             </div>
             <div class="flex column align-item-center justify-content-center">
@@ -117,7 +122,9 @@
                     grande dia, e então preparamos todo o suporte daqui pra frente.</p>
             </div>
         </div>
-        <button type="button"><a href="">Baixar a Apresentação</a></button>
+        <a href="assets/files/geovanna-apresentacao.pdf" download="apresentação">
+            <button type="button">Baixar a Apresentação</button>
+        </a>
     </section>
     <!-- Depoimento -->
     <section id="testimony" class="flex column align-item-center justify-content-center text-dark">
@@ -139,8 +146,8 @@
                 </p>
                 <hr>
                 <img src="assets/img/geovanna-casal-01.png" alt="Casal Lais e Marcos">
-                <p>Lais e Marcos</p>
-                <p>04/11/2018</p>
+                <p class="names">Lais e Marcos</p>
+                <p class="text-rose">04/11/2018</p>
             </div>
             <!-- Depoimento 2 -->
             <div class="flex column align-item-center justify-content-center">
@@ -153,9 +160,14 @@
                 </p>
                 <hr>
                 <img src="assets/img/geovanna-casal-02.png" alt="Casal Lirian e Eduardo">
-                <p>Lirian e Eduardo</p>
-                <p>13/05/2017</p>
+                <p class="names">Lirian e Eduardo</p>
+                <p class="text-rose">13/05/2017</p>
             </div>
+        </div>
+        <div id="dots" class="flex row align-item-center justify-content-center">
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
     </section>
     <!-- Contato -->
@@ -167,12 +179,30 @@
         <p id="plesure" class="text-rose">Será um prazer</p>
         <p id="talk" class="text-rose">Conversar com vocês!</p>
 
-        <h3 class="text-rose">WhatsApp e Telefone</h3>
-        <p id="number">(43) 996 923 296</p>
+        <h3 class="text-rose">Whatsapp e Telefone</h3>
+        <p id="number">
+            <a href="tel:43996923296">
+                (43) 996 923 296
+            </a>
+        </p>
         <p id="click">Clique no número!</p>
 
         <h3 id="email" class="text-rose">E-mail</h3>
-        <p id="email-adsress">geovannagarcia.assesoria@gmail.com</p>
+        <p id="email-address">
+            <a href="mailto:geovannagarcia.assesoria@gmail.com">
+                geovannagarcia.assesoria@gmail.com
+            </a>
+        </p>
+
+        <div class="flex row align-center justify-content-center">
+            <a id="instagram" href="https://www.instagram.com/geovannagarcia/">
+                <img src="assets/img/geovanna-icon-instagram.svg" alt="Instagram">
+            </a>
+            <a href="https://www.facebook.com/geovannagarciaeventos/">
+                <img src="assets/img/geovanna-icon-facebook.svg" alt="Facebook">
+            </a>
+
+        </div>
     </section>
 
 </body>
