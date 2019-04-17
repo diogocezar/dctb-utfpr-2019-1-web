@@ -38,7 +38,7 @@
 
 @media (min-width: 1025px) and (max-width: 1280px) {
     html {
-        font-size: 14px;
+        font-size: 12px;
     }
 }
 
@@ -60,7 +60,7 @@
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     html {
-        font-size: 14px;
+        font-size: 12px;
     }
 }
 
@@ -71,7 +71,7 @@
 
 @media (min-width: 481px) and (max-width: 767px) {
     html {
-        font-size: 5px;
+        font-size: 8px;
     }
 }
 
@@ -80,13 +80,21 @@
   ##Screen = B/w 320px to 479px
 */
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 0px) and (max-width: 480px) {
     html {
-        font-size: 6px;
+        font-size: 7px;
     }
     
     #about {
         text-align: center !important;
+    }
+
+    #testimony div div {
+        flex-direction: row !important;
+        flex-wrap: wrap !important;
+        justify-content: center;
+        align-items: center;
+        align-items: stretch;
     }
 }
 
