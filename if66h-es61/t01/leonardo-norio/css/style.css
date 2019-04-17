@@ -120,6 +120,7 @@ body nav img{
 }
 
 .menu_item a{
+    color: #f2e9e4;
     text-decoration: none;
     margin-right: 2em;
     line-height: 40px;
