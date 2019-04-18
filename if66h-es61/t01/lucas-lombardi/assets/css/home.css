@@ -1,0 +1,42 @@
+#home{
+    background: linear-gradient(rgba(34,34,59,.84),
+    rgba(34,34,59,.98)),
+    url("../images/geovanna-bg-home.jpg");
+    background-position: 0 0;
+    margin-top: 70px;
+    background: cover;
+}
+
+.home-content{
+    display:flex;
+    flex-flow:column wrap;
+    align-items: center;
+    justify-content: center;
+    color: #f2e9e4;
+    text-align: center;
+}
+
+.home-content h2{
+    font-size: 5.5rem;
+    padding: 0px;
+    line-height: 55px;
+    margin-top: 7rem;
+    margin-bottom: 2rem; 
+}
+
+.home-content h3{
+    font-size: 3.5rem;
+    margin-bottom: 4rem;
+    padding: 0px;
+}
+
+.home-content h4{
+    font-size: 1.3rem;
+    padding: 20px;
+    margin: 0;
+    line-height: 2rem;
+}
+
+.home-content button{
+    margin: 50px;
+}

@@ -1,0 +1,94 @@
+#contact{
+    background: linear-gradient(rgba(34, 34, 59, 0.8),
+    rgba(34, 34, 59, 0.9)),
+    url("../images/geovanna-bg-contact.jpg");
+    background-position: center center;
+    background: cover;
+    display: block;
+}
+
+.contact-content h3 h4 {
+    color: #c9ada7;
+}
+
+.contact-content{
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 3rem;
+}
+
+.section-img{
+    height: 120px;
+    margin-bottom: 4rem;
+}
+
+.contact-content img{
+    height: 120px;
+}
+
+.contact-content ul img{
+    height: 35px;
+    width: 35px;
+}
+
+ul{
+    list-style: none; 
+}
+
+.contact-content ul li{
+    border-radius: 50%;
+    padding: 13px;
+    margin: 10px;
+    border: 2px solid #f2e9e4;
+    list-style-type: none;
+    text-align: center;
+}
+
+.contact-content ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.contact-content h2{
+    font-size: 5rem;
+    color: #f2e9e4;
+    margin-bottom: 3rem; 
+    font-weight: 500;
+    margin-top: 4rem;
+}
+
+.contact-content h3{
+    font-size: 1.5rem;
+    margin-bottom: 4rem; 
+}
+.contact-content h4{
+    font-size: 1.2rem;
+    margin-bottom: .5rem;
+    margin-top: 1rem;
+}
+
+.contact-content a{
+    text-decoration: none;
+    font-size: 1.1em;
+    color: #f2e9e4;
+    font-weight: 500;
+}
+
+.contact-content p {
+    margin-bottom: 1rem;
+}
+
+.tel{
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0;
+}
+
+.tel small {
+    font-size: .9rem;
+}
