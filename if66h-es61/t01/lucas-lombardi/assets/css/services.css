@@ -1,0 +1,66 @@
+#services{
+    background: linear-gradient(rgba(34, 34, 59, 0.84),
+     rgba(34, 34, 59, 0.98)),
+      url("../images/geovanna-bg-services.jpg");
+    margin-top: 70px;
+    background-position: center center;
+    background-size: cover;
+    display:block;
+    color: #f2e9e4;
+}
+
+.services-content{
+    display:flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.divisions{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.column{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 500px;
+    flex-shrink: 0;
+}
+
+.services-content h2{
+    margin-top: 5rem;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.divisions h3{
+    font-size: 2rem;
+    line-height: 2.4rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.divisions p{
+    text-align: center;
+    padding:0 10%;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+.services-content img{
+    height: 120px;
+    margin-bottom: 3rem;
+}
+
+.services-content button{
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.services-content span {
+    font-size: 3rem;
+}

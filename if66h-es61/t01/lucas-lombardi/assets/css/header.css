@@ -1,0 +1,64 @@
+#menu-bar{
+  position: fixed;
+	top:0;
+	width: 100%;
+	height: 70px;
+	background: #22223B;
+	z-index: 1;
+}
+
+#logo{
+	position: relative;
+	float: left;
+	height: 60px;
+	margin: 3px 5px 0px 5px;
+}
+
+.menu-itens{
+	position: relative;
+	float: right;
+	padding-right: 10px;
+}
+
+.menu-itens ul{
+	list-style: none;
+}
+
+.menu-itens a{
+	font-family: 'TrajanPro-Regular';
+	color: #f2e9e4;
+	font-size: 16.5px;
+	text-decoration: none;
+}
+
+.menu-item{
+	position: relative;
+	float: right;
+	margin: 20px;
+	padding-top: 12px;
+	list-style: none;
+}
+
+.menu-item:after{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: #9a8c98;
+  transition: width .4s ease;
+}
+
+.menu-item:hover:after{
+  width: 100%;
+  left: 0;
+  background: #9a8c98;
+}
+
+#container{
+	width: 1140px;
+	height: 70px;
+	margin: 0 auto;
+}
