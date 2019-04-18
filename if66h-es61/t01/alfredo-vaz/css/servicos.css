@@ -1,0 +1,123 @@
+@font-face {
+    font-family: Trajan Pro Regular;
+    src: url(../fonts/TrajanPro-Regular.ttf)
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-Light.ttf)
+}
+
+.tipo-servicos-geral {
+    background: linear-gradient(rgba(34,34,59,.84),rgba(34,34,59,.98)),url("../assets/geovanna-bg-services.jpg");
+    background-position: 50%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: calc(100vh -70px);
+    padding-top: 6.125rem;
+    padding-bottom: 4.375rem;
+}
+
+.tipo-servicos-geral div h2{
+    font-family: Trajan Pro Regular, serif;
+    text-align: center;
+    font-size: 3rem;
+    color: #F2E9E4;
+    margin-bottom: 3rem; 
+}
+
+.tipo-servicos-geral div img{
+    vertical-align: middle;
+    height: 120px;
+    margin-bottom: 3rem;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%)!important;
+}
+
+.row {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.row div{
+    flex: 0 0 50%;
+    text-align: center;
+}
+
+.row div h3{
+    font-family: Trajan Pro Regular, serif;
+    color: rgb(154, 140, 152);
+    text-align: center;
+    display: block;
+    font-size:28px;
+    font-weight:500;
+    height:72px;
+    line-height:33.6px;
+    margin-block-end:28px;
+    margin-block-start:0px;
+}
+
+.row div h3 span{
+    font-size: 42px;
+}
+
+.row div p{
+    box-sizing:border-box;
+    color: rgb(242, 233, 228);
+    display: block;
+    font-family: Montserrat, sans-serif;
+    font-size: 16.8px;
+    font-weight:400;
+    height: 196px;
+    line-height: 28px;
+    margin-block-end: 14px;
+    margin-block-start: 0px;
+    margin-bottom: 4rem;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    margin-top: 0px;
+    outline-color: rgb(242, 233, 228);
+    outline-style: none;
+    outline-width: 0px;
+    padding-bottom: 0px;
+    padding-left: 81px;
+    padding-right: 81px;
+    padding-top: 0px;
+    text-align: center;
+    text-size-adjust: 100%;
+    width: 540px;
+}
+
+.tipo-servicos-geral div button {
+    cursor: pointer;
+    width: 260px;
+    border-radius: 40px;
+    height: 60px;
+    line-height: 38px;
+    margin: 42px 1px 0px 1px;
+    font-family: Montserrat,sans-serif;
+    font-size: 1rem;
+    border: 1px solid #f2e9e4;
+    background-color: #f2e9e4;
+    color: #4a4e69;
+    transition: all .3s ease-in-out 0s;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%)!important;
+}
+
+.tipo-servicos-geral div button:hover {
+    background-color: transparent;
+    color: #f2e9e4;
+}
+
+@media(min-width: 1281px) {
+    .row {
+        display: flex;
+    }
+}

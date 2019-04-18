@@ -1,0 +1,115 @@
+@font-face {
+    font-family: After Midnite Regular;
+    src: url(../fonts/AfterMidnite.ttf)
+}
+
+@font-face {
+    font-family: Trajan Pro Regular;
+    src: url(../fonts/TrajanPro-Regular.ttf)
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-Light.ttf)
+}
+
+.home-geral{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: calc(100vh -70px);
+    margin-top: 70px;
+    background: linear-gradient(rgba(34,34,59,.84),rgba(34,34,59,.98)),url("../assets/geovanna-bg-home.jpg");
+    padding-top: 9rem;
+    padding-bottom: 4rem;
+}
+
+.home-geral h2{
+    font-size: 90px;
+    font-family: After Midnite Regular, sans-serif;
+    line-height: 110px;
+    color: #f2e9e4;
+}
+
+.home-geral h3 {
+    display: flex;
+    justify-content: center;
+    font-family: After Midnite Regular, sans-serif;
+    line-height: 110px;
+    width: 100%;
+    color: #f2e9e4;
+    font-size: 55px;
+    padding-bottom: 1rem;
+}
+
+.home-geral h4 {
+    font-family: Trajan Pro Regular;
+    display: flex;
+    justify-content: center;
+    color: #f2e9e4;
+    width: 100%;
+    font-size: 21px;
+    line-height: 35px;
+}
+
+.home-geral h4 span{
+    font-family: Trajan Pro Regular;
+    color: #9a8c98;
+    font-size: 21px;
+    line-height: 35px;
+}
+
+.home-geral button:hover {
+    background-color: #f2e9e4;
+    color: #22223b;
+}
+
+.button-transparent {
+    border: 1px solid #f2e9e4;
+    background-color: transparent;
+    color: #f2e9e4;
+    transition: all .3s ease-in-out 0s;
+}
+
+.button {
+    margin-top: 56px;
+    margin-bottom: 56px;
+    cursor: pointer;
+    width: 260px;
+    border-radius: 40px;
+    height: 60px;
+    line-height: 38px;
+    font-family: Montserrat, sans-serif;
+    font-size: 1rem;
+}
+
+@media (max-width:1280px){
+    .home-geral{
+        padding-top: 24rem;
+        padding-bottom: 24rem;
+    }
+    .home-geral h2{
+        font-size: 4.5rem;
+    }
+    .home-geral h3 {
+        font-size: 3rem;
+    }
+    .home-geral h4 {
+        font-size: 2.0rem;
+    }
+    .home-geral h4 span{
+        font-size: 2.0rem;
+    }
+    .button {
+        margin-top: 7rem;
+        margin-bottom: 56px;
+        cursor: pointer;
+        width: 312px;
+        border-radius: 48px;
+        height: 60px; 
+        font-size: 1.3rem;
+    }
+}
+
+
+
