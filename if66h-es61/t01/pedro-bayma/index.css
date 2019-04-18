@@ -1,0 +1,751 @@
+:root{
+    font-size: 10px;
+}
+
+body, html{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+@font-face {
+    font-family: 'AfterMidnite';
+    src: url('./assets/fonts/AfterMidnite.eot'),
+         url('./assets/fonts/AfterMidnite.otf'),
+         url('./assets/fonts/AfterMidnite.ttf'),
+         url('./assets/fonts/AfterMidnite.woff');
+
+}
+
+@font-face {
+    font-family: 'TrojanProBold';
+    src: url('./assets/fonts/TrajanPro-Bold.eot'),
+         url('./assets/fonts/TrajanPro-Bold.otf'),
+         url('./assets/fonts/TrajanPro-Bold.ttf'),
+         url('./assets/fonts/TrajanPro-Bold.woff');
+}
+
+@font-face {
+    font-family: 'TrojanProRegular';
+    src: url('./assets/fonts/TrajanPro-Regular.eot'),
+         url('./assets/fonts/TrajanPro-Regular.otf'),
+         url('./assets/fonts/TrajanPro-Regular.ttf'),
+         url('./assets/fonts/TrajanPro-Regular.woff');
+}
+
+section {
+    min-height: calc(100vh - 70px);
+}
+
+.font-mont {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 300;
+}
+
+.font-afterMid {
+    font-family: 'AfterMidnite', sans-serif;
+    font-weight: 500;
+}
+
+.font-trojan-regular {
+    font-family: 'TrojanProRegular', serif;
+    font-weight: 500;
+}
+
+.flex-row-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.text-color1{
+    color: #F2E9E3;
+}
+
+.text-color2 {
+    color: #9a8c98;
+}
+
+.text-color3 {
+    color: #22223b;
+}
+
+.text-color4 {
+    color: #22223be0;
+}
+
+.text-color5 {
+    color: #C9ADA7;
+}
+
+#menubar {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #22223B;
+    padding: 0.3rem;
+
+}
+#menubar img{
+    width: 26.8rem;
+    height: 6rem;
+    margin-right: 0 5%;
+    padding-left: 10%;
+}
+
+#menubar ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0 5%;
+    padding: 0;
+}
+
+#menubar li {
+    margin: 2rem;
+}
+
+#menubar li a {
+    font-size: 1.65rem;
+    text-decoration: none;
+    color: #D7DDC6;
+    padding-bottom: 0.8rem;
+}
+
+#hamburguer {
+    display: none;
+    color: white;
+    background-color: #22223B;
+    align-self: center;
+    width: 4rem;
+    height: 4rem;
+    border: 1px solid white;
+    border-radius: 100%;
+}
+
+@media only screen and (max-width: 1200px){
+    #menubar img{
+        margin-right: 0 5%;
+        padding-left: 5%;
+    }
+    
+    #menubar ul {
+        display: flex;
+        list-style-type: none;
+        margin: 0 5%;
+        padding: 0;
+    }
+    
+    #menubar li {
+        margin: 2rem;
+    }
+    
+    #menubar li a {
+        font-size: 1.4rem;
+    }
+
+}
+
+@media only screen and (max-width: 990px){
+    
+    #menubar {
+        justify-content: space-between;
+    }
+
+    #menubar ul {
+        display: none;
+    }
+    
+    #hamburguer {
+        display: block;
+        margin-right: 5%;
+    }
+
+    #menubar li {
+        margin: 2rem;
+    }
+    
+    #menubar li a {
+        font-size: 1.4rem;
+    }
+    
+}
+
+#menubar li a:hover {
+    border-bottom: 0.3rem solid #D7DDC6;
+    transition: 0.5s;
+}
+
+.align{
+    text-align: center;
+}
+
+.flex-column-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#home-container {
+    box-sizing: border-box;
+    margin-top: 6.5rem;
+    padding: 9.8rem 0 5.8rem 0;
+    width: 100%;
+    background:
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+        rgba(35, 34, 59, 0.753), 
+        rgba(35, 34, 59, 0.952)
+    ),
+    /* bottom, image */
+    url("./assets/images/geovanna-bg-home.jpg");
+}
+
+#home-container div span{
+    color: rgb(139, 139, 139);
+}
+
+#home-container h1 {
+    font-size: 9.1rem;
+    padding-top: 2rem;
+    margin-top: 0rem;
+    margin-bottom: 7px;
+    line-height: 10rem;
+}
+
+#home-container h2 {
+    line-height: 7rem;
+    margin-top: 0;
+    font-size: 5.6rem;
+    margin-bottom: 2rem;
+}
+
+#home-container h3 {
+    padding-top: 2rem;
+    margin: 0;
+    line-height: 1rem;
+    font-size: 2.1rem;
+}
+
+.button-layout {
+    cursor: pointer;
+    font-size: 1.4rem;
+    margin: 2rem;
+    padding: 2rem 5rem 2rem 5rem;
+    border-radius: 5rem;
+    text-transform: uppercase;
+}
+
+#home-container button {
+    margin-top: 8rem;
+    border: 0.1rem solid white;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#home-container button:hover {
+    background-color: rgb(255, 255, 255);
+    color: #22223b;
+    transition: 0.5s;
+}
+
+@media only screen and (max-width: 1200px){
+    #home-container {
+        margin-top: 6.5rem;
+        width: 100%;
+    }
+    
+    #home-container h1 {
+        font-size: 7.7rem;
+        margin-top: 0;
+        line-height: 8rem;
+    }
+    
+    #home-container h2 {
+        line-height: 7rem;
+        margin-top: 0;
+        font-size: 4.9rem;
+        margin-bottom: 2rem;
+    }
+    
+    #home-container h3 {
+        padding-top: 2rem;
+        margin: 0;
+        line-height: 1rem;
+        font-size: 2.1rem;
+    }
+}
+
+@media only screen and (max-width: 990px){
+    
+    #home-container h1 {
+        font-size: 7rem;
+        margin-top: 0;
+        line-height: 8rem;
+    }
+    
+    #home-container h2 {
+        line-height: 7rem;
+        margin-top: 0;
+        font-size: 4.2rem;
+        margin-bottom: 2rem;
+    }
+    
+    #home-container h3 {
+        padding-top: 2rem;
+        margin: 0;
+        line-height: 1rem;
+        font-size: 2.1rem;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    
+    #home-container h1 {
+        font-size: 5.6rem;
+        line-height: 8rem;
+    }
+    
+    #home-container h2 {
+        line-height: 7rem;
+        font-size: 2.8rem;
+    }
+    
+    #home-container h3 {
+        font-size: 1.68rem;
+    }
+    .button-layout {
+        cursor: pointer;
+        font-size: 1.26rem;
+        padding: 1.8rem 4rem 1.8rem 4rem;
+    }
+    
+}
+
+#presentation-container {
+    width: 100%;
+    height: 35rem;
+    padding: 8.5rem 0 8.5rem 0;
+    background:
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+        rgba(35, 34, 59, 0.753), 
+        rgba(35, 34, 59, 0.753)
+    ),
+    /* bottom, image */
+    url("./assets/images/geovanna-bg-presentation.jpg");
+    background-position-x: 40%;
+}
+
+#presentation-container h1{
+    font-size: 2.8rem;
+}
+
+#presentation-container img{
+    height: 8rem;
+    width: 60rem;
+    margin: 3.5rem 0;
+}
+
+#presentation-container h2 {
+    font-size: 1.6rem;
+    text-transform: lowercase;
+}
+
+@media only screen and (max-width: 768px){
+    
+    #presentation-container h1{
+        font-size: 1.96rem;
+    }
+    
+    #presentation-container img{
+        height: 8rem;
+        width: 6rem;
+        margin: 3.5rem 0;
+    }
+    
+    #presentation-container h2 {
+        font-size: 1.6rem;
+        text-transform: lowercase;
+    }
+    
+}
+
+.button-transition {
+    color: rgba(35, 34, 59, 0.753);
+    border: 0.1rem solid rgba(35, 34, 59, 0.753);
+    background-color: rgb(255, 255, 255);
+}
+
+.button-transition:hover{
+    background-color: rgba(35, 34, 59, 0);
+    color: white;
+    border: 1px solid white;
+    transition: 0.5s;
+}
+
+#about-us-container {
+    background-color: #F2E9E4;
+    padding: 1rem 0rem 18rem 0rem;
+}
+
+#about-us-container div{
+    height: 70rem;
+    width: 63rem;
+    margin-left: 10%;
+    margin-right: 50%;  
+}
+
+#about-us-container h1{
+    font-size: 8.4rem;
+    line-height: 4rem;
+}
+
+#about-us-container h2 {
+    line-height: 4rem;
+    font-size: 2.1rem;
+}
+
+#about-us-container p {
+    font-weight: 100;
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+    margin-bottom: 2.8rem;
+}
+
+#about-us-container img {
+    width: 12rem;
+    height: 12rem;
+    padding-bottom: 3rem;
+}
+
+@media only screen and (max-width: 768px){
+    
+    #about-us-container {
+        justify-content: center;
+        text-align: center;
+    }
+    
+    #about-us-container div{
+        justify-content: center;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 0!important;  
+    }
+    
+    #about-us-container h1{
+        font-size: 5.6rem;
+    }
+    
+    #about-us-container h2 {
+        line-height: 4rem;
+        font-size: 1.4rem;
+    }
+    
+    #about-us-container p {
+        font-size: 1.4rem;
+    }
+    
+}
+
+#services-container {
+    padding: 7rem 0 7rem 0;
+    background:
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+        rgba(35, 34, 59, 0.753), 
+        rgba(35, 34, 59, 0.918)
+    ),
+    /* bottom, image */
+    url("./assets/images/geovanna-bg-services.jpg");
+    background-position-x: 40%;
+}
+
+#services-container h1{
+    padding-top: 1rem;
+    font-size: 4.2rem;
+}
+
+#services-container img{
+    width: 7.7rem;
+    height: 12rem;
+}
+
+#description-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.div-text-container {
+    width: 100%;
+
+}
+
+.div-text-container div h2 {
+    font-size: 2.8rem;
+    text-align: center
+}
+
+.div-text-container div span {
+    font-size: 4.2rem;
+}
+
+.div-text-container div p {
+    width: 35rem;
+    font-size: 1.65rem;
+    line-height: 2.8rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px){
+
+    #services-container h1{
+        padding-top: 1rem;
+        font-size: 2.8rem;
+    }
+    
+    #services-container img{
+        width: 6.4rem;
+        height: 10rem;
+    }
+    
+    #description-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    #description-container {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    #description-container div span {
+        font-size: 3.5rem;
+    }
+
+    #description-container p {
+        font-size: 1.4rem;
+        margin: 0 10%;
+        width: 80%;
+    }
+    
+}
+
+#deposition-container {
+    padding: 20rem 0rem 30rem 0rem;
+    background-color: #f2e9e4; 
+    text-align: center;
+    height: 120vh;
+}
+
+#deposition-container h1 {
+    font-size: 8.4rem;
+    line-height: 5rem;
+}
+
+#deposition-container h2 {
+    padding: 0 32.5%;
+    font-size: 2.1rem;
+}
+
+#deposition-container img{
+    width: 12rem;
+    height: 12rem;
+}
+
+#couple-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#couple-container p{
+    margin-right: 0;
+}
+
+#couple-container div img {
+    margin: 0;
+    padding-top: 3rem;
+    border-top: 3px solid #C9ADA7;
+}
+
+#couple-container h3 {
+    font-size: 1.75rem;
+}
+
+@media only screen and (max-width: 768px){
+    
+    #deposition-container {
+        padding: 30rem 0rem 30rem 0rem;
+        background-color: #f2e9e4; 
+        text-align: center;
+    }
+    
+    #deposition-container h1 {
+        font-size: 7rem;
+        line-height: 5rem;
+    }
+    
+    #deposition-container h2 {
+        padding: 0 15%;
+        font-size: 1.52rem;
+    }
+    
+    #deposition-container img{
+        width: 10rem;
+        height: 10rem;
+    }
+    
+    #couple-container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        text-align: center;
+    }
+    
+    #couple-container p{
+        margin-right: 0;
+        font-size: 1.26rem;
+    }
+    
+    #couple-container div img {
+        margin: 0;
+        padding-top: 3rem;
+        border-top: 3px solid #C9ADA7;
+        width: 10rem;
+        height: 10rem;
+    }
+
+    #couple-container h2 {
+        font-size: 1.4rem;
+    }
+
+    #couple-container h3 {
+        font-size: 1.4rem;
+    }
+    
+}
+
+#contact {
+    background:
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+        rgba(35, 34, 59, 0.753), 
+        rgba(35, 34, 59, 0.918)
+    ),
+    /* bottom, image */
+    url("./assets/images/geovanna-bg-contact.jpg");
+    background-position-x: 40%;
+    background-position-y: 20%;
+}
+
+#contact {
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+}
+
+#rings {
+    width: 13rem;
+    height: 12rem;
+}
+
+#contact h1 {
+    font-size: 8.4rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    margin-top: 5.6rem;
+    margin-bottom: 8.4rem;
+    text-align: center;
+}
+
+#contact h3 {
+    font-size: 2.1rem;
+    margin-bottom: 0.8rem;
+}
+
+#number{
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2.8rem;
+    text-align: center;
+
+}
+
+#contact p {
+    margin-top: 0;
+    text-align: center;
+    line-height: 1.6;
+}
+
+#contact small {
+    font-size: 1.4rem;
+}
+
+#email {
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.68rem;
+    text-align: center;
+    line-height: 1.6;
+}
+
+#contact ul{
+    display: flex;
+    margin-top: 3.5rem;
+}
+
+#contact li {
+    list-style-type: none;
+    margin-right: 1.5rem;
+    padding: 1.3rem;
+    border: 2px solid white;
+    border-radius: 100%;
+}
+
+.icon {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+@media only screen and (max-width: 768px){
+    
+    #rings {
+        width: 11rem;
+        height: 10rem;
+    }
+    
+    #contact h1 {
+        font-size: 5.6rem;
+    }
+    
+    #contact h2 {
+        font-size: 2.1rem;
+    }
+    
+    #contact h3 {
+        font-size: 1.8rem;
+    }
+    
+    #number{
+        font-size: 2.8rem;
+    
+    }
+    
+    #email {
+        font-size: 1.26rem;
+    }
+    
+    .icon {
+        width: 2rem;
+        height: 2rem;
+    }
+    
+}
+
