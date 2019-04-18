@@ -1,0 +1,65 @@
+#testmonials{
+
+    font-family: TrajanPro-Regular, sans-serif;
+
+}
+
+#testmonials img{
+
+    height: 120px;
+    width: 120px;
+    margin-bottom: 3rem;
+    
+}
+
+#testmonials h2{
+
+    font-family: After Midnite Regular, sans-serif;
+    color: #22223B;
+    font-size: 6rem;
+    margin-bottom: 3rem;
+    text-align: center;
+
+}
+
+#testmonials h3{
+
+    color: #9A8C98;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    padding: 0 30%;
+    margin-bottom: 7rem;
+
+}
+
+#testmonials p{
+
+    text-align: center;
+    padding: 0 15%;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    line-height: 2rem;
+
+}
+
+#testmonials h5{
+
+    color: #C9ADA7;
+    text-align: center; 
+    font-size: 1rem;
+
+}
+
+#testmonials h4{
+
+    text-align: center; 
+    font-size: 1.3rem;
+
+}
+
+.testmonial_img{
+
+    margin-top: 3.2rem;
+
+}

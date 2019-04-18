@@ -1,0 +1,106 @@
+#services {
+
+    background: linear-gradient(rgba(34, 34, 59, 0.84), rgba(34, 34, 59, 0.98)), url(../images/geovanna-bg-services.jpg);
+    background-position: center center;
+    background-size: cover;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+
+}
+
+#services h2 {
+
+    font-family: "TrajanPro-Regular", serif;
+    text-align: center;
+    font-size: 3rem;
+    color: #F2E9E4;
+    margin-bottom: 3rem;
+
+}
+
+#services img {
+
+    height: 120px;
+    margin-bottom: 3rem;
+
+}
+
+#services h3 {
+
+    font-family: "TrajanPro-Regular", serif;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    color: #9A8C98;
+    margin-bottom: 2rem;
+
+}
+
+#services span {
+
+    font-size: 3rem;
+
+}
+
+#services p {
+
+    font-family: "Montserrat", sans-serif;
+    color: #F2E9E4;
+    padding: 0 14%;
+    font-size: 1rem;
+    line-height: 2rem;
+
+}
+
+#services a button {
+
+    width: 260px;
+    border-radius: 40px;
+    height: 60px;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    margin-top: 4rem;
+    border: 1px solid #f2e9e4;
+    font-weight: 500;
+    background: #f2e9e4;
+    color: #22223b;
+
+}
+
+#services a button:hover {
+
+    background: transparent;
+    color: #f2e9e4;
+
+}
+
+#service div {
+
+    width: 100%;
+
+}
+
+.col {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.type_service {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 500px;
+    flex-shrink: 0;
+}
+
+.con_service {
+
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}

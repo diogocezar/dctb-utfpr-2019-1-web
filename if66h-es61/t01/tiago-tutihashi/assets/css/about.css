@@ -1,0 +1,45 @@
+#about {
+
+    margin-left: 7.5rem;
+    justify-content: space-between;
+
+}
+
+#about img {
+
+    height: 120px;
+    width: 120px;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+
+}
+
+#about p {
+
+    font-family: Montserrat, sans-serif;
+    color: #22223B;
+    line-height: 1.8rem;
+    margin-bottom: 1.8rem;
+    font-size: 0.8rem;
+    padding-right: 53%;
+
+}
+
+#about h2 {
+
+    font-family: After Midnite Regular, sans-serif;
+    color: #22223B;
+    font-size: 5rem;
+    margin-bottom: 0.8rem;
+    font-weight: 100;
+
+}
+
+#about h3 {
+
+    font-family: TrajanPro-Regular, sans-serif;
+    color: #9A8C98;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+
+}
