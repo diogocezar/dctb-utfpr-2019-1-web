@@ -1,0 +1,109 @@
+@font-face {
+    font-family: Trajan Pro Regular;
+    src: url(../fonts/TrajanPro-Regular.ttf)
+}
+
+
+.depoimentos-geral{
+    justify-content: center;
+    height: calc(100vh -70px);
+    background: #f2e9e4;
+    padding: 7rem 0rem 4.375rem 0rem;
+}
+
+.depoimentos-geral div {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+}
+
+.depoimentos-geral div h2{
+    font-family: After Midnite Regular,sans-serif;
+    color: #22223b;
+    text-align: center;
+    font-size: 5.25rem;
+    margin-bottom: 2.625rem;
+}
+
+.depoimentos-geral div img {
+    left: 50%;
+    position: relative;
+    transform: translate(-50%)!important;
+    height: 120px;
+    width: 120px;
+    margin-bottom: 3rem;
+}
+
+.depoimentos-geral div h3{
+    font-family: Trajan Pro Regular;
+    color: #9a8c98;
+    font-size: 1.3125rem;
+    margin-bottom: 2rem;
+    padding: 0 35%;
+    text-align: center;
+    margin-bottom: 7rem;
+}
+
+.row-depoimentos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row-depoimentos div{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.row-depoimentos div p{
+    font-family: Trajan Pro Regular;
+    text-align: center;
+    padding: 0 25%;
+    line-height: 25.2px;
+    font-size: 16.8px;
+    margin-bottom: 2rem;
+}
+
+.row-depoimentos div p:after {
+    content: "";
+    position: absolute;
+    width: 8em;
+    height: 3px;
+    background-color: #c9ada7;
+    left: 50%;
+    float: left;
+    margin-top: 40px;
+}
+
+.row-depoimentos div p:after{
+    left: 50%;
+    transform: translate(-50%)!important;
+}
+
+.row-depoimentos div img {
+    margin-top: 3.2rem;
+}
+
+.row-depoimentos div h4{
+    color: rgb(74, 78, 105);
+    font-family: Trajan Pro Regular;
+    margin-bottom: 7px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.row-depoimentos div h5{
+    color: rgb(201, 173, 167);
+    font-family: Trajan Pro Regular;
+    text-align: center;
+    font-size: 17.5px;
+    font-size-adjust: 100%;
+}
+
+@media(max-width: 1280px){
+    .row-depoimentos div p{
+        padding: 0 15%;
+    }
+}
