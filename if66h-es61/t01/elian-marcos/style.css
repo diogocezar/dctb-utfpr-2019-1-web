@@ -1,0 +1,427 @@
+body{
+    width: 100%;
+    height: 100%;
+
+    border: none;
+    padding:0px;
+    margin:0px;
+}
+
+@font-face{
+    font-family: 'TrajanPro';
+    src: url('/home/elian/Programação_Web/ProgramacaoWeb/T01/imagens/TrajanPro-Regular.eot');
+    src: url('/home/elian/Programação_Web/ProgramacaoWeb/T01/imagens/TrajanPro-Regular.eot') format('embedded-opentype'),
+        url('/home/elian/Programação_Web/ProgramacaoWeb/T01/imagens/TrajanPro-Regular.woff') format('woff'),
+        url('/home/elian/Programação_Web/ProgramacaoWeb/T01/imagens/TrajanPro-Regular.ttf') format('truetype'),
+        url('/home/elian/Programação_Web/ProgramacaoWeb/T01/imagens/TrajanPro-Regular.otf') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face{
+    font-family: 'AfterMidnite';
+    src: url('/home/elian/Programação_Web/ProgramacaoWeb/T01/imagens/AfterMidnite.eot');
+    src: url('/home/elian/Programação_Web/ProgramacaoWeb/T01/imagens/AfterMidnite.eot') format('embedded-opentype'),
+        url('/home/elian/Programação_Web/ProgramacaoWeb/T01/imagens/AfterMidnite.woff') format('woff'),
+        url('/home/elian/Programação_Web/ProgramacaoWeb/T01/imagens/AfterMidnite.ttf') format('truetype'),
+        url('/home/elian/Programação_Web/ProgramacaoWeb/T01/imagens/AfterMidnite.otf') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#img1{
+    width: 1330px;
+    height: 600px;
+    top: 70px;
+    position: relative;
+}
+#img2{
+    width: 250px;
+    height: 50px;;
+    left: 170px;
+    top: 10px;
+    position: absolute;
+    
+}
+
+#img3{
+    width: 1330px;
+    height: 500px;
+    top: 60px;
+    position: relative;
+}
+
+a:link { 
+    text-decoration:none; 
+}
+
+.column {
+	flex-direction: column;
+}
+
+.center {
+	align-items: center;
+}
+
+.wrap {
+	flex-wrap: wrap;
+}
+
+.row {
+	flex-direction: row;
+}
+.space-between {
+	justify-content: space-between;
+}
+.container{
+    display: flex;
+    width: 1330px;
+    
+    position: relative;
+}
+.container1{
+    display: flex;
+    width: 1330px;
+    height: 70px;
+    position: absolute;
+    background: #22223b;
+
+}
+.container2{
+    display: flex;
+    width: 1330px;
+    height: 550px;
+    position: relative;
+   
+}
+.item{
+    flex: 1;
+    font-family: "TrajanPro";
+    background: #22223b;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+
+
+.menu ul {
+    
+    padding:0px;
+    margin:0px;
+    background-color: #22223b;
+    list-style:none;
+    margin-left: 400px;
+}
+
+.menu ul li { 
+    display: inline; 
+}
+
+.menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+
+    font-family: "TrajanPro";
+    font-size: 0.95em;
+    background-color:#22223b;
+    color: white;
+    text-decoration: none;
+   
+}
+
+.menu ul li a:hover {
+    background-color: #22223b;
+    color: white;
+    border-bottom:1.5px solid #4a4e69;
+}
+.item2{
+    top: 60px;
+    position: absolute;
+    width: 1330px;
+    height: 500px;;
+    background: #4a4e69;
+    opacity: 0.8;
+    
+}
+
+.home{
+    top: 60px;
+    width: 1330px;
+    height: 600px;
+    position: absolute;
+    background: #22223b;
+    color: white;
+    opacity: 0.85;
+    font-family: "AfterMidnite";
+    font-size: 3em;
+    text-align: center;
+}
+.home2{
+    top: 400px;
+    width: 3500px;
+    height: 200px;
+    position: absolute;
+    font-family: "TrajanPro";
+    color: white;
+    left: 500px;
+    font-size: 1.2em;
+    text-decoration-style: inherit;
+}
+
+.p1{
+    
+    font-family: "AfterMidnite";
+    font-size: 1.8em;
+    text-align: center;
+}
+.p2{
+    
+    font-family: "AfterMidnite";
+    font-size: 1.2em;
+    text-align: center;
+   
+}
+.p3{
+    top: 500px;
+}
+.span1{
+    color: #4a4e69;
+    
+}
+#p4{
+    margin-top: 90px;
+    font-family: "TrajanPro";
+    color: white;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.item3{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-top: 240px;
+    left: 47%;
+}
+
+.item4{
+    position: absolute;
+    width: 400px;
+    height: 60px;
+    margin-top: 240px;
+    left: 34%;
+}
+#p5{
+    margin-top: 110px;
+    color: white;
+    font-size: 1em;
+    text-align: center;
+}
+
+.container3{
+    display: flex;
+    width: 800px;
+    margin-left: 8%;
+    margin-bottom: 50px;
+}
+
+.img4{
+    width: 120px;
+    height: 120px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+.p6{
+    flex:1;
+    font-family: "AfterMidnite";
+    font-size: 5.5em;
+    color:#22223b;
+    margin-top: 40px;
+    margin-bottom: 0;
+
+}
+
+.p7{
+    font-family: "TrajanPro";
+    font-size: 1.2em;
+    color: #4a4e69;
+    opacity: 0.5;
+    margin-top: 0;
+}
+
+.p8{
+    font-family: "TrojanPro";
+    font-size: 1em;
+    color: #22223b;
+    opacity: 0.6;
+    margin-top: 0;
+}
+
+.container4{
+    display: flex;
+    position: absolute;
+    width: 1330px;
+    height: 800px;  
+}
+
+.img5{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.img6{
+    position: absolute;
+    width: 120px;
+    height: 130px;
+    left: 600px;
+    margin-bottom: 0;
+}
+
+.item5{
+    position: absolute;
+    width: 1330px;
+    height: 800px;
+    background: #22223b;
+    opacity: 0.9;
+    
+}
+
+.p9{
+    font-family: "TrajanPro";
+    font-size: 2.3em;
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.container5{
+    top: 300px;
+    display: flex;
+    width: 1100px;
+    height: 400px;
+    position: absolute;
+    left: 170px;
+}
+.item6{
+    flex: 1;
+    text-align: center;
+    margin-left: -130px;
+    margin-top: -40px;
+}
+
+
+.p10{
+    font-family: "TrajanPro";
+    font-size: 2em;
+    color: #4a4e69;
+    
+
+}
+
+.p11{
+    font-family: "TrajanPro";
+    font-size: 1em;
+    color: white;
+    margin-top: 40px;
+}
+
+.span2{
+    font-size: 1.4em;
+}
+
+
+.container6{
+    top: 800px;
+    display: flex;
+    position: relative;
+    width: 1330px;
+    height: 800px;  
+
+}
+
+.p12{
+    font-family: "AfterMidnite";
+    font-size: 5em;
+    color:white;
+    margin-top: 40px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.item7{
+    position: absolute;
+    width: 1330px;
+    height: 800px;
+    background: #22223b;
+    opacity: 0.85;
+    
+}
+.p13{
+    font-family: "TrajanPro";
+    font-size: 1em;
+    color:white;
+    text-align: center;
+    margin-top: 120px;
+}
+.p15{
+    font-family: "TrajanPro";
+    font-size: 1em;
+    color:white;
+    text-align: center;
+    margin-top: ;
+}
+.p14{
+    font-family: "TrajanPro";
+    font-size: 1em;
+    color:white;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.img7{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    margin-left: 45%;
+    margin-top: -50px;
+}
+
+.img8{
+    position: relative;
+    width: 1330px;
+    height: 800px;
+    margin-top: -50px;
+}
+.img9{
+    margin-left: 580px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+}
+.img10{
+    margin-left: 680px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+
+/*
+.button{
+    position: absolute;
+
+    visibility: visible;  
+    -webkit-transform: translateY(0) scale(1); 
+    opacity: 1;
+    transform: translateY(0) scale(1); 
+    opacity: 1;
+    -webkit-transition: all 0.3s ease-in-out 0s, 
+    -webkit-transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.1s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.1s; 
+    transition: all 0.3s ease-in-out 0s, transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1)0.1s,opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.1s;
+}
+*/
