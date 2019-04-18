@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav{
+    display: flex;
+    background-color:#1c1c1c;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#logo{
+    width: 300px;
+    
+}
+
+#searchBox{
+    position: relative;
+    bottom: 150px;
+    color: #1c1c1c;
+}
+
+.menu{
+    display:flex;
+    flex-direction: row;
+    height: 30px;
+    padding-top: 130px;
+    padding-left: 20px;
+}
+
+.menu p{
+    border:1px solid white;
+    border-radius: 40px;
+    padding: 5px 10px 0 10px;
+    margin-left: 10px;
+}
+
+.contact{
+    margin-top: 120px;
+    padding-left: 20px;
+    border:1px solid white;
+    width: 200px;
+    margin-left: 20px;
+    height: 60px;
+}
+
+.dragons100{
+    margin-top: 0px;
+}
+
+.labels100{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    border: 3px solid black;
+    background-image: url("../images/background-dragon.jpg");
+    height: 800px;
+    align-items: center;
+}
+
+.label100{
+    width: 400px;
+    padding: 5px;
+    margin-left: 50px;
+    background: white;
+
+}
+
+h2{
+    padding: 10px;
+    color: white;
+    text-align: center;
+    background-color: #1c1c1c;
+    border: 3px solid black;
+}
+
+.label10{
+    width: 300px;
+    height: 200px;  
+    background-color: white;
+    margin-left: 150px;
+    padding: 5px;
+}
+
+.labels10{
+    padding: 120px;
+    height: 500px;
+    align-content: center;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    border: 3px solid black;
+    background-image: url("../images/background-dragon2.jpg");    
+}
+
+#dragons10{   
+    width: 100%;
+}
+
+#cigar{     
+    width: 100%;
+
+}
+
+.labelsCigar{
+    align-items: center;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    border: 3px solid black;   
+    background-image: url("../images/background-cigar.jpg");  
+    background-position-y: -300px;
+    height: 600px;
+}
+
+
+.labelCigar{
+    width: 500px;
+    padding: 5px;
+    margin: 0 75px 0 75px;
+    background-color: white;
+}
+
+.grow1 {
+    flex-grow: 1;
+}
+
+.shrink1{
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.shrink3{
+    flex-grow: 1;
+    flex-shrink: 3;
+}
+
+.basis1{
+    flex-basis: 700px;
+}
+
+button{
+    margin-left: 20px;
+    background: black;
+    font-size: 25px;
+    padding: 20px;
+    border: 3px solid white;
+    border-radius: 40px;
+    height: 100px;
+}
+
+button:hover{
+    background: #052e0d;
+}
+
+button:active{
+    background: black; 
+}
+
+#description{
+    padding-top: 100px;      
+    width: 100%;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+    background: #1c1c1c;
+}
+
+#button3{
+    order: 1;
+}
+
+#button1{
+    order: 2;
+    align-self: flex-start;
+}
+
+#button2{
+    order: 3;
+}
+
+#button4{
+    order: 0;
+    align-self: flex-start;
+}
+
+.paragraph{
+    font-weight: bold;
+}

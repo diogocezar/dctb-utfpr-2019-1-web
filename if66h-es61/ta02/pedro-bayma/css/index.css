@@ -1,0 +1,160 @@
+:root {
+    font-size: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+
+}
+
+img {
+    height: 15rem;
+    width: 30rem;
+}
+
+#menubar {
+    width: 100%;
+    height: 9rem;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: solid 0.1rem black;
+}
+
+#menubar ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 40rem;
+
+}
+
+#menubar ul li {
+    flex: 1;
+    justify-content: center;
+    align-content: center;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 2rem;
+    padding: 1.7rem;
+    
+}
+#menubar ul li:hover {
+    background-color: grey;
+    flex-grow: 3;
+    transition: 0.3s;
+}
+
+#menubar ul li a {
+    text-decoration: none;
+}
+
+.flex-grow {
+    flex-grow: 3;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    height: 30rem;
+    width: 60rem;
+}
+.container div {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    margin: 0 auto;
+    height: 100%;
+    width: 90%;
+}
+
+#align-content div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start;
+    margin: 0 auto;
+    height: 100%;
+    width: 90%;
+    border: 1px solid black;
+}
+
+#align-content div p {
+    flex: 1;
+    margin: 5px;
+}
+
+#flex-flow div{
+    height: 10rem;
+    flex-wrap: wrap;
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 5rem;
+    justify-content: center;
+}
+
+.order1{
+    order: 1;
+}
+
+.order2{
+    order: 2;
+}
+
+.order3{
+    order: 3;
+}
+
+.tittles h1{
+    font-size: 2rem;
+    margin-top: 7rem;
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+    font-size: 2rem;
+    padding: 0 1rem 0 1rem;
+}
+
+h1{
+    text-align: center;
+}
+
+#flex-basis {
+    flex-direction: row;
+}
+
+.item {
+        flex: 1;
+        margin: 6px;
+        font-size: 2rem;
+}
+
+.basis_grow {
+    flex-grow: 4;
+    flex-basis: auto;
+}
+#photos-galery {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.img {
+    flex: 1 1;
+}
+
+.self-start {
+    margin-top: 3rem;
+    align-self: flex-start;
+    font-weight: bold;
+}
+
+.self-center {
+    align-self: center;
+}
