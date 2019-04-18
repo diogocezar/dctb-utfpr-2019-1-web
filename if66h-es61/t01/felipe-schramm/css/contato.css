@@ -1,0 +1,127 @@
+#contato{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	background: linear-gradient(rgba(34, 34, 59, 0.8), rgba(34, 34, 59, 0.9)), url(../img/geovanna-bg-contact.jpg);
+	padding: 4rem 0 4rem 0;
+}
+
+
+#titulo-contato{
+	font-family: After Midnite Regular,sans-serif;
+    color: #f2e9e4;
+    font-size: 6rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#anel-contato{
+	display:flex;
+	justify-content: center;
+	height: 120px;
+}
+
+#texto-contato-1{
+	font-family: TrajanPro-Regular,serif;
+    color: #c9ada7;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+    text-align: center;
+    font-size: 1.75rem;
+}
+
+#texto-contato-2{
+	font-family: TrajanPro-Regular,serif;
+    color: #c9ada7;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#texto-contato-3{
+	font-size: 1rem;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    position: relative;
+    float: left;
+    margin-bottom: 2rem;
+    color: #f2e9e4;
+    text-align: center;
+    margin-top: 8px;
+}
+
+#texto-contato-4{
+	font-family: TrajanPro-Regular,serif;
+    color: #c9ada7;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#texto-contato-5{
+	display: flex;
+	justify-content: center;
+	color: #f2e9e4;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.redes{
+	margin: 10px;
+	border: 2px solid #f2e9e4;
+	border-radius: 50%;
+	padding: 15px;
+}
+
+.posicao-redes{
+	height: 30px;
+    width: 30px;
+}
+
+#contato ul{
+	list-style: none;
+	margin-top: 1.2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#contato a{
+	display: flex;
+	justify-content: center;
+	color: #f2e9e4;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+    #titulo-contato{
+      font-size: 4rem; } }
+@media only screen and (max-width: 480px) {
+    #titulo-contato{
+      font-size: 3rem; } }
+@media only screen and (max-width: 768px) {
+    #anel-contato{
+        height: 100px; } }
+@media only screen and (max-width: 480px) {
+    #anel-contato{
+        height: 80px; } }
+@media only screen and (max-width: 768px) {
+    #texto-contato-1{
+        font-size: 1.5rem;
+        margin-bottom: 3rem; } }
+@media only screen and (max-width: 480px) {
+    #texto-contato-1{
+        font-size: 1.2rem; } }
+@media only screen and (max-width: 768px) {
+    #texto-contato-2{
+        font-size: 1.3rem; } }
+@media only screen and (max-width: 480px) {
+    #texto-contato-2{
+        font-size: 1.2rem; } }
+@media only screen and (max-width: 768px) {
+    #texto-contato-3{
+        font-size: 0.9rem; } }
+@media only screen and (max-width: 768px) {
+    #contato ul li a img {
+        height: 20px;
+        width: 20px; } }
