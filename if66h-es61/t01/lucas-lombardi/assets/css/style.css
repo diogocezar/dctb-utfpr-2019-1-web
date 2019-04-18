@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300');
+
+@font-face{
+    font-family:'TrajanPro-Regular';
+    src: url('../fonts/TrajanPro-Regular.eot') format('eot'), 
+        url('../fonts/TrajanPro-Regular.woff') format('woff'),
+        url('../fonts/TrajanPro-Regular.ttf') format('truetype');
+}
+
+@font-face{
+    font-family:'AfterMidnite';
+    src: url('../fonts/AfterMidnite.eot') format('eot'), 
+        url('../fonts/AfterMidnite.woff') format('woff'),
+        url('../fonts/AfterMidnite.ttf') format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+    outline: none !important;
+}
+
+body{
+    font-family: 'MontSerrat', sans-serif;
+    font-size: 14px;
+    font-weight: 1.5;
+    color: #4a4e69;
+    margin: 0;
+    padding: 0;
+    background-color: #f2e9e4;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+section{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+h2,h3,h4,h5{
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.font-style-1{
+    font-family: 'AfterMidnite', serif;
+    font-weight: 500;
+}
+
+.font-style-2, a{
+    font-family: 'TrajanPro-Regular', serif;
+    font-weight: 500;
+}
+
+button{
+    cursor: pointer;
+    border-radius: 40px;
+    width: 260px;
+    height: 60px;
+    line-height: 38px;
+    padding: 5px;
+    font-size: 1rem;
+    outline: none;
+    text-transform: uppercase;
+}
+
+.btn-1{
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.btn-1:hover{
+    background-color: #f2e9e4;
+    color: #4a4e69;
+}
+
+.btn-2{
+    border: 1px solid #f2e9e4;
+    background-color: #f2e9e4;
+    color: #4a4e69;
+}
+
+.btn-2:hover{
+    background-color: transparent;
+    color: #f2e9e4;
+}
+
+.text-color{
+    color: #9a8c98;
+}
+
+.text-color-2{
+    color: #c9ada7;
+}
+
+small{
+    color: #f2e9e4;
+    font-size: .9rem;
+}
+
+
+@media only screen and (max-width: 920px) {
+    .home-content h2 {
+        font-size: 3.4rem !important;
+        text-align: center;
+    }
+
+    .home-content h3 {
+        font-size: 2rem !important;
+        text-align: center;
+    }
+
+    .column {
+        margin-bottom: 3rem;
+    }
+
+    body nav {
+        justify-content: space-between;
+    }
+
+    .about-content {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 640px){
+    .about-content {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    #about {
+        max-height: 1200px;
+    }
+}

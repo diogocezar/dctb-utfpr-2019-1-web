@@ -1,0 +1,37 @@
+#about{
+    display:block; 
+}
+
+.about-content{
+    margin-left: 125px;
+    justify-content: flex-start;
+    align-items: left;
+    text-align: left;
+}
+
+.about-content h2{
+    margin-top: 7rem;
+    font-size: 5rem;
+    color: #22223b;
+    margin-bottom: 3rem;
+}
+
+.about-content h3{
+    font-size: 1.2rem;
+    color: #9a8c98;
+    margin-bottom: 2rem;
+}
+.about-content p{
+    font-size: 1rem;
+    line-height: 2rem;
+    color: #22223b;
+    margin-bottom: 2rem;
+    margin-top: 0;
+}
+
+#about img{
+    height: 120px;
+    width: 120px;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}

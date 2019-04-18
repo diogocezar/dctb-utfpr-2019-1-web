@@ -1,0 +1,43 @@
+#presentation{
+    background: linear-gradient(rgba(74, 74, 105, 0.8), 
+    rgba(74, 74, 105, 0.8)),
+    url('../images/geovanna-bg-presentation.jpg');
+    background-position: center center;
+    background: cover;
+    display:block;
+    padding-top: 20px;
+}
+
+.presentation-content{
+    display:flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    text-align: center;
+    color: #f2e9e4;
+    margin-top:50px;
+}
+
+.presentation-content h2{
+    font-size: 2rem;
+    padding: 0px; 
+}
+
+.presentation-content h3 {
+    font-size: 1rem;
+    margin: 0;
+}
+
+#presentation img{
+    margin: 2rem 0;
+    height: 80px;
+}
+
+.presentation-content button{
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+.presentation-content p{
+    font-size: 1rem;
+    font-weight: 400;
+}
