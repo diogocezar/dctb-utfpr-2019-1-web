@@ -1,0 +1,990 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,300");
+
+
+@font-face {
+    font-family: 'Trajan Pro';
+    src: url("fonts/TrajanPro-Regular.ttf");
+}
+
+
+@font-face {
+    font-family: 'After Midnigth';
+    src: url("fonts/AfterMidnite.ttf");
+}
+
+@font-face {
+    font-family: 'Trajan Pro 2';
+    src: url("fonts/TrajanPro-Regular.ttf");
+    font-weight: 100;
+}
+
+a {
+    font-family: "Trajan Pro";
+    text-decoration: none;
+}
+
+aside {
+
+    background-color: #22223B;
+    padding: 5px;
+    text-align: end;
+    font-size: 17px;
+    /*text-transform: uppercase;*/
+    width: auto;
+
+}
+
+
+.menu {
+    display: none;
+
+}
+
+aside li {
+
+    display: inline-block;
+    margin: 15px;
+
+
+}
+
+li a {
+    color: #F2E9E4;
+    font-family: 'Trajan Pro';
+    src: url("/fonts/TrajanPro-Regular.ttf");
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 0 110px;
+    max-width: 1523px;
+    height: 60px;
+    max-width: 1920px;
+
+
+
+}
+
+.logo {
+    width: 270px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+
+
+}
+
+.background1 {
+    background-image: url(images/geovanna-bg-home.jpg);
+    /* background-position-y: 200px; */
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    top: 70px;
+    width: 100%;
+    height: 652px;
+
+}
+
+.background2 {
+    background-image: url(images/geovanna-bg-presentation.jpg);
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    top: 70px;
+    width: 100%;
+    height: 550px;
+
+}
+
+.background3 {
+    background-color: #F2E9E4;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    top: 70px;
+    width: 100%;
+    height: 950px;
+
+}
+
+
+.background4 {
+
+    background-image: url(images/geovanna-bg-services.jpg);
+    /* background-position-y: 200px; */
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position-x: -100px;
+    background-position-y: -10px;
+    width: 100%;
+    height: 900px;
+
+
+}
+
+.background5 {
+
+    background-color: #F2E9E4;
+    /* background-position-y: 200px; */
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position-x: -100px;
+    background-position-y: -10px;
+    width: 100%;
+    height: 1160px;
+
+
+}
+
+
+
+
+.background6 {
+
+    background-image: url(images/geovanna-bg-contact.jpg);
+    background-position-x: left;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position-x: -100px;
+    background-position-y: -10px;
+    width: 100%;
+    height: 850px;
+}
+
+.layer1 {
+    background-image: linear-gradient(to bottom, rgba(34, 34, 59, 0.842), rgba(34, 34, 59, 0.973));
+    background-position: center;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.layer2 {
+    background-color: rgba(74, 75, 105, 0.808);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.layer3 {
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+
+
+}
+
+.layer4 {
+    background-image: linear-gradient(to bottom, rgba(34, 34, 59, 0.849), rgba(34, 34, 59, 0.973));
+    background-position: center;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.layer5 {
+
+    background-position: center;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.layer6 {
+    background-color: rgba(34, 34, 59, 0.836);
+    background-position: center;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.layer1 h1 {
+    font-family: "After Midnigth";
+    color: #F2E9E4;
+    font-size: 90px;
+    padding-top: 3%;
+
+}
+
+.layer1 h2 {
+    font-family: "After Midnigth";
+    color: #F2E9E4;
+    font-size: 55px;
+    padding: 20px;
+    padding-bottom: 65px;
+}
+
+.layer1 h3 {
+    font-family: "Trajan Pro";
+    font-size: 21px;
+    text-decoration: none;
+    color: #F2E9E4;
+    padding: 5px;
+
+}
+
+.layer1 h4 {
+    font-family: "Trajan Pro";
+    font-size: 21px;
+    text-decoration: none;
+    color: #F2E9E4;
+    padding: 5px;
+    padding-bottom: 65px;
+
+}
+
+
+.layer2 h1 {
+
+    font-family: "Trajan Pro";
+    font-size: 28px;
+    text-decoration: none;
+    color: #F2E9E4;
+    padding: 4px;
+
+
+}
+
+.layer2 h2 {
+
+    font-family: "Montserrat", sans-serif;
+    font-style: inherit;
+    font-size: 14px;
+    font-weight: 100px;
+    color: #F2E9E4;
+    padding: 4px;
+    padding-bottom: 3%;
+
+
+}
+
+.layer3 h1 {
+
+    font-family: "After Midnigth";
+    color: #22223B;
+    font-size: 85px;
+    padding: 20px;
+    padding-bottom: 50px;
+    padding-top: 7%;
+    margin-left: 13%;
+}
+
+.layer3 h2 {
+
+    font-family: "Trajan Pro";
+    color: #9A8C98;
+    font-size: 24px;
+    padding: 10px;
+    padding-bottom: 20px;
+    margin-left: 13%;
+}
+
+
+
+.layer3 p {
+
+    font-family: "Montserrat", sans-serif;
+    font-style: inherit;
+    width: 650px;
+    line-height: 2;
+    font-size: 14px;
+    font-weight: 100px;
+    color: #22223B;
+    padding: 6px;
+    margin-left: 13%;
+}
+
+.layer4 h1 {
+
+    font-family: "Trajan Pro";
+    font-size: 45px;
+    text-decoration: none;
+    color: #F2E9E4;
+    padding-top: 3%;
+}
+
+.layer4 h2 {
+
+    font-family: "Trajan Pro";
+    color: #9A8C98;
+    font-size: 30px;
+    padding: 0%;
+}
+
+.layer4 h3 {
+
+    font-family: "Trajan Pro";
+    color: #9A8C98;
+    font-size: 45px;
+    padding: 0%;
+
+}
+
+.layer5 h1 {
+
+
+    font-family: "After Midnigth";
+    color: #22223B;
+    font-size: 85px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+
+.layer6 h1 {
+
+    font-family: "After Midnigth";
+    color: #F2E9E4;
+    font-size: 85px;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 50px;
+    padding-top: 3%;
+
+}
+
+
+.layer6 h2 {
+
+    font-family: "Trajan Pro";
+    color: rgba(255, 225, 208, 0.719);
+    font-size: 24px;
+    line-height: 1;
+    padding: 0%;
+    padding-bottom: 5%;
+    text-align: center;
+    width: 300px;
+    height: auto;
+
+}
+
+.layer6 h3 {
+
+    font-family: "Trajan Pro";
+    color: rgba(255, 225, 208, 0.719);
+    font-size: 20px;
+    line-height: 1;
+    padding: 0%;
+    padding-bottom: 1%;
+    text-align: center;
+    width: 300px;
+    height: auto;
+
+}
+
+
+.layer6 h4 {
+
+    font-family: "Trajan Pro";
+    color: #F2E9E4;
+    font-size: 26px;
+    line-height: 1;
+    padding: 0%;
+    padding-bottom: 6px;
+    text-align: center;
+    width: 300px;
+    height: auto;
+
+}
+
+
+.layer6 h5 {
+
+    font-family: "Trajan Pro";
+    color: #F2E9E4;
+    font-size: 13px;
+    line-height: 1;
+    padding: 0%;
+    padding-bottom: 2%;
+    text-align: center;
+    width: 300px;
+    height: auto;
+
+}
+
+.layer6 h6 {
+    font-family: "Trajan Pro";
+    color: #F2E9E4;
+    font-size: 15px;
+    line-height: 1;
+    padding: 0%;
+    padding-bottom: 2%;
+    text-align: center;
+    width: 300px;
+    height: auto;
+}
+
+.layer5 h2 {
+
+    font-family: "Trajan Pro";
+    color: #9A8C98;
+    font-size: 24px;
+    line-height: 1;
+    padding: 0%;
+    padding-bottom: 2%;
+    text-align: center;
+    width: 480px;
+    height: auto;
+
+}
+
+
+.layer5 h4 {
+
+    font-family: "Trajan Pro";
+    color: rgba(177, 154, 173, 0.808);
+    font-size: 20px;
+    line-height: 1;
+    padding: 0%;
+    padding-top: 1%;
+    padding-bottom: 20%;
+    text-align: center;
+    width: 480px;
+    height: auto;
+
+}
+
+
+.baixar {
+    font-family: "Montserrat";
+    font-style: inherit;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 100px;
+    display: inline-block;
+    color: rgba(34, 34, 59, 0.849);
+    background-color: #F2E9E4;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 10%;
+    width: 250px;
+    border: 1px solid #F2E9E4;
+    border-radius: 40px;
+
+}
+
+
+
+.nome {
+
+    font-family: "Trajan Pro";
+    font-size: 21px;
+    text-decoration: none;
+    color: #9A8C98;
+    padding: 5px;
+
+}
+
+.contato {
+    font-family: "Montserrat", sans-serif;
+    font-style: inherit;
+    font-size: 14px;
+    font-weight: 100px;
+    display: inline-block;
+    color: #F2E9E4;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 9%;
+    width: 260px;
+    border: 1px solid #F2E9E4;
+    border-radius: 40px;
+    background-color: rgba(34, 34, 59, 0);
+
+}
+
+
+.linha {
+
+    margin-top: 3%;
+    margin-left: 35%;
+    color: #c9ada7;
+    background-color: #c9ada7;
+    border-color: #c9ada7;
+    border-radius: 0%;
+    height: 1px;
+    width: 130px;
+
+}
+
+.anel {
+
+    width: 20%;
+    height: 20%;
+    padding: 3%;
+}
+
+.cartao {
+
+    width: 15%;
+    height: 15%;
+    padding: 3%;
+}
+
+.baloes {
+
+    width: 15%;
+    height: 15%;
+    padding-bottom: 5%;
+}
+
+
+.aneis {
+
+    width: 15%;
+    height: 15%;
+    padding-bottom: 5%;
+}
+
+.coracao {
+
+    width: 13%;
+    height: 13%;
+    padding: 3%;
+    margin-left: 8%;
+
+}
+
+.casal {
+
+    width: 25%;
+    height: 23%;
+    padding: 5%
+}
+
+.social {
+
+    border: 2px solid #F2E9E4;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    padding: 8%;
+
+}
+
+.social img {
+
+    width: 35px;
+    height: 35px;
+    padding-right: 0%;
+    align-items: center;
+}
+
+.item {
+
+    margin: 10%;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    text-align: center;
+}
+
+
+.layer4 p {
+
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100px;
+    color: #F2E9E4;
+    width: 400px;
+    line-height: 1.5;
+
+}
+
+.layer5 p {
+
+    font-family: "Trajan Pro";
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100px;
+    color: rgba(34, 34, 59, 0.651);
+    width: 450px;
+    height: auto;
+    padding-top: 5%;
+    line-height: 1.5;
+
+}
+
+.layer5 h3 {
+
+    font-family: "Trajan Pro";
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100px;
+    color: rgb(34, 34, 59);
+    width: 450px;
+    padding-top: 0%;
+    line-height: 1.5;
+
+}
+
+.container {
+
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    max-width: 1920px;
+    max-height: 950px;
+    margin: 0 auto;
+    padding: 0%;
+
+}
+
+
+.container2 {
+
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 150px;
+    max-height: 950px;
+    padding-bottom: 10%;
+    margin: 0 auto;
+    padding: 0%;
+
+}
+
+
+
+@media only screen and (max-width : 1180px) {
+
+    .menu {
+        display: flex;
+        justify-content: space-around;
+        border-radius: 100%;
+        display: inline-block;
+        height: 50px;
+        width: 50px;
+        border: 1px solid #ffffff;
+        background-color: #22223B;
+    }
+
+
+    ul {
+        display: none;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding: 0 0px;
+        max-width: 1523px;
+        height: 60px;
+        max-width: 1920px;
+
+
+
+    }
+
+    .casal {
+
+        width: 19%;
+        height: 21%;
+        padding: 5%;
+
+    }
+
+
+    .baloes {
+        padding-bottom: 15%;
+    }
+
+
+
+    .container {
+
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: auto;
+        height: 500px;
+        margin: 0 auto;
+        padding: 0%;
+
+    }
+
+    .contato {
+
+        font-size: 8px;
+        border-radius: 50%;
+        height: 7%;
+        width: 220px;
+        border: 1px solid #F2E9E4;
+        border-radius: 40px;
+        background-color: rgba(34, 34, 59, 0);
+
+    }
+
+    .layer1 h1 {
+        font-size: 55px;
+        text-align: center;
+        padding: 1%;
+        line-height: 1.3;
+        width: 450px;
+
+    }
+
+    .layer1 h2 {
+
+        font-size: 30px;
+    }
+
+    .layer1 h3,
+    .layer1 h4,
+    .layer1 a {
+
+        font-size: 15px;
+    }
+
+    .layer2 h1 {
+
+        font-family: "Trajan Pro";
+        font-size: 20px;
+        text-decoration: none;
+        color: #F2E9E4;
+        padding: 4px;
+    }
+
+    .layer2 h2 {
+        padding-bottom: 0%;
+    }
+
+    .cartao {
+        padding-top: 15%;
+        padding-bottom: 10%;
+    }
+
+    .baixar {
+
+
+        font-size: 12px;
+        height: 40px;
+        width: 200px;
+        border-radius: 40px;
+        margin-top: 5%;
+        margin-bottom: 2%;
+    }
+
+    .layer3 h1 {
+
+        font-size: 55px;
+        padding-bottom: 2%;
+        padding-top: 15%;
+    }
+
+    .layer3 h2 {
+        font-size: 15px;
+    }
+
+    .layer3 p {
+
+        display: flex;
+        line-height: 2;
+        text-align: center;
+        align-items: center;
+        width: 410px;
+
+    }
+
+
+
+    .layer3 {
+
+        background-position: center;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .coracao {
+
+        width: 20%;
+        height: 20%;
+        padding: 3%;
+        margin-left: 8%;
+
+    }
+
+    .layer4 p {
+
+        font-family: "Montserrat", sans-serif;
+        font-size: 17px;
+        font-weight: 100px;
+        color: #F2E9E4;
+        width: auto;
+        line-height: 1.5;
+        padding-bottom: 5%;
+
+    }
+
+    .layer4 h1 {
+        padding-top: 10%;
+        padding-bottom: 3%;
+        font-size: 28px;
+    }
+
+    .anel {
+        width: 15%;
+        height: 15%;
+        padding-bottom: 10%;
+    }
+
+    .background4 {
+
+        height: 950px;
+    }
+
+    .layer4 h2 {
+        font-size: 25px;
+    }
+
+    .layer4 h3 {
+
+        font-family: "Trajan Pro";
+        color: #9A8C98;
+        font-size: 35px;
+        padding: 0%;
+
+    }
+
+    .layer5 p {
+
+        font-family: "Trajan Pro";
+        text-align: center;
+        font-size: 15px;
+        font-weight: 100px;
+        color: rgba(34, 34, 59, 0.849);
+        width: auto;
+        line-height: 1.5;
+
+    }
+
+    .layer5 h1 {
+
+
+        font-family: "After Midnigth";
+        color: #22223B;
+        font-size: 60px;
+        padding-bottom: %;
+
+    }
+
+    .layer5 h2 {
+        display: none;
+    }
+
+    .layer5 h3 {
+
+        font-family: "Trajan Pro";
+        text-align: center;
+        font-size: 15px;
+        font-weight: 100px;
+        color: rgb(34, 34, 59);
+        width: 100%;
+
+    }
+
+    .layer5 h4 {
+
+        font-size: 15px;
+        padding-bottom: 0%;
+        color: rgb(218, 181, 156);
+        width: 100%;
+
+    }
+
+
+    .layer5 .container {
+
+        max-width: auto;
+
+    }
+
+    .background6 {
+        height: 750px;
+    }
+
+    .layer6 h1 {
+
+        font-family: "After Midnigth";
+        color: #F2E9E4;
+        font-size: 70px;
+        text-align: center;
+        padding: 20px;
+        padding-bottom: 50px;
+        padding-top: 3%;
+
+    }
+
+    .layer6 h2 {
+
+        font-size: 20px;
+        width: 250px;
+        padding-bottom: 10%;
+    }
+
+    .layer6 h3 {
+
+        font-size: 18px;
+        padding: 2%;
+    }
+
+    .layer6 h5 {
+
+        padding-bottom: 10%;
+
+
+    }
+
+    .layer6 h6 {
+
+        font-size: 13px;
+        padding-bottom: 5%;
+
+
+    }
+
+}
