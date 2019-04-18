@@ -1,0 +1,68 @@
+@font-face {
+    font-family: After Midnite Regular;
+    src: url(../fonts/AfterMidnite.ttf)
+}
+
+@font-face {
+    font-family: Trajan Pro Regular;
+    src: url(../fonts/TrajanPro-Regular.ttf)
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-Light.ttf)
+}
+
+.sobrenos-geral{
+    display: flex;
+    flex-wrap: wrap;
+    height: calc(100vh -70px);
+    background: #f2e9e4;
+    padding: 7rem 0rem 4.375rem 12rem;
+}
+
+.sobrenos-geral div p{
+    box-sizing:border-box;
+    color: rgb(34, 34, 59);
+    display:block;
+    font-family:Montserrat, sans-serif;
+    font-size:14px;
+    font-weight:400;
+    line-height:28px;
+    margin-block-end:28px;
+    margin-block-start:0px;
+    margin-bottom:28px;
+    margin-inline-end:0px;
+    margin-inline-start:0px;
+    margin-top:0px;
+    opacity:1;
+    outline-color: rgb(34, 34, 59);
+    outline-style:none;
+    outline-width:0px;
+    text-align:left;
+    text-rendering:optimizelegibility;
+    text-size-adjust:100%;
+    width:635px;
+}
+
+.sobrenos-geral div img{
+    height: 120px;
+    width: 120px;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+}
+
+.sobrenos-geral h2{
+    font-size: 6rem;
+    margin-bottom: 3rem;
+    font-family: After Midnite Regular, sans-serif;
+    line-height: 110px;
+    color: #22223b;
+}
+
+.sobrenos-geral h3 {
+    font-family: Trajan Pro Regular, serif;
+    color: #9a8c98;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
