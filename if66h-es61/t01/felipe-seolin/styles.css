@@ -65,36 +65,51 @@
 }
 
 /* 
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
-
-@media (min-width: 481px) and (max-width: 767px) {
-    html {
-        font-size: 8px;
-    }
-}
-
-/* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
 */
 
-@media (min-width: 0px) and (max-width: 480px) {
+@media (min-width: 0px) and (max-width: 767px) {
     html {
         font-size: 7px;
+        line-height: 15px;
+    }
+
+    #about {
+        padding: 0;
+        padding-right: 5% !important;
+        padding-left: 5% !important;
+        justify-content: center !important;
+        align-items: center !important;
     }
     
-    #about {
+    #about h2, h3, p  {
         text-align: center !important;
     }
 
-    #testimony div div {
-        flex-direction: row !important;
-        flex-wrap: wrap !important;
-        justify-content: center;
-        align-items: center;
-        align-items: stretch;
+    #testimony div {
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    #services div {
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    button {
+        border: .5px;
+        border-radius: 40px;
+        width: 200px !important;
+        height: 50px !important;
+        font-size: 12px !important;
+        line-height: 38px;
+    }
+
+    p {
+        font-size: 14px !important;
     }
 }
 
@@ -132,7 +147,6 @@ button {
     cursor: pointer;
     font-size: 1rem;
     font-family: Montserrat, sans-serif;
-    line-height: 38px;
     text-transform: uppercase;
     color: #4A4E69;
 }
