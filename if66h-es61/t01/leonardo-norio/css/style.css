@@ -66,10 +66,14 @@ body nav img{
     }
 }
 
-#lower{
+#lower-a{
     display: none;
 }
 @media only screen and (max-width: 480px) {
+    #lower-a{
+        order: -1;
+        display: block;
+    }
     #lower{
         display: block;
     }
