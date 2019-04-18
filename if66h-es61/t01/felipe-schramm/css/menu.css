@@ -1,0 +1,226 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,300");
+@font-face {
+	font-family: "TrajanPro-Regular";
+	font-weight: normal;
+  src: url("/fonts/TrajanPro-Regular.eot?") format("eot"), url("/fonts/TrajanPro-Regular.woff") format("woff"), url("/fonts/TrajanPro-Regular.ttf") format("truetype"); }
+
+@font-face {
+	font-family: "After Midnite Regular";
+	font-weight: bold;
+  src: url("/fonts/AfterMidnite.eot?") format("eot"), url("/fonts/AfterMidnite.woff") format("woff"), url("/fonts/AfterMidnite.ttf") format("truetype"); }
+
+
+
+#barra-fixa{
+	position: fixed;
+	top:0;
+	width: 100%;
+	height: 70px;
+	background: #22223B;
+	z-index: 10;
+}
+
+#container{
+	width: 1140px;
+	height: 70px;
+	margin: 0 auto;
+}
+@media only screen and (max-width: 480px) {
+	#container{
+		height: 60px; } }
+
+#logo{
+	position: relative;
+	float: left;
+	height: 60px;
+	margin: 3px 5px 0px 5px;
+}
+@media only screen and (max-width: 1200px) {
+	#logo{
+		height: 60px; } }
+@media only screen and (max-width: 992px) {
+	#logo{
+		height: 50px;
+		margin-top: 10px; } }
+
+#menu{
+	position: relative;
+	float: right;
+	padding-right: 10px;
+}
+
+.item-menu{
+	position: relative;
+	float: right;
+	margin: 20px;
+	padding-top: 12px;
+	list-style: none;
+}
+
+.item-menu:after{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+	background: #9a8c98;
+  transition: width .2s ease;
+}
+
+.item-menu:hover:after{
+	width: 100%;
+  left: 0;
+  background: #9a8c98;
+}
+
+#menu ul{
+	list-style: none;
+}
+
+#menu a{
+    font-family: TrajanPro-Regular;
+    color: #f2e9e4;
+    font-size: 16.5px;
+		text-decoration: none;
+}
+@media only screen and (max-width: 1115px) {
+	#menu a {
+		display: none } }
+
+h2{
+	font-size: 90px;
+}
+
+h3{
+	font-size: 60px;
+}
+
+#menu-hamburguer {
+	width: 40px;
+	position: fixed;
+	transition: all .25s ease-in-out 0s;
+	top: 15px;
+	right: 15px;
+	height: 40px;
+	background: transparent;
+	border-radius: 50%;
+	border: 1px solid #f2e9e4;
+	cursor: pointer;
+	opacity: 0;
+}
+@media only screen and (min-width: 1115px) {
+	#menu-hamburguer{
+		display: none; } }
+
+.menu {
+	background: transparent;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	position: fixed;
+	top: 15px;
+	right: 15px;
+	border: 1px solid #f2e9e4;
+}
+@media only screen and (min-width: 1115px) {
+	.menu{
+		display: none; } }
+
+.hamburguer {
+	position: relative;
+	display: block;
+	background: #f2e9e4;
+	width: 22px;
+	height: 1px;
+	top: 19px;
+	right: -8px;
+	transition:  .5s ease-in-out;
+}
+
+label{
+	cursor: pointer;
+}
+
+.hamburguer::before, 
+.hamburguer::after {
+	background: #f2e9e4;
+	content: "";
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	transition: .5s ease-in-out;
+}
+
+.hamburguer::before{
+	top: -10px;
+}
+
+.hamburguer::after{
+	bottom: -10px;
+}
+
+#menu-hamburguer:checked ~ label .hamburguer{
+	transform: rotate(45deg);
+}
+
+#menu-hamburguer:checked ~ label .hamburguer::before{
+	top: 0;
+	transform: rotate(90deg);
+}
+
+#menu-hamburguer:checked ~ label .hamburguer::after{
+	bottom: 0px;
+	transform: rotate(90deg);
+}
+
+#menu-hamburguer:checked ~ label .menu {
+	box-shadow: 0 0 0 130vw #4A4E69, 0 0 0 100vh #4A4E69;
+	opacity: 1;
+}
+
+#menu-hamburguer:checked ~ ul {
+	top: 350px;
+	opacity: 1;
+}
+
+.lista-hamburguer {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 0;
+	transition: .25 1s ease-in-out;
+}
+
+.lista-hamburguer li a{
+	display: block;
+	margin: 10px 20px;
+	color: #f2e9e4;
+	font-size: 5rem;
+	text-decoration: none;
+}
+@media only screen and (min-width: 1115px) {
+	.lista-hamburguer li a{
+		display: none; } }
+@media only screen and (max-width:360px){
+	.lista-hamburguer li a{
+		font-size: 3rem;
+	}
+}
+
+.lista-hamburguer li a:hover{
+	color: #22223B;
+}
+
+.lista-hamburguer li{
+	list-style: none;
+}
