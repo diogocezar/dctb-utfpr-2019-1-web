@@ -1,0 +1,597 @@
+body {
+    margin: 0;
+    font-family: 'TrajanPro-Regular';
+}
+
+.flex {
+    display: flex;
+}
+
+.flex1 {
+    flex: 1;
+}
+
+.flexWrap {
+    flex-wrap: wrap;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.justifyEnd {
+    justify-content: flex-end;
+}
+
+.spaceBetween {
+    justify-content: space-between;
+}
+
+.spaceAround {
+    justify-content: space-around;
+}
+
+.alignSelfEnd {
+    align-self: flex-end;
+}
+
+.bordinha {
+    border: 1px solid black;
+}
+
+.justifyCenter {
+    justify-content: center;
+}
+
+.alignContentCenter {
+    align-content: center;
+}
+
+.alignItemsCenter {
+    align-items: center;
+}
+
+.alignItemsStart { 
+    align-items: flex-start;
+}
+
+.alignSelfCenter {
+    align-self: center;
+}
+
+.removeUnderscore {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "TrajanPro-Regular";
+    src: url("assets/fonts/TrajanPro-Regular.ttf");
+}
+
+.TrajanPro-Regular {
+    font-family: 'TrajanPro-Regular';
+}
+
+@font-face {
+    font-family: "AfterMidnite";
+    src: url("assets/fonts/AfterMidnite.ttf");
+}
+
+.AfterMidnite {
+    font-family: 'AfterMidnite';
+}
+
+.Montserrat {
+    font-family: 'Montserrat';
+}
+
+/*Cabeçalho la de cima e pa*/
+.bordaAux1 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 2000px;
+}
+
+.bordaAux2 {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.bordaAux11 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 70px;
+    background-color: #22223B;
+}
+
+.logo {
+    flex-basis: 280px;
+}
+
+.CabeçalhoCorLetra {
+    color: #F2E9E4;
+}
+
+.menu {
+    display: none;
+}
+
+.logo1 {
+    display: none;
+}
+
+@media screen and (max-width: 1250px) {
+    .bordaAux12 {
+        display: none;
+    }
+
+    .bordaAux1 {
+        margin: 0 auto;
+    }
+
+    .menu {
+        display: flex;
+        margin: 10px;
+        padding: 20px;
+        border: 1px solid #F2E9E4;
+        border-radius: 100px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .logo {
+        display: none;
+    }
+
+    .logo1 {
+        display: flex;
+    }
+}
+
+/*Seção 1*/
+.bordaAux3 {
+    text-align: center;
+}
+
+.bordaAux33 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(rgba(34,34,59,85%), rgba(34,34,59,1)), url("assets/images/geovanna-bg-home.jpg");
+}
+
+.CabeçalhoCorLetraSec1 {
+    color: #F2E9E4;
+}
+
+.fontSize1 {
+    font-size: 80px;
+    text-align: center;
+}
+
+.fontSize2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.fontSize3 {
+    font-size: 20px;
+    color: #F2E9E4;
+}
+
+.fontSize22 {
+    color: #9A8C98;
+}
+
+.bordaAux31 {
+    color: #F2E9E4;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px; 
+    padding-left: 45px;
+    padding-right: 45px;
+    border: 1px solid #F2E9E4;
+    border-radius: 50px;
+}
+
+.bordaAux32 {
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 1000px) {
+    .fontSize1 {
+        font-size: 50px;
+    }
+
+    .fontSize2 {
+        font-size: 35px;
+    }
+
+    .fontSize3 {
+        font-size: 15px;
+    }
+
+    .bordaAux31 {
+        font-size: 13px;
+        padding: 18px; 
+    }
+}
+
+/*Seção 2*/
+.backgroundSec2 {
+    background-image: linear-gradient(rgba(74,78,105,60%), rgba(74,78,105,80%)), url("assets/images/geovanna-bg-presentation.jpg");
+    background-position: 50%;
+}
+
+.flexBasis1 {
+    flex-basis: 80px;
+}
+
+.fontSize4 {
+    font-size: 13px;
+}
+
+.fontSize5 {
+    color: #22223B;
+}
+
+.bordaAux41 {
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 20px; 
+    padding-left: 45px;
+    padding-right: 45px;
+    border: 1px solid #F2E9E4;
+    border-radius: 50px;
+    background-color: #F2E9E4
+}
+
+.bordaAux42 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.MarginAux4 {
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 1000px) {
+    .bordaAux41 {
+        font-size: 13px;
+        padding: 18px; 
+    }
+}
+
+/*Seção 3*/
+.bordaAux51 {
+    width: 650px;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+.backgroundSec3 {
+    background-color: #F2E9E4;
+}
+
+.fontSize6 {
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #9A8C98;
+}
+
+.fontSize7 {
+    line-height: 26px;
+    font-size: 15px;
+    color: #4A4E69;
+}
+
+.fontSize8 {
+    font-size: 80px;
+    color: #22223B;
+}
+
+.flexBasis2 {
+    flex-basis: 130px;
+}
+
+.marginAux5 {
+    margin-top: 25px;
+}
+
+.marginAux6 {
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 1250px) {
+    .bordaAux51 {
+        justify-content: center;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .alignItemsStart {
+        align-items: center;
+    }
+
+    .fontSize7 {
+        text-align: center;
+    }
+
+    .backgroundSec3 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .flexBasis2 {
+        flex-basis: 90px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .bordaAux51 {
+        justify-content: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .fontSize8 {
+        font-size: 50px;
+    }
+
+    .fontSize6 {
+        font-size: 15px;
+    }
+
+    .fontSize7 {
+        font-size: 13px;
+    }
+}
+
+/*Seção 4*/
+.bordaAux6 {
+    margin: 50px;
+}
+
+.backgroundSec4 {
+    background-image: linear-gradient(rgba(74,78,105,80%), rgba(34,34,59,1)), url("assets/images/geovanna-bg-services.jpg");
+    background-position: 50%;
+}
+
+.fontSize9 {
+    font-size: 40px;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.fontSize10 {
+    color: #9A8C98;
+    font-size: 30px;
+}
+
+.fontSize11 {
+    color: #9A8C98;
+    font-size: 40px;
+}
+
+.bordaAux61 {
+    line-height: 26px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.bordaAux63 {
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1100px) {
+    .bordaAux61 {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .bordaAux62 {
+        flex-direction: column;
+    }
+
+    .bordaAux63 {
+        margin-bottom: 50px;
+    }
+
+    .bordaAux41 {
+        font-size: 13px;
+        padding: 18px; 
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .bordaAux61 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .fontSize9 {
+        font-size: 25px;
+    }
+
+    .fontSize10 {
+        font-size: 25px;
+    }
+
+    .fontSize11 {
+        font-size: 30px;
+    }
+
+    .fontSize20 {
+        font-size: 13px;
+    }
+}
+
+/*Seção 5*/
+.backgroundSec5 {
+    background-color: #F2E9E4;
+}
+
+.bordaAux71 {
+    text-align: center;
+    max-width: 400px;
+}
+
+    /*Carrosel*/
+    .bordaCarrosel {
+        margin-left: 100px;
+        margin-right: 100px;
+        max-width: 350px;
+    }
+
+    .fontSize12 {
+        font-size: 20px;
+        color: #22223B;
+    }
+
+    .fontSize13 {
+        font-size: 18px;
+        color: #9A8C98;
+    }
+
+    .corTexto {
+        color: #4A4E69;
+    }
+
+hr {
+    border: 0;
+    width: 120px;
+    background-color: #C9ADA7;
+    height: 3px;
+}
+
+.marginAux7 {
+    margin-top: 50px;
+}
+
+.marginAux8 {
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1100px) {
+    .bordaAux72 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .backgroundSec5 {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .bordaCarrosel {
+        margin-left: 10px;
+        margin-right: 10px;
+        max-width: 350px;
+    }
+
+    .fontSize21 {
+        font-size: 13px;
+    }
+
+    .fontSize12 {
+        font-size: 18px;
+    }
+
+    .fontSize13 {
+        font-size: 15px;
+    }
+}
+
+/*Seção 6*/
+
+.backgroundSec6 {
+    background-image: linear-gradient(rgba(74,78,105,80%), rgba(34,34,59,90%)), url("assets/images/geovanna-bg-contact.jpg");
+    background-position: 50%;
+}
+
+.fontSize14 {
+    font-size: 25px;
+    color: #C9ADA7;
+}
+
+.fontSize15 {
+    font-size: 20px;
+    color: #C9ADA7;
+}
+
+.bordaAux81 {
+    width: 70px;
+    margin: 10px;
+}
+
+.bordaAux82 {
+    padding: 10px;
+    border: 3px solid #F2E9E4;
+    border-radius: 100px;
+}
+
+.flexBasis3 {
+    flex-basis: 50px;
+}
+
+.fontSize16 {
+    font-size: 30px;
+    color: #F2E9E4;
+}
+
+.fontSize17 {
+    font-size: 15px;
+    color: #F2E9E4;
+}
+
+.fontSize18 {
+    font-size: 20px;
+    color: #F2E9E4;
+}
+
+.fontSize19 {
+    font-size: 80px;
+    color: #F2E9E4;
+}
+
+@media screen and (max-width: 800px) {
+    .fontSize19 {
+        font-size: 50px;
+    }
+
+    .fontSize14 {
+        font-size: 20px;
+    }
+
+    .fontSize15 {
+        font-size: 15px;
+    }
+
+    .fontSize16 {
+        font-size: 25px;
+    }
+
+    .fontSize17 {
+        font-size: 13px;
+    }
+
+    .fontSize18 {
+        font-size: 11px;
+    }
+}
