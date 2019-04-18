@@ -1,0 +1,82 @@
+#home {
+
+    background-position: 50%;
+    margin-top: 70px;
+    background: linear-gradient(rgba(34, 34, 59, .84), rgba(34, 34, 59, .98)), url(../images/geovanna-bg-home.jpg);
+    align-content: space-between;
+    background-position: left top;
+
+}
+
+#home h2 {
+
+    font-family: After Midnite Regular, sans-serif;
+    color: #f2e9e4;
+    font-weight: 100;
+    font-size: 5.5rem;
+    text-align: center;
+    line-height: 130px;
+    background-color: transparent;
+    background-position: center center;
+
+}
+
+#home h3 {
+
+    font-family: After Midnite Regular, sans-serif;
+    color: #f2e9e4;
+    font-weight: 100;
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+
+}
+
+#home p {
+
+    display: flex;
+    justify-content: center;
+    color: #f2e9e4;
+    font-size: 23px;
+    line-height: 35px;
+    font-family: TrajanPro-Regular, sans-serif;
+    font-size: 1.30rem;
+
+}
+
+#home span {
+
+    color: #9a8c98;
+    font-size: 1.30rem;
+
+}
+
+#contact_button {
+
+    width: 260px;
+    border-radius: 40px;
+    height: 60px;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    margin-top: 4rem;
+    background: transparent;
+    color: #f2e9e4;
+    border: 1px solid #f2e9e4;
+    font-weight: 500;
+
+}
+
+#contact_button:hover {
+
+    background: #f2e9e4;
+    color: #22223b;
+
+}
+
+
+#home_button {
+
+    display: flex;
+    justify-content: center;
+
+}

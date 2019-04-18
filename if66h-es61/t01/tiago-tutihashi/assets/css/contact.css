@@ -1,0 +1,95 @@
+#contact{
+
+    background: linear-gradient(rgba(34, 34, 59, 0.8), rgba(34, 34, 59, 0.9)), url(../images/geovanna-bg-contact.jpg);
+    text-align: center;
+    background-position: center center;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+
+}
+
+#contact img{
+
+    height: 120px;
+
+}
+
+#contact h2{
+
+    font-family: After Midnite Regular, sans-serif;
+    color: #F2E9E4;
+    font-size: 5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+
+}
+
+#contact h3{
+
+    font-family: TrajanPro-Regular, serif;
+    color: #C9ADA7;
+    margin-top: 4rem;
+    font-size: 1.5rem;
+    margin-bottom: 6rem;
+    
+}
+
+#contact h4{
+
+    color: #C9ADA7;
+    font-family: TrajanPro-Regular, serif;
+    font-size: 1.3rem; 
+    margin-bottom: 1rem;
+    
+}
+
+#contact p{
+
+    font-size: 1.7rem;
+    color: #F2E9E4;
+    font-family: TrajanPro-Regular, serif;
+
+}
+
+#contact p a{
+
+    text-decoration: unset;
+    color: #F2E9E4;
+    font-family: TrajanPro-Regular, serif;
+
+}
+
+#contact p small{
+
+    font-size: 0.9rem;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    position: relative;
+    float: left;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-family: TrajanPro-Regular, serif;
+
+}
+
+.img_li img {
+
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 2px solid #f2e9e4;
+    list-style-type: none;
+    text-align: center;
+   
+
+}
+
+#email{
+
+    font-size: 1rem;
+
+}
+
+
