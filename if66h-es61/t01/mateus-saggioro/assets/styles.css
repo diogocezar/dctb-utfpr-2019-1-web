@@ -1,0 +1,1000 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:200,300);
+@font-face {
+	font-family: AfterMidnite;
+	src: url("fonts/AfterMidnite.eot?") format("eot"), url("fonts/AfterMidnite.woff") format("woff"), url("fonts/AfterMidnite.ttf") format("truetype")
+}
+@font-face {
+	font-family: TrajanPro-Regular;
+	src: url("fonts/TrajanPro-Regular.eot?") format("eot"), url("fonts/TrajanPro-Regular.woff") format("woff"), url("fonts/TrajanPro-Regular.ttf") format("truetype")
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+	outline: none;
+}
+html{
+	font-size: 14px;
+}
+body {
+	margin: 0;
+	font-family: TrajanPro-Regular,serif;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #4a4e69;
+	text-align: left;
+	display: block;
+	background-color: #f2e9e4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0;
+	margin-bottom: .5rem;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+	margin-bottom: .5rem;
+	font-family: inherit;
+	font-weight: 500;
+	line-height: 1.2;
+	color: inherit;
+}
+
+.h1, h1 {
+	font-size: 2.5rem;
+}
+
+.h2, h2 {
+	font-size: 2rem;
+}
+
+.h3, h3 {
+	font-size: 1.75rem;
+}
+
+.h4, h4 {
+	font-size: 1.5rem;
+}
+
+.h5, h5 {
+	font-size: 1.25rem;
+}
+
+.h6, h6 {
+	font-size: 1rem;
+}
+/*-------------------------------------------------------------------------------------------------*/
+#menu{
+	align-items: center;
+    position: fixed;
+    display: flex;
+    background-color:#22223b;
+    width: 100%;
+    height: 70px;
+	z-index: 999;
+	justify-content: space-around;	
+}
+
+#logo{
+    display: flex;    
+    height: 60px;
+}
+
+#imgLogo{
+    width: auto;
+    height: auto;
+}
+
+#menubar .menuItem{
+	list-style: none;
+}
+
+.menuItem a, a:visited{
+	text-decoration: none;
+	line-height: 40px;
+	font-size: 1.1em;
+}
+
+#menubar{
+    padding: 0 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+#menuMobile {
+	display:none;
+
+}
+
+.menuItem{
+    margin: 0 1em;
+}
+
+.itemList{
+    display: flex;
+}
+
+/*-------------------------------------------------------*/
+
+#home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(34, 34, 59, .84), rgba(34, 34, 59, .98)), url("img/geovanna-bg-home.jpg");
+	background-position: 0 0;
+	padding-top: 85px	
+}
+
+#contentHome{
+	font-family: TrajanPro-Regular,serif;
+	padding: 140px 0;
+}
+
+#contentHome h2, #contentHome h3 {
+	font-family: AfterMidnite, sans-serif;
+	color: #f2e9e4;
+	text-align: center;
+}
+
+#contentHome h2 {
+    font-size: 5.5rem;
+    font-weight: 500;
+    margin-bottom: .5rem;
+}
+
+#contentHome h3 {
+    font-size: 3.5rem;
+    font-weight: 500;
+    margin-bottom: 4rem;
+}
+
+
+#contentHome h4 {
+	font-family: TrajanPro-Regular, serif;
+	color: #f2e9e4;
+	text-align: center;
+}
+
+#contentHome h4 .grif {
+	color: #9a8c98;
+}
+
+#contentHome button {
+	display: inline-block;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+	align-items: flex-start;
+	text-align: center;
+    cursor: pointer;
+	width: 260px;
+	border-radius: 40px;
+	height: 60px;
+    line-height: 38px;
+    border: 1px solid #f2e9e4;
+	background-color: transparent;
+	color: #f2e9e4;
+	font-family: Montserrat, sans-serif;
+	font-size: 1rem;
+    margin-top: 4rem;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+#contentHome button:hover{
+    background-color: #f2e9e4;
+	color: #22223b;
+}
+/*---------------------------------------------------------*/
+
+#present{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	background: linear-gradient(rgba(74, 74, 105, .8), rgba(74, 74, 105, .8)), url("img/geovanna-bg-presentation.jpg");
+	background-position: 50%;
+	padding-top: 7rem;
+	padding-bottom: 5rem;
+	font-family: TrajanPro-Regular, serif;
+    
+}
+
+#present button{
+	left: 50%;
+	position: relative;
+	transform: translate(-50%);
+    cursor: pointer;
+	width: 260px;
+	border-radius: 40px;
+	height: 60px;
+    line-height: 38px;
+    border: 1px solid #f2e9e4;
+	background-color: #f2e9e4;
+	color: #4a4e69;
+	font-family: Montserrat, sans-serif;
+	font-size: 1rem;
+    margin-top: 2.5rem;
+	margin-bottom: 2.5rem;
+}
+
+#present button:hover{
+    background-color: transparent;
+	color: #f2e9e4;
+}
+
+#contentPresent img{
+    margin: 2.5rem 0;
+    height: 80px;
+    left: 50%;
+	position: relative;
+	transform: translate(-50%);
+	vertical-align: middle;
+}
+
+#contentPresent h2,
+#contentPresent h3 {
+	font-family: TrajanPro-Regular, serif;
+	color: #f2e9e4;
+	text-align: center;
+}
+
+#contentPresent h2 {
+	font-size: 2rem;
+}
+
+#contentPresent h3{
+	font-size: 1rem;
+    font-family: Montserrat,sans-serif;
+}
+
+/*--------------------------------------------*/
+
+#about{
+	display: flex;
+	padding-top: 7rem;
+	padding-bottom: 5rem;
+	background-color: #f2e9e4;
+	justify-content: center;
+}
+
+#contentAbout{
+	width: 1140px;
+}
+.aboutLeft{
+	margin-right: 300px;
+}
+
+#contentAbout h2 {
+	font-family: AfterMidnite, sans-serif;
+	color: #22223b;
+	font-size: 6rem;
+	margin-bottom: 3rem;
+}
+
+#contentAbout h3 {
+	font-family: TrajanPro-Regular, serif;
+	color: #9a8c98;
+	font-size: 1.5rem;
+	margin-bottom: 2rem;
+}
+
+#contentAbout p {
+	font-family: Montserrat, sans-serif;
+	color: #22223b;
+	line-height: 2rem;
+	margin-bottom: 2rem;
+}
+
+#contentAbout img {
+	height: 120px;
+	width: 120px;
+	margin-top: 1rem;
+	margin-bottom: 4rem;
+}
+/*-------------------------------------------------------------------------------------------*/
+
+#services{
+	background: linear-gradient(rgba(34, 34, 59, .84), rgba(34, 34, 59, .98)), url("img/geovanna-bg-services.jpg");
+	background-position: 50%;
+	background-size: cover;
+	padding-top: 7rem;
+	padding-bottom: 5rem;
+}
+
+#contentServices{
+	max-width: 960px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.cx1{
+	display: flex;
+}
+
+.cx1Container{
+	display: flex;
+}
+
+.cx2{
+	flex-basis: 0;
+	flex-grow: 1;
+	max-width: 100%;
+}
+
+#contentServices h2{
+	font-family: TrajanPro-Regular,serif;
+    text-align: center;
+	color: #f2e9e4;
+	font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+#contentServices img{
+	height: 120px;
+	margin-bottom: 3rem;
+	left: 50%;
+	position: relative;
+	transform: translate(-50%);
+}
+
+#contentServices h3{
+	font-family: TrajanPro-Regular,serif;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    color: #9a8c98;
+	margin-bottom: 2rem;
+}
+
+#contentServices h3 span{
+	font-size: 3rem;
+}
+
+#contentServices p{
+	font-family: Montserrat,sans-serif;
+    color: #f2e9e4;
+    text-align: center;
+    padding: 0 15%;
+    font-size: 1.2rem;
+	line-height: 2rem;
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
+
+#contentServices button{
+	margin-top: 3rem;
+	border: 1px solid #f2e9e4;
+    background-color: #f2e9e4;
+	color: #4a4e69;
+	cursor: pointer;
+    width: 260px;
+    border-radius: 40px;
+    height: 60px;
+    line-height: 38px;
+    font-family: Montserrat,sans-serif;
+	font-size: 1rem;
+	left: 50%;
+	position: relative;
+	transform: translate(-50%);
+}
+
+#contentServices button:hover{
+    background-color: transparent;
+	color: #f2e9e4;
+}
+
+.textDb{
+	width: 50%;
+}
+/*--------------------------------------------------------*/
+#declaration{
+	padding-top: 7rem;
+	padding-bottom: 5rem;
+}
+
+#contentDeclaration{
+	max-width: 960px;
+	width: 100%;
+    margin-right: auto;
+	margin-left: auto;
+}
+
+#contentDeclaration h2{
+	font-family: AfterMidnite,sans-serif;
+	color: #22223b;
+	font-size: 6rem;
+	margin-bottom: 3rem;
+	text-align: center;
+}
+
+#contentDeclaration h3{
+	color: #9a8c98;
+	font-size: 1.5rem;
+	text-align: center;
+	padding: 0 30%;
+	margin-bottom: 7rem;
+}
+
+#contentDeclaration h5{
+	color: #c9ada7;
+}
+
+#contentDeclaration img{
+	height: 120px;
+	width: 120px;
+	margin-bottom: 3rem;
+}
+
+#contentDeclaration .textDb{
+	text-align: center;
+	position: relative;
+    width: 100%;
+    min-height: 1px;
+}
+
+#contentDeclaration p{
+	text-align: center;
+    padding: 0 15%;
+    font-size: 1.2rem;
+	margin-bottom: 2rem;
+	margin-top: 0;
+}
+
+#contentDeclaration p::after{
+	display: block;
+	position: absolute;
+	left: 50%;
+	float: left;
+	transform: translate(-50%);	
+	content: "";
+	width: 8em;
+	height: 3px;
+	background-color: #c9ada7;
+	margin-top: 15px;
+}
+
+#contentDeclaration .cx2 img{
+	left: 50%;
+	position: relative;
+	transform: translate(-50%);
+}
+
+#contentDeclaration .textDb img{
+	margin-top: 1.6rem;
+}
+/*--------------------------------------------------------------------------*/
+#contact{
+	background: linear-gradient(rgba(34, 34, 59, .8), rgba(34, 34, 59, .9)), url("img/geovanna-bg-contact.jpg");
+	background-position: 50%;
+	text-align: center;
+	padding-top: 7rem;
+	padding-bottom: 5rem;
+}
+
+#contentContact h2{
+	font-family: AfterMidnite,sans-serif;
+    color: #f2e9e4;
+    font-size: 6rem;
+    margin-bottom: 3rem;
+}
+
+#contentContact h3{
+	font-family: TrajanPro-Regular,serif;
+    color: #c9ada7;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+}
+
+#contentContact h4{
+	font-family: TrajanPro-Regular,serif;
+    color: #c9ada7;
+    font-size: 1.5rem;
+}
+
+#ctt{
+	height: 120px;
+}
+
+#contentContact p{
+	margin-top: 0;
+    margin-bottom: 1rem;
+	font-size: 2rem;
+	color: #f2e9e4;
+}
+
+#contentContact p small{
+	font-size: 1rem;
+	padding: 0;
+    margin: 0;
+    width: 100%;
+    position: relative;
+    float: left;
+	margin-bottom: 2rem;
+	font-weight: 400;
+}
+
+#contentContact a, a:visited{
+	color: #f2e9e4;
+	text-decoration: none;
+}
+
+
+#social{
+	margin: 0;
+	padding: 0;
+	margin-top: 2.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contentInsta{
+	margin-right: 15px;
+	border: 2px solid #f2e9e4;
+	border-radius: 50%;
+	width: 65px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentFace{
+	border: 2px solid #f2e9e4;
+	border-radius: 50%;
+	width: 65px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mail{
+	font-size: 1.2rem !important;
+}
+
+#social img{
+	height: 35px;
+	width: 35px;
+}
+
+/*--------------------------------------------------------------*/
+
+@media only screen and (max-width:480px){
+	#menu{
+		justify-content: space-between;
+	}
+	#menubar{
+		display: none;
+	}
+	#menuMobile{
+		display: block;
+		width: 40px;
+		height: 40px;
+		background: transparent;
+    	border-radius: 50%;
+   		border: 1px solid #f2e9e4;
+		cursor: pointer;
+		margin-right: 15px;
+	}
+
+	#menuMobile span{
+		position: relative;
+    	margin-top: 7px;
+		margin-bottom: 7px;
+		margin-left: 12px;
+		content: " ";
+    	width: 14px;
+    	height: 1px;
+    	display: block;
+    	background: #9a8c98;
+		border-radius: 0;
+	}
+
+	#menuMobile::before{
+		margin-top: 11px;
+		content: " ";
+		width: 14px;
+		height: 1px;
+		display: block;
+		background: #9a8c98;
+		border-radius: 0;
+		margin-left: 12px;
+	}
+
+	#menuMobile::after{
+		content: " ";
+		width: 14px;
+		height: 1px;
+		display: block;
+		background: #9a8c98;
+		border-radius: 0;
+		margin-left: 12px;
+	}
+
+	#logo{
+		overflow: hidden;
+		width: 70px
+	}
+	
+	
+
+	section {
+		padding-top: 5rem!important;
+		padding-bottom: 3rem!important;
+	}
+	
+	#contentHome{
+		padding: 70px 0;
+	}
+
+	#contentHome h2 {
+		font-size: 3rem
+	}
+
+	#contentHome h3{
+		font-size: 2rem;
+		margin-top: 2rem;
+	}
+
+	#contentHome h4{
+		font-size: 1.2rem;
+	}
+
+	#contentHome button{
+		height: 50px;
+		width: 220px;
+		font-size: .9rem;
+	}
+
+	#contentPresent h2{
+		font-size: 1.4rem;
+	}
+
+	#contentPresent button{
+		height: 50px;
+   		width: 220px;
+    	font-size: .9rem;
+	}
+
+	#contentAbout h2{
+		text-align: center;
+    	font-size: 4rem;
+    	margin-bottom: 1rem;
+	}
+
+	#contentAbout h3{
+		text-align: center;
+		font-size: 1rem;
+		margin-bottom: 1rem;
+	}
+
+	#contentAbout p{
+		text-align: center;
+	}
+
+	#contentAbout img{
+		height: 80px;
+		position: relative;
+		left: 50%;
+		transform: translate(-50%);
+
+	}
+
+	.aboutLeft{
+		max-width: 100%;
+		margin: 15px;
+		padding: 0;
+	}
+
+	#contentContact h2{
+		font-size: 3rem;
+	}
+
+	#contentContact img{
+		height: 80px;
+	}
+
+	#contentContact h3{
+		font-size: 1.2rem;
+	}
+
+	#contentContact h4{
+		font-size: 1.2rem;
+	}
+
+	#contentContact p{
+		font-size: 2rem;
+	}
+
+	#contentContact .mail{
+		font-size: .9rem !important;
+	}
+
+	#contentServices h2{
+		font-size: 1.5rem;
+    	margin-bottom: 1.5rem;
+	}
+	
+	#contentServices img{
+		height: 80px;
+		margin-bottom: 1.5rem;
+	}
+
+	#contentServices h3{
+		font-size: 1.5rem;
+		margin-bottom: 1.5rem;
+	}
+	
+	#contentServices h3 span{
+		font-size: 2rem;
+		margin-bottom: 2rem;
+	}
+
+	#contentServices p{
+		padding: 0;
+    	margin-bottom: 4rem;
+   		font-size: 1rem;
+	}
+
+
+
+	#contentServices button{
+		margin-top: 1.5rem;
+		height: 50px;
+    	width: 220px;
+    	font-size: .9rem;
+	}
+	
+	#contentDeclaration h2{
+		font-size: 4rem;
+	}
+
+
+	#contentDeclaration h3{
+		padding: 0;
+		margin-bottom: 4rem;
+		font-size: 1.1rem;
+	}
+
+	#contentDeclaration h4{
+		font-size: 1rem;
+	}
+
+
+	#contentDeclaration h5{
+		font-size: 1rem;
+		margin-bottom: 4rem;
+	}
+
+	#contentDeclaration .cx2 img{
+		height: 80px;
+		width: 80px;
+	}
+
+	.textDb{
+		width: 100%;
+	}
+
+	#contentDeclaration .textDb p{
+		font-size: .9rem;
+	}
+
+	#contentDeclaration .textDb img{
+		height: 80px;
+		width: 80px;
+		margin-top: 1rem;
+		margin-bottom: 2rem;
+	}
+	.cx1Container{
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	#menu{
+		justify-content: space-between;
+	}
+	#menubar{
+		display: none;
+	}
+	#menuMobile{
+		display: block;
+		width: 40px;
+		height: 40px;
+		background: transparent;
+    	border-radius: 50%;
+   		border: 1px solid #f2e9e4;
+		cursor: pointer;
+		margin-right: 15px;
+	}
+
+	#menuMobile span{
+		position: relative;
+    	margin-top: 7px;
+		margin-bottom: 7px;
+		margin-left: 12px;
+		content: " ";
+    	width: 14px;
+    	height: 1px;
+    	display: block;
+    	background: #9a8c98;
+		border-radius: 0;
+	}
+
+	#menuMobile::before{
+		margin-top: 11px;
+		content: " ";
+		width: 14px;
+		height: 1px;
+		display: block;
+		background: #9a8c98;
+		border-radius: 0;
+		margin-left: 12px;
+	}
+
+	#menuMobile::after{
+		content: " ";
+		width: 14px;
+		height: 1px;
+		display: block;
+		background: #9a8c98;
+		border-radius: 0;
+		margin-left: 12px;
+	}
+
+	#logo{
+		width: 70px
+	}
+
+	#contentHome{
+		padding: 220px 0;
+	}
+
+	#contentHome h2{
+		font-size: 4rem;
+	}
+
+	#contentHome h3{
+		font-size: 2rem;
+    	margin-top: 2rem;
+	}
+	
+	#contentHome h4{
+		font-size: 1.2rem;
+	}
+
+	#contentHome button{
+		height: 50px;
+		width: 220px;
+		font-size: .9rem;
+	}
+
+	#contentPresent h2{
+		font-size: 1.4rem;
+	}
+
+	#contentPresent button{
+		margin-top: 2.5rem;
+		margin-bottom: 2.5rem;
+		height: 50px;
+		width: 220px;
+		font-size: .9rem;
+	}
+
+	#contentAbout h2{
+		text-align: center;
+    	font-size: 4rem;
+   		margin-bottom: 1rem;
+	}
+
+	#contentAbout h3{
+		text-align: center;
+    	font-size: 1rem;
+    	margin-bottom: 1rem;
+	}
+
+	#contentAbout p{
+		text-align: center;
+	}
+
+	#contentAbout img{
+		height: 100px;
+    	left: 50%;
+		position: relative;
+		transform: translate(-50%);
+	}
+
+	.aboutLeft{
+		margin-right: 350px;
+    	margin-left: 50px;
+	}
+
+	#contentServices h2{
+		font-size: 2rem;
+		margin-bottom: 2rem;
+	}
+
+	#contentServices h3{
+		font-size: 2rem;
+		margin-bottom: 2rem;
+	}
+
+	#contentServices h3 span{
+		font-size: 2.5rem;
+    	margin-bottom: 2.5rem;
+	}
+
+	#contentServices img{
+		height: 100px;
+		margin-bottom: 2rem;
+	}
+
+	#contentServices p{
+		padding: 0 20px;
+		margin-bottom: 4rem;
+		font-size: 1rem;
+	}
+
+	#contentServices button{
+		margin-top: 1.5rem;
+		height: 50px;
+		width: 220px;
+		font-size: .9rem;
+	}
+
+	#contentDeclaration h2{
+		font-size: 5rem;
+	}
+
+	#contentDeclaration h3{
+		font-size: 1.1rem;
+		padding: 0 5%;
+	}
+
+	#contentDeclaration h4{
+		font-size: 1rem;
+	}
+
+	#contentDeclaration h5{
+		font-size: 1rem;
+	}
+
+	#contentDeclaration img{
+		height: 100px;
+    	width: 100px;
+	}
+
+	#contentDeclaration p{
+		font-size: .9rem;
+	}
+
+	#contentContact h2{
+		font-size: 4rem;
+	}
+
+	#contentContact h3{
+		font-size: 1.5rem;
+		margin-bottom: 3rem;
+	}
+
+	#contentContact h4{
+		font-size: 1.3rem;
+	}
+
+	#contentContact img{
+		height: 100px;
+	}
+
+	#contentContact p{
+		font-size: 2rem;
+	}
+
+	.mail{
+		font-size: .9rem !important;
+	}
+
+
+}
