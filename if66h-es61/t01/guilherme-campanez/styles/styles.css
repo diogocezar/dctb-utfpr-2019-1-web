@@ -1,0 +1,1590 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+@font-face {
+    font-family: "afterMidnite";
+    src: url('../fonts/AfterMidnite.woff');
+}
+
+@font-face {
+    font-family: "trajanProBold";
+    src: url('../fonts/TrajanPro-Bold.woff');
+}
+
+@font-face {
+    font-family: "trajanProRegular";
+    src: url('../fonts/TrajanPro-Regular.woff');
+}
+
+@font-face {
+    font-family: "montserrat";
+    src: url('../fonts/Montserrat-Regular.woff');
+}
+
+
+
+
+/* ================================================ INICIO DO HEADER ================================================*/
+.brand{
+    width: 270px;   
+    margin: 5px 0 0 5px;
+}
+
+.logo{
+    display: inline; 
+}
+
+.hamb{
+    display: none;
+}
+
+.brand2{
+    display: none;
+}
+
+h1{
+    font-weight: normal;
+    font-family: "afterMidnite";
+}
+
+h2{
+    font-family: "trajanProRegular";
+    font-weight: normal;
+}
+
+h3{
+    font-family: "montserrat";
+    font-weight: normal
+
+}
+
+nav{
+    display: flex;
+    background-color:#22223B;
+    text-align: center;
+    justify-content: center;
+    height: 70px;
+    position: sticky;
+    top:0;   
+}
+
+div.menu{
+    display:flex;
+    flex-direction: row;
+    height: 30px;
+    padding-top: 20px;
+    padding-left: 200px;
+}
+
+.menu p a {    
+
+    padding: 10px 10px 0 10px;
+    margin-left: 20px;
+    color: white;
+    font-size: 1em;
+    font-family: "trajanProRegular";
+    text-decoration:none;
+}
+/* === FINAL HEADER ===*/
+
+
+
+/* === INICIO PRIMEIRO BANNER ===*/
+.section1{
+    background-color: #22223B;    
+}
+
+.text1{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(34, 34, 59, 0.84), rgba(34, 34, 59, 0.98)), url(../images/geovanna-bg-home.jpg);
+    height: 900px;   
+}
+
+#title01{
+    text-align:center;
+    font-size: 6.5rem;
+    color: white;   
+    line-height: 60px;     
+}
+
+#title002{        
+    font-size: 4rem;
+    color: white;  
+    padding-bottom: 10px;   
+}
+
+#subSection1{
+    font-size: 1.5rem;
+    color:white;
+    padding-bottom:10px 
+}
+
+#t03_3{
+    font-family: "trajanProRegular";    
+    font-size: 1.5rem;
+    color: #967876;
+}
+
+#subSection1_1{  
+    font-size: 1.5rem;
+    color: white;
+}
+
+#btn01{
+    border: 1px solid #f2e9e4;
+    background-color: transparent;
+    color: #f2e9e4;
+    width: 260px;
+    border-radius: 40px;
+    height: 60px;
+    line-height: 38px;
+    font-family: "montserrat",sans-serif;
+    font-size: 1rem;
+    margin-top: 70px;  
+}
+#btn01 a{
+    text-decoration:none;
+    color: #544E74;
+}
+
+#btn01:hover{
+    border: 1px solid #f2e9e4;
+    background-color: white;
+    color: #544E74;    
+}
+/* === FINAL PRIMEIRO BANNER ===*/
+
+
+
+/* === INICIO SEGUNDO BANNER ===*/
+.text2{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(74, 74, 105, 0.8), rgba(74, 74, 105, 0.8)), url(../images/geovanna-bg-presentation.jpg);
+    background-position:50% ;
+    height: 500px
+}
+.subSection2{
+    color: white;
+    font-size: 2rem; 
+    text-align: center;
+}
+
+.book{
+    height: 80px;
+    margin: 2em 0 2em 0;
+}
+
+#underTitle{    
+    text-transform: lowercase;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.btnDownload{
+    border: 1px solid white;
+    width: 280px;
+    border-radius: 40px;
+    height: 60px;
+    line-height: 38px;
+    font-family: "montserrat",sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #544E74;
+    padding: 0 10px 0 10px;
+    margin: 2em 0 0 0;
+}
+
+.btnDownload:hover{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+
+    
+}
+/* === FINAL SEGUNDO BANNER===*/
+
+
+
+/* === INICIO SOBRE NÓS ===*/
+#section3{
+    background-color: #F2E9E4;
+
+
+}
+
+.text3{
+    padding: 0 0 0 350px;
+    display: flex;
+    flex-direction: column;    
+    align-items: flex-start;
+    justify-content: center;      
+    width: 40%;    
+}
+
+#title02{
+    font-size: 6rem;
+    margin-bottom: 3rem;
+    margin-top: 6rem;
+    color: #22223B;
+    
+}
+
+.subSection3{
+    color:#9a8c98;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.underTitle1{    
+    color: #22223B;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+.heart{
+    height: 120px;
+    width: 120px;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+}
+/* === FINAL TERCEIRO BANNER===*/
+
+
+
+/* === INICIO QUARTO BANNER ===*/
+#section4{
+    background-image: linear-gradient(rgba(34,34,59,.84),rgba(34,34,59,.98)),url(../images/geovanna-bg-services.jpg);
+    display: flex;
+    flex-direction: column; 
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+    
+}
+.text4{  
+    display: flex;  
+    flex-direction: column;        
+}
+
+#node{
+    display: flex;
+    justify-content: center;
+        
+}
+
+#node1, #node2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center;
+    width: 30%;  
+}
+
+
+#nodeBtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+.subSection4{
+    text-align: center;
+    font-size: 3rem;
+    color: #f2e9e4;
+    margin-bottom: 3rem;
+}
+
+.ring{
+    height: 120px;
+    margin-bottom: 3rem;
+}
+
+.subSection4_1{
+    text-align: center;
+    font-size: 2rem;
+    line-height: 2rem;
+    color: #9a8c98;    
+}
+
+.subSection4_2{
+    text-align: center;;
+    font-size: 3rem;   
+    color: #9a8c98;
+    margin-bottom: 2rem;    
+}
+
+.underTitle2{
+    color: #f2e9e4;
+    text-align: center;font-size: 1rem;
+    padding: 0 15%;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+/* === FINAL QUARTO BANNER===*/
+
+
+
+/* === INICIO QUINTO BANNER ===*/
+#section5{
+    background-color: #F2E9E4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#title03{    
+    font-size: 6rem;
+    margin-bottom: 3rem;
+    margin-top: 6rem;
+    color: #22223B;
+}
+
+#subSection5{
+    color:#9a8c98;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    width: 40%;
+    text-align: center;
+
+}
+
+.text5{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    justify-content: center;        
+}
+
+.baloon{
+    height: 120px;
+    margin-bottom: 3rem;
+}
+
+#nodeMax{    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.node001 img, .node002 img{
+    border-top: 3px solid#C9ADA7; 
+    margin-top: 20px;   
+}
+
+.node001{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    text-align: center;
+    justify-content: center;
+    margin: 50px;
+    width: 18%; 
+}
+
+.node002{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    text-align: center;
+    justify-content: center;
+    margin: 50px;
+    width: 18%; 
+    height: 471px;
+}
+
+#subSection5_1{
+    color: #544E74;
+    font-size: 1.2rem;    
+}
+
+#subSection5_2{
+    padding-top: 10px;
+    color: #9a8c98;
+    font-size: 1.2rem;
+}
+
+#subSection5_3{
+    color: #544E74;
+    font-size: 1rem;
+}
+
+
+/* === FINAL QUINTO BANNER ===*/
+
+
+
+/* === INICIO SEXTO BANNER ===*/
+#section6{
+    background-image: linear-gradient(rgba(34,34,59,.8),rgba(34,34,59,.9)),url(../images/geovanna-bg-contact.jpg);
+    background-position: 50%;
+    padding:40px;
+}
+
+.text6{    
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    justify-content: center;
+}
+
+.ring2{
+    height: 120px;
+    margin-bottom: 3rem;    
+}
+
+#title04{    
+    color: #f2e9e4;
+    font-size: 6rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.subSection6{
+    color: #c9ada7;    
+    font-size: 1.75rem;
+}
+
+.subSection6_1{
+    margin-top:5rem;    
+    color: #c9ada7;
+    font-size: 1.5rem;
+}
+
+#subSection6_2{
+    font-size: 2rem;
+    color: #f2e9e4;
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+
+#subSection6_3{
+    font-size: 1rem;
+    color: #f2e9e4;
+    margin-top: 0;
+    margin-bottom: -2rem;
+}
+
+#subSection6_4{
+    font-size: 1.2rem;
+    color: #f2e9e4;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+#linkRef{
+    display: flex;
+    justify-content: center;    
+}
+
+.link img{    
+    height: 35px;
+    width: 35px;
+    padding: 10px;
+}
+
+.link{
+    border: 2px solid white;
+    border-radius: 200px;
+    margin: 15px;    
+}
+/* === FINAL SEXTO BANNER ===*/
+
+
+
+/* === RESPONSIVIDADE ===*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /* === SECTION1 START===*/
+    nav{
+        height: 100px;
+        display: flex;
+        justify-content: flex-start; 
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+    .brand{
+        display: none;
+    }
+
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+    }
+
+    .hamb{
+        display: block;
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+        margin-left: 65%;
+        margin-right: 5%;
+        border: 2px solid black;
+        border-radius: 200px;
+    }
+
+    .brand2{
+        display: block;
+        width: 90px;   
+        margin: 5px 0 0 5px;
+        
+    }
+    div.menu{
+        display:none;
+    }
+
+    #title01{
+        font-size:3.5rem;
+        padding-bottom: 2rem;
+    }
+    #title002{
+        font-size:1.8rem;
+        padding-bottom: 2rem;
+    }
+    #subSection1{
+        font-size: 1rem;
+    }
+    #subSection1_1{
+        font-size: 1rem;
+    }
+    #t03_3{
+        font-size: 1rem;
+    }
+
+    #btn01{
+        
+        width: 215px;
+        border-radius: 40px;
+        height: 50px;
+        font-size: .75rem;
+        ;  
+    }
+    /* === SECTION1 END ===*/
+
+
+
+    /* === SECTION2 START ===*/
+
+    .subSection2{
+        color: white;
+        font-size: 1.2rem; 
+        text-align: center;
+    }
+    
+    
+    #underTitle{    
+        text-transform: lowercase;
+        color: white;
+        font-size: .8rem;
+        font-weight: 400;
+        padding-bottom: 2rem;
+    }
+    
+    .btnDownload{
+        width: 215px;
+        border-radius: 40px;
+        height: 50px;        
+        font-size: .75rem;
+        
+    }
+    /* === SECTION2 END ===*/
+
+
+
+    /* === SECTION3 START ===*/
+    .text3{
+        padding: 0 0 0 0;
+        display: flex;
+        flex-direction: column;    
+        align-items: center;
+        justify-content: center;      
+        width: 100%;    
+    }
+      
+    
+    #title02{
+        font-size: 3.5rem;
+        margin-top: 4rem;
+        margin-bottom: 0rem;      
+               
+    }
+    
+    .subSection3{       
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .underTitle1{            
+        line-height: 1.7rem;
+        margin-bottom: 2rem;
+        font-size: .8rem;
+        text-align: center;
+        justify-content: center;
+    } 
+/* === SECTION3 END ===*/
+
+
+
+    /* === SECTION4 START ===*/
+    #section4{
+        display: flex;
+        flex-direction: column; 
+        padding-top: 5rem;
+        padding-bottom: 3rem;
+        background-position-x: 50%;
+        
+    }
+    .text4{  
+        display: flex;  
+        flex-direction: column;        
+    }
+
+    #node{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center
+            
+    }
+
+    #node1, #node2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+        justify-content: center;
+        width: 100%;  
+    }
+
+
+    #nodeBtn{
+        margin-top: 3rem;
+        }
+
+    .subSection4{
+        text-align: center;
+        font-size: 1.5rem;
+        color: #f2e9e4;
+        margin-bottom: 1.5rem;
+    }
+
+    .ring{
+        height: 80px;
+        margin-bottom:-1rem;
+    }
+
+    .subSection4_1{
+        text-align: center;
+        font-size: 1rem;
+        line-height: 2rem;
+        color: #9a8c98; 
+        margin-top: 3rem;
+        
+    }
+
+    .subSection4_2{
+        text-align: center;
+        font-size: 1.7rem;   
+        color: #9a8c98;
+        margin-bottom: 2rem;
+        
+    }
+
+    .underTitle2{
+        color: #f2e9e4;
+        text-align: center;
+        padding: 0 2%;
+        font-size: .8rem;
+        line-height: 1.75rem;
+    }
+    /* === SECTION4 END ===*/
+
+
+
+    /* === SECTION5 START ===*/
+    #section5{        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    #title03{    
+        font-size: 3.5rem;
+        margin-bottom: 2rem;
+        margin-top: 4rem;
+        color: #22223B;
+    }
+
+    #subSection5{
+        color:#9a8c98;
+        font-size: 1rem;
+        margin-bottom: 2rem;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .baloon{
+        height: 100px;
+        margin-bottom: 3rem;
+    }
+    #nodeMax{    
+        flex-direction: column;
+    }
+
+    .node001 img, .node002 img{
+        width: 80px;
+        border-top: 3px solid#C9ADA7;         
+        padding-top: 1.5rem;  
+    }
+
+    .node001{
+        margin: 0px;
+        width: 100%;
+        height: 300px; 
+
+    }
+
+    .node002{
+        margin-top: 20px;
+        width: 100%; 
+        height: 300px;
+    }
+
+    #subSection5_1{
+        color: #544E74;
+        font-size: .8rem;    
+    }
+
+    #subSection5_2{
+        padding-top: 10px;
+        color: #9a8c98;
+        font-size: .8rem;
+    }
+
+    #subSection5_3{
+        color: #544E74;
+        font-size: 1rem;
+    }
+    /* === SECTION5 END ===*/
+
+
+
+    /* === SECTION6 START ===*/
+    
+        
+    .ring2{
+        height: 80px;
+        margin-bottom: 3rem;
+        
+    }
+    
+    #title04{    
+        color: #f2e9e4;
+        font-size: 3.5rem;
+        margin-bottom: .5rem;
+        text-align: center;
+    }
+    
+    .subSection6{
+        color: #c9ada7;     
+        font-size: 1rem;
+    }
+    
+    .subSection6_1{
+        margin-top:3rem;    
+        color: #c9ada7;
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    #subSection6_2{
+        font-size: 1.5rem;
+        color: #f2e9e4;
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+    
+    #subSection6_3{
+        font-size: .8rem;
+        color: #f2e9e4;
+        margin-top: 0;
+        margin-bottom: -2rem;
+    }
+    
+    #subSection6_4{
+        font-size: .8rem;
+        color: #f2e9e4;
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+    
+    #linkRef{
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .link img{
+        
+        height: 30px;
+        width: 30px;
+        padding: 5px;
+    }
+    .link{
+        border: 2px solid white;
+        border-radius: 200px;
+        margin: 15px;
+        
+    }
+
+}
+/*Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+/* === SECTION1 START===*/
+nav{
+    height: 100px;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.brand{
+    display: none;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.hamb{
+    display: block;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    margin-left: 65%;
+    margin-right: 5%;
+    border: 2px solid black;
+    border-radius: 200px;
+}
+
+.brand2{
+    display: block;
+    width: 90px;   
+    margin: 5px 0 0 5px;
+    
+}
+div.menu{
+    display:none;
+}
+
+#title01{
+    font-size:3.5rem;
+    padding-bottom: 2rem;
+}
+#title002{
+    font-size:1.8rem;
+    padding-bottom: 2rem;
+}
+#subSection1{
+    font-size: 1rem;
+}
+#subSection1_1{
+    font-size: 1rem;
+}
+#t03_3{
+    font-size: 1rem;
+}
+
+#btn01{
+    
+    width: 215px;
+    border-radius: 40px;
+    height: 50px;
+    font-size: .75rem;
+    ;  
+}
+/* === SECTION1 END ===*/
+
+
+
+/* === SECTION2 START ===*/
+
+.subSection2{
+    color: white;
+    font-size: 1.2rem; 
+    text-align: center;
+}
+
+
+#underTitle{    
+    text-transform: lowercase;
+    color: white;
+    font-size: .8rem;
+    font-weight: 400;
+    padding-bottom: 2rem;
+}
+
+.btnDownload{
+    width: 215px;
+    border-radius: 40px;
+    height: 50px;        
+    font-size: .75rem;
+    
+}
+/* === SECTION2 END ===*/
+
+
+
+
+
+
+/* === SECTION4 START ===*/
+#section4{
+    display: flex;
+    flex-direction: column; 
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    background-position-x: 50%;
+    
+}
+.text4{  
+    display: flex;  
+    flex-direction: column;        
+}
+
+#node{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+        
+}
+
+#node1, #node2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center;
+    width: 100%;  
+}
+
+
+#nodeBtn{
+    margin-top: 3rem;
+    }
+
+.subSection4{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #f2e9e4;
+    margin-bottom: 1.5rem;
+}
+
+.ring{
+    height: 80px;
+    margin-bottom:-1rem;
+}
+
+.subSection4_1{
+    text-align: center;
+    font-size: 1rem;
+    line-height: 2rem;
+    color: #9a8c98; 
+    margin-top: 3rem;
+    
+}
+
+.subSection4_2{
+    text-align: center;
+    font-size: 1.7rem;   
+    color: #9a8c98;
+    margin-bottom: 2rem;
+    
+}
+
+.underTitle2{
+    color: #f2e9e4;
+    text-align: center;
+    padding: 0 2%;
+    font-size: .8rem;
+    line-height: 1.75rem;
+}
+/* === SECTION4 END ===*/
+
+
+
+
+/* === SECTION6 START ===*/
+
+    
+.ring2{
+    height: 80px;
+    margin-bottom: 3rem;
+    
+}
+
+#title04{    
+    color: #f2e9e4;
+    font-size: 3.5rem;
+    margin-bottom: .5rem;
+    text-align: center;
+}
+
+.subSection6{
+    color: #c9ada7;     
+    font-size: 1rem;
+}
+
+.subSection6_1{
+    margin-top:3rem;    
+    color: #c9ada7;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+#subSection6_2{
+    font-size: 1.5rem;
+    color: #f2e9e4;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+#subSection6_3{
+    font-size: .8rem;
+    color: #f2e9e4;
+    margin-top: 0;
+    margin-bottom: -2rem;
+}
+
+#subSection6_4{
+    font-size: .8rem;
+    color: #f2e9e4;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+#linkRef{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.link img{
+    
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+}
+.link{
+    border: 2px solid white;
+    border-radius: 200px;
+    margin: 15px;
+    
+}
+}  
+
+/*Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+    .brand{
+        display: flex;
+        width: 270px;   
+        margin: 5px 0 0 5px;
+    }
+    
+    .logo{
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+    }
+    
+    .hamb{
+        display: none;
+    }
+    
+    .brand2{
+        display: none;
+    }
+    
+    h1{
+        font-weight: normal;
+        font-family: "afterMidnite";
+    }
+    
+    h2{
+        font-family: "trajanProRegular";
+        font-weight: normal;
+    }
+    
+    h3{
+        font-family: "montserrat";
+        font-weight: normal
+    
+    }
+    
+    nav{
+        display: flex;
+        background-color:#22223B;
+        text-align: center;
+        justify-content: center;
+        height: 70px;
+        position: sticky;
+        top:0;   
+    }
+    
+    div.menu{
+        display:flex;
+        flex-direction: row;
+        height: 30px;
+        padding-top: 25px;
+        padding-left: 200px;
+    }
+    
+    .menu p a {    
+    
+        padding: 10px 10px 0 10px;
+        margin-left: 20px;
+        color: white;
+        font-size: 1em;
+        font-family: "trajanProRegular";
+        text-decoration:none;
+    }
+    /* === FINAL HEADER ===*/
+    
+    
+    
+    /* === INICIO PRIMEIRO BANNER ===*/
+    .section1{
+        background-color: #22223B;    
+    }
+    
+    .text1{
+        display: flex;
+        flex-direction: column;    
+        align-items: center;
+        justify-content: center;
+        background-image: linear-gradient(rgba(34, 34, 59, 0.84), rgba(34, 34, 59, 0.98)), url(../images/geovanna-bg-home.jpg);
+        height: 900px;   
+    }
+    
+    #title01{
+        text-align:center;
+        font-size: 6.5rem;
+        color: white;   
+        line-height: 60px;     
+    }
+    
+    #title002{        
+        font-size: 4rem;
+        color: white;  
+        padding-bottom: 10px;   
+    }
+    
+    #subSection1{
+        font-size: 1.5rem;
+        color:white;
+        padding-bottom:10px 
+    }
+    
+    #t03_3{
+        font-family: "trajanProRegular";    
+        font-size: 1.5rem;
+        color: #967876;
+    }
+    
+    #subSection1_1{  
+        font-size: 1.5rem;
+        color: white;
+    }
+    
+    #btn01{
+        border: 1px solid #f2e9e4;
+        background-color: transparent;
+        color: #f2e9e4;
+        width: 260px;
+        border-radius: 40px;
+        height: 60px;
+        line-height: 38px;
+        font-family: "montserrat",sans-serif;
+        font-size: 1rem;
+        margin-top: 70px;  
+    }
+    #btn01 a{
+        text-decoration:none;
+        color: #544E74;
+    }
+    
+    #btn01:hover{
+        border: 1px solid #f2e9e4;
+        background-color: white;
+        color: #544E74;    
+    }
+    /* === FINAL PRIMEIRO BANNER ===*/
+    
+    
+    
+    /* === INICIO SEGUNDO BANNER ===*/
+    .text2{
+        display: flex;
+        flex-direction: column;    
+        align-items: center;
+        justify-content: center;
+        background-image: linear-gradient(rgba(74, 74, 105, 0.8), rgba(74, 74, 105, 0.8)), url(../images/geovanna-bg-presentation.jpg);
+        background-position:50% ;
+        height: 500px
+    }
+    .subSection2{
+        color: white;
+        font-size: 2rem; 
+        text-align: center;
+    }
+    
+    .book{
+        height: 80px;
+        margin: 2em 0 2em 0;
+    }
+    
+    #underTitle{    
+        text-transform: lowercase;
+        color: white;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    
+    .btnDownload{
+        border: 1px solid white;
+        width: 280px;
+        border-radius: 40px;
+        height: 60px;
+        line-height: 38px;
+        font-family: "montserrat",sans-serif;
+        font-size: 1rem;
+        text-transform: uppercase;
+        color: #544E74;
+        padding: 0 10px 0 10px;
+        margin: 2em 0 0 0;
+    }
+    
+    .btnDownload:hover{
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+    
+        
+    }
+    /* === FINAL SEGUNDO BANNER===*/
+    
+    
+    
+    /* === INICIO SOBRE NÓS ===*/
+    #section3{
+        background-color: #F2E9E4;
+    
+    
+    }
+    
+    .text3{
+        padding: 0 0 0 350px;
+        display: flex;
+        flex-direction: column;    
+        align-items: flex-start;
+        justify-content: center;      
+        width: 40%;    
+    }
+    
+    #title02{
+        font-size: 6rem;
+        margin-bottom: 3rem;
+        margin-top: 6rem;
+        color: #22223B;
+        
+    }
+    
+    .subSection3{
+        color:#9a8c98;
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    
+    .underTitle1{    
+        color: #22223B;
+        line-height: 2rem;
+        margin-bottom: 2rem;
+        font-size: 1rem;
+    }
+    .heart{
+        height: 120px;
+        width: 120px;
+        margin-top: 1rem;
+        margin-bottom: 4rem;
+    }
+    /* === FINAL TERCEIRO BANNER===*/
+    
+    
+    
+    /* === INICIO QUARTO BANNER ===*/
+    #section4{
+        background-image: linear-gradient(rgba(34,34,59,.84),rgba(34,34,59,.98)),url(../images/geovanna-bg-services.jpg);
+        display: flex;
+        flex-direction: column; 
+        padding-top: 7rem;
+        padding-bottom: 5rem;
+        
+    }
+    .text4{  
+        display: flex;  
+        flex-direction: column;        
+    }
+    
+    #node{
+        display: flex;
+        justify-content: center;
+            
+    }
+    
+    #node1, #node2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+        justify-content: center;
+        width: 30%;  
+    }
+    
+    
+    #nodeBtn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+    
+    .subSection4{
+        text-align: center;
+        font-size: 3rem;
+        color: #f2e9e4;
+        margin-bottom: 3rem;
+    }
+    
+    .ring{
+        height: 120px;
+        margin-bottom: 3rem;
+    }
+    
+    .subSection4_1{
+        text-align: center;
+        font-size: 2rem;
+        line-height: 2rem;
+        color: #9a8c98;    
+    }
+    
+    .subSection4_2{
+        text-align: center;;
+        font-size: 3rem;   
+        color: #9a8c98;
+        margin-bottom: 2rem;    
+    }
+    
+    .underTitle2{
+        color: #f2e9e4;
+        text-align: center;font-size: 1rem;
+        padding: 0 15%;
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+    /* === FINAL QUARTO BANNER===*/
+    
+    
+    
+    /* === INICIO QUINTO BANNER ===*/
+    #section5{
+        background-color: #F2E9E4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    #title03{    
+        font-size: 6rem;
+        margin-bottom: 3rem;
+        margin-top: 6rem;
+        color: #22223B;
+    }
+    
+    #subSection5{
+        color:#9a8c98;
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+        width: 40%;
+        text-align: center;
+    
+    }
+    
+    .text5{
+        display: flex;
+        flex-direction: column;    
+        align-items: center;
+        justify-content: center;        
+    }
+    
+    .baloon{
+        height: 120px;
+        margin-bottom: 3rem;
+    }
+    
+    #nodeMax{    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .node001 img, .node002 img{
+        border-top: 3px solid#C9ADA7; 
+        margin-top: 20px;   
+    }
+    
+    .node001{
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+        text-align: center;
+        justify-content: center;
+        margin: 50px;
+        width: 18%; 
+    }
+    
+    .node002{
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+        text-align: center;
+        justify-content: center;
+        margin: 50px;
+        width: 18%; 
+        height: 471px;
+    }
+    
+    #subSection5_1{
+        color: #544E74;
+        font-size: 1.2rem;    
+    }
+    
+    #subSection5_2{
+        padding-top: 10px;
+        color: #9a8c98;
+        font-size: 1.2rem;
+    }
+    
+    #subSection5_3{
+        color: #544E74;
+        font-size: 1rem;
+    }
+    
+    /* === FINAL QUINTO BANNER ===*/
+    
+    
+    
+    /* === INICIO SEXTO BANNER ===*/
+    #section6{
+        background-image: linear-gradient(rgba(34,34,59,.8),rgba(34,34,59,.9)),url(../images/geovanna-bg-contact.jpg);
+        background-position: 50%;
+        padding:40px;
+    }
+    
+    .text6{    
+        display: flex;
+        flex-direction: column;    
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .ring2{
+        height: 120px;
+        margin-bottom: 3rem;    
+    }
+    
+    #title04{    
+        color: #f2e9e4;
+        font-size: 6rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    
+    .subSection6{
+        color: #c9ada7;    
+        font-size: 1.75rem;
+    }
+    
+    .subSection6_1{
+        margin-top:5rem;    
+        color: #c9ada7;
+        font-size: 1.5rem;
+    }
+    
+    #subSection6_2{
+        font-size: 2rem;
+        color: #f2e9e4;
+        margin-top: 0;
+        margin-bottom: 0rem;
+    }
+    
+    #subSection6_3{
+        font-size: 1rem;
+        color: #f2e9e4;
+        margin-top: 0;
+        margin-bottom: -2rem;
+    }
+    
+    #subSection6_4{
+        font-size: 1.2rem;
+        color: #f2e9e4;
+        margin-top: 0;
+        margin-bottom: 2rem;
+    }
+    
+    #linkRef{
+        display: flex;
+        justify-content: center;    
+    }
+    
+    .link img{    
+        height: 35px;
+        width: 35px;
+        padding: 10px;
+    }
+    
+    .link{
+        border: 2px solid white;
+        border-radius: 200px;
+        margin: 15px;    
+    }
+    /* === FINAL SEXTO BANNER ===*/
+}   
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+} 
+
+@media only screen and (min-width: 1200px) {
+
+} 
