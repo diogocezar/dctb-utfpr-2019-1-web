@@ -1,0 +1,126 @@
+body{
+	background-color: white;
+	font-family: 'Source Code Pro', monospace;
+
+}
+
+h1{
+	text-align: center;
+}
+
+h2{
+	padding: 10px;
+}
+
+img{
+	width: 130px; 
+	height: 130px;  
+}
+
+
+.menu{
+	max-width: auto;
+	display: flex;
+	border-radius: 25px;
+	border: 1px solid royalblue;
+}
+
+.container{
+	max-width: 1000px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+	display: flex;
+
+}
+
+.tam{
+	height: 310px;
+}
+
+.item{
+	margin: 10px;
+	text-align: center;
+	font-size: 1.5em;
+	background-color:  #b3d5e0;
+}
+
+.item2{
+	margin: 10px;
+	font-size: 1.5em;
+	background-color: #b3d5e0;
+}
+
+.column{
+	flex-direction: column;
+}
+
+.row{
+	flex-direction: row;
+}
+
+.wrap{
+	flex-wrap: wrap;
+}
+
+.flex-flow{
+	flex-flow: row wrap;
+}
+
+.justify-content{
+	justify-content: space-around;
+}
+
+.align-items{
+	align-items: center;
+}
+
+.align-content{
+	align-content: flex-start;
+}
+
+.flex-grow{
+	flex-grow: 1;
+}
+
+.flex-basis{
+	flex-basis: 0;
+}
+
+
+.flex-shrink{
+	flex-grow: 1;
+	flex-shrink: 0;
+	flex-basis: 150px;
+}
+
+.flex{
+	flex: 1;
+}
+
+.align-self-start{
+	align-self: flex-start;
+}
+
+.align-self-center{
+	align-self: center;
+}
+
+.align-self-end{
+	align-self: flex-end;
+}
+
+.order1 {
+	order: 1;
+}
+
+.order2 {
+	order: 2;
+}
+
+.order3 {
+	order: 3;
+}
+
+.order4 {
+	order: 4;
+}

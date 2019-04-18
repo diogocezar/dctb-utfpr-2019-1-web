@@ -1,0 +1,149 @@
+    
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: gray ;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+h1, h2 {
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.container {
+    display: flex;
+    padding: 0px 100px;
+}
+
+nav {
+    background-color: gray;
+    padding: 20px 0;
+    width: 100%;
+    font-weight: 700;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    list-style: none;
+    
+}
+nav ul li a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    
+}
+nav ul li a:hover {
+    background-color: grey;
+    border-radius: 15px;
+}
+#home {
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+#home .item-1{
+    border-radius: 50%;
+}
+
+#home .item-2{
+    text-align: center;
+    color: white;
+    padding-top: 45px;
+    padding-left: 85px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-style: oblique;
+}
+
+#perfil .container {
+    display: flex;              
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+#habilidades div {
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+#habilidades .item-1 {
+    order: 4;
+}
+#habilidades .item-2 {
+    order: 3;
+}
+#habilidades .item-3 {
+    order: 2;
+}
+#habilidades .item-4 {
+    order: 1;
+}
+#info div {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#contato .inputs {
+    display: block;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+#contato input {
+    width: 100%;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    background-color: black;
+    margin-top: 10px;
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+}
+#perfil, #habilidades, #info, #contato {
+    margin-top: 50px;
+}
+#back-top {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+#back-top a {
+    text-decoration: none;
+    color: white;
+}
+
+table {
+	width:40vw;
+    border-collapse: collapse;
+}
+table, th, td {
+	border: 1px solid #f2f2f2;
+	padding: 15px;
+}
+td{
+	text-align: center;
+}
+
+@media(max-width:1200px) {
+    #info .container {
+        flex-direction: column;
+    }
+}
+

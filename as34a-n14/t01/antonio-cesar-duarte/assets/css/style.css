@@ -1,0 +1,727 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,300");
+@font-face {
+    font-family: "TrajanPro-Regular";
+    src: url("/assets/fonts/TrajanPro-Regular.eot?") format("eot"), url("/assets/fonts/TrajanPro-Regular.woff") format("woff"), url("/assets/fonts/TrajanPro-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "AfterMidnite";
+    src: url("/assets/fonts/AfterMidnite.eot?") format("eot"), url("/assets/fonts/AfterMidnite.woff") format("woff"), url("/assets/fonts/AfterMidnite.ttf") format("truetype");
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 14px;
+    font-family: "TrajanPro-Regular", serif;
+    background-color: #F2E9E4;
+    color: #4A4E69;
+    font-weight: lighter;
+}
+
+#menu .img {
+    margin-top: 0.5%;
+    padding-left: 5%;
+    width: 7cm;
+    float: left;    
+}
+
+nav {
+    top: 0px;
+    width: 100%;
+    font-family: "TrajanPro-Regular";
+    font-weight: lighter;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 6rem;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    padding: 20px;
+    margin-top: 9px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #F2E9E4;
+    cursor: pointer;
+    float: left;
+}
+
+section {
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+}
+
+@media only screen and (max-width: 768px) {
+    section {
+        padding-top: 6rem;
+        padding-bottom: 4rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    section {
+        padding-top: 5rem;
+        padding-bottom: 3rem;
+    }
+}
+
+section#home {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(34, 34, 59, 0.84)), to(rgba(34, 34, 59, 0.98))), url("/assets/img/geovanna-bg-home.jpg");
+    background: -webkit-linear-gradient(rgba(34, 34, 59, 0.84), rgba(34, 34, 59, 0.98)), url("/assets/img/geovanna-bg-home.jpg");
+    background: -o-linear-gradient(rgba(34, 34, 59, 0.84), rgba(34, 34, 59, 0.98)), url("/assets/img/geovanna-bg-home.jpg");
+    background: linear-gradient(rgba(34, 34, 59, 0.84), rgba(34, 34, 59, 0.98)), url("/assets/img/geovanna-bg-home.jpg");
+    background-position: left top;
+}
+
+section#apresentacao {
+    color: #F2E9E4;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(74, 74, 105, 0.8)), to(rgba(74, 74, 105, 0.8))), url("/assets/img/geovanna-bg-presentation.jpg");
+    background: -webkit-linear-gradient(rgba(74, 74, 105, 0.8), rgba(74, 74, 105, 0.8)), url("/assets/img/geovanna-bg-presentation.jpg");
+    background: -o-linear-gradient(rgba(74, 74, 105, 0.8), rgba(74, 74, 105, 0.8)), url("/assets/img/geovanna-bg-presentation.jpg");
+    background: linear-gradient(rgba(74, 74, 105, 0.8), rgba(74, 74, 105, 0.8)), url("/assets/img/geovanna-bg-presentation.jpg");
+    background-position: center center;
+}
+
+section#sobre {
+    margin-left: 7%;
+    margin-right: 45%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section#servicos {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(34, 34, 59, 0.84)), to(rgba(34, 34, 59, 0.98))), url("/assets/img/geovanna-bg-services.jpg");
+    background: -webkit-linear-gradient(rgba(34, 34, 59, 0.84), rgba(34, 34, 59, 0.98)), url("/assets/img/geovanna-bg-services.jpg");
+    background: -o-linear-gradient(rgba(34, 34, 59, 0.84), rgba(34, 34, 59, 0.98)), url("/assets/img/geovanna-bg-services.jpg");
+    background: linear-gradient(rgba(34, 34, 59, 0.84), rgba(34, 34, 59, 0.98)), url("/assets/img/geovanna-bg-services.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+section#contato {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(34, 34, 59, 0.8)), to(rgba(34, 34, 59, 0.9))), url("/assets/img/geovanna-bg-contact.jpg");
+    background: -webkit-linear-gradient(rgba(34, 34, 59, 0.8), rgba(34, 34, 59, 0.9)), url("/assets/img/geovanna-bg-contact.jpg");
+    background: -o-linear-gradient(rgba(34, 34, 59, 0.8), rgba(34, 34, 59, 0.9)), url("/assets/img/geovanna-bg-contact.jpg");
+    background: linear-gradient(rgba(34, 34, 59, 0.8), rgba(34, 34, 59, 0.9)), url("/assets/img/geovanna-bg-contact.jpg");
+    background-position: center center;
+}
+
+#home h2, #home h3 {
+    font-family: "AfterMidnite", sans-serif;
+    font-weight: lighter;
+    color: #F2E9E4;
+    text-align: center;
+    margin: 0;
+}
+
+#home .h1 {
+    color: #9A8C98;
+}
+
+#home .item-1 {
+    font-size: 5.5rem;
+}
+
+#home .item-2 {
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+}
+
+#home .item-3 {
+    text-align: center;
+    font-family: "TrajanPro-Regular", serif;
+    font-weight: lighter;
+    color: #F2E9E4;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+#home .button {
+    margin-top: 7%;
+}
+
+#apresentacao h2, h3 {
+    font-family: "TrajanPro-Regular", serif;
+    font-weight: lighter;
+    color: #F2E9E4;
+}
+
+#apresentacao h2 {
+    font-size: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+    #apresentacao {
+        margin: 0;
+    }
+    #apresentacao h2 {
+        font-size: 1.4rem;
+    }
+}
+
+#apresentacao h3 {
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: lighter;
+}
+
+#apresentacao img {
+    margin: 2.5rem 0;
+    height: 80px;
+}
+
+#apresentacao button {
+    margin-top: 2.5rem;
+    margin-bottom: 0rem;
+}
+
+#sobre h2 {
+    font-family: "AfterMidnite", sans-serif;
+    font-weight: lighter;
+    color: #22223B;
+    font-size: 6rem;
+    margin-bottom: 0rem;
+}
+
+@media only screen and (max-width: 768px) {
+    section#sobre {
+        margin: 0%;
+    }
+    #sobre h2 {
+        text-align: center;
+        font-size: 4rem;
+        margin-bottom: 1rem;
+    }
+}
+
+#sobre h3 {
+    color: #9A8C98;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+    #sobre h3 {
+        text-align: center;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+#sobre p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: lighter;
+    color: #22223B;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+    #sobre p {
+        text-align: center;
+    }
+}
+
+#sobre img {
+    height: 120px;
+    width: 120px;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+}
+
+@media only screen and (max-width: 768px) {
+    #sobre img {
+        height: 100px;
+        left: 50%;
+        position: relative;
+        -webkit-transform: translate(-50%, 0) !important;
+        -ms-transform: translate(-50%, 0) !important;
+        transform: translate(-50%, 0) !important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #sobre img {
+        height: 80px;
+    }
+}
+
+#servicos h2 {
+    font-family: "TrajanPro-Regular", serif;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 3rem;
+    color: #F2E9E4;
+    margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 768px) {
+    #servicos h2 {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #servicos h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
+#servicos img {
+    height: 120px;
+    margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 768px) {
+    #servicos img {
+        height: 100px;
+        margin-bottom: 2rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #servicos img {
+        height: 80px;
+        margin-bottom: 1.5rem;
+    }
+}
+
+#servicos h3 {
+    font-family: "TrajanPro-Regular", serif;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    color: #9A8C98;
+    margin-bottom: 2rem;
+}
+
+#servicos h3 .hl {
+    font-size: 3rem;
+}
+
+@media only screen and (max-width: 768px) {
+    #servicos h3 .hl {
+        font-size: 2.5rem;
+        margin-bottom: 2.5rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #servicos h3 .hl {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #servicos h3 {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #servicos h3 {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
+#servicos p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: lighter;
+    color: #F2E9E4;
+    text-align: center;
+    padding: 0 15%;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+    #servicos p {
+        padding: 0;
+        margin-bottom: 4rem;
+        font-size: 1rem;
+    }
+}
+
+#servicos .col-1 {
+    width: 600px;
+    height: 300px;
+    float: left;
+}
+
+#servicos .col-2 {
+    width: 600px;
+    height: 300px;
+    float: left;
+}
+
+#servicos button {
+    margin-top: 8rem;
+}
+
+@media only screen and (max-width: 768px) {
+    #servicos button {
+        margin-top: 1.5rem;
+    }
+}
+
+#servico .row {
+    align-content: stretch;
+}
+
+section#depoimentos {
+    text-align: center;
+    align-items: center;
+}
+
+#depoimentos .col-1 {
+    width: 600px;
+    height: 300px;
+    float: left;
+}
+
+#depoimentos .col-2 {
+    width: 620px;
+    height: 300px;
+    float: left;
+}
+
+#depoimentos .row {
+    align-content: stretch;
+}
+
+#depoimentos h2 {
+    font-family: "AfterMidnite", sans-serif;
+    font-weight: lighter;
+    color: #22223B;
+    font-size: 6rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    #depoimentos h2 {
+        font-size: 5rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #depoimentos h2 {
+        font-size: 4rem;
+    }
+}
+
+#depoimentos img {
+    height: 120px;
+    width: 120px;
+    margin-bottom: 3rem;
+}
+
+#depoimentos p {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    padding: 0 15%;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+    #depoimentos img {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #depoimentos img {
+        height: 80px;
+        width: 80px;
+    }
+}
+
+#depoimentos h3 {
+    color: #9A8C98;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    padding: 0 30%;
+    margin-bottom: 7rem;
+}
+
+#depoimentos h5 {
+    font-weight: lighter;
+    font-size: 1.2rem;
+    color: burlywood;
+}
+
+#depoimentos h4 {
+    font-weight: lighter;
+    font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 992px) {
+    #depoimentos h3 {
+        padding: 0;
+        margin-bottom: 4rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #depoimentos h3 {
+        font-size: 1.1rem;
+    }
+}
+
+#depoimentos .bot {
+    margin-top: 50%;
+}
+
+#contato {
+    text-align: center;
+}
+
+#contato h2 {
+    font-family: "AfterMidnite", sans-serif;
+    font-weight: lighter;
+    color: #F2E9E4;
+    font-size: 6rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    #contato h2 {
+        font-size: 4rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #contato h2 {
+        font-size: 3rem;
+    }
+}
+
+#contato img {
+    height: 120px;
+}
+
+@media only screen and (max-width: 768px) {
+    #contato img {
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #contato img {
+        height: 80px;
+    }
+}
+
+#contato h3 {
+    font-family: "TrajanPro-Regular", serif;
+    font-weight: lighter;
+    color: #C9ADA7;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+}
+
+@media only screen and (max-width: 768px) {
+    #contato h3 {
+        font-size: 1.5rem;
+        margin-bottom: 3rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #contato h3 {
+        font-size: 1.2rem;
+    }
+}
+
+#contato h4 {
+    font-family: "TrajanPro-Regular", serif;
+    font-weight: lighter;
+    color: #C9ADA7;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+    #contato h4 {
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #contato h4 {
+        font-size: 1.2rem;
+    }
+}
+
+#contato p {
+    font-size: 1.2em;
+    color: #F2E9E4;
+}
+
+#contato p.bigger {
+    font-size: 2rem;
+}
+
+#contato p small {
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    position: relative;
+    float: left;
+    margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+    #contato p {
+        font-size: 0.9rem;
+    }
+}
+
+#contato ul {
+    padding: 0;
+    margin: 0;
+    margin-top: 2.5rem;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+#contato ul li {
+    border: 2px solid #F2E9E4;
+    padding: 13px;
+    border-radius: 50%;
+    list-style-type: none;
+}
+
+#contato ul li:first-child {
+    margin-right: 15px;
+}
+
+#contato ul li a img {
+    height: 35px;
+    width: 35px;
+}
+
+@media only screen and (max-width: 768px) {
+    #contato ul li a img {
+        height: 20px;
+        width: 20px;
+    }
+}
+
+.button {
+    cursor: pointer;
+    width: 260px;
+    border-radius: 40px;
+    height: 60px;
+    line-height: 38px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+}
+
+.button-transparent {
+    border: 1px solid #F2E9E4;
+    background-color: transparent;
+    color: #F2E9E4;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.button-white {
+    border: 1px solid #F2E9E4;
+    background-color: #F2E9E4;
+    color: #4A4E69;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.button-transparent:hover {
+    background-color: #F2E9E4;
+    color: #4A4E69;
+}
+
+.button-white:hover {
+    background-color: transparent;
+    color: #F2E9E4;
+}
+
+#menu {
+    top: 0px;
+    width: 100%;
+    height: 70px;
+    z-index: 999;
+    background-color: #22223B;
+    -webkit-box-shadow: -2px -3px 20px 3px rgba(34, 34, 59, 0.5);
+    box-shadow: -2px -3px 20px 3px rgba(34, 34, 59, 0.5);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+@media only screen and (max-width: 1200px) {
+    #home h2 {
+        font-size: 5.5rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #home h2 {
+        font-size: 5rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #home h2 {
+        font-size: 4rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #home h2 {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #home h2 {
+        font-size: 2.5rem;
+    }
+}

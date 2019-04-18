@@ -1,0 +1,128 @@
+
+body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:  wrap;
+    background-color: lime;
+    margin: 0px;
+}
+
+body nav {
+    display: flex;
+    flex-flow: row wrap;
+    position: fixed;
+    background-color: blue;
+    height: 100%;
+    width: 200px;
+}
+
+body nav ul{
+    list-style: none;
+    align-self: center;
+}
+
+body nav ul li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+}
+
+body nav ul li a:hover{
+    text-decoration: underline;
+    font-size: 1.8rem;
+}
+
+.division{
+    margin-left: 200px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: stretch;
+    width: 100%;
+}
+
+#news{
+    height: 1000px;
+    background-color: aquamarine;
+}
+
+#news div{
+    padding-top: 50px;
+    width: 50%; 
+    text-align: center;
+}
+
+#news-tittle{
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#news div img{
+    height: 180px;
+}
+#news div img:hover {
+    height: 220px;
+}
+
+#list-1 {
+    order: 1;
+}
+
+#list-2 {
+    order: 2;
+}
+
+#list-3 {
+    order: 3;
+}
+
+#list-4{
+    order: 4;
+}
+
+.images{
+    height: 400px;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: aqua;
+    display: flex;
+    padding-bottom: 50px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#img-tittle {
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+.images #hearth{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 250px;
+}
+
+.images #gameboy{
+    flex-grow: 2;
+    flex-shrink: 1;
+}
+
+.images #wolf{
+    flex: 1 1 240px;
+}
+
+.images #hearth img{
+    height: 100%;
+}
+
+.images #gameboy img{
+    height: 100%;
+}
+
+.images #wolf img{
+    height: 100%;
+}
