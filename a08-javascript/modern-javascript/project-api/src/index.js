@@ -4,7 +4,7 @@ import axios from "axios";
 class GitHubRepos {
   constructor() {
     axios
-      .get("https://api.github.com/users/diogocezar/repos")
+      .get("https://api.github.com/users/marceloconsalter01/repos")
       .then(result => {
         plotMyRepos(result.data);
       })
