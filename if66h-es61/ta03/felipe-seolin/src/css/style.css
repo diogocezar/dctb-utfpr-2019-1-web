@@ -1,0 +1,101 @@
+.tales {
+    width: 100%;
+}
+
+#home {
+    margin: 0 !important;
+}
+
+.carousel-item::before {
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.main-text {
+    position: absolute;
+    top: 12vw;
+    width: 96.66666666666666%;
+    color: #FFF;
+}
+
+section {
+    margin-top: 40px !important;
+}
+
+section .description {
+    margin-bottom: 32px;
+}
+
+.container-fluid {
+    padding: 0 72px;
+}
+
+
+/* Cards config */
+.card {
+    width: 18rem;
+}
+
+.card .card-header {
+    background-color: inherit;
+}
+
+.card-disabled {
+    background-color: #dddddd !important;
+}
+
+.card-disabled .card-header ::before {
+    position: absolute !important;
+    content: " ";
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    display: block !important;
+    z-index: 0 !important;
+    background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+
+@media (min-width: 576px) {
+    .card-columns {
+        column-count: 1;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-columns {
+        column-count: 1;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-columns {
+        column-count: 3;
+    }
+
+    .carousel-inner,
+    .carousel-item {
+        width: 100%;
+        height: 100vh !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-columns {
+        column-count: 3;
+    }
+
+    .carousel-inner,
+    .carousel-item {
+        width: 100%;
+        height: 100vh !important;
+    }
+}
