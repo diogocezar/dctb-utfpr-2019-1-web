@@ -57,6 +57,7 @@ body{
     width: 1170px;
     height: 2500px;
     margin-right: 10%;
+    margin-left: 20%;
 }
 
 #products div{
@@ -122,9 +123,15 @@ body{
     margin-bottom: 2em;
 }
 
-@media only screen and (min-width: 1350px){
+@media only screen and (max-width: 1500px){
     #products{
         margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 1350px){
+    #products{
+        margin-left: 0;
     }
 }
 
@@ -132,6 +139,7 @@ body{
     #products{
         width: 950px;
         height: 3500px;
+        margin-left: 10%;
     }
     #products div{
         width: 30%;
@@ -150,10 +158,11 @@ body{
     #products{
         width: 100%;
         height: 100%;
+        margin-left: 0;
     }
     #products div{
         width: 90%;
-        
+        margin-left: 0;
     }
 }
 
