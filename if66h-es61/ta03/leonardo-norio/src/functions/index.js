@@ -1,4 +1,4 @@
-const plotMyRepos = json => {
+const plotBazar = json => {
   console.log(json)
 
   const { configs } = json
@@ -43,4 +43,4 @@ const plotMyRepos = json => {
 
 
 
-export { plotMyRepos };
+export { plotBazar };
