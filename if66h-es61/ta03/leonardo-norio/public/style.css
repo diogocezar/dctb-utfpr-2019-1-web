@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body{
+    background-color: rgba(0, 0, 0, 0.05);
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+#init{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 60px;
+    padding: 2% 15%;
+}
+
+#init h1{
+    font-size: 3em;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#init h2{
+    font-size: 2em;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-top: 0;
+    margin-bottom:10px;
+}
+
+#init p{
+    font-size: 0.9em;
+    margin: 0 0 10px;
+    text-align: center;
+}
+
+#init a{
+    text-decoration: none;
+    color: black;
+    margin: 0 0 10px;
+}
+
+#init a:hover{
+    text-decoration: underline; 
+}
+
+#products{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    width: 1170px;
+    height: 2500px;
+    margin-right: 10%;
+}
+
+#products div{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding: 30px;
+    margin-bottom: 28px;
+    text-align: center;
+    align-self: flex-start;
+    margin-left: 2%;
+}
+
+.souldOut{
+    opacity: 0.3;
+}
+
+#products div h2{
+    font-size: 1.7em;
+}
+
+#products div h4,p{
+    text-align: start;
+}
+
+#products div h4{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+#products div p{
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.price{
+    font-size: 2.5em!important;
+}
+
+#products div button{
+    padding: 6px 20px;
+    width: 100%;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0);
+    border:2px solid;
+    font-size: 20px;
+}
+
+#products div button:hover{
+	background: rgba(0, 0, 0, 0.05);
+    border-color: transparent;
+}
+
+.whats{
+    margin-top: 10px;
+    display: none;
+}
+
+#products img{
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+@media only screen and (min-width: 1350px){
+    #products{
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    #products{
+        width: 950px;
+        height: 3500px;
+    }
+    #products div{
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    #products{
+        width: 750px;
+        height: 3700px;
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    #products{
+        width: 100%;
+        height: 100%;
+    }
+    #products div{
+        width: 90%;
+        
+    }
+}
+
+@media only screen and (max-width: 860px){
+    .whats{
+        display: block;
+    }
+}
