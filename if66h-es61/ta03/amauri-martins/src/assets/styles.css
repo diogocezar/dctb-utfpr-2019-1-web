@@ -1,0 +1,150 @@
+:root {
+    font-size: 14px;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(0, 0, 0, 0.05);
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #333;
+}
+
+#cabecalho {
+    background-color: white;
+    text-align: center;
+    margin-bottom: 60px;
+    padding: 2% 15%;
+
+}
+
+#cabecalho h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 3em;
+}
+
+#cabecalho h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 2em;
+    text-align: center;
+    font-weight: lighter;
+}
+
+#cabecalho p {
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+
+#cabecalho a {
+    color: #000;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.row
+{
+    flex-direction: row;
+}
+
+#product {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 18%;
+    width: 1170px;
+    height: 2100px;
+    flex-wrap: wrap;
+}
+
+#product div {
+    background-color: white;
+    width: 25%;
+    padding: 30px;
+    margin-bottom: 28px;
+    text-align: center;
+    align-self: flex-start;
+    margin-left: 2%;
+}
+
+#product div p, h4{
+    margin: 0;
+    text-align: start;
+    font-weight: lighter;
+}
+
+#product img {
+    height: 234px;
+}
+
+#product div h4 {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.sold {
+    opacity: 0.3;
+}
+
+.valor {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+#product div button{
+    width: 100%;
+    opacity: 1;
+    position: relative;
+    padding: 0.3em 1em;
+    border: 2px solid;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.7em !important;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+    text-transform: uppercase!important;
+    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif!important;
+    color: #000;
+    outline: none;
+}
+
+#product div button:hover {
+    background: rgba(0, 0, 0, 0.05);
+    border-color: transparent;
+}
+
+@media (min-width: 1200px){
+    #product {
+        margin-left: 18%;
+    }
+
+}
+
+@media (min-width: 970px){
+    #product {
+        width: 800px;
+        margin-left: 5%;
+        box-sizing: border-box;
+    }
+
+    #product div {
+        width: 300px;
+        margin-right: 10px
+    }
+}
