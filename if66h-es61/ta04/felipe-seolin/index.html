@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SVG examples</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- My styles -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <header class="text-center">
+        <h1>SVG examples</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In qui maiores, adipisci voluptas, animi neque quae
+            nisi, delectus labore doloremque praesentium soluta possimus veniam voluptates pariatur. Adipisci
+            consequatur id officiis.
+        </p>
+    </header>
+
+    <section id="examples-image" class="text-center">
+        <!-- IMG -->
+        <h2>SVG como imagem</h2>
+        <p>Inserção de SVG como se fosse uma imagem</p>
+
+        <h3>Tag img</h3>
+        <img src="./assets/img/coffe.svg" alt="I love coffe" class="image" />
+        <xmp>
+            <img src="./assets/img/coffe.svg" alt="I love coffe" />
+        </xmp>
+        
+        <h3>Tag embed</h3>
+        <embed type="image/svg+xml" src="./assets/img/coffe.svg" class="image" />
+        
+        <h3>Tag object</h3>
+        <object type="image/svg+xml" data="./assets/img/coffe.svg" class="image"></object>
+        
+        <h3>Tag iframe</h3>
+        <iframe width="ll" height="150px" src="./assets/img/coffe.svg"></iframe>
+        <!-- Background -->
+        <h2>SVG como background</h2>
+        <div class="container svg-background">
+            <p>uma inserção de SVG como background;</p>
+        </div>
+        <!-- Inline -->
+        <h2>SVG com código inline</h2>
+        <p>uma inserção de SVG com o código inline;</p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="47.25" height="38.25" viewBox="0 0 47.25 38.25">
+            <path d="M10.734 20.435"></path>
+            <path fill="#1D1D1B"
+                d="M33.762 13.17c-.036-5.59-4.613-10.107-10.201-10.071-5.59.036-10.108 4.612-10.072 10.202.009 1.455.33 2.837.892 4.084h-.002l9.407 20.57 9.14-20.689h-.002c.546-1.255.847-2.641.838-4.096zm-10.086 7.844c-4.289.027-7.801-3.439-7.829-7.729-.027-4.288 3.439-7.801 7.729-7.829 4.289-.027 7.801 3.44 7.829 7.729.027 4.29-3.441 7.801-7.729 7.829z">
+            </path>
+        </svg>
+    </section>
+
+    <section id="examples-shapes" class="text-center">
+        <!-- Seção -->
+        <h2>Criação de formas usando SVG</h2>
+        <!-- Retangulo -->
+        <h3>um retângulo, feito com SVG</h3>
+        <svg>
+            <rect x="50" y="0" width="300" height="100" style="fill: #000000;" />
+        </svg>
+        <!-- Círculo -->
+        <h3>um círculo, feito com SVG</h3>
+        <svg>
+            <circle cx="70" cy="70" r="40" />
+        </svg>
+        <!-- Linha -->
+        <h3>uma linha, feita com SVG</h3>
+        <svg>
+            <line x1="0" y1="0" x2="500" y2="500" stroke="#000000" stroke-width="2" />
+        </svg>
+        <h4>Várias linhas</h4>
+        <svg>
+            <polyline points="0,40 40,40 40,80 80,80 80,120 120,120, 120,160" fill="transparent" stroke="#000"
+                stroke-width="4" />
+        </svg>
+        <!-- Polígono -->
+        <h3>um polígono feito com SVG</h3>
+        <svg>
+            <polygon points="50,5 100,5 125,30 125,80 100,105 50,105 25,80 25,30" fill="#000" stroke="red"
+                stroke-width="4" />
+        </svg>
+        <!-- Poligono + cores -->
+        <h2>para o polígono utilize classes para definir suas cores</h2>
+        <!-- Mudança da cor -->
+        <h2>na inserção inline de um ícone SVG que ao receber o hover do mouse, troque a cor de algum dos seus
+            elementos;</h2>
+    </section>
+
+    <footer class="text-center text-light page-footer">
+        <p>Images from <a href="https://pixabay.com">Pixabay</a> &copy;</p>
+    </footer>
+
+    <!-- Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

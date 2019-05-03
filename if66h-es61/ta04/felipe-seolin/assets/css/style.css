@@ -1,0 +1,35 @@
+header {
+    background-color: #000000;
+    color: #ffffff;
+    height: 40vh;
+}
+
+.image {
+    height: 150px;
+}
+
+.example {
+
+}
+
+.svg-background {
+    height: 200px;
+    background-image: url("../img/zombie.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+footer {
+    background-color: #000000;
+    margin: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer * {
+    margin: 0;
+    padding: 0;
+}
