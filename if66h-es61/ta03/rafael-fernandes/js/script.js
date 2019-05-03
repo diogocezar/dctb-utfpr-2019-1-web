@@ -1,9 +1,9 @@
 $(document).ready(function () {
     $.ajax({
+        type: "GET",
         url: "https://diogocezar.github.io/bazar/json/database.json",
         dataType: "json",
-        success: function (result) { // Process your JSON data here
-            //Titulo e topo
+        success: function (result) {
             document.title = result.configs.title;
             document.getElementsByClassName('container-fluid')[0].innerHTML = "<h1 class='text-center pt-5'><b>" + result.configs.title + "</b></h1>";
             document.getElementsByClassName('container-fluid')[0].innerHTML += "<h2 class='text-center'><b>" + result.configs.subTitle + "</b></h2>";
@@ -19,8 +19,7 @@ $(document).ready(function () {
                 }
                 document.getElementsByClassName('container-fluid')[0].innerHTML += desc;
             });
-            //Produtos
-            result.products.forEach(function (p) {
+            result.products.forEach(function (p) { //Carregar produtos
                 if (p.active) { //Mostrar somente produtos ativos
                     let desc = '';
                     p.description.forEach(function (x) {
@@ -30,7 +29,6 @@ $(document).ready(function () {
                         if (x.p) {
                             desc += "<p class='px-4 py-1 text-left'>" + x.p + "</p>";
                         }
-
                     });
                     document.getElementsByClassName('card-columns')[0].innerHTML +=
                         "<div class='card text-center mb-5' style='min-width: 20rem; max-width: 40rem;'>" +
@@ -38,12 +36,10 @@ $(document).ready(function () {
                         "<a href=" + p.image + ">" + "<img src=" + p.image + " class='img-fluid p-4'>" + "</a>" +
                         desc +
                         "<h2><b>R$" + p.price + "</b></h2>" +
-                        "<a href= mailto:diogo@diogocezar.com class='btn btn-outline-dark btn-lg m-4'><b>COMPRAR</b></a>" +
+                        "<a href= mailto:diogo@diogocezar.com?subject=[QUERO%20COMPRAR]%20" + encodeURIComponent(p.name) + " class='btn btn-outline-dark btn-lg m-4'><b>COMPRAR</b></a>" +
                         "</div>";
                 }
             });
         }
     });
 });
-
-
