@@ -1,0 +1,107 @@
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+body{
+	background-color: rgba(0, 0, 0, 0.05);
+	font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    color: #000;
+    text-align: center;
+}
+
+a:hover{
+	color: #000;
+}
+
+h1{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 3em;
+	text-align: center;
+}
+
+h2{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 2em;
+	text-align: center;
+}
+
+h3{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 1.8em;
+}
+
+h4{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 1.2em;
+	text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+p{
+	font-size: 0.9em;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+button {
+    width: 50%;
+	opacity: 1;
+	position: relative;
+	padding: 0.3em 1em;
+	border: 2px solid;
+    border-radius: 0px;
+    cursor: pointer;
+	background: transparent;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.7em !important;
+	text-transform: uppercase!important;
+	font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif!important;
+    color: #000;
+    background-color: rgb(255, 255, 255);
+    margin-left: 25%; 
+}
+
+#telefone{
+    margin-left: 45%;
+}
+
+#myProducts div {
+    border: 2px solid;
+    margin: 2rem 30rem;
+    padding: 10px 10px;
+    background-color: rgb(193, 193, 193);
+}
+
+#myProducts img {
+    width:  30%;
+    margin-bottom: 2em;
+    margin-left: 35%; 
+}
+
+#myProducts h1 {
+    margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 2em;
+	text-align: center;
+}
+
+.vendidoTexto {
+    font-size: 2em;
+    color: red;
+}
+
+.preco {
+    font-size: 2em;
+    color: red;
+}
