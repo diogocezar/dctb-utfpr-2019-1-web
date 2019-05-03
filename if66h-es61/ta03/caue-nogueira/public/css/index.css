@@ -1,0 +1,123 @@
+/* CSS Document */
+
+* {
+    margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+#products-container{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.05);
+    width: 100%;
+    flex-wrap: wrap;
+	padding-top: 60px;
+	align-items: flex-start;
+	justify-content: center;
+    flex-direction: row;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+a{
+	color: #000;
+	margin: 0px 0px 5px;
+}
+
+a:hover{
+	color: #000;
+}
+
+h1{
+	margin: 10px 0px 20px;
+	font-size: 42px;
+	text-align: center;
+	color: #333333;
+	text-transform: uppercase;
+}
+
+h2{
+	margin: 10px 0px;
+	font-size: 28px;
+	color: #333333;
+	text-align: center;
+}
+
+#products-container h2{
+	font-size: 23.8px;
+	margin: 10px 0px 23.8px;
+}
+
+.price{
+	margin: 15px 0px 20px;
+	font-size: 35px;
+}
+
+h3{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 1.8em;
+}
+
+h4{
+	margin: 10px 0px;
+	font-size: 16.8px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+p{
+	color: #333333;
+	font-size: 12.6px;
+	margin-bottom: 5px;
+}
+
+img{
+    height: 233.48px;
+	widows: 311.33px;
+	margin: 0px 0px 28px;
+}
+
+div{
+    background-color: white;
+    width: 311.33px;
+    padding: 30px;
+    margin: 28px;
+}
+
+button{
+	width: 311.33px;
+	opacity: 1;
+	position: relative;
+	padding: 0.3em 1em;
+	border: 2px solid;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	background: transparent;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.7em !important;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	transition: all 0.2s;
+	text-transform: uppercase!important;
+	font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif!important;
+	color: #000;
+}
+
+button:hover{
+	background: rgba(0, 0, 0, 0.05);
+	border-color: transparent;
+}
+
+.active-false{
+	opacity: 0.3;
+}
