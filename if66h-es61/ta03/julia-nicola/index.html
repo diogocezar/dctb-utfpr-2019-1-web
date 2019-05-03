@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>Bazar</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <script src='main.js'></script>
+    <div class="header">
+        <h1 id="title"></h1>
+        <h2 id="subtitle"></h2>
+        <p id="email"></p>
+        <p id="phone"></p>
+        <p id="description1"></p>
+        <p id="description2"></p>
+        <h2 id="description3"></h2>
+        <p id="description4"></p>
+
+    </div>
+
+    <div class="products-box">
+        <div class="products">
+        </div>
+    </div>
+
+    <script>
+        const url = 'https://diogocezar.github.io/bazar/json/database.json';
+        fetch(url)
+        .then((response) => response.json())
+        .then(function(data) {
+            document.getElementById("title").innerText = data.conf.title;
+            document.getElementById("subTitle").innerText = data.conf.subTitle;
+            document.getElementById("email").innerText = data.conf.email;
+            document.getElementById("phone").innerText = data.conf.phone;
+            document.getElementById("description1").innerText = data.conf.description[0].p;
+            document.getElementById("description2").innerText = data.conf.description[1].p;
+            document.getElementById("description3").innerText = data.conf.description[2].h2;
+            document.getElementById("description4").innerText = data.conf.description[3].p;
+        })
+        .catch(function(error) {
+            console.log(JSON.stringify(error));
+        });
+           
+    </script>
+
+</body>
+
+</html>
