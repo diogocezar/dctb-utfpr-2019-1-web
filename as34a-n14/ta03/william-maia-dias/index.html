@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Bazar do Diogo</title>
+        <link href="https://diogocezar.github.io/bazar/assets/css/bootstrap/bootstrap.css" rel="stylesheet">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600" rel="stylesheet">
+        <link rel="shortcut icon" href="./assets/shortcut-icon/favicon.png">
+        <script src="./js/jquery.min.js"></script>
+        <script src="./js/vue.min.js"></script>
+        <script src="./js/script.js"></script>
+    </head>
+
+    <body>
+        <div id="dev-is-selling">
+            <div class="container-fluid">
+                <div class="row my-infos">
+                    <div class="col-lg-12">
+                        <h1> {{ configs.title }}</h1>
+                        <h2>{{ configs.subTitle }}</h2>
+                        <p>
+                            <a :href="configs.email">{{ configs.email }}</a>
+                        </p>
+                        <p>
+                            <a :href="configs.phone">{{ configs.phone }}</a>
+                        </p>
+                        <div class="description" v-for="data in generateHtml(configs.description)">
+                        <div>
+                            <div v-html="data"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row my-row">
+                <div class="item well" v-for="product in products" :product="product" :config="configs">
+                    <h2>{{ product.name }}</h2>
+
+                        <a :href="product.image">
+                            <img :src="product.image" class="product-image">
+                        </a>
+
+                        <div v-for="data in generateHtml(product.description)">
+                            <div class="description">
+                                <div class="description" v-html="data"></div>
+                            </div>
+                        </div>
+
+                        <h2 class="price">R${{ product.price }},00</h2>
+
+                        <p>
+                            <a :href="'mailto:' + configs.email">
+                                <button>Comprar</button>
+                            </a>
+                        </p>
+
+                        <p>
+                            <a :href="'tel:' + configs.phone " class="whatsapp">
+                                <button>WhatsApp</button>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

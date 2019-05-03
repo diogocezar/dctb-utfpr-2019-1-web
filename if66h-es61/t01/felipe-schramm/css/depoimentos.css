@@ -1,0 +1,261 @@
+@media only screen and (min-width:781px){
+	#depoimentos{
+		background: #F2E9E4;
+		padding-top: 6rem;
+		padding-bottom: 6rem;
+	}
+
+	#dep{
+		display: flex;
+		justify-content: center;
+		font-family: After Midnite Regular,sans-serif;
+		font-size: 84px;
+		color: #22223b;
+		z-index: -1;
+	}
+
+	#img-depoimentos-centro{
+		display: flex;
+		justify-content: center;
+		height: 120px;
+		margin-bottom: 3rem;
+
+	}
+
+	#casais-texto{
+		position: relative;
+		text-align: center;
+		margin: 0 auto;
+		color: #9a8c98;
+		font-size: 21px;
+		width: 400px;
+		font-family: TrajanPro-Regular;
+		margin-bottom: 56px;
+	}
+
+	.texto-coluna-2{
+		font-family: TrajanPro-Regular,sans-serif;
+		color: #4a4e69;
+		opacity: 0.9;
+		text-align: center;
+		padding: 0 10%;
+		font-size: 1.2rem;
+		line-height: 2rem;
+		margin-bottom: 0.5rem;
+		padding-bottom: 20px;
+		font-weight: 300;
+	}
+
+	.barra-marrom{
+		display: flex;
+		justify-content: center;
+		content: "";
+		width: 8em;
+		height: 3px;
+		background-color: #c9ada7;
+		margin-bottom: 40px;
+	}
+
+	.foto-casais{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		margin-bottom: 1rem;
+	}
+
+	.nomes{
+		display: flex;
+		justify-content: center;
+		font-family: TrajanPro-Regular;
+		font-size: 21px;
+		color: #4a4e69;
+	}
+
+	.datas{
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		color: #c9ada7;
+		font-size: 1.25rem;
+		margin-top: 7px;
+	}
+
+	.duas-colunas{
+		display: flex;
+		justify-content: center;
+		margin: 0 100px 1rem 100px;
+	}
+	.coluna{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		padding: 10px;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width:780px){
+	#depoimentos{
+		background: #F2E9E4;
+		padding-top: 3rem;
+		padding-bottom: 3rem;
+	}
+
+	#dep{
+		display: flex;
+		justify-content: center;
+		font-family: After Midnite Regular,sans-serif;
+		font-size: 70px;
+		color: #22223b;
+		z-index: -1;
+	}
+
+	#img-depoimentos-centro{
+		display: flex;
+		justify-content: center;
+		height: 100px;
+		margin-bottom: 3rem;
+
+	}
+
+	#casais-texto{
+		position: relative;
+		text-align: center;
+		margin: 0 auto;
+		color: #9a8c98;
+		font-size: 15.4px;
+		width: 400px;
+		font-family: TrajanPro-Regular;
+		margin-bottom: 56px;
+	}
+
+	.texto-coluna-2{
+		font-family: TrajanPro-Regular,sans-serif;
+		color: #4a4e69;
+		opacity: 0.9;
+		text-align: center;
+		padding: 0 10%;
+		font-size: 1rem;
+		line-height: 2rem;
+		margin-bottom: 0.5rem;
+		padding-bottom: 20px;
+		font-weight: 300;
+	}
+
+	.foto-casais{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		margin-bottom: 0.5rem;
+	}
+
+	.nomes{
+		display: flex;
+		justify-content: center;
+		font-family: TrajanPro-Regular;
+		font-size: 16px;
+		color: #4a4e69;
+	}
+
+	.datas{
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		color: #c9ada7;
+		font-size: 1rem;
+		margin-top: 7px;
+		margin-bottom: 1.5rem;
+	}
+
+	.duas-colunas{
+		margin: 0 50px 1rem 50px;
+	}
+	.coluna{
+		position: relative;
+		padding: 10px;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width:480px){
+	#depoimentos{
+		background: #F2E9E4;
+		padding-top: 3rem;
+		padding-bottom: 3rem;
+	}
+
+	#dep{
+		display: flex;
+		justify-content: center;
+		font-family: After Midnite Regular,sans-serif;
+		font-size: 4rem;
+		color: #22223b;
+		z-index: -1;
+	}
+
+	#img-depoimentos-centro{
+		display: flex;
+		justify-content: center;
+		height: 80px;
+		margin-bottom: 3rem;
+
+	}
+
+	#casais-texto{
+		text-align: center;
+		margin: 0 auto;
+		color: #9a8c98;
+		font-size: 13px;
+		width: 300px;
+		font-family: TrajanPro-Regular;
+		margin-bottom: 56px;
+	}
+
+	.texto-coluna-2{
+		font-family: TrajanPro-Regular,sans-serif;
+		color: #4a4e69;
+		opacity: 0.9;
+		text-align: center;
+		padding: 0 5%;
+		font-size: 0.9rem;
+		line-height: 2rem;
+		margin-bottom: 0.5rem;
+		padding-bottom: 20px;
+		font-weight: 300;
+	}
+
+	.foto-casais{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		margin-bottom: 0.5rem;
+	}
+
+	.nomes{
+		display: flex;
+		justify-content: center;
+		font-family: TrajanPro-Regular;
+		font-size: 16px;
+		color: #4a4e69;
+	}
+
+	.datas{
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		color: #c9ada7;
+		font-size: 1rem;
+		margin-top: 7px;
+		margin-bottom: 1.5rem;
+	}
+
+	.duas-colunas{
+		margin: 0 50px 1rem 50px;
+	}
+	.coluna{
+		position: relative;
+		padding: 10px;
+		text-align: center;
+	}
+}
+

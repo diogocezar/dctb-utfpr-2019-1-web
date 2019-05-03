@@ -1,0 +1,821 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    font-size: 14px;
+}
+
+@font-face {
+    font-family: "AfterMidnite";
+    src: url('../fonts/AfterMidnite.otf');
+}
+
+@font-face {
+    font-family: "TrajanPro-Regular";
+    src: url('../fonts/TrajanPro-Regular.otf');
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+    top: 0;
+    background-color: #22223b;
+}
+
+nav img {
+    height: 60px;
+    margin-top: 5px;
+    margin-left: 9.4%;
+}
+
+nav ul {
+    width: 50%;
+    float: right;
+    margin-right: 10%;
+    padding-top: 19px;;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0px 14.7px;    
+}
+
+nav ul li a {
+    font-family: TrajanPro-Regular,serif;
+    text-decoration: none;
+    color: #F2E9E4;
+    font-size: 16.52px;
+    font-weight: lighter;
+}
+
+/*PAGE INICIAL */
+
+.first-content{
+    height: calc(100vh - 70px);
+    background: linear-gradient(rgba(34,34,59,.84),rgba(34,34,59,.98)),url("../images/geovanna-bg-home.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: 0 0;
+    color: #f2e9e4;
+    flex-direction: column;
+    top: 70px;
+}
+
+.first-h2{
+    font-size: 91px;
+    font-weight: lighter;
+    height: 109px;
+    margin-bottom: 10px;
+}
+
+.first-content h3{
+    font-size: 56px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    font-family: AfterMidnite, sans-serif;
+    text-align: center;
+
+}
+
+.first-content h2{
+    font-family: AfterMidnite, sans-serif;
+
+}
+
+.first-content h4 {
+    font-family: TrajanPro-Regular;
+    font-weight: lighter;
+    font-size: 21px;
+}
+
+.first-content .hl{
+    color: #9a8c98;
+}
+
+.button {
+    cursor: pointer;
+    width: 260px;
+    border-radius: 40px;
+    height: 60px;
+    line-height: 38px;
+    font-family: Montserrat,sans-serif;
+    font-size: 1rem;
+    left: 50%;
+    border: 1px solid #f2e9e4;
+    background-color: transparent;
+    color: #f2e9e4;
+    font-weight: lighter;
+}
+
+.first-content button {
+    margin-top: 70px;
+}
+
+.first-content button:hover {
+    background-color: #f2e9e4;
+    color: #22223b;
+}
+
+/*APRESENTACAO */
+
+.second-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(74,74,105,.8),rgba(74,74,105,.8)),url(../images/geovanna-bg-presentation.jpg);
+    background-position: 50%;
+    flex-direction: column;
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+}
+
+.second-content h2 {
+    font-family: TrajanPro-Regular,serif;
+    color: #f2e9e4;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 28px;
+}
+
+.second-content .presentation-img {
+    margin: 35px 0px;
+    height: 80px;
+    left: 50%;
+}
+
+.second-content h3 {
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+    color: #f2e9e4;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.second-content button {
+    margin-top: 31.5px;
+    margin-bottom: 31.5px;
+    background-color: #F2E9E4;
+    color: #4a4e69;
+}
+
+.second-content button:hover {
+    background-color: transparent;
+    color: #f2e9e4;
+}
+
+/*SOBRE NOS */
+
+.third-content {
+    background-color: #F2E9E4;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: calc(7 * 14px);
+    padding-bottom: calc(5 * 14px);
+    font-family: TrajanPro-Regular,serif;
+}
+
+.third-content h2 {
+    font-family: AfterMidnite,sans-serif;
+    font-size: 84px;
+    margin-bottom: 42px;
+    font-weight: lighter;
+}
+
+.third-content .container {
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.third-content .container .container-7 {
+    width: 49.8%;
+}
+
+.third-content .container h3{
+    color: #9a8c98;
+    font-size: 1.5rem;
+    margin-bottom: 28px;
+    font-weight: lighter;
+    top: 20px;
+}
+
+.third-content .container p {
+    font-family: Montserrat,sans-serif;
+    color: #22223b;
+    line-height: 28px;
+    margin-bottom: 28px;
+    font-size: 14px;
+}
+
+.third-content .container img {
+    height: 120px;
+    width: 120px;
+    margin-top: 14px;
+    margin-bottom: 56px;
+}
+
+/*SERVICOS */
+
+.fourth-content {
+    background: linear-gradient(rgba(34,34,59,.84),rgba(34,34,59,.98)),url(../images/geovanna-bg-services.jpg);
+    background-position: 50%;
+    background-size: cover;
+    padding-top: calc(7 * 14px);
+    padding-bottom: calc(5 * 14px);
+}
+
+
+.fourth-content .container {
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.fourth-content .row-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fourth-content h2{
+    font-family: TrajanPro-Regular,serif;
+    text-align: center;
+    font-size: 42px;
+    color: #f2e9e4;
+    margin-bottom: 42px;
+    font-weight: lighter;
+}
+
+.fourth-content .ring-img {
+    height: 120px;
+    margin-bottom: 42px;
+}
+
+.row-2{
+    display: flex;
+}
+
+.fourth-content .hl {
+    font-size: calc(3 * 14px);
+}
+
+.fourth-content h3 {
+    font-family: TrajanPro-Regular,serif;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    color: #9a8c98;
+    margin-bottom: 2rem;
+    font-weight: lighter;
+}   
+
+.fourth-content p {
+    font-family: Montserrat,sans-serif;
+    color: #f2e9e4;
+    text-align: center;
+    padding: 0 19.8%;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: lighter;
+}
+
+.fourth-content button {
+    margin-top: 31.5px;
+    margin-bottom: 31.5px;
+    background-color: #F2E9E4;
+    color: #4a4e69;
+}
+
+.fourth-content button:hover {
+    background-color: transparent;
+    color: #f2e9e4;
+}
+
+/*DEPOIMENTOS */
+
+.fifth-content {
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2e9e4;
+}
+
+.fifth-content .container {
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.fifth-content h2 {
+    font-family: AfterMidnite,sans-serif;
+    color: #22223b;
+    font-size: 6rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.fifth-content .baloon-img {
+    height: 120px;
+    width: 120px;
+    margin-bottom: 3rem;
+}
+
+.fifth-content h3 {
+    color: #9a8c98;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    padding: 0 30%;
+    margin-bottom: 7rem;
+    font-family: TrajanPro-Regular,serif;
+    font-weight: lighter;
+
+}
+
+.fifth-content p {
+    text-align: center;
+    padding: 0 15%;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    font-family: TrajanPro-Regular,serif;
+    color: #4a4e69;
+}
+
+.fifth-content .row-50 p:after {
+    content: "";
+    width: 8em;
+    height: 3px;
+    background-color: #c9ada7;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+}
+
+.fifth-content .align-center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.testimony-img {
+    height: 120px;
+    width: 120px;
+    margin-bottom: 3rem;
+}
+
+.fifth-content h4 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: TrajanPro-Regular,serif;
+    font-weight: lighter;
+    line-height: 1.2;
+}
+
+.fifth-content h5 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.25rem;
+    font-family: TrajanPro-Regular,serif;
+    font-weight: lighter;
+    color: #c9ada7;
+}
+
+/*CONTATO */
+
+.sixth-content{
+    background: linear-gradient(rgba(34,34,59,.8),rgba(34,34,59,.9)),url(../images/geovanna-bg-contact.jpg);
+    background-position: 50%;
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+}
+
+.sixth-content .container {
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.sixth-content .row-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sixth-content h2 {
+    font-family: AfterMidnite,sans-serif;
+    color: #f2e9e4;
+    font-size: 6rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.sixth-content h3 {
+    font-family: TrajanPro-Regular,serif;
+    color: #c9ada7;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+    font-size: 1.75rem;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.sixth-content h4 {
+    font-family: TrajanPro-Regular,serif;
+    color: #c9ada7;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    line-height: 1.5;
+    margin-bottom: 7px;
+}
+
+.sixth-content p {
+    font-size: 2rem;
+    color: #f2e9e4;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.sixth-content p a {
+    color: #f2e9e4;
+    text-decoration: none;
+}
+
+.sixth-content p small {
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    position: relative;
+    float: left;
+    margin-bottom: 2rem;
+    font-family: TrajanPro-Regular,serif;
+}
+
+.font-1rem{
+    color: #f2e9e4;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: TrajanPro-Regular,serif;
+}
+
+.rings-img {
+    height: 120px;
+}
+
+.social-img {
+    height: 35px;
+    width: 35px;
+}
+
+.sixth-content ul {
+    padding: 0;
+    margin: 0;
+    margin-top: 2.5rem;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.sixth-content li {
+    border: 2px solid #f2e9e4;
+    padding: 13px;
+    border-radius: 50%;
+    list-style-type: none;
+}
+
+.sixth-content li:first-child {
+    margin-right: 15px;
+}
+
+/* RESPONSIVIDADE */
+
+@media only screen and (max-width: 480px) {
+    nav ul {
+        display: none;
+    }
+
+    .first-content {
+        height: calc(100vh - 60px);
+    }
+
+    .first-content h2 {
+        font-size: 3rem;
+        text-align: center;
+        line-height: 1.2;
+    }
+
+    .first-content h3 {
+        font-size: 2rem;
+        margin-top: 2rem;
+        line-height: 1.2;
+    }
+
+    .first-content h4 {
+        margin-top: 10px;
+        bottom: 0px;
+        font-size: 1.2rem;
+        line-height: 1.2;
+    }
+
+    .button {
+        height: 50px;
+        width: 220px!important;
+        font-size: .9rem;
+    }
+
+    .second-content h2 {
+        font-size: 1.4rem;
+    }
+
+    .third-content h2 {
+        text-align: center;
+        font-size: 4rem;
+        margin-bottom: 1rem;
+    }
+
+    .third-content .container .container-7 {
+        width: 100%;
+    }
+
+    .third-content .container h3{
+        text-align: center;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .third-content .container p {
+        text-align: center;
+    }
+
+    .third-content .container img {
+        height: 80px;
+        left: calc(50% - 60px);
+        position: relative;
+    }
+
+    .fourth-content h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .fourth-content .ring-img {
+        height: 80px;
+        margin-bottom: 1.5rem;
+    }
+
+    .fourth-content .container h3{
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .fourth-content .container h3 .hl{
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .fourth-content .container .row-2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fourth-content .container p {
+        padding: 0;
+        margin-bottom: 4rem;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .fifth-content h2{
+        font-size: 4rem;
+    }
+
+    .fifth-content .baloon-img {
+        height: 80px;
+        width: 80px;
+    }
+
+    .fifth-content h3 {
+        font-size: 1.1rem;
+        width: 100%;
+    }
+
+    .fifth-content .row-2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fifth-content p {
+        font-size: .9rem;
+        padding: 0 10%;
+    }
+
+    .fifth-content h4 {
+        font-size: 1rem;
+    }
+
+    .fifth-content h5 {
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+
+    .sixth-content h2 {
+        font-size: 3rem;
+    }
+
+    .sixth-content h3 {
+        font-size: 1.2rem;
+    }
+
+    .sixth-content h4 {
+        font-size: 1.2rem;
+    }
+
+    .sixth-content .rings-img {
+        height: 80px;
+    }
+
+    .font-1rem{
+        font-size: .9rem;
+    }
+
+    .sixth-content .social-img {
+        height: 20px;
+        width: 20px;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    nav ul {
+        display: none;
+    }
+
+    .first-content h2 {
+        font-size: 4rem;
+    }
+
+    .first-content h3 {
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+
+    .first-content h4 {
+        font-size: 1.2rem;
+    }
+
+    .button {
+        height: 50px;
+        width: 220px!important;
+        font-size: .9rem;
+    }
+
+    .second-content h2 {
+        font-size: 1.4rem;
+    }
+
+    .third-content h2 {
+        text-align: center;
+        font-size: 4rem;
+        margin-bottom: 1rem;
+    }
+
+    .third-content .container .container-7 {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .third-content .container h3{
+        text-align: center;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .third-content .container p {
+        text-align: center;
+    }
+
+    .third-content .container img {
+        height: 80px;
+        left: calc(50% - 60px);
+        position: relative;
+    }
+
+    .fourth-content h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .fourth-content .ring-img {
+        height: 80px;
+        margin-bottom: 1.5rem;
+    }
+
+    .fourth-content .container h3{
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .fourth-content .container h3 .hl{
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .fourth-content .container .row-2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fourth-content .container p {
+        padding: 0;
+        margin-bottom: 4rem;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .fifth-content h2{
+        font-size: 4rem;
+    }
+
+    .fifth-content .baloon-img {
+        height: 80px;
+        width: 80px;
+    }
+
+    .fifth-content h3 {
+        font-size: 1.1rem;
+        width: 100%;
+    }
+
+    .fifth-content .row-2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fifth-content p {
+        font-size: .9rem;
+        padding: 0 10%;
+    }
+
+    .fifth-content h4 {
+        font-size: 1rem;
+    }
+
+    .fifth-content h5 {
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+
+    .sixth-content h2 {
+        font-size: 3rem;
+    }
+
+    .sixth-content h3 {
+        font-size: 1.2rem;
+    }
+
+    .sixth-content h4 {
+        font-size: 1.2rem;
+    }
+
+    .sixth-content .rings-img {
+        height: 80px;
+    }
+
+    .font-1rem{
+        font-size: .9rem;
+    }
+
+    .sixth-content .social-img {
+        height: 20px;
+        width: 20px;
+    }
+
+}
+
+
+
+
+
+

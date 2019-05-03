@@ -1,0 +1,830 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,300");
+@font-face {
+  font-family: "TrajanPro-Regular";
+  src: url("./fonts/TrajanPro-Regular.eot?") format("eot"), url("./fonts/TrajanPro-Regular.woff") format("woff"), url("./fonts/TrajanPro-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "AfterMidnite";
+  src: url("./fonts/AfterMidnite.eot?") format("eot"), url("./fonts/AfterMidnite.woff") format("woff"), url("./fonts/AfterMidnite.ttf") format("truetype"); }
+
+body{
+    margin: 0;
+    padding: 0;
+    color:#4a4e69;
+    background-color: #f2e9e4;
+}
+
+html {
+  font-size: 14px; 
+}
+
+
+
+
+/*--------------- NavBar ----------------*/
+
+.navBar{
+    z-index: 10;
+    width: 100%;
+    height: 70px;
+    background-color: #22223b;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.4);
+}
+.bot{
+    display: none;
+}
+.navBar img{
+    width: 267.688px;
+    height: 60px;
+    margin-top: 5px;
+    padding-left: 13px;
+    flex: 1;
+}
+.navBar ul{
+    list-style-type:none;
+    display: flex;
+    margin: 0px;
+    padding: 0;
+}
+.navBar ul li{
+    padding-top: 30px;
+    padding-bottom: 8.260px;
+
+}
+.navBar ul li a{
+    margin-left: 18.172px;
+    margin-right: 18.172px;
+    font-family: "TrajanPro-Regular",serif;
+    color: rgb(242, 233, 228);
+    font-size: 16.52px;
+    text-decoration: none;
+}
+.navBar ul li a:hover{
+    padding-bottom: 5px;
+    border-bottom: 3px solid #9b8897ff;    
+}
+
+
+
+/*--------------- Home ----------------*/
+
+.home{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: -150px;
+    margin-top: 70px;
+    background: -webkit-gradient(linear,left top,left bottom,from(rgba(34,34,59,.84)),to(rgba(34,34,59,.98))),url("../img/geovanna-bg-home.jpg");
+    text-align: center;
+}
+.home h2{
+    margin-top: 0;
+    margin-bottom: -60px;
+    font-family: "AfterMidnite", sans-serif;
+    color: #f2e9e4;
+    font-size: 6.5rem;
+    font-weight: normal;
+}
+.home h3{
+    margin: 0px;
+    padding-top: -55px;
+    font-family: "AfterMidnite", sans-serif;
+    color: #f2e9e4;
+    font-size: 4rem;
+    font-weight: normal;
+}
+.home h4{
+    font-family: "TrajanPro-Regular",serif;
+    color: #f2e9e4;
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin-bottom: -20px;
+}
+.home h4 span{
+    color: #9a8c98;
+}
+.home button{
+    margin-top: 80px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 260px;
+    height: 60px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 50px;
+    border: 1px solid #f2e9e4;
+    font-family: "Montserrat", sans-serif;
+    color: #f2e9e4;
+    font-weight: 400;
+    font-size: 1rem;
+    outline: none;
+    margin-bottom: 75px;
+    line-height: 38px;
+}
+.home button:hover{
+    background-color: #f2e9e4;
+    color: #4a4e69;
+}
+
+
+
+/*--------------- Presentation ----------------*/
+
+.presentation{
+    width: 100%;
+    padding-top: 98px;
+    padding-bottom: 70px;
+    background: linear-gradient(rgba(74,74,105,.8),rgba(74,74,105,.8)),url("../img/geovanna-bg-presentation.jpg");
+    background-position-x: 50%;
+    background-position-y: center;
+    text-align: center;
+}
+.presentation h2{
+    font-family: "TrajanPro-Regular",serif;
+    color: #f2e9e4;
+    font-weight: normal;
+    font-size: 2rem;
+    margin: 0;
+    margin-bottom: 7px;
+}
+.presentation img{
+    width: 60px;
+    height: 80px;
+    margin: 2rem 0;
+}
+.presentation h3{
+    margin: 0px;
+    padding: 0px;
+    font-family: Montserrat,sans-serif;
+    font-size: 14px;
+    color: #f2e9e4;
+    font-weight: normal;
+}
+.presentation button{
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    background-color: #f2e9e4;
+    padding-left: 6px;
+    padding-right: 6px;
+    border: 1px solid #f2e9e4;
+    color: #4a4e69;
+    font-weight: 400;
+    outline: none;
+    cursor: pointer;
+    width: 260px;
+    border-radius: 40px;
+    height: 60px;
+    line-height: 38px;
+    font-family: Montserrat,sans-serif;
+    font-size: 1rem;
+}
+.presentation button:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color: #f2e9e4;
+}
+
+
+
+/*--------------- About ----------------*/
+
+.about{
+    display: flex;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 85px;
+}
+.content_about{
+    width: 635px;
+    margin-left: 96px;
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.about h2{
+    font-family: "AfterMidnite", sans-serif;
+    font-size: 84px;
+    font-weight: normal;
+    color: #22223b;
+    margin: 0px;
+    margin-bottom: -20px;
+    
+}
+.about h3{
+    font-family: "TrajanPro-Regular",serif;
+    font-weight: 500;
+    color: #9a8c98;
+    font-size: 21px;
+    margin-bottom: 0;
+}
+.about p{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 400;
+    color: #22223b;
+    font-size: 14px;
+    line-height: 28px;
+    padding-top: 13px;
+}
+.about img{
+    width: 120px;
+    height: 120px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+
+/*--------------- Service ----------------*/
+
+.service{
+    width: 100%;
+    padding-top: 98px;
+    padding-bottom: 70px;
+    background: linear-gradient(rgba(34,34,59,.84),rgba(34,34,59,.98)),url("../img/geovanna-bg-services.jpg");
+    background-position-x: 30%;
+    background-position-y: center;
+    background-size: cover;    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.service h2{
+    font-family: "TrajanPro-Regular",serif;
+    color: #f2e9e4;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 3rem;
+    margin: 0;
+    padding-bottom: 50px;
+}
+.service img{
+    width: 77px;
+    height: 120px;
+
+}
+.service button{
+    margin-top: 35px;
+    background-color: #f2e9e4;
+    width: 258px;
+    height: 58px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 50px;
+    border: 1px solid #f2e9e4;
+    font-family: "Montserrat", sans-serif;
+    color: #4a4e69;
+    font-weight: 400;
+    font-size: 14px;
+    outline: none;
+}
+.service button:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color: #f2e9e4;
+}
+.service_texts{
+    display: flex;
+    width: 85%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.service_texts #text_01{
+    width: 378px;
+
+}
+.service_texts #text_02{
+    width: 378px;
+}
+.service_texts h3{
+    color: #9a8c98;
+    font-family: "TrajanPro-Regular",serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 35px;
+}
+.service_texts h3 span{
+    font-size: 42px;
+}
+.service_texts p{
+    color: #f2e9e4;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16.8px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+
+
+/*--------------- Testmonials ----------------*/
+
+.testmonials{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 7rem;
+}
+.testmonials img{
+    width: 120px;
+    height: 120px;
+    margin-bottom: 30px;
+}
+.testmonials h2{
+    flex: 1;
+    font-family: AfterMidnite,sans-serif;
+    color: #22223b;
+    font-size: 6rem;
+    margin-top: 0;
+    margin-bottom: 3rem;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.testmonials h3{
+    flex: 1;
+    font-family: "TrajanPro-Regular",serif;
+    color: #9a8c98;
+    line-height: 1.2;
+    font-size: 1.5rem;
+    padding: 0 30%;
+    margin-bottom: 7rem;
+    font-weight: 500;
+}
+.casais{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    justify-content: space-around;
+}
+.casais div{
+    width: 550px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: "TrajanPro-Regular",serif;
+    line-height: 28px;
+    align-items: center;
+}
+.casais p{
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 1.2rem;
+    margin-bottom: 3.22rem;
+    line-height: 25.2px;
+}
+#space{
+    width: 10px;
+    margin: 0px;
+}
+.casais #txt_01::after{
+    content: '';
+    position: absolute;
+    transform: translateX(-215px);
+    width: 8em;
+    height: 3px;
+    background-color: #C9ADA7;
+    margin-top: 40px;
+}
+.casais #txt_02::after{
+    content: '';
+    position: absolute;
+    transform: translateX(-180px);
+    width: 8em;
+    height: 3px;
+    background-color: #C9ADA7;
+    margin-top: 40px;
+}
+.casais div h4{
+    color: #4a4e69;
+    font-family: "TrajanPro-Regular",serif;
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin: 0;
+}
+.casais div h5{
+    color: #c9ada7;
+    font-size: 1.25rem;
+    font-weight: normal;
+    margin: 0;
+}
+.buttons{
+    display: flex;
+}
+.botao{
+    margin: 5px 7px;
+    width: 10px;
+    height: 10px;
+    background-color: #d6d6d6;
+    border-radius: 50%;
+}
+.botao:hover{
+    background-color: #869791;
+}
+.ativado{
+    background-color: #869791;
+}
+
+
+
+
+/*--------------- Contact ----------------*/
+
+.contact{
+    width: 100%;
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+    margin-top: 20px;
+    background: linear-gradient(rgba(34,34,59,.8),rgba(34,34,59,.9)),url("../img/geovanna-bg-contact.jpg");
+    text-align: center;
+    background-position-x: 50%;
+    background-position-y: center;
+}
+.contact #rings{
+    height: 120px;
+}
+.border_rs{
+    border: 2px solid #f2e9e4;
+    padding: 13px;
+    border-radius: 50%;
+    list-style-type: none;
+    margin-right: 18px;
+}
+.contact h2{
+    font-family: AfterMidnite,sans-serif;
+    color: #f2e9e4;
+    font-size: 6rem;
+    margin-bottom: 3rem;
+    margin-top: 0;
+    text-align: center;
+    font-weight: normal;
+    line-height: 100.8px;
+}
+.contact h3{
+    font-family: TrajanPro-Regular,serif;
+    color: #c9ada7;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+    font-weight: normal;
+    font-size: 1.75rem;
+}
+.contact h4{
+    font-family: TrajanPro-Regular,serif;
+    color: #c9ada7;
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin: 0px;
+}
+.contact p a{
+    color: #f2e9e4;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: TrajanPro-Regular,serif;
+    margin: 0px;
+}
+.contact p small{
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    position: relative;
+    float: left;
+    margin-bottom: 2rem;
+    color: #f2e9e4;
+    font-family: TrajanPro-Regular,serif;
+}
+.contact #email{
+    color: #f2e9e4;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: TrajanPro-Regular,serif;
+}
+.contact ul{
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+.contact ul li a img{
+    height: 35px;
+    width: 35px;
+    vertical-align: middle;
+}
+.contact ul li{
+    margin-right: 15px;
+}
+
+
+
+
+
+
+/*--------------- Responsive ----------------*/
+
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 14px; 
+    }
+
+    /*--------------- navBar----------------*/
+    .navBar{
+        height: 60px;
+        position: fixed;
+        justify-content: flex-start;
+    }
+    .navBar ul{
+        display: none;
+    }
+    .navBar img{
+        width: 223px;
+        height: 50px;
+        margin: 0;
+        margin-top: 3px;
+        margin-left: 10px;
+        padding: 0;
+        flex: 1;
+    }
+    .bot{
+        width: 38px;
+        position: fixed;
+        top: 10px;
+        right: 15px;
+        height: 38px;
+        background: transparent;
+        border-radius: 50%;
+        border: 1px solid #f2e9e4;
+        display: block;
+        cursor: pointer;
+    }
+    .bot span{
+        position: relative;
+        margin-top: 7px;
+        margin-bottom: 7px;
+        content: " ";
+        width: 14px;
+        height: 1px;
+        display: block;
+        background: #9a8c98;
+        border-radius: 0;
+        margin-left: 12px;
+    }
+    .bot::before{
+        margin-top: 11px;
+        content: " ";
+        width: 14px;
+        height: 1px;
+        display: block;
+        background: #9a8c98;
+        border-radius: 0;
+        margin-left: 12px;
+    }
+    .bot::after{
+        content: " ";
+        width: 14px;
+        height: 1px;
+        display: block;
+        background: #9a8c98;
+        border-radius: 0;
+        margin-left: 12px;
+    }
+    .navBar .logo{
+        justify-content: flex-start;
+        width: 60px;
+        overflow: hidden;
+    }
+
+
+
+    /*--------------- home----------------*/
+    .home{
+        height: calc(100vh - 60px);
+        margin-top: 60px;
+        padding-top: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .home h2{
+        font-size: 2.5rem;
+        margin-bottom: .5rem;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+    .home h3{
+        font-size: 1.5rem;
+        margin-bottom: 4rem;
+    }
+    .home h4{
+        margin-top: 0;
+        margin-bottom: .5rem;
+        font-size: 1.2rem;
+    }
+    .home a button{
+        margin-bottom: 0;
+        margin-top: 4rem;
+        height: 50px;
+        width: 220px!important;
+        font-size: .9rem;
+    }
+
+
+
+    /*--------------- presentation----------------*/
+    .presentation{
+        padding-top: 5rem;
+        padding-bottom: 3rem;
+    }
+    .presentation h2{
+        font-size: 1.4rem;
+    }
+    .presentation button{
+        height: 50px;
+        width: 220px!important;
+        font-size: .9rem;
+    }
+
+
+
+    /*--------------- about----------------*/
+    .about{
+        padding-top: 5rem;
+        padding-bottom: 3rem;
+    }
+    .content_about{
+        margin:0;
+        text-align: center;
+    }
+    .about h2{
+        text-align: center;
+        font-size: 4rem;
+        margin-bottom: 1rem;
+        line-height: 67.2px;
+    }
+    .about h3{
+        text-align: center;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        margin-top: 0;
+    }
+    .about p{
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 2rem;
+    }
+    .about img{
+        height: 80px;
+        margin-top: 1rem;
+        margin-bottom: 4rem;
+        padding: 0;
+    }
+
+
+
+    /*--------------- service----------------*/
+    .service{
+        padding-top: 5rem;
+        padding-bottom: 3rem;
+    }
+    .service h2{
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+        padding-bottom: 0;
+    }
+    .service img{
+        height: 80px;
+        margin-bottom: 1.5rem;
+    }
+    .service_texts h3{
+        margin-top: 0;
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .service h3 span{
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    .service_texts{
+        width: 100%;
+    }
+    .service #text_01{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .service #text_02{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .service p{
+        padding: 0;
+        margin-bottom: 4rem;
+        font-size: 1rem;
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+        line-height: 2rem;
+    }
+    .service button{
+        height: 50px;
+        width: 220px!important;
+        font-size: .9rem;
+    }
+
+
+
+
+    /*--------------- testmonials----------------*/
+    .testmonials .text{
+        width: 100%;
+    }
+    .testmonials h2{
+        font-size: 4rem;
+        margin-bottom: 3rem;
+    }
+    .testmonials img{
+        height: 80px;
+        margin-bottom: 3rem;
+    }
+    .testmonials h3{
+        margin-top: 0;
+        margin-bottom: 4rem;
+        font-size: 1.1rem;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .casais{
+        width: 100%;
+        padding: 0;
+    }
+    .casais div{
+        padding: 0;
+    }
+    .casais p{
+        margin-top: 0;
+        font-size: .9rem;
+        line-height: 18.9px;
+        padding: 0 10%;
+    }
+    .casais img{
+        width: 80px;
+        height: 80px;
+        margin-bottom: 33px;
+    }
+    .casais #txt_01::after{
+        transform: translateX(-70px);
+    }
+    .casais #txt_02::after{
+        transform: translateX(-80px);
+    }
+    .casais div h4{
+        font-size: 1rem;
+        line-height: 1.2;
+    }
+    .casais div h5{
+        font-size: 1rem;
+        margin-bottom: 4rem;
+    }
+    
+
+
+    .contact{
+        padding-top: 5rem;
+        padding-bottom: 3rem;
+    }
+    .contact h2{
+        font-size: 3rem;
+        margin-bottom: 3rem;
+        line-height: 1.2;
+    }
+    .contact #rings{
+        height: 80px;
+    }
+    .contact h3{
+        font-size: 1.2rem;
+        margin-bottom: 3rem; 
+    }
+    .contact h4{
+        font-size: 1.2rem;
+        margin-bottom: .5rem;
+    }
+    .contact p{
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+    .contact p a{
+        font-size: 2rem;
+    }
+    #email{
+        font-size: .9rem!important;
+    }
+    .contact ul{
+        margin-bottom: 0;
+    }
+    .contact ul li a img{
+        height: 20px;
+        width: 20px;
+    }
+}

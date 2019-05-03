@@ -1,0 +1,509 @@
+body {
+    margin:0;
+    background: #22223B;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin:0;
+}
+
+hr{
+    border: 2px solid #C9ADA7;
+    width: 110px;
+}
+
+@font-face {
+    font-family:'TrajanPro-Regular';  
+    src: url("../fonts/TrajanPro-Regular.ttf");    
+}
+
+@font-face {
+    font-family: "AfterMidnite"; 
+    src: url('../fonts/AfterMidnite.ttf');    
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+    color: white;   
+    font-family:"TrajanPro-Regular"; 
+
+}
+
+a:hover {
+    text-decoration: underline; 
+    font-family:"TrajanPro-Regular"; 
+}
+
+span{
+    color:#C9ADA7;
+}
+
+
+.button1{
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid white;
+    font-size: 14px;
+    border-radius: 30px;
+    background-color: transparent;
+    margin: 50px; 
+    color: white;
+    padding: 20px 55px 20px 55px;
+}
+
+.button1:hover{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F2E9E4;
+    color:#22223B;
+}
+
+.button2{
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid white;
+    font-size: 14px;
+    border-radius: 30px;
+    background-color: #F2E9E4;
+    margin: 50px; 
+    color:#22223B;
+    padding: 20px 55px 20px 55px;
+}
+
+.button2:hover{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color:transparent;
+}
+
+.button-imagem{
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    border: 2px solid #F2E9E4;
+    background-color: transparent;
+    background-image: url("../images/geovanna-icon-instagram.svg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 30px 30px;
+}
+
+.button-imagem2{
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    border: 2px solid #F2E9E4;
+    background-color: transparent;
+    background-image: url("../images/geovanna-icon-facebook.svg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 30px 30px;
+}
+
+nav{
+    display: flex;
+    background-color: #22223B;
+    width: auto;  
+    padding: 5px;
+    align-items: flex-end;
+}
+
+.logo{
+    width: auto;
+    height: 60px;
+}
+
+.item{
+    text-align: center;
+    margin: 15px;
+}
+
+.item2{
+    text-align: center;
+}
+
+.item a{  
+    font-size:16px;
+    padding: 8px;
+}
+
+.justify-content{
+    justify-content: space-around;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-position: center;
+}
+
+.container-servico{
+    display: flex;
+    width: 90%;
+    height: 100%;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    background-position: center;
+}
+
+.container-servico div{
+    margin: 10%;
+}
+
+.container-sobre{
+    display: flex;
+    padding: 120px;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.back{
+    background-color: #F2E9E4;
+}
+
+.back2{
+    background-color: #F2E9E4;
+}
+
+.imgbg{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    font-family: "AfterMidnite";
+    background-image:linear-gradient(to bottom, rgba(34,34,59,0.849), #22223B), url(../images/geovanna-bg-home.jpg);
+}
+
+.imgbg a{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.imgbg1{
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+    background: center;
+    padding-top: 60px;
+    font-family: "TrajanPro-Regular";
+    background-image:linear-gradient(to bottom, rgba(34,34,59,0.370), #22223B), url(../images/geovanna-bg-presentation.jpg);
+}
+
+.imgbg2{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background: center;
+    padding-top: 60px;
+    font-family: "TrajanPro-Regular";
+    background-image:linear-gradient(to bottom, rgba(34,34,59,0.850), #22223B), url(../images/geovanna-bg-services.jpg);
+}
+
+.imgbg3{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background: center;
+    padding-top: 60px;
+    font-family: "TrajanPro-Regular";
+    background-image:linear-gradient(to bottom, rgba(34,34,59,0.790), #22223B), url(../images/geovanna-bg-contact.jpg);
+}
+
+.row{
+    flex-direction: row;
+}
+
+.imgbg h2{
+    font-weight: normal;
+    font-size: 90px;
+    color: #F2E9E4;
+    line-height: 0.8;
+}
+
+.container-sobre h2{
+    font-family: "AfterMidnite";
+    font-weight: normal;
+    font-size: 80px;
+    color: #22223B;
+}
+
+.container-sobre h3{
+    font-family: "TrajanPro-Regular";
+    font-weight: normal;
+    font-size: 21px;
+    color: #9A8C98;
+}
+
+.container-sobre p{
+    font-family: 'Montserrat', sans-serif;
+    width: 60%;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #22223B;
+}
+
+.imgbg h3{
+    font-weight: normal;
+    font-size: 55px;
+    color: #F2E9E4;
+    padding-bottom: 30px;
+}
+
+.imgbg p{
+    margin: 3px;
+    font-family:"TrajanPro-Regular"; 
+    font-weight: normal;
+    font-size: 20px;
+    color: #F2E9E4;
+
+}
+
+.imgbg1 h2{
+    font-weight: normal;
+    font-size: 28px;
+    color: #F2E9E4;
+}
+
+.imgbg1 p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    color: #F2E9E4;
+}
+
+.imgbg2 h2{
+    font-family:"TrajanPro-Regular"; 
+    font-weight: normal;
+    font-size: 42px;
+    color: #F2E9E4;
+    line-height: 0.8;
+}
+
+.imgbg2 h3{
+    font-family:"TrajanPro-Regular"; 
+    font-weight: normal;
+    font-size: 50px;
+    color: #9A8C98;
+    line-height: 0.8;
+}
+
+.imgbg2 h4{
+    font-family:"TrajanPro-Regular"; 
+    font-weight: normal;
+    font-size: 30px;
+    color: #9A8C98;
+    line-height: 0.8;
+}
+
+.imgbg2 p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color:#F2E9E4;
+    line-height: 1.7;
+}
+
+.back2 h2{
+    margin-top: 40px; 
+    font-family: "AfterMidnite";
+    font-weight: normal;
+    font-size: 80px;
+    color: #22223B;
+}
+
+.back2 h3{
+    font-family:"TrajanPro-Regular"; 
+    font-weight: normal;
+    font-size: 20px;
+    color: #9A8C98;
+    line-height: 1.2;
+}
+
+.back2 h5{
+    margin-top: 20px;
+    font-family:"TrajanPro-Regular"; 
+    font-weight: normal;
+    font-size: 22px;
+    color:#4A4E69;
+}
+
+.back2 h6{
+    margin-top: 10px;
+    font-family:"TrajanPro-Regular"; 
+    font-weight: normal;
+    font-size: 16px;
+    color: #C9ADA7;
+}
+
+.back2 p{
+    text-align: center;
+    font-family:"TrajanPro-Regular"; 
+    font-size: 16px;
+    color:#4A4E69;
+    line-height: 1.7;
+}
+
+.container-servico h3{
+    text-align: center;
+    font-family:"TrajanPro-Regular"; 
+    font-weight: normal;
+    font-size: 40px;
+    color:#9A8C98;
+}
+
+.container-servico h4{
+    text-align: center;
+    font-family:"TrajanPro-Regular"; 
+    font-weight: normal;
+    font-size: 30px;
+    color:#9A8C98;
+}
+
+.imgbg3 h2{
+ 
+    font-family: "AfterMidnite";
+    font-weight: normal;
+    font-size: 80px;
+    color: #F2E9E4;
+}
+
+.imgbg3 h3{
+    font-weight: normal;
+    font-size: 24px;
+    color: #C9ADA7;
+}
+
+.imgbg3 h4{
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 20px;
+    color: #C9ADA7;
+}
+
+.imgbg3 h5{
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 25px;
+    color: #F2E9E4;
+}
+
+.imgbg3 p{
+    font-size: 14px;
+    color: #F2E9E4;
+}
+
+.imgbg3 h6{
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 16px;
+    color: #F2E9E4;
+}
+
+.icone{
+    margin-top:35px;
+    margin-bottom:30px;
+    width: auto;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.icone2{
+    margin-top:20px;
+    margin-bottom:30px;
+    width: auto;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 750px) 
+{
+    .item a
+   {
+        display: none;
+   }
+
+   .container-sobre{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+   .container-sobre h2{
+        text-align: center;
+        font-family: "AfterMidnite";
+        font-weight: normal;
+        font-size: 50px;
+        color: #22223B;
+    }
+
+    .container-sobre h3{
+        text-align: center;
+        font-family: "TrajanPro-Regular";
+        font-weight: normal;
+        font-size: 14px;
+        color: #9A8C98;
+    }
+
+    .container-sobre p{
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        width: 100%;
+        font-weight: 300px;
+        font-size: 16px;
+        line-height: 1.6;
+        color: #22223B;
+    }
+
+    .imgbg3 h2{
+ 
+        font-family: "AfterMidnite";
+        font-weight: normal;
+        font-size: 50px;
+        color: #F2E9E4;
+    }
+    
+   .container-servico{
+       flex-direction: column;
+    }   
+}
+
+@media (max-width: 900px) 
+{
+    .item a
+   {
+        display: none;
+   }
+
+   .container-servico{
+       flex-direction: column;
+    }   
+}
+
+@media (max-width: 1200px) 
+{
+   .imgbg h2{
+    font-weight: normal;
+    font-size: 60px;
+    color: #F2E9E4;
+    line-height: 0.8;
+   }
+
+   .imgbg h3{
+    font-weight: normal;
+    font-size: 30px;
+    color: #F2E9E4;
+    padding-bottom: 30px;
+   }
+
+   .icone2{
+    margin-top:30px;
+    margin-bottom:50px;
+    width: auto;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    }
+}

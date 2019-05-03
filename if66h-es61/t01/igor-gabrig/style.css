@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@font-face{font-family:TrajanPro-Regular;src:url(fonts/TrajanPro-Regular.ttf)}
+@font-face{font-family:AfterMidnite;src:url(fonts/AfterMidnite.ttf)}
+::-webkit-scrollbar{width:0;float:right}
+::-webkit-scrollbar-thumb{position:relative;top:0;float:right;width:8px;height:102px;background-color:#c9ada7;border:none;background-clip:padding-box;border-radius:0}
+*{padding:0;margin:0;vertical-align:baseline;list-style:none;border:0;text-decoration:none;font-family:Montserrat;font-weight:100}
+a,p,span{color:#f2e9e4;font-family:TrajanPro-Regular,serif}
+body{display:inline;background-color:#f2e9e4}
+nav{background-color:#22223b;height:70px;width:100%;position:fixed;display:flex;flex-wrap:wrap;box-shadow:-2px -3px 20px 3px rgba(34,34,59,.5);z-index:999999}
+button{margin:auto;display:block;cursor:pointer;width:260px;border-radius:40px;height:60px;line-height:38px;font-family:Montserrat;font-size:.85rem;background-color:transparent;border:1px solid #f2e9e4;margin-top:4rem;color:#f2e9e4;text-transform:uppercase}
+#menu{width:1112px;display:flex;margin:4px auto;justify-content:space-between;align-items:center}
+#menu img{height:60px}
+#menu ul{display:flex;margin:5px 0 0 0;height:82%}
+#menu ul li{margin:0 1.12em;padding:.5em 0}
+#menu ul li a{font-family:TrajanPro-Regular;font-size:1.04em;line-height:40px}
+#menu ul li a:hover{border-bottom:3px solid #9a8c98;padding-bottom:5px}
+.conteudo{width:100%}
+#first{height:calc(100vh - 70px);display:flex;align-items:center;justify-content:center;margin-top:70px;background-image:linear-gradient(rgba(34,34,59,.84),rgba(34,34,59,.98)),url(images/geovanna-bg-home.jpg)}
+#first .conteudo{padding-top:2%}
+#first .conteudo p{font-family:AfterMidnite;font-size:5.7rem;text-align:center;line-height:1.3}
+#first .conteudo p:nth-child(2){font-size:3.5rem;margin-bottom:3.3rem}
+#first .conteudo span{display:block;text-align:center;font-size:1.3rem;line-height:1.5}
+#first .conteudo .cor{color:#9a8c98;font-family:TrajanPro-Regular}
+#first .conteudo button:hover{background-color:#f2e9e4;color:#22223b;transition:all .3s ease-in-out 0s,transform 1.8s cubic-bezier(.6,.2,.1,1) .1s,opacity 1.8s cubic-bezier(.6,.2,.1,1) .1s}
+#apresentacao{display:flex;align-items:center;justify-content:center;background:linear-gradient(rgba(74,74,105,.8),rgba(74,74,105,.8)),url(images/geovanna-bg-presentation.jpg);background-repeat:no-repeat;background-position:50%;padding:5rem 0 5rem 0}
+#apresentacao .conteudo{position:relative;top:1.2rem}
+#apresentacao .conteudo p{text-align:center;line-height:1.2;font-size:1.77rem}
+#apresentacao .conteudo img{height:80px;background-position:center;width:100%;margin:2.5rem 0}
+#apresentacao .conteudo span{text-align:center;display:block;font-size:.88rem;font-family:Montserrat,sans-serif}
+#apresentacao .conteudo button{display:block;margin:auto;margin-top:2.5rem;margin-bottom:2.5rem;border:1px solid #f2e9e4;color:#4a4e69;background-color:#f2e9e4}
+#apresentacao .conteudo button:hover{color:#f2e9e4;background-color:transparent;transition:all .3s ease-in-out 0s,transform 1.8s cubic-bezier(.6,.2,.1,1) .1s,opacity 1.8s cubic-bezier(.6,.2,.1,1) .1s}
+#sobre{display:flex;align-items:center;justify-content:center;background-repeat:no-repeat;background-position:50%;padding:4rem 0 5rem 0}
+#sobre .conteudo{width:74.22%}
+#sobre .conteudo .interna{width:50%;margin-left:1.1%}
+#sobre .conteudo .interna h1{font-family:AfterMidnite,sans-serif;font-size:5rem;color:#22223b;font-weight:100}
+#sobre .conteudo .interna h2{font-size:1.3rem;color:#9a8c98;margin-bottom:2rem;font-family:TrajanPro-Regular;font-weight:100}
+#sobre .conteudo .interna h3{font-family:TrajanPro-Regular;color:#9a8c98;font-size:1.5rem;margin-bottom:2rem;font-weight:100}
+#sobre .conteudo .interna span{font-family:Montserrat,sans-serif;color:#22223b;line-height:2rem;margin-bottom:2rem;font-size:.8em}
+#sobre .conteudo .interna p{font-family:Montserrat;line-height:1.7rem;color:#22223b99;margin-bottom:2rem;font-size:.8em}
+#sobre .conteudo .interna img{width:21.06%;margin:1rem 0 3rem 0}
+#servicos{background:linear-gradient(rgba(34,34,59,.84),rgba(34,34,59,.98)),url(images/geovanna-bg-services.jpg);background-position:50%;background-size:cover}
+#servicos .conteudo{width:72.27%;margin:auto;padding-top:6.3%;padding-bottom:4.3%}
+#servicos .conteudo h1{font-family:TrajanPro-Regular;text-align:center;font-size:2.6rem;color:#f2e9e4;margin-bottom:2.5rem}
+#servicos .conteudo img{height:120px;margin-bottom:2.5rem;width:100%}
+#servicos .coluna{display:flex}
+#servicos .conteudo .coluna h2{font-family:TrajanPro-Regular;text-align:center;font-size:1.73rem;line-height:2rem;color:#9a8c98;margin-bottom:1.9rem}
+#servicos .conteudo .coluna h2 span{font-size:2.6rem;color:#9a8c98}
+#servicos .conteudo .coluna p{font-family:Montserrat,sans-serif;color:#f2e9e4;text-align:center;padding:0 16%;font-size:1rem;line-height:1.8rem;width:67%}
+#servicos .conteudo a button{background-color:#f2e9e4;color:#4a4e69}
+#servicos .conteudo a button:hover{background-color:transparent;color:#f2e9e4}
+#depoimentos{display:flex;align-items:center;flex-direction:column;padding-top:4%;padding-bottom:4.3%}
+#depoimentos h1{font-family:AfterMidnite;color:#22223b;text-align:center;font-size:5.19rem}
+#depoimentos h2{font-family:TrajanPro-Regular;color:#9a8c98;width:28%;text-align:center;font-size:1.3rem}
+#depoimentos img{width:5.82%;margin:.2rem 0 2.8rem 0}
+#depoimentos .depo{width:63.27%;text-align:center;margin-top:5rem}
+#depoimentos .depo p{font-family:TrajanPro-Regular;color:#4a4e69;font-size:1.03rem;line-height:26px}
+#depoimentos .depo .barra{width:8em;height:3px;background-color:#c9ada7;margin-top:15px}
+#depoimentos .depo img{width:31%;margin:2rem 0 2rem 0}
+#depoimentos .depo span{color:#212529;font-size:1.3rem}
+#depoimentos .depo h3{color:#c9ada7;font-family:TrajanPro-Regular;font-size:1.1rem;margin-top:4px}
+#depoimentos .depo .esquerda{width:39%;display:flex;flex-direction:column;align-items:center;float:left}
+#depoimentos .depo .direita{width:39%;float:right;display:flex;flex-direction:column;align-items:center}
+#contato{background:linear-gradient(rgba(34,34,59,.8),rgba(34,34,59,.9)),url(images/geovanna-bg-contact.jpg);background-position:50%;display:flex;flex-direction:column;align-items:center;text-align:center;padding-top:3.7%;padding-bottom:4.3%}
+#contato h1{font-family:AfterMidnite;color:#f2e9e4;font-size:5.26rem}
+#contato img{width:8.5%}
+#contato p{color:#c9ada7;font-size:1.55rem;margin-top:3.4rem;margin-bottom:6.3rem}
+#contato p.menor{font-size:1.3rem!important;margin:0 0 .5rem 0}
+#contato a{font-size:1.75rem}
+#contato a:nth-child(8){font-size:1.05rem}
+#contato span{font-size:.88rem;margin-top:.3rem;margin-bottom:2rem}
+#contato ul{display:flex;align-items:center;justify-content:center;margin-top:38px}
+#contato ul li{border:2px solid #f2e9e4;border-radius:50%;margin:0 8px;padding:13px}
+#contato ul li a{font-size:0}
+#contato ul li img{width:35px;height:35px;vertical-align:middle}
+@media(max-width:1200px){
+#menu{width:932px}
+#menu ul li{margin:0 .98em}
+#menu ul li a{font-size:.9em;line-height:38px}
+}
+@media(max-width:990px){
+nav{display:none}
+#first{margin:0}
+#first .conteudo p{font-size:4.5rem;line-height:1.2}
+#first .conteudo p:nth-child(2){font-size:2.8rem}
+}
+@media(max-width:760px){
+#first .conteudo p{font-size:3.5rem;line-height:1.2}
+#first .conteudo p:nth-child(2){font-size:1.8rem;margin-top:35px}
+#first .conteudo span{font-size:1rem}
+#apresentacao .conteudo img{height:120px}
+#sobre .conteudo{text-align:center}
+#sobre .conteudo .interna{width:100%}
+#servicos .coluna{display:block}
+#servicos .conteudo{width:100%}
+#servicos .conteudo .coluna p{padding:0;font-size:.85rem;line-height:2rem;width:85%;margin:auto}
+#servicos .conteudo h1{font-size:2rem}
+#servicos .conteudo .coluna h2{font-size:2rem;line-height:2.3rem}
+#servicos .conteudo .coluna h2 span{font-size:2.6rem}
+.intermediaria{margin-top:70px}
+#depoimentos h1{font-size:4.19rem}
+#depoimentos h2{width:75%;font-size:1rem}
+#depoimentos .depo p{font-size:.8rem;line-height:23px}
+#depoimentos img{width:10.82%}
+#depoimentos .depo{width:75.27%;text-align:center;margin-top:5rem}
+#depoimentos .depo .esquerda{width:100%;float:none;margin-bottom:49px}
+#depoimentos .depo .direita{width:100%;float:none}
+#depoimentos .depo img{width:21%}
+#contato img{width:17.5%}
+#depoimentos .depo span{font-size:.8rem}
+#depoimentos .depo h3{font-size:.9rem}
+}
+@media(max-width:500px){
+#contato h1{font-size:3.26rem}
+#sobre .conteudo .interna h1{font-size:4rem;line-height:1}
+#sobre .conteudo .interna h2{font-size:1rem}
+#first .conteudo p{font-size:2.2rem}
+#sobre .conteudo .interna img{width:33.06%}
+#sobre .conteudo .interna span{line-height:32px;font-size:.75em}
+#depoimentos img{width:20.82%}
+#contato a:nth-child(8){font-size:.9rem}
+}

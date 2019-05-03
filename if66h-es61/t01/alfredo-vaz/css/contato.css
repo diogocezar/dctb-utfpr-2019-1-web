@@ -1,0 +1,136 @@
+@font-face {
+    font-family: After Midnite Regular;
+    src: url(../fonts/AfterMidnite.ttf)
+}
+
+@font-face {
+    font-family: Trajan Pro Regular;
+    src: url(../fonts/TrajanPro-Regular.ttf)
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-Light.ttf)
+}
+
+.contato-geral {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: calc(100vh -70px);
+    background-color: rgba(0, 0, 0, 0);
+    background: linear-gradient(rgba(34, 34, 59, 0.8), rgba(34, 34, 59, 0.9)),url("../assets/geovanna-bg-contact.jpg");
+    padding-top: 6.125rem;
+    padding-bottom: 4rem;
+    background-attachment:scroll, scroll;
+    background-clip:border-box, border-box;
+    background-origin:padding-box, padding-box;
+    background-position-x:50%, 50%;
+    background-position-y:50%, 50%;
+}
+
+.contato-geral div h2{
+    font-family: After Midnite Regular,sans-serif;
+    color: #f2e9e4;
+    font-size: 5.25rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.contato-geral div img{
+    vertical-align: middle;
+    height: 120px;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%)!important;
+}
+
+.contato-geral div h3{
+    font-family: Trajan Pro Regular,serif;
+    color: #c9ada7;
+    margin-top: 4rem;
+    text-align: center;
+    margin-bottom: 6rem;
+    font-size: 24.5px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.contato-geral div h4{
+    font-family: Trajan Pro Regular,serif;
+    color: #c9ada7;
+    text-align: center;
+    padding-bottom: 0.4375rem;
+    font-size: 1.3125rem;
+}
+
+.contato-geral div div a{
+    cursor: pointer;
+    color: #f2e9e4;
+    font-family: Trajan Pro Regular,serif;
+    font-size: 1.75rem;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 8.2rem;
+    padding-bottom: 0.4375rem;
+}
+
+.contato-geral div small{
+    color: #f2e9e4;
+    font-family: Trajan Pro Regular,serif;
+    font-size: 0.875rem;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 10.5rem;
+}
+
+#contatoEmail {
+    padding-top: 1.75rem; 
+}
+
+.contato-geral div a{
+    cursor: pointer;
+    color: #f2e9e4;
+    font-family: Trajan Pro Regular,serif;
+    font-size: 1.05rem;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 4rem;
+    padding-bottom: 0.4375rem;
+}
+
+.contato-geral div ul{
+    padding-top: 2.1875rem; 
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contato-geral div ul li{
+    display: flex;
+    justify-content: center;
+    border: 2px solid #f2e9e4;
+    border-radius: 50%;
+    list-style-type: none;
+    height: 65px;
+    width: 65px;
+    margin: 10px;
+}
+
+.contato-geral div ul li a img{
+    height: 35px;
+    width: 35px;
+    padding-top: 0.85rem;
+    padding-right: 3.9375rem; 
+}
+
+@media(max-width: 1280px){
+    .contato-geral div div a{
+        padding-left: 12rem;
+    }
+    
+    .contato-geral div small{
+        padding-left: 13.5rem;
+    }
+}

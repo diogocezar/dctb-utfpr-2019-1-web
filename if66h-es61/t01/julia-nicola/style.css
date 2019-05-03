@@ -1,0 +1,426 @@
+@font-face {
+    font-family: "Trajan Pro Regular";
+    src: url(../julia-nicola/assets/fonts/TrajanPro-Regular.woff);
+}
+
+@font-face{
+    font-family: "After Midnite Regular";
+    src: url(../julia-nicola/assets/fonts/AfterMidnite.woff);
+}
+
+@font-face{
+    font-family: "Trajan Pro Bold";
+    src: url(../julia-nicola/assets/fonts/TrajanPro-Bold.woff)
+}
+
+#header {
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: #22223B;
+    justify-content: center;
+}
+
+#imgHeader {
+    width: 275px;
+    margin-right: 175px;
+}
+
+li{
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+a{
+    font-family: 'Trajan Pro Regular'
+}
+a:link, a:visited {
+    color: #F2E9E4;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+body{
+    margin: 0;
+    text-align: center;
+}
+
+#home{
+    display: flex;
+    background-image: url(../julia-nicola/assets/images/geovanna-bg-home.jpg);
+    height: 100vh;
+    align-items: center;
+}
+
+.corfundo{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient( rgb(34,34,59, 0.85) 0%, rgb(34,34,59, 0.99)100%);
+}
+
+
+#frase1{
+    font-family: 'After Midnite Regular';
+    font-size: 90px;
+    color: #F2E9E4; 
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: 0;   
+    font-weight: 100;
+}
+
+#frase2{
+    font-family: 'After Midnite Regular';
+    font-size: 55px;
+    color: #F2E9E4;
+    text-align: center;
+    font-weight: 100;
+    margin: 0cm; 
+    padding: 0cm;
+    border: 0cm;
+    margin-bottom: 30px;
+}
+
+#frase3{
+    font-family: 'Trajan Pro Regular';
+    font-size: 21px;
+    color: #F2E9E4;
+    text-align: center;
+    font-weight: normal; 
+    margin: 0cm; 
+    padding: 0cm;
+    border: 0cm;
+    margin-bottom: 30px;
+}
+
+#bt1{
+    font-family: 'Montserrat';
+    color: #F2E9E4;     
+    font-size: 15px;
+    align-content: center;
+    margin-top: 30px;
+    padding: 20px;  
+    padding-left: 50px; 
+    padding-right: 50px; 
+    border-radius: 50px;
+    background-color: transparent;
+    border-color: #F2E9E4;
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+}
+
+#bt1:hover {
+    background-color: #F2E9E4;
+    color: #22223B;
+    transition: 0.7s ease;
+}
+
+#apresentacao {
+    height: 544px;
+    background-image: url(../julia-nicola/assets/images/geovanna-bg-presentation.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+
+#apresentacaoImg {
+    width: 60.2px;
+    height: 80px;
+}
+
+.corfundo2{
+    height: 100%;
+    width: 100%;
+    background: rgba(75, 74, 105, 0.8);
+}
+
+#frase4{
+    font-family: 'Trajan Pro Regular';
+    font-size: 30px;
+    color: #F2E9E4;
+    text-align: center;
+    font-weight: normal; 
+    padding: 0cm;
+    border: 0cm;
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+
+#frase5{
+    font-family: 'Montserrat';
+    color: #F2E9E4;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+#bt2{
+    font-family: 'Montserrat';
+    color: #22223B;     
+    font-size: 15px;
+    align-content: center;
+    margin-top: 30px;
+    margin-bottom:50px;
+    padding: 20px;  
+    padding-left: 40px; 
+    padding-right: 40px; 
+    border-radius: 50px;
+    background-color: #F2E9E4;
+    border-color: #F2E9E4;
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+}
+
+#bt2:hover{
+    background-color: transparent;
+    color: #F2E9E4;
+    transition: 0.7s ease;
+}
+
+#sobre{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: #F2E9E4;
+    padding-bottom:50px;
+}
+
+#sobreImg{
+    width: 120px;
+    height: 120px;
+}
+
+#frase6{
+    font-family: 'After Midnite Regular';
+    font-size: 85px;
+    color: #22223B;
+    font-weight: 100;
+    margin-bottom: 5px;
+    border: 1px;
+    height: 150px;
+}
+
+#frase7{
+    font-family: 'Trajan Pro Regular';
+    font-size: 20px;
+    color: #9A8C98;
+    font-weight: 100;
+    margin-bottom: 5px;
+    
+}
+
+#p1 {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    color: #4A4E69;
+    font-weight: 100;
+    text-align: left;
+    line-height: 2rem;
+}
+
+#sobre .content {
+    display: flex;
+    flex-direction: column;
+    margin-top:0px;
+    margin-left:400px;
+    margin-right:400px;
+    align-items: flex-start;
+}
+
+#servicos{
+    display: flex;
+    background-image: url(../julia-nicola/assets/images/geovanna-bg-services.jpg);
+    background-position: center;
+    background-size: 100%;
+    height: 100%;
+}
+
+#ringImg{
+    width: 77.16px;
+    height: 120px;;
+}
+
+#servRow{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: space-between;
+}
+
+#frase8{
+    font-family: 'Trajan Pro Regular';
+    font-size: 42px;
+    color: #F2E9E4;
+    font-weight: 100;
+    padding-top: 50px;
+}
+
+#frase9{
+    font-family: 'Trajan Pro Regular';
+    color: #9A8C98;
+    font-size:28px;
+    font-weight: 100;
+    line-height: 1.2em
+}
+
+#coluna1, #coluna2{
+    padding: 60px;
+}
+
+#p2{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    color: #F2E9E4;
+    font-weight: 100;
+    line-height: 1.75rem;
+}
+
+#depoimentos{
+    background-color: #F2E9E4;
+    display: flex;
+    justify-content: center; 
+}
+
+#balaoImg{
+    width: 120px;
+    height: 120px;
+}
+
+#depoRow{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: space-between;
+}
+
+#p3{
+    font-family: 'Trajan Pro Regular';
+    font-size: 18px;
+    font-weight: 100;
+    opacity: 0.80;
+    color: #22223B;
+}
+
+#p4{
+    font-family: 'Trajan Pro Regular';
+    font-size: 18px;
+    font-weight: 100;
+    color: #22223B;
+}
+
+#p5{
+    color: #C9ADA7;
+    font-family: 'Trajan Pro Regular';
+    font-size: 18px;
+    font-weight: 100;
+}
+
+#contato{
+    background-image: url(../julia-nicola/assets/images/geovanna-bg-contact.jpg);
+    display: flex;
+}
+
+#ringsImg{
+    width: 130.91px;
+    height: 120px;
+    margin:0;
+}
+
+#iconSocial{
+    width: 35px;
+    height: 35px;
+    padding: 10px; 
+}
+
+.iconRedondo{
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid;
+    border-color: #F2E9E4;
+    object-fit: cover;
+    margin:10px;
+    margin-bottom: 60px;
+}
+
+.corfundo3{
+	height: 100%;
+    width: 100%;
+    background: rgb(34, 34, 59, 0.8);
+}
+
+#frase10{
+    font-family: 'After Midnite Regular';
+    font-size: 82px;
+    color: #F2E9E4;
+    text-align: center;
+    font-weight: 100;
+    padding-top:60px;
+    margin-bottom:0px;
+}
+
+#frase11{
+    font-family: 'Trajan Pro Regular';
+    font-size: 28px;
+    color: #c9ada7;
+    font-weight: 100;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+}
+
+#frase12{
+    font-family: 'Trajan Pro Regular';
+    font-size: 22px;
+    color: #c9ada7;
+    font-weight: 100;
+    margin-bottom: 0;
+}
+
+#p6{
+    font-family: 'Trajan Pro Regular';
+    font-size: 28px;
+    color: #F2E9E4;
+    font-weight: 100;
+    margin-top:0;
+    margin-bottom: 0;
+}
+
+#p7{
+    font-family: 'Trajan Pro Regular';
+    font-size: 16px;
+    color: #F2E9E4;
+    font-weight: 100;
+    margin-top:0;
+}
+
+#icones{
+    display: flex;
+    justify-content: center;
+}
+
+/*
+@media screen and (max-width: 992px){
+    #home{
+        max-width: 960px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #home{
+        max-width: 960px;
+    }
+}
+*/

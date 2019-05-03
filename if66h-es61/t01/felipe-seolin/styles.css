@@ -1,0 +1,606 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400');
+
+@font-face {
+    font-family: "TrajanPro";
+    font-weight: normal;
+    src: url("/assets/fonts/TrajanPro-Regular.eot") format("eot"),
+        url("/assets/fonts/TrajanPro-Regular.woff") format("woff"),
+        url("/assets/fonts/TrajanPro-Regular.woff") format("woff"),
+        url("/assets/fonts/TrajanPro-Regular.woff") format("woff"),
+        url("/assets/fonts/TrajanPro-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "AfterMidnite";
+    font-weight: normal;
+    src: url("/assets/fonts/AfterMidnite.eot") format("eot"),
+        url("/assets/fonts/AfterMidnite.woff") format("woff"),
+        url("/assets/fonts/AfterMidnite.woff") format("woff"),
+        url("/assets/fonts/AfterMidnite.woff") format("woff"),
+        url("/assets/fonts/AfterMidnite.ttf") format("truetype");
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    html {
+        font-size: 12px;
+    }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 0px) and (max-width: 767px) {
+    html {
+        font-size: 7px;
+        line-height: 15px;
+    }
+
+    #about {
+        padding: 0;
+        padding-right: 5% !important;
+        padding-left: 5% !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    
+    #about h2, h3, p  {
+        text-align: center !important;
+    }
+
+    #testimony div {
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    #services div {
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    button {
+        border: .5px;
+        border-radius: 40px;
+        width: 200px !important;
+        height: 50px !important;
+        font-size: 12px !important;
+        line-height: 38px;
+    }
+
+    p {
+        font-size: 14px !important;
+    }
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: TrajanPro, serif;
+    color: #F2E9E4;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+}
+
+button {
+    border: 1px solid #f2e9e4;
+    border-radius: 40px;
+    background-color: #f2e9e4;
+    color: transparent;
+    transition: all .3s ease-in-out 0s;
+    width: 260px;
+    height: 60px;
+    line-height: 38px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    color: #4A4E69;
+}
+
+button:hover {
+    background-color: transparent;
+    color: #f2e9e4;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: .5rem;
+}
+
+/* General */
+.text-white {
+    color: white;
+}
+
+.text-light {
+    color: #F2E9E4;
+}
+
+.text-dark {
+    color: #22223B;
+}
+
+.text-rose {
+    color: #C9ADA7;
+}
+
+.text-bouquet {
+    color: #9A8C98;
+}
+
+.text-lowercase {
+    text-transform: lowercase;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+/* Fonts */
+.font-montserrat {
+    font-family: Montserrat, sans-serif;
+}
+
+.font-aftermidnite {
+    font-family: AfterMidnite, sans-serif;
+}
+
+.font-trajan {
+    font-family: TrajanPro, serif;
+}
+
+/* Navbar Menu */
+nav {
+    background-color: #22223B;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    box-shadow: -2px -3px 20px 3px rgba(34, 34, 59, .5);
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+nav img {
+    height: 60px;
+    margin-top: 5px;
+}
+
+nav #logo {
+    margin-right: 15vw;
+}
+
+nav a {
+    text-decoration: none;
+    color: #F2E9E4;
+    font-size: 1.05em;
+    margin-left: 1.1em;
+    margin-right: 1.1em;
+    line-height: 40px;
+    font-size: 1.18em;
+    /* Animation */
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+
+}
+
+nav a:hover,
+a:focus {
+    background-size: 100% 2px;
+}
+
+nav #logo:hover,
+#logo:focus {
+    background-size: 0 0px;
+}
+
+
+/* Section Homebutton */
+#home div,
+p {
+    font-size: 1.5rem;
+}
+
+#home button {
+    margin-top: 4rem;
+    background-color: transparent;
+}
+
+#home button:hover {
+    background-color: #F2E9E4;
+    color: #23243C;
+}
+
+#home {
+    background-image: linear-gradient(rgba(34, 34, 59, 0.84), rgba(34, 34, 59, 0.98)), url('assets/img/geovanna-bg-home.jpg');
+    font-family: 'AfterMidnite', sans-serif !important;
+    font-weight: normal;
+    font-style: normal;
+    margin-top: 70px;
+    height: 100vh;
+}
+
+#home h1 {
+    font-size: 6.5rem;
+}
+
+#home h2 {
+    font-size: 4rem;
+    margin-bottom: 4rem;
+}
+
+#home p {
+    font-family: TrajanPro, serif;
+}
+
+#home p div {
+    font-family: TrajanPro, serif !important;
+    color: #9A8C98;
+}
+
+/* Section Presentation */
+#presentation {
+    background-image: linear-gradient(rgba(74, 74, 105, .8), rgba(74, 74, 105, .8)),
+        url("/assets/img/geovanna-bg-presentation.jpg");
+    background-position: 50%;
+}
+
+#presentation img {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    height: 80px;
+}
+
+#presentation h2 {
+    font-size: 2rem;
+}
+
+#presentation p {
+    font-size: 1rem;
+}
+
+#presentation button {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+/* Section About */
+#about {
+    background-color: #F2E9E4;
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+    padding-right: 45vw;
+    padding-left: 15%;
+    text-align: left !important;
+}
+
+#about h2 {
+    text-transform: lowercase;
+    font-size: 6rem;
+    margin-bottom: 3rem;
+}
+
+#about h3 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+#about p {
+    line-height: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1em;
+    line-height: 2rem;
+    font-weight: 300;
+}
+
+#about img {
+    height: 120px;
+    width: 120px;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+}
+
+/* Section Services */
+#services {
+    background-image: linear-gradient(rgba(34, 34, 59, .84), rgba(34, 34, 59, .98)),
+        url("/assets/img/geovanna-bg-services.jpg");
+    background-position: 50%;
+    background-size: cover;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+#services h2 {
+    font-size: 3rem;
+    color: #f2e9e4;
+    margin-bottom: 3rem;
+}
+
+#services h3 {
+    font-size: 2rem;
+    line-height: 2.4rem;
+    margin: 0 !important;
+}
+
+#services h4 {
+    font-size: 3rem;
+    line-height: 2.4rem;
+    margin-bottom: 2rem;
+}
+
+#services img {
+    height: 120px;
+    margin-bottom: 3rem;
+}
+
+#services div div h3 {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    color: #9a8c98;
+    margin-bottom: 2rem;
+}
+
+#services div div p {
+    color: #f2e9e4;
+    text-align: center;
+    padding: 0 15%;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 300;
+}
+
+#services button {
+    margin-top: 3rem;
+}
+
+
+/* Section Testimony */
+#testimony {
+    background-color: #F2E9E4;
+    padding-bottom: 15px;
+}
+
+#testimony h2 {
+    font-size: 6rem;
+    margin-bottom: 3rem;
+}
+
+#testimony img {
+    height: 120px;
+    width: 120px;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+}
+
+#testimony-service {
+    margin-bottom: 7rem;
+}
+
+#testimony div {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+#testimony div div {
+    padding: 0 5%;
+}
+
+#testimony div div p {
+    text-align: center;
+    padding: 0 15%;
+    font-size: 1.2rem;
+    font-weight: 100;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+#testimony hr {
+    background-color: #C9ADA7;
+    width: 8em;
+    height: 3px;
+    left: 50%;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 2rem;
+}
+
+#testimony .names {
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 1.5rem;
+}
+
+#testimony #dots {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+#testimony #dots span {
+    background-color: #d6d6d6;
+    border: #d6d6d6 solid 1px;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    cursor: pointer;
+}
+
+/* Section Contact */
+#contact {
+    background-image: linear-gradient(rgba(34, 34, 59, 0.8), rgba(34, 34, 59, 0.9)), url("/assets/img/geovanna-bg-contact.jpg");
+    background-position: 50%;
+}
+
+#contact h2 {
+    font-size: 6rem;
+    margin-bottom: 3rem;
+    text-transform: lowercase;
+}
+
+#contact img {
+    height: 120px;
+}
+
+#contact #plesure {
+    margin-top: 4rem;
+    font-size: 1.75rem;
+}
+
+#contact #talk {
+    margin-bottom: 6rem;
+    font-size: 1.75rem;
+}
+
+#contact h3 {
+    font-size: 1.5rem;
+}
+
+#contact #number {
+    font-size: 2rem;
+}
+
+#contact #click {
+    font-weight: 400;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+
+#contact #email {
+    margin-bottom: 1rem;
+}
+
+#contact #email-address {
+    font-size: 1.2em;
+    margin-bottom: 1rem;
+}
+
+#contact div {
+    margin-top: 35px;
+    line-height: 21px;
+}
+
+#contact div a {
+    border: 2px solid #F2E9E4;
+    padding: 13px;
+    border-radius: 50%;
+    display: block;
+}
+
+#contact div a img {
+    height: 35px;
+    width: 35px;
+    display: block;
+}
+
+#contact a {
+    color: #F2E9E4;
+}
+
+#instagram {
+    margin-right: 15px;
+}
+
+/* Styles for flexbox */
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.align-item-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.nowrap {
+    flex-wrap: nowrap;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.flex-start {
+    justify-content: flex-start;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}

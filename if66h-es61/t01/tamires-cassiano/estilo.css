@@ -1,0 +1,535 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,300");
+@font-face {
+  font-family: "TrajanPro-Regular";
+  src: url("./fonts/TrajanPro-Regular.eot?") format("eot"), url("./fonts/TrajanPro-Regular.woff") format("woff"), url("./fonts/TrajanPro-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "AfterMidnite";
+  src: url("./fonts/AfterMidnite.eot?") format("eot"), url("./fonts/AfterMidnite.woff") format("woff"), url("./fonts/AfterMidnite.ttf") format("truetype"); }
+
+
+* {
+    margin:0;
+    padding: 0;
+}
+
+#menu {
+    height: 70px;
+    background-color: #22223b;
+    display: flex;
+    flex-direction: row;
+    padding: 0 8%;
+    position: fixed;
+    top: 0;
+    width: 84%;
+    justify-content: space-between;
+}
+
+#logo {
+    height: 60px;
+    margin-top: 5px;
+
+}
+
+#menu ul {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+@media only screen and (max-width: 992px){
+    #menu ul{
+        display: none;
+    }
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 400;
+    text-transform: uppercase; /* deixa tudo maiusculo */
+    font-family: "TrajanPro-Regular" ;
+    color: #F2E9E4;
+}
+
+#mobi {
+    display: none;
+}
+
+@media only screen and (max-width: 992px){ /*tela 992px ele obedece esse comando "subscresver */
+    #mobi {
+        display: block;
+        order: 3;
+        cursor: pointer;
+    }
+}
+#menu ul li a {
+    font-weight: 400;
+    padding-bottom: 7px;
+    padding-top: 19px;
+    margin: 0px 15px;
+    font-family: "TrajanPro-Regular";
+
+}
+
+#menu ul li a:hover {
+    border-bottom: 3px solid #9a8c98;
+}
+
+section {
+    min-height: 100vh; /* pega o tamanho da tela*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#home {
+    background-image: linear-gradient(rgba(34,34,59,.84), rgba(34,34,59,.84)), url(./images/geovanna-bg-home.jpg);
+    margin-top: 70px;
+}
+
+#home h2 {
+    color: #F2e9e4;
+    font-size: 72px;
+    margin: 0px 0px 7px;
+    font-family : "AfterMidnite";
+    font-weight: 400;
+}
+@media only screen and (max-width: 992px) {
+    #home h2 {
+        font-size: 70px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    #home h2 {
+      font-size: 56px; 
+    } 
+}
+@media only screen and (max-width: 480px) {
+    #home h2 {
+      font-size: 46px; 
+    } 
+}
+
+#home h3 {
+    color: #F2e9e4;
+    font-size: 56px;
+    margin: 0px 0px 56px;
+    font-family : "AfterMidnite";
+    font-weight: 400;
+}
+@media only screen and (max-width: 992px) {
+    #home h3 {
+      font-size: 42px; 
+    } 
+}
+  @media only screen and (max-width: 768px) {
+    #home h3 {
+      font-size: 28px;
+      margin-top: 28px; 
+    } 
+}
+
+#home h4 {
+    color: #F2e9e4;
+    font-size: 21px;
+    margin: 0px 0px 7px;
+    font-family: "TrajanPro-Regular";
+    font-weight: 400;
+}
+@media only screen and (max-width: 768px) {
+    #home h4 {
+      font-size: 16.8px; 
+    } 
+}
+
+
+#home span {
+    color: #9a8c98;
+    font-size: 21px;
+    font-family: "TrajanPro-Regular";
+}
+@media only screen and (max-width: 768px) {
+    #home span {
+      font-size: 16.8px; 
+    } 
+}
+
+
+button {
+    width: 260px;
+    height: 50px;
+    border: 2px solid #F2E9E4;
+    border-radius: 40px;
+    font-size: 14.7px;
+    margin-top: 56px;
+}
+
+@media only screen and (max-width: 768px) {
+    button {
+      height: 50px;
+      width: 220px !important;
+      font-size: 12.6px; 
+    } 
+}
+
+.bt {
+    background-color: rgba(255, 255, 255, 0.00);
+    color: #F2E9E4;
+    text-transform: uppercase; 
+}
+
+.bt:hover{
+    color: #4a4e69;
+    background-color: #F2E9E4;
+}
+
+#presentation{
+    background-image: linear-gradient(rgba(74,74,105,.8),rgba(74,74,105,.8)), url(./images/geovanna-bg-presentation.jpg);
+}
+
+#presentation img {
+    margin: 35px 0px;
+    height: 80px;
+}
+
+.bt1 {
+    color: rgb(74, 78, 105);
+    background-color: #F2E9E4;
+    text-transform: uppercase; 
+}
+
+.bt1:hover{
+    color: #F2E9E4;
+    background-color: rgba(74, 78, 105, 0.00);
+}
+
+#presentation h2 {
+    color: #F2e9e4;
+    font-size: 28px;
+    margin: 0px 0px 7px;
+    font-family: "TrajanPro-Regular";
+    font-weight: 400;   
+}
+
+@media only screen and (max-width: 768px) {
+    #presentation h2 {
+      font-size: 19.6px; 
+    } 
+}
+#presentation h3 {
+    color: #F2e9e4;
+    font-size: 14px;
+    margin: 0px 0px 7px;
+    font-family: "Montserrat";
+    font-weight: 400;   
+}
+
+/* COLOCAR COR DE FUNDO ABOUT */
+#about {
+    padding: 98px 0px 70px;
+    background-color: #f2e9e4;
+    display: flex;
+    line-height: 200%;
+    justify-content: flex-start!important;
+    align-items: flex-start!important;
+    text-align: left;
+    padding-left: 8%;
+}
+
+#about img {
+    margin: 14px 0px 56px;
+    height: 120px;
+}
+
+@media only screen and (max-width: 768px) {
+    #about img {
+      height: 100px;
+    } 
+}
+@media only screen and (max-width: 480px) {
+    #about img {
+      height: 80px; 
+    } 
+}
+#about h2 {
+    color: #22223b;
+    width: 40%;
+    font-family : "AfterMidnite";
+    margin: 0px 0px 42px;
+    font-size: 84px;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 768px) {
+    #about h2 {
+      text-align: center;
+      font-size: 56px;
+      margin-bottom: 14px; 
+    } 
+}
+
+#about h3 {
+    color: #9a8c98;
+    font-family : "TrajanPro-Regular";
+    margin: 0px 0px 28px;
+    font-size: 21px;
+    font-weight: 400;
+    width: 40%;
+}
+
+@media only screen and (max-width: 768px) {
+    #about h3 {
+      text-align: center;
+      font-size: 14px;
+      margin-bottom: 14px; 
+    } 
+}
+
+#about p {
+    font-family: "Montserrat";
+    color: #22223b;
+    margin: 0px 0px 28px;
+    font-size: 14px;
+    width: 40%;
+    text-transform: none;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 768px) {
+    #about p {
+      text-align: center; 
+    } 
+}
+
+#services {
+    background-image: linear-gradient(rgba(34,34,59,.84), rgba(34,34,59,.98)), url(./images/geovanna-bg-services.jpg);
+    padding: 98px 0px 70px;
+}
+
+#services img {
+    margin: 0px 0px 42px;
+    height: 120px;
+}
+
+#services h2 {
+    color: #f2e9e4;
+    font-size: 42px;
+    margin: 0px 0px 42px;
+    font-family: "TrajanPro-Regular";
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 768px) {
+    #services h2 {
+      font-size: 42px;
+      margin-bottom: 42px; 
+    } 
+}
+  @media only screen and (max-width: 480px) {
+    #services h2 {
+      font-size: 21px;
+      margin-bottom: 21px; 
+    } 
+}
+
+#services h3 {
+    color: #948c98;
+    font-size:  28px;
+    margin: 0px 0px 28px;
+    font-family: "TrajanPro-Regular";
+}
+
+span {
+    text-decoration: none;
+    font-weight: 400;
+    text-transform: uppercase; /* deixa tudo maiusculo */
+    font-family: "TrajanPro-Regular" ;
+    color: #9a8c98;
+    font-size: 42px;    
+}
+
+#services p {
+    font-weight: 400;
+    font-family: "Montserrat";
+    color: #f2e9e4;
+    font-size: 16.8px; 
+    padding: 0px 49.5px; 
+}
+
+.bt2 {
+    color: rgb(74, 78, 105);
+    background-color: #F2E9E4;
+    text-transform: uppercase; 
+}
+
+.bt2:hover{
+    color: #F2E9E4;
+    background-color: rgba(74, 78, 105, 0.00);
+}
+
+#testmonials {
+    padding: 98px 0px 70px;
+    background-color: #f2e9e4;
+}
+#testmonials h2 {
+    color: #22223b;
+    font-size: 84px;
+    font-family : "AfterMidnite";
+    margin: 0px 0px 42px;
+    font-weight: 400;
+}
+
+#testmonials img {
+    height: 120px;
+    margin: 0px 0px 42px;
+    padding-top: 25px;
+    border-top: 3px solid #c9ada7;
+}
+
+#testmonials h3 {
+    color: #9a8c98;
+    font-size: 21px;
+    margin: 0px 0px 56px;
+    font-family: "TrajanPro-Regular";
+    font-weight: 400;
+}
+
+.types {
+    display: flex;
+    flex-direction: row;
+    padding: 0 10%;
+}
+
+.types p {
+    text-transform: none;
+    width: 80%;
+    margin-left: 10%;
+}
+
+p {
+    text-decoration: none;
+    font-weight: 400;
+    text-transform: uppercase; /* deixa tudo maiusculo */
+    font-family: "TrajanPro-Regular" ;
+    color: #4a4e69;
+    font-size: 16.8px;  
+    margin: 0px 0px 28px;
+}
+
+#testmonials h4 {
+    color: #4a4e69;
+    font-size: 21px;
+    font-family: "TrajanPro-Regular";
+    margin: 0px 0px 7px;
+    font-weight: 400;
+}
+
+#testmonials h5 {
+    color: #c9ada7;
+    font-size: 17.5px;
+    font-family: "TrajanPro-Regular";
+    margin: 0px 0px 7px;
+    font-weight: 400;  
+    
+}
+
+p{
+   /* COLOCAR RISCO EM CIMA DO NOME  */
+}
+
+#contact {
+    background-image: linear-gradient(rgba(34,34,59,.8), rgba(34,34,59,.9)), url(./images/geovanna-bg-contact.jpg);
+    padding: 98px 0px 70px;
+}
+
+#contact h2 {
+    color: #f2e2e4;
+    font-size: 84px;
+    font-family: "AfterMidnite";
+    margin: 0px 0px 42px;
+    font-weight: 400; 
+}
+
+#contact img {
+    height: 120px;
+}
+
+#contact h3 {
+    color: #c9ada7;
+    font-size: 24.5px;
+    font-family: "TrajanPro-Regular";
+    margin: 56px 0px 84px;
+    font-weight: 400;
+}
+
+#contact h4 {
+    color: #c9ada7;
+    font-size: 21px;
+    font-family: "TrajanPro-Regular";
+    margin: 0px 0px 7px;
+    font-weight: 400;
+}
+
+#number {
+    color: #f2e9e4;
+    text-decoration: none;
+    font-size: 28px;
+    font-family: "TrajanPro-Regular";
+}
+
+#contact p {
+    color: #F2e9e4;
+    font-size: 14px;
+    margin: 0px 0px 28px;
+    font-family: "TrajanPro-Regular";
+
+}
+
+.ins {
+    height: 35px;
+    width: 35px;
+}
+
+#contact ul {
+    margin: 35px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+#contact ul li {
+    margin: 0px 7.5px 0px 7.5px;
+    border: 2px solid #f2e9e4;
+    border-radius: 40px;
+    padding: 11px 13px 11px 13px;
+}
+
+#contact .a-email{
+    font-size: 1.2rem;
+}
+
+#contact ul li a img {
+    height: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
