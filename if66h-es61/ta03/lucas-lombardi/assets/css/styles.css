@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    font-size: 14px;
+    background-color: #F2F2F2;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#header{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    box-sizing: border-box
+}
+
+#header h1{
+    font-size: 3rem;
+    color: black;
+    padding-top: 25px;
+    padding-bottom: 9px;
+}
+
+#header h2{
+    font-size: 1.8rem;
+    color: black;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+#header p{
+    font-size: 0.7rem;
+    color: black;
+    text-align: center;
+    margin-bottom: 5px;
+    letter-spacing: 3px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.divFooter{
+    margin-bottom: 10px;
+}
+
+#products{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 1rem 1rem 0 1rem;
+}
+
+.products{
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.productTitle{
+    margin-top: 1rem;
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+    font-weight: 1000;
+    text-align: center;
+}
+
+.product img{
+    height: 300px;
+    width: 300px;
+    margin: 2rem 0 2rem 0;
+}
+
+.product p {
+    text-align: center;
+    height: auto;
+}
+
+.product h4 {
+    font-size: 1.25rem;
+    margin-bottom: 0.8rem;
+    margin-top: 1rem;
+    font-weight: 1000;
+    text-align: center;
+}
+
+.price{
+    font-weight: 1000;
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem 0 1rem 0;
+}
+
+.sold{
+    background: white;
+    opacity: .4;
+}
+
+.buy-button{
+    padding: 0.3em 0.1em;
+    border-radius: 10%;
+    background-color: white;
+    border: 2px solid;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    width: 180px;
+    height: 70px;
+    font-size: 20px;
+    width: 40%;
+    position: relative;
+    bottom: 1px;
+}
+
+.buy-button:hover{
+    background: #f2f2f2;
+    border: none;
+}
