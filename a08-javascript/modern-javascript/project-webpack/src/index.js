@@ -1,5 +1,9 @@
-import myDefault, { sum, sub as mySub } from "./functions";
-import * as func from "./functions";
+import myDefault from "./functions";
+
+console.log(myDefault());
+
+// import myDefault, { sum, sub as mySub } from "./functions";
+// import * as func from "./functions";
 
 class Testing {
   constructor() {
