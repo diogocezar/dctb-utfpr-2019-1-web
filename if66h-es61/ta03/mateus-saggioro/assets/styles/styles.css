@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    font-size: 14px;
+    background-color: #F2F2F2;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 20px 120px;
+    width: 100%;
+    text-align: center;    
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#header h1{
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#header h2{
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+#header p{
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+    color: rgb(0, 0, 0);
+}
+
+#header a{
+    text-decoration: none;
+}
+
+#header a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+#products{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin: 50px 0;
+    
+}
+@media only screen and (max-width: 768px){
+    #products{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.boxProduct{
+    text-align: center;
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 2em;
+    padding: 30px;
+}
+
+.boxProduct h2{
+    font-weight: 600;
+    font-size: 1.7em;
+    margin-bottom: 1em;
+}
+
+.boxProduct h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+.boxProduct p{
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+
+#price{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+button{
+    cursor: pointer;
+    width: 50%;
+    height: 90%;
+    line-height: 40px;
+    font-size: 1em;
+    font-weight: 500;
+    border: 2px solid #000000;
+}
+button:hover{
+    background-color: #ffffff;
+}
+
+img{
+    width: 100%;
+}
