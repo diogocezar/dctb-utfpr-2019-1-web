@@ -1,0 +1,124 @@
+:root {
+  font-size: 100%;
+  text-size-adjust: 100%;
+  width: 100%;
+}
+
+* {
+  font-weight: 100;
+  font-size: calc(1rem * (12.6/16));
+  color: #333;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body{
+	background-color: rgba(0, 0, 0, 0.05);
+	font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  margin-bottom: calc(1rem * (5/16));
+  line-height: calc(1rem * (17/16));
+}
+
+a {
+  color: #000;
+}
+
+h1 {
+  font-size: calc(1rem * (42/16));
+  margin: calc(1rem * (7/16)) 0 calc(1rem * (15/16));
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: calc(1rem * (28/16));
+  margin: calc(1rem * (10/16)) 0 calc(1rem * (8/16));
+}
+
+h4 {
+  font-size: calc(1rem * (16.8/16));
+  margin: calc(1rem * (10/16)) 0;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+img {
+  width: 100%;
+  margin-bottom: calc(1rem * (28/16));
+}
+
+button {
+  width: 100%;
+  height: calc(1rem * (50/16));
+  font-size: calc(1rem * (20/16));
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #000;
+  padding: calc(1rem * (6/16)) calc(1rem * (20/16));
+  text-align: center;
+  background: transparent;
+  border-color: #000;
+  border-radius: 1px;
+}
+
+#configs {
+  text-align: center;
+  width: 100%;
+  padding: 1.95% 12.38%;
+  margin-bottom: 60px;
+  background: #fff;
+}
+
+#description {
+  height: calc(1rem * (133/16));
+  margin: calc(1rem * (20/16)) 0 0;
+}
+
+#description h2 {
+  margin: calc(1rem * (18/16)) 0 calc(1rem * (8/16));
+}
+
+#products {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 100%;
+  padding: 0 6.75%;
+}
+
+#products h2 {
+  font-size: calc(1rem * (23.8/16));
+  margin: calc(1rem * (10/16)) 0 calc(1rem * (23.8/16));
+  font-weight: 600;
+}
+
+#products #price {
+  text-align: center;
+  font-size: calc(1rem * (35/16));
+  margin: calc(1rem * (15/16)) 0 calc(1rem * (20/16));
+  font-weight: 600;
+}
+
+.v-true,
+.v-false {
+  width: 31.75%;
+  padding: calc(1rem * (30/16));
+  margin-bottom: calc(1rem * (28/16));
+  background: #fff;
+}
+
+.v-false {
+  order: 10;
+  opacity: 0.3;
+}
