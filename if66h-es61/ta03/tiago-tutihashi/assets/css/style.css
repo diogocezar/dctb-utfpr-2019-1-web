@@ -1,0 +1,61 @@
+img {
+
+    width: 90%;
+    height: auto;
+
+}
+
+body{
+
+    font-family: 'Playfair Display', serif;
+    background-color: lightcyan;
+
+}
+
+#beg{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+#beg h1{
+
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3rem;
+
+}
+
+#products{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 1rem 1rem 0 1rem;
+}
+
+.product{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    height: 40%;
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid black;
+
+}
+
+.product h1{
+
+    font-family: 'Permanent Marker', cursive;
+
+}
+
+.sold{
+
+    background-color: lightcoral;
+
+}
