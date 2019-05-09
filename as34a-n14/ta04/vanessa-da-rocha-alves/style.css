@@ -1,0 +1,21 @@
+.bg{ 
+	background-image: url(./image/background.svg);
+	width: 460px;
+  	height: 460px;
+  	opacity:0.3;
+}
+
+polygon{
+	fill: gray;
+	stroke: purple;
+	stroke-width: 4;
+}
+
+.img-size {
+	width: 150px;
+	height: 150px;
+}
+
+.hover:hover {
+	fill:pink;
+}
