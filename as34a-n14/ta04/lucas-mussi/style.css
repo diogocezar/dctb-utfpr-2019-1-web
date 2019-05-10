@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Comic Sans Ms', sans-serif;
+  outline: none !important;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: url('Flat-Mountains.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+section {
+  width: 100%;
+  padding: 2rem;
+}
+
+section header {
+  width: 100%;
+  height: 250px;
+  font-size: 32px;
+  padding: 2.5rem;
+  text-align: center;
+}
+
+section header h1 {
+  margin-bottom: 50px;
+}
+
+.insertions {
+  left: 50%;
+  transform: translate(-50%) none !important;
+}
+
+.forms {
+  display: flex;
+  justify-content: center;
+  padding: 2.5rem;
+}
+
+.form-item {
+  width: 500px;
+  height: 500px;
+  box-sizing: content-box;
+  outline: none !important;
+  position: relative;
+  flex-wrap: wrap;
+  margin: 1.5rem;
+}
+
+.form-item h2 {
+  margin-bottom: 1.5rem;
+}
