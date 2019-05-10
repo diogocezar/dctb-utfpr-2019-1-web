@@ -1,0 +1,77 @@
+body{
+    margin: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+svg {
+    width: 200px;
+}
+.container  {
+    margin: 20px 50px 20px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.forms {
+    margin: 50px 20px 50px 20px;
+}
+.bg {
+    width: 160px;
+    height: 160px;
+    background-image: url(./assets/captain.svg);
+}
+.int {
+    stroke:#505050;
+    stroke-width:20;
+    stroke-linecap:round
+}
+.ext {
+    stroke:#303030;
+    stroke-width:25;
+    stroke-linecap:round
+}
+.str {
+    stroke:#0099FF;
+    stroke-width:30;
+    fill: none;
+}
+
+#chip:hover .str {
+    stroke: lightgray;
+    fill: #303030;
+}
+#chip:hover .int {
+    stroke: #0099FF;
+}
+#chip:hover .ext {
+    stroke: #505050;
+}
+
+rect {
+    fill: #FF2B00;
+    stroke: black;
+    stroke-width: 5;
+    stroke-linecap: round;   
+}
+circle {
+    
+    fill: blueviolet;
+    stroke: darkgreen;
+    stroke-width: 3;
+    stroke-linecap: butt;   
+}
+line {
+    stroke: chartreuse;
+    stroke-width: 4;
+    stroke-linecap: square;
+}
+polyline {
+    fill: hotpink;
+    stroke: saddlebrown;
+    stroke-width: 3;
+    stroke-linecap: initial;   
+}
