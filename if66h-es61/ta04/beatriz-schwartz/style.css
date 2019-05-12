@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+
+body {
+    font-family: 'Staatliches', cursive;
+}
+
+.background {
+    width: 100%;
+    height: 1300px;
+    background-image: url(panda-bear.svg);
+    background-size: 100px 100px;
+}
+
+.layer {
+    background-color: rgba(102, 103, 138, 0.966);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.container {
+    width: 700px;
+    height: 200px;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-content {
+    justify-content: space-around;
+}
+
+
+h2 {
+    font-size: 3rem;
+    color: rgb(44, 39, 73);
+    padding: 2%;
+
+}
+
+h3 {
+    font-size: 2rem;
+    color: rgb(44, 39, 73);
+    padding: 1%;
+}
+
+#inline-svg {
+    width: 200px;
+    height: 200px;
+
+}
+
+.retangulo{
+    fill:rgb(41, 177, 29);
+}
+
+.circulo{
+    fill:#00008B;
+}
+
+
+.poligono{
+    fill: rgb(255, 0, 179);
+    stroke: #fbff00;
+}
+
+.c1 {
+    fill: #43B05C;
+
+}
+
+.c2 {
+    fill: rgb(216, 87, 173);
+}
+
+.c3 {
+    fill: #57D8AB;
+}
+
+.c4 {
+    fill: #D75A4A;
+}
+
+.c5 {
+    fill: #EBBA16;
+}
+
+
+.c6 {
+    fill:#4B6DAA;
+}
+
+
+#inline-svg:hover .c1 {
+    fill: rgb(66, 78, 240)
+}
+
+#inline-svg:hover .c2 {
+    fill: rgb(11, 11, 70)
+}
+
+#inline-svg:hover .c3 {
+    
+    fill: rgb(75, 66, 160)
+}
+
+#inline-svg:hover .c4 {
+    fill: rgb(13, 51, 87)
+}
+
+#inline-svg:hover .c5{
+    fill: rgb(57, 18, 197)
+}
+
+#inline-svg:hover .c6 {
+    fill: rgb(241, 255, 52)
+}
+
+
+#img-panda:hover {
+
+    filter:
+        sepia(1) hue-rotate(300deg) saturate(2) brightness(1);
+
+}
+
+
+#img-panda {
+    width: 200px;
+    height: 200px;
+
+
+}
+
+#titulo {
+
+    font-size: 4rem;
+    font-family: 'Staatliches', cursive;
+    word-spacing: 0.7rem;
+    color: rgb(184, 173, 247);
+    margin: 0;
+    text-align: center;
+    padding-top: 3.5rem;
+
+}
+
+@media only screen and (max-width : 1180px) {
+
+    .background{
+        height: 1050px;
+    }
+
+    h2{
+        font-size: 2rem;
+    }
+
+    #titulo{
+        font-size: 3rem;
+    }
+
+    #img-panda {
+        width: 100px;
+        height: 100px;
+    }
+
+    #inline-svg {
+        width: 100px;
+        height: 100px;
+    }
+
+    .container {
+        width: 400px;
+        height: 100px;
+        padding-top: 3%;
+        padding-bottom: 5%;
+    }
+
+}
