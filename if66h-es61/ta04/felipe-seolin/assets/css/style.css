@@ -73,6 +73,15 @@ section div {
     margin: 32px 0; 
 }
 
+
+#pizza:hover #body {
+    fill: #ffe791;
+}
+
+#pizza:hover #border {
+    fill: #826500;
+}
+
 footer {
     background-color: black;
     margin: 0;
