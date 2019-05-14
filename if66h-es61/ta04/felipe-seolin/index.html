@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SVG examples</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- My styles -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <header class="text-center">
+        <div class="container text-wrap">
+            <h1>Exemplos de uso de SVGs</h1>
+            <p>
+                Scalable Vector Graphics (SVG) é uma linguagem de marcação XML para descrever gráficos vetoriais
+                bidimensionais. Essencialmente, SVG é para gráficos o que o XHTML é para texto.
+            </p>
+            <p>
+                SVG é similar em escopo à tecnologia Flash, propriedade da Adobe, mas se distingue por ser uma
+                recomendação
+                da W3C, ou seja, um padrão, e por ser baseado em XML e não em um formato binário fechado. O SVG foi
+                criado
+                para funcionar com outros padrões da W3C, tais como CSS, DOM e SMIL.
+            </p>
+            <p>- Informações de
+                <a href="https://developer.mozilla.org/pt-BR/docs/Learn" target="_blank" rel="noopener noreferrer">
+                    MDN web docs
+                </a>
+            </p>
+
+            <h2>
+                <a href="https://docs.google.com/presentation/d/1bjTnuvuwuj-mR_zmnSGQIw0944Xg8P5YPo_Pja6Uo9E/edit#slide=id.g3639389ba3_0_0"
+                    target="_blank" rel="noopener noreferrer">
+                    Aprenda mais sobre SVG
+                </a>
+            </h2>
+        </div>
+    </header>
+
+    <nav class="text-center container">
+        <a href="#examples-image">Imagens </a> |
+        <a href="#examples-inline"> Inline</a> |
+        <a href="#examples-shapes"> Formas</a>
+    </nav>
+
+    <section id="examples-image" class="text-center">
+        <!-- IMG -->
+        <div class="section-title">
+            <h2>SVG como imagem</h2>
+            <p class="description">Inserção de SVG como se fosse uma imagem</p>
+        </div>
+        <!-- Tag IMG -->
+        <h3>Tag img</h3>
+        <img src="./assets/img/coffe.svg" alt="I love coffe" class="image" />
+        <div class="container">
+            <p data-height="350" width="200px" data-theme-id="0" data-slug-hash="dEbJjN" data-default-tab="html,result"
+                data-user="felipeseolin" data-embed-version="1" class="codepen">
+                See the Pen
+                <a href="http://codepen.io">CodePen</a>.</p>
+        </div>
+        <!-- Tag embed -->
+        <h3>Tag embed</h3>
+        <embed type="image/svg+xml" src="./assets/img/coffe.svg" class="image" />
+        <div class="container">
+            <p data-height="350" width="200px" data-theme-id="0" data-slug-hash="GaKeaq" data-default-tab="html,result"
+                data-user="felipeseolin" data-embed-version="1" class="codepen">
+                See the Pen
+                <a href="http://codepen.io">CodePen</a>.</p>
+        </div>
+        <!-- Tab Object -->
+        <h3>Tag object</h3>
+        <object type="image/svg+xml" data="./assets/img/coffe.svg" class="image"></object>
+        <div class="container">
+            <p data-height="350" width="200px" data-theme-id="0" data-slug-hash="oRvOvN" data-default-tab="html,result"
+                data-user="felipeseolin" data-embed-version="1" class="codepen">
+                See the Pen
+                <a href="http://codepen.io">CodePen</a>.</p>
+        </div>
+        <!-- Tag iFrame -->
+        <h3>Tag iframe</h3>
+        <iframe width="ll" height="150px" src="./assets/img/coffe.svg"></iframe>
+        <div class="container">
+            <p data-height="350" width="200px" data-theme-id="0" data-slug-hash="YbKMzy" data-default-tab="html,result"
+                data-user="felipeseolin" data-embed-version="1" class="codepen">
+                See the Pen
+                <a href="http://codepen.io">CodePen</a>.</p>
+        </div>
+        <!-- Background -->
+        <h3>SVG como background</h3>
+        <div class="container svg-background">
+            <p>uma inserção de SVG como background;</p>
+        </div>
+        <div class="container">
+            <p data-height="350" width="200px" data-theme-id="0" data-slug-hash="joNREZ" data-default-tab="css,result"
+                data-user="felipeseolin" data-embed-version="1" class="codepen">
+                See the Pen
+                <a href="http://codepen.io">CodePen</a>.</p>
+        </div>
+    </section>
+
+    <section id="examples-inline" class="text-center">
+        <div class="section-title">
+            <h3>SVG inline</h3>
+        </div>
+        <!-- Inline -->
+        <h3>Inserção de SVG com o código inline</h3>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <path d="M426.8 64H85.2C73.5 64 64 73.5 64 85.2v341.6c0 11.7 9.5 21.2 21.2 21.2H256V296h-45.9v-56H256v-41.4c0-49.6 
+                34.4-76.6 78.7-76.6 21.2 0 44 1.6 49.3 2.3v51.8h-35.3c-24.1 0-28.7 11.4-28.7 28.2V240h57.4l-7.5 56H320v152h106.8c11.7 
+                0 21.2-9.5 21.2-21.2V85.2c0-11.7-9.5-21.2-21.2-21.2z" />
+        </svg>
+        <div class="container">
+            <p data-height="350" width="200px" data-theme-id="0" data-slug-hash="yWBWRO" data-default-tab="html,result"
+                data-user="felipeseolin" data-embed-version="1" class="codepen">
+                See the Pen
+                <a href="http://codepen.io">CodePen</a>.</p>
+        </div>
+        <!-- Hover fill -->
+        <h3>SVG inline e fill on hover</h3>
+        <p>Com a propriedade fill do CSS podemos mudar a cor de um SVG</p>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <path class="hover" d="M426.8 64H85.2C73.5 64 64 73.5 64 85.2v341.6c0 11.7 9.5 21.2 21.2 21.2H256V296h-45.9v-56H256v-41.4c0-49.6 
+                34.4-76.6 78.7-76.6 21.2 0 44 1.6 49.3 2.3v51.8h-35.3c-24.1 0-28.7 11.4-28.7 28.2V240h57.4l-7.5 56H320v152h106.8c11.7 
+                0 21.2-9.5 21.2-21.2V85.2c0-11.7-9.5-21.2-21.2-21.2z" />
+        </svg>
+        <div class="container">
+            <p data-height="350" width="200px" data-theme-id="0" data-slug-hash="NVKVQq" data-default-tab="css,result"
+                data-user="felipeseolin" data-embed-version="1" class="codepen">
+                See the Pen
+                <a href="http://codepen.io">CodePen</a>.</p>
+        </div>
+        <!-- Hover fill part of -->
+        <h3>SVG inline e parte fill on hover</h3>
+        <p>Também podemos mudar só parte do SVG</p>
+        <svg id="fill-part" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="hover">
+            <rect width="500" height="500" />
+            <path id="battery" d="M338.2 76.8h-37.4V32h-89.6v44.8h-37.4c-16.4 0-29.8 13.4-29.8 29.8V450c0 16.6 13.4 30 29.8 30H338c16.6 0 30-13.4
+                 30-29.8V106.6c0-16.4-13.4-29.8-29.8-29.8zM233.6 435.2V312h-44.8l89.6-168v123.2h44.8l-89.6 168z" />
+            />
+        </svg>
+        <div class="container">
+            <p data-height="350" width="200px" data-theme-id="0" data-slug-hash="oRvrem" data-default-tab="css,result"
+                data-user="felipeseolin" data-embed-version="1" class="codepen">
+                See the Pen
+                <a href="http://codepen.io">CodePen</a>.</p>
+        </div>
+        <!-- Filter -->
+        <h3>SVG inline e filter on hover</h3>
+        <p>Aplicação de um filtro em um ícone SVG</p>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <defs>
+                <filter id="filter" x="-20%" y="-20%" width="140%" height="140%" filterUnits="objectBoundingBox"
+                    primitiveUnits="userSpaceOnUse" color-interpolation-filters="linearRGB">
+                    <feColorMatrix type="matrix" values="1 0 1 1 1 1 0 1 0 1 1 0 1 0 0 0 1 1 500 -20" x="0%" y="0%"
+                        width="100%" height="100%" in="SourceGraphic" result="colormatrix1" />
+                </filter>
+            </defs>
+            <path class="svg-filter" d="M426.8 64H85.2C73.5 64 64 73.5 64 85.2v341.6c0 11.7 9.5 21.2 21.2 21.2H256V296h-45.9v-56H256v-41.4c0-49.6 
+                34.4-76.6 78.7-76.6 21.2 0 44 1.6 49.3 2.3v51.8h-35.3c-24.1 0-28.7 11.4-28.7 28.2V240h57.4l-7.5 56H320v152h106.8c11.7 
+                0 21.2-9.5 21.2-21.2V85.2c0-11.7-9.5-21.2-21.2-21.2z" />
+        </svg>
+        <div class="container">
+            <p data-height="350" width="200px" data-theme-id="0" data-slug-hash="mYbZVY" data-default-tab="html,result"
+                data-user="felipeseolin" data-embed-version="1" class="codepen">
+                See the Pen
+                <a href="http://codepen.io">CodePen</a>.</p>
+        </div>
+
+         <!-- Retangulo -->
+         <h3>Outro exemplo</h3>
+         <svg id="pizza" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+             <path id="body"
+                 d="M407.2 130.4C360.7 111.5 309.8 102 256 102c-53.9 0-108.3 10.3-151.2 28-8.1 3.3-15.3 9-10.1 19.5S255.9 480 255.9 480l161-329.9c3.2-6.9.9-15.4-9.7-19.7zm-221 73.6c-18.7 0-32-14.3-32-32s13.3-32 32-32 32 14.3 32 32-13.3 32-32 32zM256 347c-18.7 0-32-14.3-32-32s13.3-32 32-32 32 14.3 32 32-13.3 32-32 32zm69.8-123c-18.7 0-32-14.3-32-32s13.3-32 32-32 32 14.3 32 32-13.3 32-32 32z" />
+             <path id="border"
+                 d="M436.9 66C384.7 45.4 320.3 32 256 32c-64.3 0-127.6 12.1-180.9 33.4C70.4 67.3 64 71 64 79.2l9.7 24.1c2.8 4.9 8.7 8.2 15.1 8.2 1.8 0 4.3-.3 7.3-1.5 49-18.9 103.1-29.6 160-29.6 56.9 0 115.2 11.6 160 29.6 3.6 1.4 5.6 1.5 7.3 1.5 6.6 0 12.2-3.3 15-8.1l9.8-24.1c-.2-7.3-5-10.8-11.3-13.3z" />
+         </svg>
+         <div class="container">
+             <p data-height="350" width="200px" data-theme-id="0" data-slug-hash="NVRKBr" data-default-tab="css,result"
+                 data-user="felipeseolin" data-embed-version="1" class="codepen">
+                 See the Pen
+                 <a href="http://codepen.io">CodePen</a>.</p>
+         </div>
+    </section>
+
+    <section id="examples-shapes" class="text-center">
+        <!-- Seção -->
+        <div class="section-title">
+            <h2>Criação de formas usando SVG</h2>
+        </div>
+        <!-- Retangulo -->
+        <h3>um retângulo, feito com SVG</h3>
+        <svg>
+            <rect x="50" y="0" width="300" height="100" style="fill: #000000;" />
+        </svg>
+        <div class="container">
+            <p data-height="350" width="200px" data-theme-id="0" data-slug-hash="bybJxK" data-default-tab="html,result"
+                data-user="felipeseolin" data-embed-version="1" class="codepen">
+                See the Pen
+                <a href="http://codepen.io">CodePen</a>.</p>
+        </div>
+        <!-- Círculo -->
+        <h3>um círculo, feito com SVG</h3>
+        <svg>
+            <circle cx="70" cy="70" r="40" />
+        </svg>
+        <div class="container">
+            <p data-height="350" width="200px" data-theme-id="0" data-slug-hash="JqPVeX" data-default-tab="html,result"
+                data-user="felipeseolin" data-embed-version="1" class="codepen">
+                See the Pen
+                <a href="http://codepen.io">CodePen</a>.</p>
+        </div>
+        <!-- Linha -->
+        <h3>uma linha, feita com SVG</h3>
+        <svg>
+            <line x1="95" y1="50" x2="10" y2="10" stroke="#000000" stroke-width="2" />
+        </svg>
+        <div class="container">
+            <p data-height="350" width="200px" data-theme-id="0" data-slug-hash="YbKojK" data-default-tab="html,result"
+                data-user="felipeseolin" data-embed-version="1" class="codepen">
+                See the Pen
+                <a href="http://codepen.io">CodePen</a>.</p>
+        </div>
+        <h4>Várias linhas</h4>
+        <svg>
+            <polyline points="50,60 90,80 30,20 10" fill="transparent" stroke="#000" stroke-width="4" />
+        </svg>
+        <div class="container">
+            <p data-height="350" width="200px" data-theme-id="0" data-slug-hash="wbwLxo" data-default-tab="html,result"
+                data-user="felipeseolin" data-embed-version="1" class="codepen">
+                See the Pen
+                <a href="http://codepen.io">CodePen</a>.</p>
+        </div>
+        <!-- Polígono -->
+        <h3>Polígono</h3>
+        <svg>
+            <polygon class="triangle" points="0,0 0,200 200,200" />
+        </svg>
+        <div class="container">
+            <p data-height="350" width="200px" data-theme-id="0" data-slug-hash="WBeqgj " data-default-tab="html,result"
+                data-user="felipeseolin" data-embed-version="1" class="codepen">
+                See the Pen
+                <a href="http://codepen.io">CodePen</a>.</p>
+        </div>
+    </section>
+
+    <footer class="text-center text-light page-footer">
+        <h4>UTFPR - Universidade Tecnológica Federal do Paraná</h4>
+        <p>Aluno: Felipe Seolin Bento</p>
+        <p>Disciplina: Programação Web 1</p>
+        <p>Curso: Engenharia de Software</p>
+        <p>Saved images from <a href="https://pixabay.com">Pixabay</a> &copy;</p>
+        <p>Icons from <a href="https://ionicons.com/">Ionicons</a> &copy;</p>
+    </footer>
+
+    <!-- Bootstrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <!-- CodePen -->
+    <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+    <script async src="http://assets.codepen.io/assets/embed/ei.js"></script>
+
+</body>
+
+</html>

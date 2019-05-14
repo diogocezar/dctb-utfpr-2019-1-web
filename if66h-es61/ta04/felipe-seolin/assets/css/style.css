@@ -1,0 +1,102 @@
+a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: gray;
+    border-color: gray;
+}
+
+header {
+    background-color:black;
+    color: white;
+    padding: 52px;
+}
+
+header a {
+    color: white;
+}
+
+nav {
+    padding: 16px;
+    font-size: 25px;
+}
+
+svg {
+    max-height: 120px;
+}
+
+#battery {
+    fill: white;
+}
+
+.image {
+    height: 150px;
+}
+
+.svg-background {
+    height: 200px;
+    background-image: url("../img/zombie.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hover {
+    fill: black;
+}
+
+.hover:hover {
+    fill: #4267B2;
+}
+
+.svg-filter:hover {
+    filter: url(#filter);
+}
+
+.triangle {
+    fill: blueviolet;
+    stroke: black;
+    stroke-width: 3px;
+}
+
+.section-title {
+    background-color: black;
+    color: white;
+    margin: 20px 0;
+    padding: 40px 0;
+}
+
+section div {
+    margin: 32px 0; 
+}
+
+
+#pizza:hover #body {
+    fill: #ffe791;
+}
+
+#pizza:hover #border {
+    fill: #826500;
+}
+
+footer {
+    background-color: black;
+    margin: 0;
+}
+
+footer p{
+    margin: 4px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer * {
+    margin: 0;
+    padding: 0;
+}
