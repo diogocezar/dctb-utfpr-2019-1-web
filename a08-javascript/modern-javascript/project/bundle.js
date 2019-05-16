@@ -80,14 +80,16 @@ teste(10); // E por que não usar o var?
 
 var arr = [1, 3, 4, 5, 8, 9]; // MAP -> percorrer o vetor e retornar uma nova informação
 
-var newArr = arr.map(function (item, index) {
+var arr = arr.map((item, index) => {
   return item * 2 + index;
 });
-console.log(newArr); // REDUCE -> reduzir todo o vetor em um único valor
 
-var sum = arr.reduce(function (total, next) {
+console.log(arr); // REDUCE -> reduzir todo o vetor em um único valor
+
+var sum = arr.reduce((total, next) => {
   return total + next;
 });
+
 console.log(sum); // FILTER -> filtra os valores e retorna apenas estes
 
 var filter = arr.filter(function (item) {
@@ -96,9 +98,10 @@ var filter = arr.filter(function (item) {
 console.log(filter); // FIND -> verifica se existe alguma informação no array
 
 var find = arr.find(function (item) {
-  return item === 4;
+  return item === 8;
 });
 console.log(find);
+
 /**
  * ARROW FUNCTIONS
  */

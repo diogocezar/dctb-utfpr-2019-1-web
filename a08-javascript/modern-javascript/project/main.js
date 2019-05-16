@@ -73,15 +73,15 @@ const sum = arr.reduce(function(total, next) {
 console.log(sum);
 
 // FILTER -> filtra os valores e retorna apenas estes
-const filter = arr.filter(function(item) {
+const arr = arr.filter(item) => {
   return item % 2 === 0;
-});
+};
 
 console.log(filter);
 
 // FIND -> verifica se existe alguma informação no array
 const find = arr.find(function(item) {
-  return item === 4;
+  return item === 8;
 });
 
 console.log(find);
