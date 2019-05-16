@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background-color:purple;
+    color:white;
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 35px;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.background{
+    background-image: url(./star.svg);
+    background-repeat: space;   
+    background-size: 100px 100px;
+}
+
+flex{
+    display: flex;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+justify-around{
+    justify-content: space-around;
+}
+
+justify-center{
+    justify-content: center;
+}
+
+align-center{
+    align-items: center;
+}
+
+#img-jupiter{
+    width: 250px;
+}
+
+#retangulo{
+    fill: blueviolet;
+}
+
+#circulo{
+    fill: gold;
+}
+
+
+#poligono{
+    fill: aqua;
+    stroke: darkcyan;
+}
+
+#o1:hover{
+    fill:white;
+}
+
+#inline-svg:hover .v1{
+    fill:brown;
+}
+
+
+#inline-svg:hover .v2{
+    fill:yellowgreen;
+}
+
+#inline-svg:hover .v3{
+    fill: blueviolet;
+}
+
+#inline-svg:hover .v4{
+    fill: yellowgreen;
+}
+#inline-svg:hover .v5{
+    fill: yellowgreen;
+}
+
+#inline-svg:hover .v6{
+    fill: yellowgreen;
+}
+#inline-svg:hover .v7{
+    fill: yellowgreen;
+}
+#inline-svg:hover .v8{
+    fill: yellowgreen;
+}
+
+#inline-svg:hover .v9{
+    fill: brown;
+}
+#inline-svg:hover .v3{
+    fill: blueviolet;
+}
