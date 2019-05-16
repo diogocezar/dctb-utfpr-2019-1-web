@@ -1,0 +1,13 @@
+.icon{ 
+    width: 900px;
+    height: 900px;
+    background-image: url(just_logo.svg); 
+}
+.poli{
+    fill: #ff0;
+    stroke: red;
+    stroke-width: 4px;
+}
+.polihover:hover{
+    fill: red;
+}
