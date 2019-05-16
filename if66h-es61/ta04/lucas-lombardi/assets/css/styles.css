@@ -1,0 +1,20 @@
+.svg-bg {
+    background-image: url(/assets/images/geovanna-logo-loader.svg);
+    width: 100px;
+    height: 100px;
+}
+
+.polygon {
+    fill: grey;
+    stroke: yellow;
+    stroke-width: 6;
+}
+
+#Layer_1{
+    widows: 100px;
+    height: 100px;
+}
+
+#Layer_1:hover{
+    fill: yellow;
+}
