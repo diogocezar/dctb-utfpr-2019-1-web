@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>TA04</title>
+</head>
+<body>
+    <h1>Formas geometricas em svg</h1>
+    <div id="itens">
+        <h3>Retangulo</h3>
+        <svg width="300px" height="100px">
+            <rect width="100px" height="50px" stroke-width="3px" fill="white" stroke="red"></rect>
+        </svg>
+
+        <h3>Circulo</h3>
+        <svg width="300px" height="100px">
+            <circle cx="50px" cy="50px" r="40px" stroke-width="3px" fill="white" stroke="red"></circle>
+        </svg>
+
+        <h3>Linha</h3>
+        <svg width="300px" height="100px">
+            <line x1="0" y1="0" x2="100" y2="100" stroke-width="3px" fill="white" stroke="red"></line>
+        </svg>
+
+        <h3>Poligono</h3>
+        <svg height="100px" width="100px">
+            <polygon points="48,24 72,24 96,72 24,72" />
+        </svg>
+    </div>
+    <h1>Imagem SVG, passe o mouse em cima!</h1>
+    <div id="cGeral">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 -40 80 80" >
+            <circle r="39"/>
+            <path d="M0,38a38,38 0 0 1 0,-76a19,19 0 0 1 0,38a19,19 0 0 0 0,38" fill="#fff"/>
+            <circle cy="19" r="5" fill="#fff" id="cPrimeiro"/>
+            <circle cy="-19" r="5" id="cSegundo"/>
+        </svg>
+    </div>
+</body>
+</html>
