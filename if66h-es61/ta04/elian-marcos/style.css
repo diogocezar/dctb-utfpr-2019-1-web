@@ -1,0 +1,136 @@
+body{
+    height: 600px;
+    width: 1250px;
+    
+    font-family: 'Montserrat', sans-serif;
+	background-color: darkgrey;
+	font-size: 1em;
+    color: white;
+}
+
+@font-face{
+    font-family: 'TrajanPro';
+    src: url('/home/elian/Programação_Web/ProgramacaoWeb/T01/imagens/TrajanPro-Regular.eot');
+    src: url('/home/elian/Programação_Web/ProgramacaoWeb/T01/imagens/TrajanPro-Regular.eot') format('embedded-opentype'),
+        url('/home/elian/Programação_Web/ProgramacaoWeb/T01/imagens/TrajanPro-Regular.woff') format('woff'),
+        url('/home/elian/Programação_Web/ProgramacaoWeb/T01/imagens/TrajanPro-Regular.ttf') format('truetype'),
+        url('/home/elian/Programação_Web/ProgramacaoWeb/T01/imagens/TrajanPro-Regular.otf') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#menu ul {
+    padding:0px;
+    margin:0px;
+    background-color: #22223b;
+    list-style:none;
+    position: fixed;
+}
+
+
+.row{
+    flex-direction: row;
+}
+
+.column{
+    flex-direction: column;
+}
+.wrap {
+	flex-wrap: wrap;
+}
+
+.space-between {
+	justify-content: space-between;
+}
+.flex-end {
+	align-items: flex-end;
+}
+
+.center {
+	align-items: center;
+}
+
+/*--------------------------------MENU--------------------------------------------*/
+#menu ul li { 
+    display: inline; 
+}
+
+#menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+
+    font-family: "TrajanPro";
+    font-size: 1.2em;
+    background-color:#22223b;
+    color: white;
+    text-decoration: none;
+  
+}
+
+#menu ul li a:hover {
+    background-color: #22223b;
+    color: white;
+    border-bottom:1.5px solid #4a4e69;
+}
+
+
+.container1 {
+    display: flex;
+    width: 99vw;
+    height: 70px;
+    position: absolute;
+    background: #22223b;
+    margin-top: -8px;
+    margin-left: -10px;
+    position: fixed;
+}
+
+.item1{
+    flex: 1;
+    text-align: center;
+    padding: 4vw;
+}
+
+/*-------------------------------------------------------------------------------------*/
+
+
+
+
+.container{
+    height: 80vw;
+    width: 97vw;
+    display: flex;
+    
+}
+
+.item{
+    flex: 1;
+    
+}
+
+.item2{
+    flex: 1;
+    margin-left: 550px;
+    font-family: "TrajanPro";
+    font-size: 1.2em;
+    
+    color: #22223b;
+    border: 2px solid #22223b;
+}
+
+.homer{
+    width: 35vw;
+    height: 35vw;
+    margin-left: 30vw;
+    margin-top: 150px;
+    position: absolute;
+}
+.donuts{
+    background-image: url('donuts.svg');
+    width: 98vw;
+    height: 50vw;
+   
+    margin-left: 0;
+}
+
