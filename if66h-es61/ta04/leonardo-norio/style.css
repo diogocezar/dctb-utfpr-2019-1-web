@@ -1,0 +1,63 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+section{
+    width: 100%;   
+}
+
+.back{
+    background-color: gray; 
+    background-image: url(./assets/wolf-blue.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: calc(100vw/2);
+}
+img{
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#pic{
+    width: 100%;
+}
+
+#wolf-sec{
+    background-color: #1a237e;
+}
+
+.moon,#wolf{
+    display: none;
+}
+
+
+
+#pic:hover .moon {
+    display: block;
+}
+
+#pic:hover #wolf {
+    display: block;
+}
+
+#wolf:hover{
+    fill: black; 
+}
+
+#forms{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+
+#forms div{
+    background-color: rgba(0, 0, 0, 0.05);
+    text-align: center;
+    margin-top: 5%; 
+    margin-right: 5%;
+}
