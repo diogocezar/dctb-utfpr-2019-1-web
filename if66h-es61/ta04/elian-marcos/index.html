@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" type="text/css" rel="stylesheet"/>
+    <title>SVG</title>
+</head>
+<body>
+    <section class="container1 space-between center">
+        <nav id="menu">
+            <ul >
+                    <li class="item1"><a href="#home">Home</a></li>
+                    <li class="item1"><a href="#rect">Retângulo</a></li>
+                    <li class="item1"><a href="#circle">Círculo</a></li>
+                    <li class="item1"><a href="#line">Linha</a></li>
+                    <li class="item1"><a href="#polygon">Polígono</a></li>
+                    <li class="item1"><a href="#">Inline</a></li>
+            </ul>
+        </nav>
+    </section>
+    <section id="home" class="container row wrap space-between">
+        <section class="item">
+            
+            <img class="homer" src="homer.svg" alt="Homer"/>
+            <div class="donuts"></div>
+        </section>  
+
+        <section>
+            
+                <p class="item2" id="rect">RETÂNGULO FEITO COM SVG</p>
+                <svg class="item2">
+                    <rect x="50" y="20" width="65" height="65" fill="#EEE9E9"/>
+                </svg>
+
+                <p class="item2" id="circle">CÍRCULO FEITO COM SVG</p>
+                <svg class="item2" >
+                    <circle r="25" cx="150" cy="70" fill="#EEE9E9"/>
+                </svg >
+                <p class="item2" id="line">LINHA FEITA COM SVG</p>
+                <svg class="item2" >
+                    <line x1="10" y1="10" x2="100" y2="120" stroke="#EEE9E9" stroke-width="4" />
+                </svg>
+                <p class="item2" id="polygon">POLÍGONO FEITO COM SVG</p>
+                <svg class="item2" >
+                    <polygon points="50,5 100,5 125,30 125,80 100,105 50,105 25,80 25,30" fill="#EEE9E9" stroke="#8B7D6B" stroke-width="4" />
+                </svg>
+               
+
+              
+               
+        </section>
+            
+    </section>
+</body>
+</html>
+
+
