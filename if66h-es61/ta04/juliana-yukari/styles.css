@@ -1,0 +1,23 @@
+body{
+    background-image: url(geovanna-icon-heart.svg);
+    background-size: 150px;
+    background-color: #708090;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#img {
+    width: 150px;
+    height: 150px;
+}
+
+#img:hover {
+    filter:
+        sepia(3) saturate(2) brightness(1);
+}
+
+
