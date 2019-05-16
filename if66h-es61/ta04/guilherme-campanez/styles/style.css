@@ -1,0 +1,22 @@
+body{
+    width: 800px;
+    height: 800px;
+    background-image: url(../images/cool.svg);
+   
+}
+#imageOne{
+    width: 300 px;
+    height: 200px;    
+}
+
+.plgn{
+    fill: aqua;
+    stroke: black;
+    stroke-width: 5px;
+}
+.plgn:hover{
+    fill:red;
+    stroke: rgb(150, 65, 65);
+    stroke-width: 5px;
+}
+
