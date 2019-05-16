@@ -1,0 +1,46 @@
+div{
+    padding-bottom: 70px;
+}
+
+h2, h3{
+    margin: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+
+h3{
+    padding-top: 30px;
+}
+
+.container{
+    background-image: url(./images/bg-ring.svg);
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    height: 200px;
+}
+
+#inline {
+    height: 150px;
+    width: 150px;
+}
+
+.poligono{
+    fill: rgb(4, 0, 255, 0.2);
+    stroke-width: 3;
+    stroke: #000000;
+}
+
+.poligono:hover{
+    fill: rgb(4, 0, 255, 0.2);
+    stroke: #9e0000;
+}
+
+.retangulo:hover, .circulo:hover{
+    fill: rgb(4, 0, 255, 0.2);
+    stroke: #000000;
+}
+
+#inline path:hover{
+    fill: rgb(4, 0, 255, 0.2);
+}
