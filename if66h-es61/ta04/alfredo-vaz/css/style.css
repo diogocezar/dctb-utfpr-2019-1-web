@@ -1,0 +1,36 @@
+body {
+    background-image: url(../Repeating-Chevrons.svg);
+}
+
+body div svg polygon {
+    fill:lime;
+    stroke:purple;
+    stroke-width:4;
+}
+ 
+body h1{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#itens {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#cGeral {
+    padding-left: 43%;
+    width: 200px;
+    height: 200px;
+}
+
+#cGeral svg:hover{
+    transform: rotate(180deg);
+}
+
+
+
+
+
