@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <title>TA04 - SVG</title>
+</head>
+<body>
+    <id class="container">
+        <section>
+            <h2> SVG como se fosse uma imagem e inline </h2>
+            <img src="react.svg" alt="Logo" id="img"/>
+            <svg style="position: absolute; width: 0; height: 0; overflow: hidden" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <defs>
+                <symbol id="icon-home" viewBox="0 0 1024 1024">
+                    <title>home</title>
+                    <path class="path1" d="M512 96l-512 512 96 96 96-96v416h256v-192h128v192h256v-416l96 96 96-96-512-512zM512 512c-35.346 0-64-28.654-64-64s28.654-64 64-64c35.346 0 64 28.654 64 64s-28.654 64-64 64z"></path>
+                </symbol>
+                </defs>
+                </svg>
+                
+                <svg class="icon icon-home"><use xlink:href="#icon-home"></use></svg>
+        </section>
+        
+        <section>
+            <h2> Retângulo feito com SVG </h2>
+            <svg width="400" height="100">
+                <rect width="400" height="100" fill="pink"  class="hover"/>
+            </svg>
+        </section>
+        
+        <section>
+            <h2> Círculo feito com SVG </h2>
+            <svg width="100" height="100">
+                <circle cx="50" cy="50" r="40" fill="blue" />
+            </svg>
+        </section>
+    
+        <section>
+            <h2> Linha feito com SVG </h2>
+            <svg width="100" height="100">
+                <line x1="0" y1="0" x2="200" y2="200" style="stroke:rgb(255,0,0);stroke-width:2" />
+            </svg>
+        </section>
+    
+        <section>
+            <h2> Polígono feito com SVG </h2>
+            <svg width="250" height="150">
+                <polygon points="90,15 150,15 190,75 150,135 90,135 50,75" fill="orange" />
+            </svg>
+        </section>
+    </section>
+    
+</body>
+</html>
