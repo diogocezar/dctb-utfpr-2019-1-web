@@ -1,7 +1,8 @@
 import React from "react";
+import Clock from "./components/Clock";
 
 const App = () => {
-  return <h2>Meu primeiro APP</h2>;
+  return <Clock />;
 };
 
 export default App;
