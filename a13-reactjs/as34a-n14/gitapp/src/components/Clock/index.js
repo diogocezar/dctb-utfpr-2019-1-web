@@ -14,7 +14,7 @@ class Clock extends Component {
     this.updateTime();
   }
   render() {
-    return <h1 class="clock">{this.state.time}</h1>;
+    return <h1 className="clock">{this.state.time}</h1>;
   }
 }
 
