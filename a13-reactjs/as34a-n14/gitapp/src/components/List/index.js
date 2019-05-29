@@ -1,17 +1,24 @@
 import React, { Component } from "react";
 import api from "../../services/api";
 import Button from "../Button";
+import Input from "../Input";
+import "./styles.css";
 
 class List extends Component {
   state = {
-    repos: []
+    repos: [],
+    filter: "diogocezar"
   };
-  testButton = () => {
-    alert("Clicou!");
+  handleButtonClick = () => {
+    this.loadRepos();
   };
   loadRepos = async () => {
-    const returnedRepos = await api.get();
-    this.setState({ repos: returnedRepos.data });
+    const url = `${this.state.filter}/repos`;
+    const response = await api.get(url);
+    this.setState({ repos: response.data });
+  };
+  handleChangeInput = e => {
+    this.setState({ filter: e.target.value });
   };
   componentDidMount() {
     this.loadRepos();
@@ -19,24 +26,32 @@ class List extends Component {
   render() {
     return (
       <>
-        <h1>Lista de Repositórios</h1>
-        <Button onClick={this.testButton}>Filtrar</Button>
-        <ul>
-          {(this.state.repos &&
-            this.state.repos.map((item, index) => {
+        <h1 className="repos">Lista de Repositórios - {this.state.filter}</h1>
+        <div id="repos-filter">
+          <Input
+            message="Digite um usuário..."
+            onChange={this.handleChangeInput}
+          />
+          <Button onClick={this.handleButtonClick}>Filtrar</Button>
+        </div>
+        <div id="repos-list">
+          {(this.state.repos.length &&
+            this.state.repos.map((item, key) => {
               return (
-                <li key={index}>
+                <article key={key}>
+                  <strong>{item.name}</strong>
+                  <p>{item.description}</p>
                   <a
                     href={item.html_url}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {item.name}
+                    Acessar Repositório
                   </a>
-                </li>
+                </article>
               );
-            })) || <li>Carregando...</li>}
-        </ul>
+            })) || <p>Carregando...</p>}
+        </div>
       </>
     );
   }
