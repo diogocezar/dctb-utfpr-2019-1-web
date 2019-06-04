@@ -3,6 +3,7 @@ import api from "../../services/api";
 import Button from "../Button";
 import Input from "../Input";
 import "./styles.css";
+import { Link } from "react-router-dom";
 
 class List extends Component {
   state = {
@@ -38,13 +39,9 @@ class List extends Component {
                 <article key={key}>
                   <strong>{item.name}</strong>
                   <p>{item.description}</p>
-                  <a
-                    href={item.html_url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Acessar Repositório
-                  </a>
+                  <Link to={`/details/${this.state.filter}/${item.id}`}>
+                    Detalhes
+                  </Link>
                 </article>
               );
             })) || <p>Carregando...</p>}
