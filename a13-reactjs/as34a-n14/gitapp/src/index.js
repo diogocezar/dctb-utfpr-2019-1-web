@@ -1,4 +1,4 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Main from "./pages/Main";
-ReactDOM.render(<Main />, document.getElementById("root"));
+import Router from "./routes";
+ReactDOM.render(<Router />, document.getElementById("root"));
