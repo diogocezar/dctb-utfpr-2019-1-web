@@ -1,6 +1,5 @@
 const mongoose = require("mongoose");
-require("../models/Product");
-const Product = mongoose.model("Product");
+const Product = require("../models/Product");
 
 class ProductController {
   async index(req, res) {

@@ -11,8 +11,6 @@ mongoose.connect(
     useNewUrlParser: true
   }
 );
-require("./models/Product");
-const Product = mongoose.model("Product");
 
 app.use("/api", routes);
 app.listen(9999);
