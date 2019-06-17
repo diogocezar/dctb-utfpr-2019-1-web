@@ -1,0 +1,4 @@
+https://lucasmussi27.github.io/t02 -> acabou sendo feito apenas o deploy do frontend, as 
+informações de interesses, formação, idiomas, infos e repositórios estão armazenadas no backend 
+que será mostrado na aula de amanhã no experimento de integração entre front React e back 
+Express, mas a aplicação funciona sim, eu apenas entreguei a parte do front React.
