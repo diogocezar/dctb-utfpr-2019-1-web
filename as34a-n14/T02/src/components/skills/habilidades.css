@@ -1,0 +1,24 @@
+#flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill{
+    padding: 3px 10px;
+    background-color: rgba(0,0,0,.4);
+    color: #fff;
+    margin: 4px;
+    cursor: pointer;
+    transition: all .4s!important;
+    text-transform: uppercase;
+    min-width: 60px;
+    font-size: 10pt;
+}
+
+.skill:hover{
+    background-color: #fff;
+    color: #000;
+}

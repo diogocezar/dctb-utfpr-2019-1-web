@@ -1,0 +1,22 @@
+.foto{
+    height: 50vh;
+    width: 50vh;
+    border-radius: 50%;
+}
+
+.center{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.lista{
+    margin-top: 30px;
+}
+
+#introducao{
+    margin-top: 15px;
+    text-align: center;
+}

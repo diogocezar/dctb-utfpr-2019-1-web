@@ -1,0 +1,28 @@
+.center{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 375px;   
+    max-height: 650px;    
+    justify-content: center;
+    align-items: center;
+    background: rgba(80, 80, 80, .4);
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#img{
+    height: 200px;
+    width: 320px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}

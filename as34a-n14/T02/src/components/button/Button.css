@@ -1,0 +1,49 @@
+#botao{
+    text-align: center;
+    height: 60px;
+    width: 240px;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 50px;
+    transition: .5s;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+#botao:hover{
+    cursor: pointer;
+    background: black;
+    color: white;
+}
+
+#botao-white{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 250px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 50px;
+    transition: .5s;
+}
+
+#botao-white:hover{
+    cursor: pointer;
+    background: white;
+    color: black;
+}
+
+.link{
+    font-size: 1rem;
+    color: transparent;
+}
+
+.link:hover{
+    text-decoration: none;
+}
+
+.link:focus{
+    outline-color: transparent;
+    color: transparent;
+}

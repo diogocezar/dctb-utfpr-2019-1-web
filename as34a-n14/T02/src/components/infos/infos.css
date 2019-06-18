@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 375px;
+    max-height: 650px;
+    padding: 20px;
+}
+
+.art{
+    text-align: justify;
+    text-indent: 30px;
+}

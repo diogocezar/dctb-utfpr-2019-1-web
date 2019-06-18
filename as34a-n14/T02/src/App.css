@@ -1,0 +1,115 @@
+::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+}
+::-webkit-scrollbar {
+    width: 8px;
+    background: #F4F4F4;
+}
+::-webkit-scrollbar-thumb {
+    background: #7e7777;
+}
+
+@font-face {
+    font-family: 'raleway-heavy';
+    src: url("/fonts/raleway-heavy-webfont.ttf");
+}
+
+@font-face {
+    font-family: 'merriweather-bold';
+    src: url("/fonts/merriweather-bold-webfont.ttf");
+}
+
+@font-face {
+    font-family: 'merriweather-light';
+    src: url("/fonts/merriweather-light-webfont.ttf");
+}
+
+h3, h4{
+    font-family: 'merriweather-bold', sans-serif !important;
+}
+
+p, article{
+    font-family: 'merriweather-light', sans-serif !important;
+}
+
+.navbar, li{
+    font-family: 'raleway-heavy', sans-serif;
+    font-size: 15px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    min-width: 300px;
+    font-size: 18px;
+}
+
+.perfil{
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    min-height: 42rem;
+    max-height: 83rem;
+}
+
+@media screen and (max-width: 1051px){
+    .perfil{
+        margin-bottom: 40px;
+    }
+}
+
+#blog{
+    min-height: 45rem;
+    max-height: 120rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+#habilidades{
+    background-image: url("/assets/features-bg.jpg");
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1.6rem;
+    min-height: 20rem;
+    max-height: 55rem;
+}
+
+#trabalhos{
+    background-image: url("/assets/intro-bg.jpg");
+    background-size: cover;
+    min-height: 45rem;
+    max-height: 110rem;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+#infos{
+    min-height: 30rem;
+    max-height: 107rem;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+#contato{
+    background: url("/assets/back-contato.jpg");
+    background-size: cover;
+    min-height: 30rem;
+    max-height: 100rem;
+}
+
+.p{
+    color: #fff;
+}
+
+#redes-sociais{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}

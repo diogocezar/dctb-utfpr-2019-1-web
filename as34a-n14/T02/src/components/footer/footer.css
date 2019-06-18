@@ -1,0 +1,13 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 1rem;
+    max-height: 15rem;
+}
+
+.feet{
+    color: white;
+    margin-bottom: .8px;
+}
