@@ -2,7 +2,7 @@
   "name": "portifolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Wesley-K.github.io/trabalho/",
+  "homepage": "https://Wesley-K.github.io/t02/",
   "dependencies": {
     "ajv": "^6.0.0",
     "gh-pages": "^2.0.1",
