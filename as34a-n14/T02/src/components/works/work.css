@@ -1,0 +1,71 @@
+@media screen and (max-width: 1051px){
+    .flex-item{
+        width: 150px;
+    }
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    grid-column-gap: 5px;
+    width: 100%;
+}
+
+#editor{
+    background-image: url("/assets/text-editor.jpg");
+    background-size: cover;
+}
+
+#its{
+    background-image: url("/assets/its-one.jpg");
+    background-size: cover;
+}
+
+#casamento{
+    background-image: url("/assets/casamento-trabalho.jpg");
+    background-size: cover;
+}
+
+.flex-item{
+    position: relative;
+    box-shadow: 2px 2px 7px black;
+    width: 400px;
+    height: 30rem;
+    margin: 10px;
+    transition: .5s;
+}
+.sob{
+    display: flex;
+    justify-content: space-between;
+    opacity: 0;
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(80,80,80,.8); 
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+}
+
+.sob:hover{
+    opacity: 1;
+}
+
+.repositorio{
+    position: absolute;
+    text-align: center;
+    font-size: 17px;
+    bottom: 0;
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+}
+
+.repositorio:hover{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}

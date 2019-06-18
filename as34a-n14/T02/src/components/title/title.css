@@ -1,0 +1,33 @@
+.title{
+    font-size: 40px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'merriweather-bold', sans-serif !important;
+}
+
+.title.black:after{
+    content: " ";
+    display: block;
+    border: 2.5px solid;
+    width: 100px;
+    margin: 10px;
+}
+
+.title.white:after{
+    content: " ";
+    display: block;
+    border: 2.5px solid;
+    width: 100px;
+    margin: 10px;
+}
+
+.white{
+    color: white;
+}
+
+.black{
+    color: black;
+}
