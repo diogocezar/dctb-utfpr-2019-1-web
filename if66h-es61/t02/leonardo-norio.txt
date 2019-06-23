@@ -1,0 +1,2 @@
+repositorio: https://github.com/LNorio/portifolio
+gh-pages: https://lnorio.github.io/portifolio/
