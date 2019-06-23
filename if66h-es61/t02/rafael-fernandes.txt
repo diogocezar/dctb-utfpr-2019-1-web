@@ -1,0 +1,2 @@
+Repositório: https://github.com/marquesr1/react-personal-page
+Página publicada: https://marquesr1.github.io/react-personal-page/index.html
