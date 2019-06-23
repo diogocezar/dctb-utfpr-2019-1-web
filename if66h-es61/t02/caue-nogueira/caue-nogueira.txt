@@ -1,0 +1,2 @@
+repositório: https://github.com/caueaquino/portfolio
+site: https://caueaquino.github.io/portfolio/
